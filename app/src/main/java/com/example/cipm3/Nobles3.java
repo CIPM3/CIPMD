@@ -100,119 +100,88 @@ public class Nobles3 {
 
     // nouns nobles espa;ol top 100
     String nnoblesesp[] = {
-            "estudio", "tema", "colección", "imaginación", "pasión",
-            "porcentaje", "recurso", "configuración", "anuncio", "agencia",
-            "universidad", "conexión", "crítica", "deuda", "descripción",
-            "memoria", "paciencia", "secretaria", "solución",
-            "administración", "aspecto", "actitud", "director",
-            "personalidad", "psicología", "recomendación", "respuesta",
-            "selección", "almacenamiento", "versión", "alcohol", "argumento",
-            "queja", "contrato", "carretera", "pérdida", "afiliación",
-            "posesión", "preparación", "bistec", "unión", "acuerdo",
-            "moneda", "empleo", "ingeniero", "interacción", "límite",
-            "mezcla", "preferencia", "región", "república", "asiento",
-            "tradición", "virus", "actor", "aula", "entrega",
-            "dispositivo", "dificultad", "drama", "elección", "motor",
-            "guía", "hotel", "propietario", "prioridad", "sugerencia",
-            "tensión", "variación", "ansiedad", "atmósfera", "conciencia",
-            "pan", "clima", "comparación", "confusión",
-            "construcción", "ascensor", "emoción", "empleado", "empleador",
-            "invitado", "altura", "liderazgo", "centro comercial", "gerente",
-            "operación", "grabación", "respeto", "muestra", "transporte",
-            "caridad", "primo"
+            "estudio ", "tema ", "colección ", "imaginación ", "pasión ",
+            "porcentaje ", "recurso ", "configuración ", "anuncio ", "agencia ",
+            "universidad ", "conexión ", "crítica ", "deuda ", "descripción ",
+            "memoria ", "paciencia ", "secretaria ", "solución ",
+            "administración ", "aspecto ", "actitud ", "director ",
+            "personalidad ", "psicología ", "recomendación ", "respuesta ",
+            "selección ", "almacenamiento ", "versión ", "alcohol ", "argumento ",
+            "queja ", "contrato ", "carretera ", "pérdida ", "afiliación ",
+            "posesión ", "preparación ", "bistec ", "unión ", "acuerdo ",
+            "moneda ", "empleo ", "ingeniero ", "interacción ", "límite ",
+            "mezcla ", "preferencia ", "región ", "república ", "asiento ",
+            "tradición ", "virus ", "actor ", "aula ", "entrega ",
+            "dispositivo ", "dificultad ", "drama ", "elección ", "motor ",
+            "guía ", "hotel ", "propietario ", "prioridad ", "sugerencia ",
+            "tensión ", "variación ", "ansiedad ", "atmósfera ", "conciencia ",
+            "pan ", "clima ", "comparación ", "confusión ",
+            "construcción ", "ascensor ", "emoción ", "empleado ", "empleador ",
+            "invitado ", "altura ", "liderazgo ", "centro comercial ", "gerente ",
+            "operación ", "grabación ", "respeto ", "muestra ", "transporte ",
+            "caridad ", "primo "
     };
 
-    // nouns nobles espa;ol Masculino
     String nnoblesespM[]={
-            "el arte ","el dinero ","el mundo ","los mundos ",
-            "el mapa ", "los mapas ", "el gobierno ", "los gobiernos ", "el sistema ",
-            "los sistemas ","el año ", "los años ", "el agradecimiento ", "el método ", "los métodos ","los datos ",
-            "el entendimiento ", "el pájaro ", "a los pájaros ", "el problema ", "los problemas ","el software ",
-            "el control ", "el conocimiento ","el poder ",
-            "el amor ", "el internet ", "el hecho ", "los hechos ",
-            "el producto ", "el área ", "el horno ","los hornos ",
-            "el desarrollo ", "el idioma ","el jugador ", "el video ","los videos ", "el país ",
-            "el examen ", "el equipo ", "el análisis ",
-            "el pensamiento ","el novio ","el ejército ", "los ejércitos ",
-            "el papel ", "el medio ambiente ", "el niño ","los niños ","el mes ",
-            "los meses ","el marketing ", "el artículo ","el departamento ","el crecimiento ",
-            "un bloque de queso ",
-
+            "el estudio ","el tema ","el porcentaje ","el recurso ",
+            "el anuncio "
+            ,"el aspecto ", "el director ","el almacenamiento "
+            ,"el alcohol ","el argumento ","el contrato ","el bistec ",
+            "el acuerdo ","el empleo ","el ingeniero ","el límite "
+            ,"el asiento ","el virus ", "el actor ","el aula "
+            ,"el dispositivo ","el drama ","el motor ","el guía",
+            "el hotel ","el propietario ","el pan ", "el clima ",
+            "el ascensor ","el empleado ","el empleador ","el invitado ",
+            "el liderazgo ","el centro comercial ","el gerente ","el respeto ",
+            "el transporte ","el primo "
     };
 
-    // nouns nobles eng Masculino
+
     String nnoblesM[]={
-            "the art ","the money ","the world ", "the worlds ",
-            "the map ", "the maps ","the government ", "the governments ","the system ",
-            "the systems ","the year ", " the years ", "the thanks ","the method ", "the methods ",
-            "the understanding ", "the bird ", "the birds ", "the problem ", "the problems ","the software ",
-            "the control ","the knowledge ","the power ",
-            "the love ","the internet ","the fact ", "the facts ",
-            "the product ", "the products ","the area ","the oven ","the ovens ",
-            "the development ","the language ", "the player ","the video ","the videos ","the country ",
-            "the exam ", "the equipment ","the analysis ",
-            "the thought ","the boyfriend ", "the army ", "the armies ",
-            "the paper ", "the environment ","the child ","the children ","the month ",
-            "the months ","the marketing ", "the article ","the department ","the growth ","a block of cheese "
+            "studio ","topic ", "percentage ","resource ","ad ","aspect "
+            ,"director ","storage ","alcohol ","argument ","contract "
+            ,"steak ","agreement ","employment ","engineer ","limit "
+            ,"seat ","virus ","actor ","classroom ","device ","drama "
+            ,"engine ","guidande ","hotel ","owner ","bread ","climate "
+            ,"elevator ","employee ","employer ","guest "
+            ,"leadership ","mall ","manager ","respect ","transportation "
+            ,"cousin "
+
     };
 
+    // nouns nobles espa;ol top 100
+    String nnoblesespF[] = {
+            "la colección ", "la imaginación ", "la pasión ",
+            "la configuración ", "la agencia ", "la universidad ",
+            "la conexión ", "la crítica ", "la deuda ", "la descripción ",
+            "la memoria ", "la paciencia ", "la secretaria ", "la solución ",
+            "la administración ", "la actitud ", "la personalidad ", "la psicología ",
+            "la recomendación ", "la respuesta ", "la selección ", "la versión ",
+            "la queja ", "la carretera ", "la pérdida ", "la afiliación ",
+            "la posesión ", "la preparación ", "la unión ", "la moneda ", "la interacción ",
+            "la mezcla ", "la preferencia ", "la región ", "la república ",
+            "la tradición ", "la entrega ", "la dificultad ", "la elección ",
+            "la prioridad ", "la sugerencia ", "la tensión ", "la variación ",
+            "la ansiedad ", "la atmósfera ", "la conciencia ", "la comparación ",
+            "la confusión ", "la construcción ", "la emoción ", "la altura ",
+            "la operación ", "la grabación ", "la muestra ", "la caridad "
+    };
 
-
-    // nouns nobles eng Femenino
     String nnoblesF[]={
-            "the people ","the history ","the worlds ",
-            "the information ", "the maps ","the family ",
-            "the health ", "the systems ","the computer ",
-            "the computers ", "the meat ","the meats ",
-            "the years ","the music ","the person ","the reading ",
-            "the methods ","the data ","the food ",
-            "the theory ", "the law ","the birds ",
-            "the literature ","the problems ",
-            "the ability ","the television ", "the televisions ",
-            "the science ", "the library ",
-            "the nature ","the facts ", "the products ",
-            "the idea ", "the ideas ","the temperature ","the investment ",
-            "the areas ","the society ", "the activity ",
-            "the industry ","the media ","the thing ", "the things ",
-            "the ovens ","the community ", "the communities ",
-            "the safety ", "the quality ",
-            "the management ","the variety ","the videos ",
-            "the week ","the movie ","the organization ",
-            "the policy ", "the series ","the basis ","the direction ",
-            "the strategy ", "the technology ", "the armies ",
-            "the camera ", "the cameras ",
-            "the instance ","the months ","the truth ",
-            "the University ","the writing ","the difference ","the news ","the audience ",
-            "a block of cheese "
-
-    };
-
-    // nouns nobles espa;ol Femenino
-    String nnoblesespF[]={
-            "la gente ","la historia ","los mundos ",
-            "la información ", "los mapas ", "la familia ",
-            "la salud ", "los sistemas ","la computadora ",
-            "las computadoras ", "la carne ","carne ",
-            "los años ","la música ", "la persona ", "la lectura ",
-            "los métodos ","los datos ", "la comida ",
-            "la teoría ","la ley ", "los pájaros ",
-            "la literatura ","los problemas ",
-            "la habilidad ","la televisión ", "las televisiones ",
-            "la ciencia ","la biblioteca ",
-            "la naturaleza ","los hechos ","los productos ",
-            "la idea ", "las ideas ", "la temperatura ", "la inversión ",
-            "las áreas ", "la sociedad ","la actividad ",
-            "la industria ", "la media ", "la cosa ", "las cosas ",
-            "los hornos ","la comunidad ", "las comunidades ",
-            "la seguridad ", "la calidad ",
-            "la administración ","la variedad ","los videos ",
-            "la semana ","la pelicula ", "la organización ",
-            "la política ", "la serie ","la base ","la dirección ",
-            "la estrategia ", "la tecnología ","los ejércitos ",
-            "la cámara ", "las cámaras ",
-            "la instancia ", "los meses ", "la verdad ",
-            "la universidad ", "la escritura ","la diferencia ","las noticias ", "a la audiencia ",
-            "un bloque de queso "
+            "collection ","imagination ","passion ",
+            "setting ","agency ", "college ","connection ",
+            "criticism ","debt ","description ",
+            "memory ","patience ","secretary ","solution ",
+            "administration ","attitude ", "personality ",
+            "psychology ","recommendation ","response ",
+            "selection ","version ", "complaint ","highway ",
+            "loss ","membership ", "possession ","preparation ","union ",
+            "currency ","interaction ", "mixture ","preference ",
+            "region ","republic ", "tradition ","delivery "
+            ,"difficulty ","election ","priority ","suggestion ",
+            "tension ","variation ","anxiety ","atmosphere ",
+            "awareness ", "comparison ","confusion ", "construction ","emotion ",
+            "height ", "operation ","recording ","sample ", "charity "
     };
 
 
