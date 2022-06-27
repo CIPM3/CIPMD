@@ -115,27 +115,27 @@ public class MainActivity extends AppCompatActivity {
 
     //Provisonal ventanas de eleccion
     public void chose_est(View vista) {
-        Intent intento = new Intent(this, chose_estruc.class);
+        Intent intento = new Intent(this, estructura_nuevo.class);
         startActivity(intento);
     }
 
     public void chose_vocab(View vista) {
-        Intent intento = new Intent(this, chose_vocab.class);
+        Intent intento = new Intent(this, vocabulary_nuevo.class);
         startActivity(intento);
     }
 
     public void chose_cultura(View vista) {
-        Intent intento = new Intent(this, chose_cultura.class);
+        Intent intento = new Intent(this, cultura_nuevo.class);
         startActivity(intento);
     }
 
     public void chose_aval(View vista) {
-        Intent intento = new Intent(this, chose_availability.class);
+        Intent intento = new Intent(this, availability_nuevo.class);
         startActivity(intento);
     }
 
     public void chose_conscis(View vista) {
-        Intent intento = new Intent(this, chose_conscisousinterference.class);
+        Intent intento = new Intent(this, conscisousinterference_nuevo.class);
         startActivity(intento);
     }
 
