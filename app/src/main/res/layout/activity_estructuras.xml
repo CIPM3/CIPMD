@@ -1,0 +1,196 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".estructuras">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="408dp"
+        android:layout_height="273dp"
+        android:layout_marginBottom="125dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinercult"
+        android:layout_width="280dp"
+        android:layout_height="52dp"
+        android:spinnerMode="dialog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView"
+        tools:ignore="SpeakableTextPresentCheck">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/spinerrango"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="60dp"
+        android:spinnerMode="dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spinercult"
+        tools:ignore="SpeakableTextPresentCheck"></Spinner>
+
+    <Button
+        android:id="@+id/showv"
+        android:layout_width="128dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="307dp"
+        android:onClick="showV"
+        android:backgroundTint="@color/black"
+        android:text="play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/spinercult"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="179dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView">
+
+        <Button
+            android:id="@+id/dificultad1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="dificulty1"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/dificultad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="dificulty2"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/dificultad3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="dificulty3"
+            android:text="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="392dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/spanishsentence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="spanish" />
+
+        <TextView
+            android:id="@+id/engtransprompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="english1" />
+
+        <TextView
+            android:id="@+id/engtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="english2" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/voicebtn"
+        android:layout_width="107dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toStartOf="@+id/answerinput"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout10"
+        app:srcCompat="@android:drawable/ic_btn_speak_now" />
+
+    <EditText
+        android:id="@+id/answerinput"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="128dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/voicebtn"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout10" />
+
+    <TextView
+        android:id="@+id/resulttxt"
+        android:layout_width="214dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:text="Result"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="61dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/sayb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="say it" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="checkanswer"
+            android:text="Check Answer" />
+
+        <Button
+            android:id="@+id/showb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Try again" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

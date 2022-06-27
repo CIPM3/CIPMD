@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".estructura_nuevo">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/footeropc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="85dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="1dp"
+            android:orientation="vertical">
+            <!--Header-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/ic_rect_ngulo_header"
+                android:orientation="horizontal"
+                android:paddingHorizontal="30dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="10dp"
+                    android:layout_height="17dp"
+                    android:layout_gravity="start|center"
+                    android:background="@drawable/ic_grupo_back"
+                    android:onClick="main"
+                    >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Structures"
+                        android:textColor="@color/black"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Spinner-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="30dp">
+                <!--text-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textspin1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Present Simple"
+                        android:textColor="@color/black"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+
+                        />
+                </LinearLayout>
+
+                <!--Spinner-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="4"
+                    android:gravity="end|center">
+
+                    <Spinner
+                        android:id="@+id/spinuno"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/ic_grupo_select"
+                        android:gravity="end"
+                        android:spinnerMode="dialog"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Video View-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="30dp">
+
+                <LinearLayout
+                    android:id="@+id/vf"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/ic_grupo_videobox"
+                    android:onClick="showV"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <VideoView
+                    android:id="@+id/videoView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+
+            <!--Texto Spinner2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingHorizontal="30dp">
+                <!--Texto-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice it"
+                        android:textColor="@color/azul"
+                        android:textSize="19dp"
+                        android:textStyle="normal" />
+
+                    <LinearLayout
+                        android:layout_width="85dp"
+                        android:layout_height="3dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/ic_rect_ngulo_selecline">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--Spinner 2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical">
+                    <!--texto-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textspin2"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="0-100"
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+
+                    <!--Spinner 2-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="end">
+
+                        <Spinner
+                            android:id="@+id/spinrango"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:background="@drawable/ic_grupo_select"
+                            android:spinnerMode="dialog" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--Texto-->
+            <LinearLayout
+                android:id="@+id/texto_inicial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingHorizontal="30dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Selecciona una dificultad"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    />
+            </LinearLayout>
+
+            <!--Btns Dificultades-->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="19dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="30dp">
+
+                    <Button
+                        android:id="@+id/dif1"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_rect_ngulo_btnnocheck"
+                        android:text="Basico"
+                        android:layout_marginRight="15dp"
+                        android:textColor="@color/azul"
+                        android:textSize="14dp"
+                        android:onClick="dificulty1"
+                        />
+
+                    <Button
+                        android:id="@+id/dif2"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_rect_ngulo_btnnocheck"
+                        android:onClick="dificulty2"
+                        android:text="Normal"
+                        android:textColor="@color/azul"
+                        android:textSize="14dp" />
+
+
+                    <Button
+                        android:id="@+id/dif3"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_rect_ngulo_btnnocheck"
+                        android:onClick="dificulty3"
+                        android:text="Intermedio"
+                        android:textColor="@color/azul"
+                        android:textSize="14dp" />
+
+                    <Button
+                        android:id="@+id/dif4"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_rect_ngulo_btnnocheck"
+                        android:text="Avanzado"
+                        android:textColor="@color/azul"
+                        android:textSize="14dp"
+                        android:onClick="dificulty4"
+                        />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <!--Spanish Sentences-->
+            <LinearLayout
+                android:id="@+id/spanish_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingHorizontal="30dp"
+                android:visibility="gone"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Como dirias? :"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/spanishsentence"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Spanish"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Input Eng-->
+            <LinearLayout
+                android:id="@+id/input_lay"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingHorizontal="30dp"
+                android:paddingVertical="5dp"
+                android:visibility="gone"
+                >
+
+                <EditText
+                    android:id="@+id/answerinput1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:textColor="@color/black"
+                    android:hint="Escribe tu respuesta aqui"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="20dp"
+                    android:textColorHint="@color/black"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    />
+                <!--Validacion-->
+                <LinearLayout
+                    android:id="@+id/opclay"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:id="@+id/respdecir"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_microfono"
+                        android:layout_marginLeft="5dp"
+                        android:visibility="visible"
+                        android:onClick="speakdecir"
+                        android:orientation="horizontal"
+                        >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/resppass"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        android:background="@drawable/ic_controlar"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/respinc"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_cruzar"
+                        android:layout_marginLeft="5dp"
+                        android:visibility="gone"
+                        android:orientation="horizontal">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/respescu"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_volumen"
+                        android:layout_marginLeft="5dp"
+                        android:visibility="gone"
+                        android:onClick="speakans"
+                        android:orientation="horizontal"
+                        >
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--EngCheck-->
+            <LinearLayout
+                android:id="@+id/answer_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="horizontal"
+                android:paddingHorizontal="30dp"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Respuesta correcta es:"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:paddingLeft="20dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:id="@+id/txteng"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="eng"
+                        android:textColor="@color/azul"
+                        android:textSize="14dp"
+                        />
+                    <LinearLayout
+                        android:id="@+id/respescu2"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_volumen"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="horizontal"
+                        android:onClick="speakans"
+                        android:visibility="gone"
+                        >
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--btn check o intentar-->
+            <LinearLayout
+                android:id="@+id/btn_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="45dp"
+                android:visibility="gone"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/ic_rect_ngulo_btncheck"
+                    android:gravity="center"
+                    android:onClick="checkanswer"
+                    >
+                    <TextView
+                        android:id="@+id/btncheck"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chequea tu respuesta"
+                        android:textColor="@color/azul"
+                        android:textSize="16dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <!--BTNS OPC-->
+    <LinearLayout
+        android:id="@+id/footeropc"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/ic_grupo_main"
+            android:onClick="main"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="28dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_grupo_check"
+            android:layout_marginHorizontal="30dp"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/ic_grupo_chat"
+            android:onClick="chat_maestro"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/ic_grupo_user"
+            android:onClick="profile"
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

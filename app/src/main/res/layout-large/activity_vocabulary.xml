@@ -1,0 +1,219 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vocabulary">
+
+    <!--SPINNER BTN SHOW VIDEO-->
+    <LinearLayout
+        android:id="@+id/spvfield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10pt"
+        android:paddingVertical="2pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Spinner
+            android:id="@+id/spinercult"
+            android:layout_width="match_parent"
+            android:layout_height="25pt"
+            android:layout_weight="1"
+            android:spinnerMode="dialog"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+            app:layout_constraintEnd_toStartOf="@+id/showvidvoc"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/showvidvoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="7pt"
+            android:onClick="showV"
+            android:text="Show Video"
+            app:layout_constraintBottom_toTopOf="@+id/vvvocab"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/spinercult"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <!--VIDEO VIEW-->
+    <LinearLayout
+        android:id="@+id/linearLayout14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="9pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spvfield">
+
+        <VideoView
+            android:id="@+id/vvvocab"
+            android:layout_width="match_parent"
+            android:layout_height="90pt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+    <!--BTN PRACTICE-->
+    <LinearLayout
+        android:id="@+id/linearLayout27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5pt"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingVertical="3pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout14">
+
+        <Button
+            android:id="@+id/practicev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="7pt"
+            android:onClick="practice"
+            android:text="Practice" />
+    </LinearLayout>
+
+    <!--SPA-ENG SENTENCES FIELD-->
+
+    <!--VOICE INPUT FIELD-->
+    <LinearLayout
+        android:id="@+id/spaengfield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5pt"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="10pt"
+        android:paddingVertical="3pt"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout27"
+        app:layout_constraintVertical_bias="0.016">
+
+        <TextView
+            android:id="@+id/sptxvprompt"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:text="Spanish sentence"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/engtxvprompt"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="English sentence"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="116dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10pt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spaengfield">
+
+        <ImageButton
+            android:id="@+id/micvbtnspint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            app:srcCompat="@android:drawable/ic_btn_speak_now" />
+
+        <EditText
+            android:id="@+id/answerinputvocab"
+            android:layout_width="match_parent"
+            android:layout_height="30pt"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <!--BTN OPCS FIELD-->
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10pt"
+        android:layout_marginBottom="10pt"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <Button
+            android:id="@+id/sayv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="sayA"
+            android:text="Say it"
+            android:textSize="6pt"
+            />
+
+        <Button
+            android:id="@+id/checkv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="2pt"
+            android:layout_weight="1"
+            android:onClick="checkanswer"
+            android:text="check answer"
+            android:textSize="6pt" />
+
+        <Button
+            android:id="@+id/tryav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Try again"
+            android:textSize="6pt"
+            />
+    </LinearLayout>
+
+    <!--RESULT FIELD-->
+    <LinearLayout
+        android:id="@+id/linearLayout28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="10pt"
+        android:paddingVertical="7pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/resultvocab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textSize="12pt" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

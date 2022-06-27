@@ -1,0 +1,248 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:visibility="visible"
+    tools:context=".estructuras">
+
+    <!--VIDEO FIELD-->
+    <LinearLayout
+        android:id="@+id/linearLayout30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="160pt" />
+    </LinearLayout>
+
+    <!--SPINNER Y BTN PLAY-->
+    <LinearLayout
+        android:id="@+id/linearLayout31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="30pt"
+        android:paddingVertical="3pt"
+        android:spinnerMode="dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout30">
+
+        <Spinner
+            android:id="@+id/spinercult"
+            android:layout_width="match_parent"
+            android:layout_height="18pt"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/showv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:onClick="showV"
+            android:text="play" />
+    </LinearLayout>
+
+    <!--SPINNER VERBOS-->
+    <LinearLayout
+        android:id="@+id/linearLayout32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10pt"
+        android:paddingVertical="3pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout31">
+
+        <Spinner
+            android:id="@+id/spinerrango"
+            android:layout_width="match_parent"
+            android:layout_height="18pt"
+            android:spinnerMode="dialog"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <!--BTN DIF FIELD-->
+    <LinearLayout
+        android:id="@+id/linearLayout33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10pt"
+        android:paddingVertical="3pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout32">
+
+        <Button
+            android:id="@+id/dificultad1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="dificulty1"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/dificultad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="2pt"
+            android:layout_weight="1"
+            android:onClick="dificulty2"
+            android:text="2"
+            app:layout_constraintEnd_toStartOf="@+id/dificultad3"
+            app:layout_constraintHorizontal_bias="0.642" />
+
+        <Button
+            android:id="@+id/dificultad3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="dificulty3"
+            android:text="3" />
+    </LinearLayout>
+
+    <!--TEXTS SPA_ENG FIELD-->
+
+    <!--VOICE INPUT FIELD-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout34"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="10pt"
+        android:paddingVertical="3pt"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout33">
+
+        <TextView
+            android:id="@+id/spanishsentence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="spanish"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/engtransprompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3pt"
+            android:text="english1"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/engtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3pt"
+            android:text="english2"
+            android:textSize="8pt" />
+    </LinearLayout>
+
+    <!--BTN OPCS FIELD-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10pt"
+        android:paddingVertical="3pt"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/voicebtn"
+            android:layout_width="match_parent"
+            android:layout_height="18pt"
+            android:layout_weight="3"
+            app:srcCompat="@android:drawable/ic_btn_speak_now" />
+
+        <EditText
+            android:id="@+id/answerinput"
+            android:layout_width="match_parent"
+            android:layout_height="18pt"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingHorizontal="10pt"
+        android:paddingVertical="3pt"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/sayb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="say it"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="3pt"
+            android:layout_weight="1"
+            android:onClick="checkanswer"
+            android:text="Check Answer"
+            android:textSize="6pt" />
+
+        <Button
+            android:id="@+id/showb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Try again"
+            android:textSize="7pt" />
+    </LinearLayout>
+
+    <!--RESULT FIELD-->
+    <LinearLayout
+        android:id="@+id/linearLayout36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="10pt"
+        android:paddingVertical="6pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/resulttxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textSize="12pt" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

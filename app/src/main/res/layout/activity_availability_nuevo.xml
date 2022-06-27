@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".availability_nuevo"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!--Header-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/ic_rect_ngulo_header"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="17dp"
+                android:layout_gravity="start|center"
+                android:background="@drawable/ic_grupo_back"
+                android:onClick="main"
+                >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Availability"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Video View-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp">
+
+            <LinearLayout
+                android:id="@+id/vf"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/ic_grupo_videobox"
+                android:orientation="horizontal"
+                android:onClick="select"
+                >
+
+            </LinearLayout>
+
+            <VideoView
+                android:id="@+id/vv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <!--Spinner-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp">
+            <!--text-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textspin1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre del video"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+
+                    />
+            </LinearLayout>
+
+            <!--Spinner-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:gravity="end|center">
+
+                <Spinner
+                    android:id="@+id/spinuno"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_grupo_select"
+                    android:gravity="end"
+                    android:spinnerMode="dialog"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--texto-->
+        <LinearLayout
+            android:id="@+id/linearLayout20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout19">
+            <!--texto-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transcript"
+                    android:textColor="@color/azul"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+
+                <LinearLayout
+                    android:layout_width="85dp"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/ic_rect_ngulo_selecline">
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--textview-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            android:paddingHorizontal="30dp"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:id="@+id/txt_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--BTNS OPC-->
+    <LinearLayout
+        android:id="@+id/linearLayout16"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/ic_grupo_main"
+            android:onClick="main"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="28dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_grupo_check"
+            android:layout_marginHorizontal="30dp"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/ic_grupo_chat"
+            android:onClick="chat_maestro"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/ic_grupo_user"
+            android:onClick="profile"
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

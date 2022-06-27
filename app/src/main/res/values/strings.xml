@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">CIPM3</string>
+    <string-array name="structuresP">
+        <item>Present Simple</item>
+        <item>Present Continuous</item>
+        <item>Present Perfect</item>
+        <item>Present Perfect Continuous</item>
+        <item>Past Simple</item>
+        <item>Past Continuous</item>
+        <item>Past Perfect</item>
+        <item>Past Perfect Continuous</item>
+        <item>Future Simple</item>
+        <item>Future Continuous</item>
+        <item>Future Perfect</item>
+        <item>Future Perfect Continuous</item>
+        <item>Would Simple</item>
+        <item>Would Continuous</item>
+        <item>Would Perfect</item>
+        <item>Would Perfect Continuous</item>
+        <item>Could Simple</item>
+        <item>Could Continuous</item>
+        <item>Could Perfect</item>
+        <item>Could Perfect Continuous</item>
+        <item>Might Simple</item>
+        <item>Might Continuous</item>
+        <item>Might Perfect</item>
+        <item>Might Perfect Continuous</item>
+    </string-array>
+    <string-array name="structures">
+        <item>Present Simple</item>
+        <item>Present Continuous</item>
+        <item>Present Perfect</item>
+        <item>Present Perfect Continuous</item>
+        <item>Past Simple</item>
+        <item>Past Continuous</item>
+        <item>Past Perfect</item>
+        <item>Past Perfect Continuous</item>
+        <item>Future Simple</item>
+        <item>Future Continuous</item>
+        <item>Future Perfect</item>
+        <item>Future Perfect Continuous</item>
+        <item>Would Simple</item>
+        <item>Would Continuous</item>
+        <item>Would Perfect</item>
+        <item>Would Perfect Continuous</item>
+        <item>Could Simple</item>
+        <item>Could Continuous</item>
+        <item>Could Perfect</item>
+        <item>Could Perfect Continuous</item>
+        <item>Might Simple</item>
+        <item>Might Continuous</item>
+        <item>Might Perfect</item>
+        <item>Might Perfect Continuous</item>
+        <item>Should Simple</item>
+        <item>Should Continuous</item>
+        <item>Should Perfect</item>
+        <item>Should Perfect Continuous</item>
+        <item>Can Simple</item>
+        <item>Can Continuous</item>
+        <item>Must Simple</item>
+        <item>Must Continuous</item>
+        //quede aqui
+        <item>Want To</item>
+        <item>For To</item>
+        <item>Supposed To Present</item>
+        <item>Wish Past Perfect</item>
+        <item>Used To</item>
+        <item>Be Used To</item>
+    </string-array>
+
+    <string-array name="vocab">
+        <item>0 to 50</item>
+        <item>50 to 100</item>
+        <item>100 to 150</item>
+    </string-array>
+    <string-array name="vocabPremium">
+        <item>0 to 50</item>
+        <item>50 to 100</item>
+        <item>100 to 150</item>
+        <item>150 to 200</item>
+        <item>200 to 250</item>
+        <item>250 to 300</item>
+        <item>300 to 350</item>
+        <item>350 to 400</item>
+        <item>400 to 500</item>
+    </string-array>
+
+    <string-array name="prager">
+        <item>Black Fathers</item>
+        <item>Is America Racist?</item>
+    </string-array>
+    <string-array name="pragerPremium">
+        <item>Black Fathers</item>
+        <item>Is America Racist?</item>
+        <item>Dont Compare Yourself to Others</item>
+        <item>Fix Yourself</item>
+    </string-array>
+
+    <string-array name="cultura">
+        <item>Moonlight Explanation 1</item>
+        <item>Moonlight Clip 1</item>
+        <item>Rick and Morty Explanation 2</item>
+        <item>Rick and Morty Clip 2</item>
+        <item>Do You Want Pepsi Explanation 3</item>
+        <item>Do You Want Pepsi Clip 3</item>
+        <item>Sangre Por Sangre Foodline Explanation 4</item>
+        <item>Sangre Por Sangre Foodline Clip 4</item>
+        <item>Sangre Por Sangre Watch El Paisaje Explanation 5</item>
+        <item>Sangre Por Sangre Watch El Paisaje Clip 5</item>
+
+    </string-array>
+    <string-array name="culturaPremium">
+        <item>Moonlight Explanation 1</item>
+        <item>Moonlight Clip 1</item>
+        <item>Rick and Morty Explanation 2</item>
+        <item>Rick and Morty Clip 2</item>
+        <item>Do You Want Pepsi Explanation 3</item>
+        <item>Do You Want Pepsi Clip 3</item>
+        <item>Sangre Por Sangre Foodline Explanation 4</item>
+        <item>Sangre Por Sangre Foodline Clip 4</item>
+        <item>Sangre Por Sangre Watch El Paisaje Explanation 5</item>
+        <item>Sangre Por Sangre Watch El Paisaje Clip 5</item>
+        <item>Training Day Rabbit Has The Gun Explanation 6</item>
+        <item>Training Day Rabbit Has The Gun Clip 6</item>
+        <item>Hancock Train Explanation 7</item>
+        <item>Hancock Train Clip 7</item>
+        <item>Malcom in the Middle Teacher Explanation 8</item>
+        <item>Malcom in the Middle Teacher Clip 8</item>
+        <item>Sangre Por Sangre Comedor Explanation 9</item>
+        <item>Sangre Por Sangre Comedor Clip 9</item>
+        <item>Dave Chapelle Man Rape Explanation 10</item>
+        <item>Dave Chapelle Man Rape Clip 10</item>
+        <item>Análisis de cultura Gringa y Frases Coloquiales 2 Explanation 11</item>
+        <item>Análisis de cultura Gringa y Frases Coloquiales 2 Clip 11</item>
+        <item>Boys in the Hood Explanation 12</item>
+        <item>Boys in the Hood Clip 12</item>
+        <item>Cultura y Fonética Explanation 13</item>
+        <item>Cultura y Fonética Clip 13</item>
+
+    </string-array>
+
+    <string-array name="rango">
+        <item>0 a 100</item>
+        <item>100 a 200</item>
+        <item>200 a 300</item>
+    </string-array>
+
+    <string-array name="rachel">
+        <item>Tutorial</item>
+        <item>Steve Jobs 1</item>
+        <item>Steve Jobs 2</item>
+
+    </string-array>
+
+
+    <string-array name="Interference">
+        <item>Por Sujeto</item>
+        <item>Por Preposición</item>
+        <item>Por Objeto</item>
+        <item>Interferencia Reflexiva</item>
+        <item>Interferencia Pasiva</item>
+    </string-array>
+
+    <string-array name="estructurasinterferencia">
+        <item>Present Simple</item>
+    </string-array>
+
+    <string-array name="rangoint">
+        <item>0 a 100</item>
+
+    </string-array>
+</resources>

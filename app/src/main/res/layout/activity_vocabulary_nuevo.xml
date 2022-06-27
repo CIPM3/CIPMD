@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".vocabulary_nuevo">
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Header-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/ic_rect_ngulo_header"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="17dp"
+                android:layout_gravity="start|center"
+                android:background="@drawable/ic_grupo_back"
+                android:onClick="main"
+                >
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Vocabulary"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Spinner-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp">
+            <!--text-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textspin1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Present Simple"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+                    />
+            </LinearLayout>
+
+            <!--Spinner-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="4"
+                android:gravity="end|center">
+
+                <Spinner
+                    android:id="@+id/spinuno"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_grupo_select"
+                    android:gravity="end"
+                    android:spinnerMode="dialog"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Video View-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp">
+
+            <LinearLayout
+                android:id="@+id/vf"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/ic_grupo_videobox"
+                android:orientation="horizontal"
+                android:onClick="showV"
+                >
+
+            </LinearLayout>
+
+            <VideoView
+                android:id="@+id/vv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <!--Texto Spinner2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp">
+            <!--Texto-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Practice it"
+                    android:textColor="@color/azul"
+                    android:textSize="18dp"
+                    android:textStyle="normal" />
+
+                <LinearLayout
+                    android:layout_width="85dp"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/ic_rect_ngulo_selecline">
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--TEXT -->
+        <LinearLayout
+            android:id="@+id/txt_exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="30dp"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:id="@+id/spa_sent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Pon en práctica lo aprendido en clase. "
+
+                android:textColor="@color/black"
+                android:textSize="7pt" />
+        </LinearLayout>
+
+        <!--Spanish Sentences-->
+        <LinearLayout
+            android:id="@+id/spanish_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:paddingHorizontal="30dp"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Como dirias? :"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/spanishsentence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Spanish"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Input Eng-->
+        <LinearLayout
+            android:id="@+id/input_lay"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="5dp"
+            android:visibility="visible"
+            >
+
+            <EditText
+                android:id="@+id/answerinput1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:textColor="@color/black"
+                android:hint="Escribe tu respuesta aqui"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColorHint="@color/black"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                />
+            <!--Validacion-->
+            <LinearLayout
+                android:id="@+id/opclay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:id="@+id/resppass"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:background="@drawable/ic_controlar"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/respinc"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_cruzar"
+                    android:layout_marginLeft="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/respescu"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_volumen"
+                    android:layout_marginLeft="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    android:onClick="speakans"
+                    >
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--EngCheck-->
+        <LinearLayout
+            android:id="@+id/answer_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Respuesta correcta es:"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:paddingLeft="20dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:id="@+id/txteng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="eng"
+                    android:textColor="@color/azul"
+                    android:textSize="14dp"
+                    />
+                <LinearLayout
+                    android:id="@+id/respescu2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_volumen"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    >
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Boton -->
+        <LinearLayout
+            android:id="@+id/btn_emp_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="30dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_rect_ngulo_btncheck"
+                android:gravity="center"
+                android:onClick="practice"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Empezar"
+                    android:textAlignment="center"
+                    android:textColor="@color/azul"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Boton Check -->
+        <LinearLayout
+            android:id="@+id/btn_check_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="30dp"
+            android:visibility="gone"
+            >
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_rect_ngulo_btncheck"
+                android:gravity="center"
+                android:onClick="checkanswer"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chequea tu respuesta"
+                    android:textAlignment="center"
+                    android:textColor="@color/azul"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Boton Cont -->
+        <LinearLayout
+            android:id="@+id/btn_cont_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="30dp"
+            android:visibility="gone"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_rect_ngulo_btncheck"
+                android:gravity="center"
+                android:onClick="practice"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Continuar"
+                    android:textAlignment="center"
+                    android:textColor="@color/azul"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--BTNS OPC-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:elevation="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/ic_grupo_main"
+            android:onClick="main"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/ic_grupo_check">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/ic_grupo_chat"
+            android:onClick="chat_maestro"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/ic_grupo_user"
+            android:onClick="profile"
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
