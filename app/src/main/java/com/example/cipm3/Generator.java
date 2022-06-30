@@ -35310,7 +35310,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-        public void GenMustContDif3() {
+    public void GenMustContDif3() {
             int rand = (int) (Math.random() * pronombres.length);
             int verb = (int) (Math.random() * 6);
 
