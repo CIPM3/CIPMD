@@ -30,8 +30,8 @@ public class People {
 
 
     String vpeng[] = {"identified ", "believed ", "involved ", "motivated ", "enabled ", "followed ", "understood "};
-    String vpengM[] = {" identified ", " believed ", " involved ", " motivated ", " enabled ", " followed ", " understood "};
-    String vpengF[] = {" identified ", " believed ", " involved ", " motivated ", " enabled ", " followed ", " understood "};
+    String vpengM[] = {"identified ", "believed ", "involved ", "motivated ", " enabled ", "followed ", "understood "};
+    String vpengF[] = {"identified ", "believed ", "involved ", "motivated ", " enabled ", "followed ", "understood "};
 
     //verbos base en pasado
     String vnbp[] = {"identified ", "believed ", "involved ", "motivated ", "enabled ", "followed ", "understood "};

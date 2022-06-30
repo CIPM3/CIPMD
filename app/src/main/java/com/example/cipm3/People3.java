@@ -2,341 +2,281 @@ package com.example.cipm3;
 
 public class People3 {
 
-    String vnb[]={
-            "help ","excuse ","support ","watch ",
-            "serve ","visit ","cocern ","listen to",
-            "affect ","meet "
+    // verbos orientados a gente
+
+
+    //with, at, during,through, in,behind, beyond,
+    //estos frases preposicionales van con este tipo de verbo
+
+    //vnb verbos people top 100
+    String vnb[] = {"help ", "excuse ", "support ", "watch ", "serve ", "visit ",
+            "concern ", "listen to ", "affect ", "meet "
     };
 
-    String vnbs[]={
-            "ayudar", "disculpar", "apoyar", "observar",
-            "servir", "visitar", "preocupar", "escuchar",
-            "afectar", "reunirse"
+    // verbos people base spanish
+    String vnbs[] = {"ayudar ", "disculpar ", "apoyar ", "ver ", "servir ",
+            "visitar ", "preocupar ", "escuchar ", "afectar ", "conocer "
     };
 
-    String vn3[]={
-            "helps ","excuses ","supports ","watch's",
-            "serves ","visits ","concerns ","listen to",
-            "affects ","meets "
+    //vnb verbos people top 100  tercera persona inglés
+    String vn3[] = {"helps ", "excuses ", "supports ", "watches ", "serves ", "visits ",
+            "concerns ", "listens to ", "affects ", "meets "
     };
 
-    String vn1[]={
-            "ayudo ","disculpo ","apoyo ","observo ","sirvo ",
-            "visito ","preocupo ","escucho ","afecto ",
-            "reuno "
+    //vnb verbos people top 100  primera persona esp
+    String vn1[] = {"ayudo ", "disculpo ", "apoyo ", "veo ", "sirvo ",
+            "visito ", "preocupo ", "escucho ", "afecto ", "conozco "
     };
 
-    String vn2[]={
-            "ayudas ","disculpas ","apoyas ","observas ","sirves ",
-            "visitas ","preocupas ","escuchas ","afectas ",
-            "reunes "
+    //vnb verbos people top 100  segunda persona esp
+    String vn2[] = {"ayudas ", "disculpas ", "apoyas ", "ves ", "sirves ",
+            "visitas ", "preocupas ", "escuchas ", "afectas ", "conoces "
     };
 
-    String vnb3[]={
-            "ayuda ","disculpa ","apoya ","observa ","sirve ",
-            "visita ","preocupa ","escucha ","afecta ",
-            "reuna "
+    //vnb verbos people top 100  tercera persona esp
+    String vnb3[] = {"ayuda ", "disculpa ", "apoya ", "ve ", "sirve ",
+            "visita ", "preocupa ", "escucha ", "afecta ", "conoce "
     };
 
-    String vn4[]={
-            "ayudan ","disculpan ","apoyan ","observan ","sirven ",
-            "visitan ","preocupan ","escuchan ","afectan ",
-            "reunen "
+    //vnb verbos people top 100  cuarta persona esp ellos
+    String vn4[] = {"ayudan ", "disculpan ", "apoyan ", "ven ", "sirven ",
+            "visitan ", "preocupan ", "escuchan ", "afectan ", "conocen "
     };
 
-    String vn5[]={
-            "ayudamos ","disculpamos ","apoyamos ","observamos ",
-            "servimos ", "visitamos ","preocupamos ","escuchamos ",
-            "afectamos ", "reunimos "
-    };
-
-    String vnbcs[]={
-            "ayudando ","disculpando ","apoyando ","observando ",
-            "sirviendo ","visitando ","preocupando ","escuchando ",
-            "afectando ","reuniendo "
-    };
-
-    String vnbc[]={
-            "helping ","excusing ","supporting ","watching ",
-            "serving ","visiting ","concerning ","listening to",
-            "affecting ","meeting "
-    };
-
-    String vpsp[]={
-            "ayudado ","disculpado ","apoyado ","observado ",
-            "servido ","visitado ","preocupado ","escuchado ",
-            "afectado ","reunido "
-    };
-
-    String vpspM[]={
-            "ayudado ","disculpado ","apoyado ","observado ",
-            "servido ","visitado ","preocupado ","escuchado ",
-            "afectado ","reunido "
-    };
-
-    String vpspF[]={
-            "ayudada ","disculpada ","apoyada ","observada ",
-            "servida ","visitada ","preocupada ","escuchada ",
-            "afectada ","reunida "
-    };
-
-    String vpeng[]={
-            "helped ","excused ","supported ","watched ",
-            "served ","visited ","concerned ","listened to ",
-            "affected ","meeted "
-    };
-
-    String vpengM[]={
-            "helped ","excused ","supported ","watched ",
-            "served ","visited ","concerned ","listened to ",
-            "affected ","meeted "
-    };
-    String vpengF[]={
-            "helped ","excused ","supported ","watched ",
-            "served ","visited ","concerned ","listened to ",
-            "affected ","meeted "
-    };
-
-    String vnbp[]={
-            "helped ","excused ","supported ","watched ",
-            "served ","visited ","concerned ","listened to ",
-            "affected ","meeted "
-    };
-
-    String ps1pre[]={
-            "ayude ", "disculpe ", "apoye ", "observe ",
-            "servi ", "visite ", "preocupe ", "escuche ",
-            "afecte ", "encontre "
-    };
-
-    String ps1imp[]={
-            "ayudaba ","disculpaba ","apoyaba ","observaba ",
-            "servia ","visitaba ","preocupaba ","escuchaba ",
-            "afectaba ","encontraba "
-    };
-
-    String ps2pre[]={
-            "ayudaste ","disculpaste ","apoyaste ","observaste ",
-            "serviste ","visitaste ","preocupaste ","escuchaste ",
-            "afectaste ","encontraste "
-    };
-
-    String ps2imp[]={
-            "ayudabas ","disculpabas ","apoyabas ","observabas ",
-            "servias ","visitabas ","preocupabas ","escuchabas ",
-            "afectabas ","encontrabas "
-    };
-
-    String ps3p[]={
-            "ayudo ", "disculpo ", "apoyo ", "observo ",
-            "servio ", "visito ", "preocupo ", "escucho ",
-            "afecto ", "encontro "
-    };
-
-    String ps3imp[]={
-            "ayudaba ","disculpaba ","apoyaba ","observaba ",
-            "servia ","visitaba ","preocupaba ","escuchaba ",
-            "afectaba ","encontraba "
-    };
-
-    String vn4p[]={
-            "ayudaron ", "disculparon ", "apoyaron ", "observaron ",
-            "servieron ", "visitaron ", "preocuparon ", "escucharon ",
-            "afectaron ", "encontraron "
-    };
-
-    String vn4imp[]={
-            "ayudaban ","disculpaban ","apoyaban ","observaban ",
-            "servian ","visitaban ","preocupaban ","escuchaban ",
-            "afectaban ","encontraban "
-    };
-
-    String vn5p[]={
-            "ayudamos ", "disculpamos ", "apoyamos ", "observamos ",
+    //vnb verbos people top 100  quinta persona esp nosotros
+    String vn5[] = {"ayudamos ", "disculpamos ", "apoyamos ", "vemos ",
             "servimos ", "visitamos ", "preocupamos ", "escuchamos ",
-            "afectamos ", "encontramos "
+            "afectamos ", "conocemos "
     };
 
-    String vn5imp[]={
-            "ayudabamos ","disculpabamos ","apoyabamos ","observabamos ",
-            "serviamos ","visitabamos ","preocupabamos ","escuchabamos ",
-            "afectabamos ","encontrabamos "
+    //vnb verbos nobles top 100 continuo spanish
+    String vnbcs[] = {"ayudando ", "disculpando ", "apoyando ", "viendo",
+            "sirviendo ", "visitando ", "preocupando ", "escuchando ",
+            "afectando ", "conociendo "
     };
 
-    String ps1wish[]={
-            "ayudaria ","disculparia ","apoyaria ","observaria ",
-            "serviria ","visitaria ","preocuparia ","escucharia ",
-            "afectaria ","encontraria "
+    //vnb verbos nobles top 100 continuo
+    String vnbc[] = {"helping ", "excusing ", "supporting ", "watching ",
+            "serving ", "visiting ", "concerning ", "listening to ",
+            "affecting ", "meeting "
     };
 
-    String ps2wish[]={
-            "ayudarias ","disculparias ","apoyarias ","observarias ",
-            "servirias ","visitarias ","preocuparias ","escucharias ",
-            "afectarias ","encontrarias "
+    // verbos participio esp
+    String vpsp[] = {"ayudado ", "disculpado ", "apoyado ", "visto ",
+            "servido ", "visitado ", "preocupado ", "escuchado ", "afectado ",
+            "conocido "
     };
 
-    String ps3wish[]={
-            "ayudara ","disculpara ","apoyara ","observara ",
-            "servira ","visitara ","preocupara ","escuchara ",
-            "afectara ","encontrara "
+    //vnb verbos participios  spanish Masculino
+    String vpspM[] = {"ayudado ", "disculpado ", "apoyado ", "visto ",
+            "servido ", "visitado ", "preocupado ", "escuchado ", "afectado ",
+            "conocido "
     };
 
-    String ps4wish[]={
-            "ayudaran ","disculparan ","apoyaran ","observaran ",
-            "serviran ","visitaran ","preocuparan ","escucharan ",
-            "afectaran ","encontraran "
+    //vnb verbos participios  spanish Femenino
+    String vpspF[] = {"ayudada ", "disculpada ", "apoyada ", "vista ",
+            "servida ", "visitada ", "preocupada ", "escuchada ", "afectada",
+            "conocida "
     };
 
-    String ps5wish[]={
-            "ayudariamos ","disculpariamos ","apoyariamos ","observariamos ",
-            "serviriamos ","visitariamos ","preocupariamos ","escuchariamos ",
-            "afectariamos ","encontrariamos "
+    //verbos participios inglés
+    String vpeng[] = {"helped ", "excused ", "supported ", "watched ", "served ",
+            "visited ", "concerned ", "listened to ", "affected ", "met "
     };
 
-    String vn1f[]={
-            "ayudare ","disculpare ","apoyare ","observare ",
-            "servire ","visitare ","preocupare ","escuchare ",
-            "afectare ","encontrare "
+    //verbos participios inglés Masculino
+    String vpengM[] = {"helped ", "excused ", "supported ", "watched ", "served ",
+            "visited ", "concerned ", "listened to ", "affected ", "met "
     };
 
-    String vn2f[]={
-            "ayudaras ","disculparas ","apoyaras ","observaras ",
-            "serviras ","visitaras ","preocuparas ","escucharas ",
-            "afectaras ","encontraras "
+    //verbos participios inglés Femenino
+    String vpengF[] = {"helped ", "excused ", "supported ", "watched ", "served ",
+            "visited ", "concerned ", "listened to ", "affected ", "met "
     };
 
-    String vn3f[]={
-            "ayudara ","disculpara ","apoyara ","observara ",
-            "servira ","visitara ","preocupara ","escuchara ",
-            "afectara ","encontrara "
+
+    //verbos base en pasado
+    String vnbp[] = {"helped ", "excused ", "supported ", "watched ", "served ",
+            "visited ", "concerned ", "listened to ", "affected ", "met "
     };
 
-    String vn4f[]={
-            "ayudaran ","disculparan ","apoyaran ","observaran ",
-            "serviran ","visitaran ","preocuparan ","escucharan ",
-            "afectaran ","encontraran "
+    //pasados
+
+    //pasado simple primera persona (preterito)
+    String ps1pre[] = {"ayudé ", "disculpé ", "apoyé ", "vi ", "serví ",
+            "visité ", "preocupé ", "escuché ", "afecté", "conocí "
     };
 
-    String vn5f[]={
-            "ayudaremo ","disculparemos ","apoyaremos ","observaremos ",
-            "serviremos ","visitaremos ","preocuparemos ","escucharemos ",
-            "afectaremos ","encontraremos "
+    //pasado simple primera persona (imperfecto)
+    String ps1imp[] = {"ayudaba ", "disculpaba ", "apoyaba ", "veía ",
+            "servía ", "visitaba ", "preocupaba ", "escuchaba ", "afectaba ",
+            "conocía "
     };
 
-    String vn1w[]={
-            "ayudaria ","disculparia ","apoyaria ","observaria ",
-            "serviria ","visitaria ","preocuparia ","escucharia ",
-            "afectaria ","encontraria "
+    //pasado simple segunda persona (preterito)
+    String ps2pre[] = {"ayudaste ", "disculpaste ", "apoyaste ", "viste ",
+            "serviste ", "visitaste ", "preocupaste ", "escuchaste ",
+            "afectaste ", "conociste "
     };
 
-    String vn2w[]={
-            "ayudarias ","disculparias ","apoyarias ","observarias ",
-            "servirias ","visitarias ","preocuparias ","escucharias ",
-            "afectarias ","encontrarias "
+    //pasado simple segunda persona (imperfecto)
+    String ps2imp[] = {"ayudabas ", "disculpabas ", "apoyabas ", "veías ",
+            "servías ", "visitabas ", "preocupabas ", "escuchabas ", "afectabas ",
+            "conocías "
     };
 
-    String vn3w[]={
-            "ayudaria ","disculparia ","apoyaria ","observaria ",
-            "serviria ","visitaria ","preocuparia ","escucharia ",
-            "afectaria ","encontraria "
+    //pasado simple tercera persona (preterito)
+    String ps3p[] = {"ayudó ", "disculpó ", "apoyó ", "vio ", "sirvió ",
+            "visitó ", "preocupó ", "escuchó ", "afectó ", "conoció "
     };
 
-    String vn4w[]={
-            "ayudarian ","disculparian ","apoyarian ","observarian ",
-            "servirian ","visitarian ","preocuparian ","escucharian ",
-            "afectarian ","encontrarian "
+    //pasado simple tercera persona (imperfecto)
+    String ps3imp[] = {"ayudaba ", "disculpaba ", "apoyaba ", "veía ",
+            "servía ", "visitaba ", "preocupaba ", "escuchaba ", "afectaba ",
+            "conocía "
     };
 
-    String vn5w[]={
-            "ayudariamos ","disculpariamos ","apoyariamos ","observariamos ",
-            "serviriamos ","visitariamos ","preocupariamos ","escuchariamos ",
-            "afectariamos ","encontrariamos "
+    //pasado simple cuarta persona (ellos) (preterito)
+    String vn4p[] = {"ayudaron ", "disculparon ", "apoyaron ", "vieron ",
+            "sirvieron ", "visitaron ", "preocuparon ", "escucharon ",
+            "afectaron ", "conocieron "
     };
 
-    String vn1y3subj[]={
-            "ayude ","disculpe ","apoye ","observe ","sirvo ",
-            "visite ","preocupare ","escuche ","afecte ",
-            "encontre "
+    //pasado simple cuarta persona (ellos) (imperfecto)
+    String vn4imp[] = {"ayudaban ", "disculpaban ", "apoyaban ", "veían ",
+            "servían ", "visitaban ", "preocupaban ", "escuchaban ",
+            "afectaban ", "conocían "
     };
 
-    String vn2subj[]={
-            "ayudes ","disculpes ","apoyes ","observes ","sirves ",
-            "visites ","preocupares ","escuches ","afectes ",
-            "encontres "
+    // verbos nosotros pasado preterito
+    String vn5p[] = {"ayudamos ", "disculpamos ", "apoyamos ", "vimos ",
+            "servimos ", "visitamos ", "preocupamos ", "escuchamos ",
+            "afectamos ", "conocimos "
     };
 
-    String vn4subj[]={
-            "ayuden ","disculpen ","apoyen ","observen ","sirven ",
-            "visiten ","preocuparen ","escuchen ","afecten ",
-            "encontren "
+    // verbos nosotros pasado imperfecto
+    String vn5imp[] = {"ayudábamos ", "disculpábamos ", "apoyábamos ", "veíamos ",
+            "servíamos ", "visitábamos ", "preocupábamos ", "escuchábamos ",
+            "afectábamos ", "conocíamos "
     };
 
-    String vn5subj[]={
-            "ayudemos ","disculpemos ","apoyemos ","observemos ",
-            "sirvamos ", "visitemos ","preocupemos ",
-            "escuchemos ","afectemos ", "encontremos "
+    //pasados (agregado wish SV 060422)
+    String ps1wish[] = {"ayudara ", "disculpara ", "apoyara ", "viera ",
+            "sirviera ", "visitara ", "preocupara ", "escuchara ", "afectara ",
+            "conociera "
+    };
+    String ps2wish[] = {"ayudaras ", "disculparas ", "apoyaras ", "vieras ",
+            "sirvieras ", "visitaras ", "preocuparas ", "escucharas ", "afectaras",
+            "conocieras "
+    };
+    String ps3wish[] = {"ayudara ", "disculpara ", "apoyara ", "viera ",
+            "sirviera ", "visitara ", "preocupara ", "escuchara ", "afectara ",
+            "conociera "
+    };
+    String ps4wish[] = {"ayudaran ", "disculparan ", "apoyaran ", "vieran ",
+            "sirvieran ", "visitaran ", "preocuparan ", "escucharan ", "afectaran ",
+            "conocieran "
+    };
+    String ps5wish[] = {"ayudáramos ", "disculpáramos ", "apoyáramos ",
+            "viéramos ", "sirviéramos ", "visitáramos ", "preocupáramos ",
+            "escucháramos ", "afectáramos ", "conociéramos "
     };
 
-    String nnobles[]={
-            "cousin ", "engineer ", "psycologist ", "secretary ",
-            "agency ", "unionn ", "member ", "personality ", "republic ",
-            "tradition ", "virus ", "director ", "employee ", "charity ",
-            "employer "
+    //futuro
+    String vn1f[] = {"ayudaré ", "disculparé ", "apoyaré ", "veré ", "serviré ",
+            "visitaré ", "preocuparé ", "escucharé ", "afectaré ", "conoceré "
+    };
+    String vn2f[] = {"ayudarás ", "disculparás ", "apoyarás ", "verás ", "servirás ",
+            "visitarás ", "preocuparás ", "escucharás ", "afectarás ", "conocerás "
+    };
+    String vn3f[] = {"ayudará ", "disculpará ", "apoyará ", "verá ", "servirá ",
+            "visitará", "preocupará ", "escuchará ", "afectará ", "conocerá "
+    };
+    String vn4f[] = {"ayudarán ", "disculparán ", "apoyarán ", "verán ", "servirán ",
+            "visitarán ", "preocuparán ", "escucharán ", "afectarán ", "conocerán "
+    };
+    String vn5f[] = {"ayudaremos ", "disculparemos ", "apoyaremos ", "veremos ",
+            "serviremos ", "visitaremos ", "preocuparemos ", "escucharemos ",
+            "afectaremos ", "conoceremos "
     };
 
-    String nnoblesesp[]={
-            "primo ", "ingeniero ", "psicólogo ", "secretario ",
-            "agencia ", "sindicato ", "miembro ", "personalidad ",
-            "república ", "tradición ", "virus ", "director ",
-            "empleado ", "caridad ", "empleador "
+    //would
+    String vn1w[] = {"ayudaría ", "disculparía ", "apoyaría ", "vería ", "serviría ",
+            "visitaría ", "preocuparía ", "escucharía ", "afectaría ", "conocería "
+    };
+    String vn2w[] = {"ayudarías ", "disculparías ", "apoyarías ", "verías ", "servirías ",
+            "visitarías ", "preocuparías ", "escucharías ", "afectarías ", "conocerías "
+    };
+    String vn3w[] = {"ayudaría ", "disculparía ", "apoyaría ", "vería ", "serviría ",
+            "visitaría ", "preocuparía ", "escucharía ", "afectaría ", "conocería "
+    };
+    String vn4w[] = {"ayudarían ", "disculparían ", "apoyarían ", "verían ", "servirían ",
+            "visitarían ", "preocuparían ", "escucharían ", "afectarían ", "conocerían "
+    };
+    String vn5w[] = {"ayudaríamos ", "disculparíamos ", "apoyaríamos ", "veríamos ",
+            "serviríamos ", "visitaríamos ", "preocuparíamos ", "escucharíamos ",
+            "afectaríamos ", "conoceríamos "
     };
 
-    String nnoblesM[]={
-            "the cousin ","the engineer ","the psycologist ",
-            "the secretary ","the unionn ", "the member ",
-            "the virus ","the director ", "the employee ",
+    //subjunctive
+    String vn1y3subj[] = {"ayude ", "disculpe ", "apoye ", "vea ", "sirva ",
+            "visite ", "preocupe ", "escuche ", "afecte ", "conozca "
+    };
+    String vn2subj[] = {"ayudes ", "disculpes ", "apoyes ", "veas ", "sirvas ",
+            "visites ", "preocupes ", "escuches", "afectes ", "conozcas "
+    };
+    String vn4subj[] = {"ayuden ", "disculpen ", "apoyen ", "vean ", "sirvan ",
+            "visiten ", "preocupen ", "escuchen ", "afecten ", "conozcan "
+    };
+    String vn5subj[] = {"ayudemos ", "disculpemos ", "apoyemos ", "veamos ",
+            "sirvamos ", "visitemos ", "preocupemos ", "escuchemos ",
+            "afectemos ", "conozcamos "
+    };
+
+
+    // objetos persona
+    String nnobles[] = {"the cousin ", "the engineer ", "the psychologist ", "the secretary ",
+            "the agency ", "the union ", "the member ", "the personality ", "the republic ",
+            "the tradition ", "the virus ", "the director ", "the employee ", "the charity ",
             "the employer "
     };
 
-    String nnoblesF[]={
-            "the cousin ", "the engineer ", "the psycologist ",
-            "the secretary ", "the agency ", "the personality ",
-            "the republic ", "the tradition ", "the director ",
-            "the employee ", "the charity ", "the employer "
+    String nnoblesesp[] = {"a la prima ", "a el ingeniero ", "a la psicóloga ", "a el secretario ",
+            "a la agencia ", "a la unión ", "a el miembro ", "a la personalidad ", "a la republica ",
+            "a la tradición ", "a el virus ", "a la directora ", "a el empleado ", "a la caridad ",
+            "a la empleadora "
+    };
+
+    // objetos persona
+    String nnobles1[] = {"the cousin ", "the engineer ", "the psychologist ", "the secretary ",
+            "the agency ", "the union ", "the member ", "the personality ", "the republic ",
+            "the tradition ", "the virus ", "the director ", "the employee ", "the charity ",
+            "the employer "
+    };
+
+    String nnoblesesp1[] = { "la prima ", "el ingeniero ", "la psicóloga ", "el secretario ",
+            "la agencia ", "la unión ", "el miembro ", "la personalidad ", "la republica ",
+            "la tradición ", "el virus ", "la directora ", "el empleado ", "la caridad ",
+            "la empleadora "
+    };
+
+    String nnoblesM[]={
+            "the engineer ", "the secretary ", "the member ", "the virus ", "the employee ",
     };
 
     String nnoblesespM[]={
-            "el primo ","el ingeniero ","el psicologo ",
-            "el secretario ","el sindicato ","el miembro ",
-            "el virus ","el director ","el empleado ",
-            "el empleador "
+            "el ingeniero ", "el secretario ", "el miembro ", "el virus ", "el empleado ",
+    };
+    String nnoblesF[]={
+            "the cousin ", "the psychologist ", "the agency ", "the union ", "the personality ",
+            "the republic ", "the tradition ", "the director ", "the charity ", "the employer "
     };
 
     String nnoblesespF[]={
-            "la prima ","la ingeniera ","la psicologa ",
-            "la secretaria ","la agencia ","la personalidad ",
-            "la republica ","la tradicion ","la directora ",
-            "la empleada ","la caridad ","la empleadora "
+            "la prima ", "la psicóloga ", "la agencia ", "la unión ", "la personalidad ",
+            "la republica ", "la tradición ", "la directora ", "la caridad ", "la empleadora "
     };
 
-    //--------------------------------------------------------
-    //with,at,during,until,in,on, by,without,near,around
-    //aqui abajo empieza el boton dificultad tres, estos prnombres
-    //de arriba son mas o menos los que le quedan a todos los nobles
-    //hay que hacer una lista de frases preposicionales que queden bien
-    //con cada uno de los diferentes tipo de verbos, para no solo agregar
-    //adverbios de frequencia o manera, también las frases
-    //preposicionales , incluso tal vez para dif 4
-//these should go right after the subject
-    String advfrequ[] = {"siempre ", "constantemente ", "frecuentemente ",
-            "generalmente ",
-            "normalmente ", "ocacionalmente ", "seguido ", "raramente ",
-            "regularmente ", "regularmente ", "usualmente "
-    };
-    String frequadv[] = {"always ", "constantly ", "frequently ", "generally ",
-            "normally ", "occasionally ", "often ", "rarely ",
-            "regularly ", "regularly ", "usually "
-    };
 
     String ps1;
     String ps1eng;
@@ -563,7 +503,7 @@ public class People3 {
 
                 break;
         }
-    } // ya en negativo
+    } // ya en negativo º
 
     public void generarpasadosimp() {
 
@@ -2030,6 +1970,28 @@ public class People3 {
         }
     } // nuev
 
+
+
+
+
+    //--------------------------------------------------------
+    //with,at,during,until,in,on, by,without,near,around
+    //aqui abajo empieza el boton dificultad tres, estos prnombres
+    //de arriba son mas o menos los que le quedan a todos los nobles
+    //hay que hacer una lista de frases preposicionales que queden bien
+    //con cada uno de los diferentes tipo de verbos, para no solo agregar
+    //adverbios de frequencia o manera, también las frases
+    //preposicionales , incluso tal vez para dif 4
+//these should go right after the subject
+    String advfrequ[] = {"siempre ", "constantemente ", "frecuentemente ",
+            "generalmente ",
+            "normalmente ", "ocacionalmente ", "seguido ", "raramente ",
+            "regularmente ", "regularmente ", "usualmente "
+    };
+    String frequadv[] = {"always ", "constantly ", "frequently ", "generally ",
+            "normally ", "occasionally ", "often ", "rarely ",
+            "regularly ", "regularly ", "usually "
+    };
     String ps1eng2;
     String ps2eng2;
     String ps3eng2;
