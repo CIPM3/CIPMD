@@ -115,6 +115,7 @@ public class vocabulary_nuevo extends AppCompatActivity {
 
             }
         });
+
     }
 
     vocabgen gen = new vocabgen();
@@ -228,33 +229,7 @@ public class vocabulary_nuevo extends AppCompatActivity {
                 sptx.setText(gen.gens);
                 engtx.setText(gen.gene);
 
-                tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
-                    @Override
-                    public void onInit(int i) {
-                        Locale spanish = new Locale("es", "MX");
-                        if (i == TextToSpeech.SUCCESS) {
-                            int lang = tts.setLanguage(spanish);
-                            tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
-                                @Override
-                                public void onStart(String s) {
-                                }
 
-                                @Override
-                                public void onDone(String utteranceId) {
-
-
-                                    iniciarentradavoz();
-                                }
-
-                                @Override
-                                public void onError(String s) {
-                                }
-                            });
-                            tts.speak("como dirías..." + sptx.getText().toString().trim(), 0, null, "zero");
-                        }
-
-                    }
-                });
                 break;
 
             case "50 to 100":
@@ -263,33 +238,7 @@ public class vocabulary_nuevo extends AppCompatActivity {
                 sptx.setText(gen.gens);
                 engtx.setText(gen.gene);
 
-                tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
-                    @Override
-                    public void onInit(int i) {
-                        Locale spanish = new Locale("es", "MX");
-                        if (i == TextToSpeech.SUCCESS) {
-                            int lang = tts.setLanguage(spanish);
-                            tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
-                                @Override
-                                public void onStart(String s) {
-                                }
-
-                                @Override
-                                public void onDone(String utteranceId) {
-
-
-                                    iniciarentradavoz();
-                                }
-
-                                @Override
-                                public void onError(String s) {
-                                }
-                            });
-                            tts.speak("como dirías..." + sptx.getText().toString().trim(), 0, null, "zero");
-                        }
-
-                    }
-                });
+                
                 break;
 
             case "100 to 150":
@@ -298,33 +247,7 @@ public class vocabulary_nuevo extends AppCompatActivity {
                 sptx.setText(gen.gens);
                 engtx.setText(gen.gene);
 
-                tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
-                    @Override
-                    public void onInit(int i) {
-                        Locale spanish = new Locale("es", "MX");
-                        if (i == TextToSpeech.SUCCESS) {
-                            int lang = tts.setLanguage(spanish);
-                            tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
-                                @Override
-                                public void onStart(String s) {
-                                }
-
-                                @Override
-                                public void onDone(String utteranceId) {
-
-
-                                    iniciarentradavoz();
-                                }
-
-                                @Override
-                                public void onError(String s) {
-                                }
-                            });
-                            tts.speak("como dirías..." + sptx.getText().toString().trim(), 0, null, "zero");
-                        }
-
-                    }
-                });
+                
                 break;
             case "150 to 200":
                 gen.C150a200();
@@ -332,33 +255,7 @@ public class vocabulary_nuevo extends AppCompatActivity {
                 sptx.setText(gen.gens);
                 engtx.setText(gen.gene);
 
-                tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
-                    @Override
-                    public void onInit(int i) {
-                        Locale spanish = new Locale("es", "MX");
-                        if (i == TextToSpeech.SUCCESS) {
-                            int lang = tts.setLanguage(spanish);
-                            tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
-                                @Override
-                                public void onStart(String s) {
-                                }
-
-                                @Override
-                                public void onDone(String utteranceId) {
-
-
-                                    iniciarentradavoz();
-                                }
-
-                                @Override
-                                public void onError(String s) {
-                                }
-                            });
-                            tts.speak("como dirías..." + sptx.getText().toString().trim(), 0, null, "zero");
-                        }
-
-                    }
-                });
+                
                 break;
             case "200 to 250":
                 gen.C200a250();
@@ -366,33 +263,7 @@ public class vocabulary_nuevo extends AppCompatActivity {
                 sptx.setText(gen.gens);
                 engtx.setText(gen.gene);
 
-                tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
-                    @Override
-                    public void onInit(int i) {
-                        Locale spanish = new Locale("es", "MX");
-                        if (i == TextToSpeech.SUCCESS) {
-                            int lang = tts.setLanguage(spanish);
-                            tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
-                                @Override
-                                public void onStart(String s) {
-                                }
-
-                                @Override
-                                public void onDone(String utteranceId) {
-
-
-                                    iniciarentradavoz();
-                                }
-
-                                @Override
-                                public void onError(String s) {
-                                }
-                            });
-                            tts.speak("como dirías..." + sptx.getText().toString().trim(), 0, null, "zero");
-                        }
-
-                    }
-                });
+                
                 break;
             case "250 to 300":
                 gen.C250a300();
@@ -400,33 +271,7 @@ public class vocabulary_nuevo extends AppCompatActivity {
                 sptx.setText(gen.gens);
                 engtx.setText(gen.gene);
 
-                tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
-                    @Override
-                    public void onInit(int i) {
-                        Locale spanish = new Locale("es", "MX");
-                        if (i == TextToSpeech.SUCCESS) {
-                            int lang = tts.setLanguage(spanish);
-                            tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
-                                @Override
-                                public void onStart(String s) {
-                                }
-
-                                @Override
-                                public void onDone(String utteranceId) {
-
-
-                                    iniciarentradavoz();
-                                }
-
-                                @Override
-                                public void onError(String s) {
-                                }
-                            });
-                            tts.speak("como dirías..." + sptx.getText().toString().trim(), 0, null, "zero");
-                        }
-
-                    }
-                });
+                
                 break;
             case "300 to 350":
                 gen.C300a350();
@@ -434,33 +279,7 @@ public class vocabulary_nuevo extends AppCompatActivity {
                 sptx.setText(gen.gens);
                 engtx.setText(gen.gene);
 
-                tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
-                    @Override
-                    public void onInit(int i) {
-                        Locale spanish = new Locale("es", "MX");
-                        if (i == TextToSpeech.SUCCESS) {
-                            int lang = tts.setLanguage(spanish);
-                            tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
-                                @Override
-                                public void onStart(String s) {
-                                }
-
-                                @Override
-                                public void onDone(String utteranceId) {
-
-
-                                    iniciarentradavoz();
-                                }
-
-                                @Override
-                                public void onError(String s) {
-                                }
-                            });
-                            tts.speak("como dirías..." + sptx.getText().toString().trim(), 0, null, "zero");
-                        }
-
-                    }
-                });
+                
                 break;
 
             case "350 to 400":
@@ -469,33 +288,7 @@ public class vocabulary_nuevo extends AppCompatActivity {
                 sptx.setText(gen.gens);
                 engtx.setText(gen.gene);
 
-                tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
-                    @Override
-                    public void onInit(int i) {
-                        Locale spanish = new Locale("es", "MX");
-                        if (i == TextToSpeech.SUCCESS) {
-                            int lang = tts.setLanguage(spanish);
-                            tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
-                                @Override
-                                public void onStart(String s) {
-                                }
-
-                                @Override
-                                public void onDone(String utteranceId) {
-
-
-                                    iniciarentradavoz();
-                                }
-
-                                @Override
-                                public void onError(String s) {
-                                }
-                            });
-                            tts.speak("como dirías..." + sptx.getText().toString().trim(), 0, null, "zero");
-                        }
-
-                    }
-                });
+                
                 break;
             case "400 to 500":
                 gen.C400a500();
@@ -503,33 +296,7 @@ public class vocabulary_nuevo extends AppCompatActivity {
                 sptx.setText(gen.gens);
                 engtx.setText(gen.gene);
 
-                tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
-                    @Override
-                    public void onInit(int i) {
-                        Locale spanish = new Locale("es", "MX");
-                        if (i == TextToSpeech.SUCCESS) {
-                            int lang = tts.setLanguage(spanish);
-                            tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
-                                @Override
-                                public void onStart(String s) {
-                                }
-
-                                @Override
-                                public void onDone(String utteranceId) {
-
-
-                                    iniciarentradavoz();
-                                }
-
-                                @Override
-                                public void onError(String s) {
-                                }
-                            });
-                            tts.speak("como dirías..." + sptx.getText().toString().trim(), 0, null, "zero");
-                        }
-
-                    }
-                });
+                
                 break;
 
         }
@@ -655,6 +422,10 @@ public class vocabulary_nuevo extends AppCompatActivity {
     public void profile(View vista) {
         Intent intento = new Intent(this, profile.class);
         startActivity(intento);
+    }
+
+    public void hablar(View vista){
+        iniciarentradavoz();
     }
 
     private void iniciarentradavoz() {

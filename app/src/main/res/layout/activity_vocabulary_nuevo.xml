@@ -251,6 +251,17 @@
                 android:orientation="horizontal"
                 >
                 <LinearLayout
+                    android:onClick="hablar"
+                    android:id="@+id/mic_1"
+                    android:orientation="vertical"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_microfono"
+                    >
+                </LinearLayout>
+
+                <LinearLayout
                     android:id="@+id/resppass"
                     android:layout_width="15dp"
                     android:layout_height="15dp"
