@@ -223,74 +223,33 @@ public class Oo3 {
             "quitáramos ", "vendiéramos ", "reserváramos ", "rompiéramos ", "cubriéramos "
     };
 
-    String nnobles[] = {"history ", "art ", "money ", "the money ",
-            "information ", "the map ", "the system ", "the computer ", "the meat ",
-            "meat ", "music ", "the method ", "a method ", "the data ", "food ",
-            "the food ", "the literature ", "the problem ", "the software ",
-            "the power ", "the love ", "love ", "the internet ", "the televisions ",
-            "the television ", "the science ", "the product ", "the idea ", "the area ",
-            "society ", "the society ", "the story ", "the industry ",
-            "the thing ", "the oven ", "the community ", "the language ",
-            "variety ", "the video ", "the security ", "the country ", "the movie ",
-            "the organization ", "the equipment ", "the technology ",
-            "the army ", "the camera ", "the cameras ", "the truth ", "the marketing ",
-            "the university ", "the writing ", "the article ", "the department "
+    String nnobles[] = {"studio ", "topic ", "ad ", "agency ", "college ",
+            "collection ", "alcohol ", "contract ", "highway ", "elevator ",
+            "bread ", "construction ", "steak ", "region ", "seat ", "classroom ",
+            "virus ", "union "
+    };
+    String nnoblesesp[] = {"estudio ", "tema ", "anuncio ", "agencia ", "colegio ",
+            "colección ", "alcohol ", "contrato ", "carretera ", "ascensor ",
+            "pan ", "construcción ", "filete ", "región ", "asiento ", "aula ",
+            "virus ", "unión "
     };
 
-    String nnoblesesp[] = {"historia ", "arte ", "dinero ", "el dinero ",
-            "información ", "el mapa ", "el sistema ", "la computadora ", "la carne ",
-            "carne ", "música ", "el método ", "un método ", "los datos ", "comida ",
-            "la comida ", "la literatura ", "el problema ", "el software ",
-            "el poder ", "el amor ", "amor ", "el internet ", "las televisiónes ",
-            "la televisión ", "la ciencia ", "el producto ", "la idea ", "el área ",
-            "sociedad ", "la sociedad ", "la historia ", "la industria ",
-            "la cosa ", "el horno ", "la comunidad ", "el idioma ",
-            "variedad ", "el video ", "la seguridad ", "el país ", "la pelicula ",
-            "la organización ", "el equipo ", "la tecnología ",
-            "el ejército ", "la cámara ", "las cámaras ", "la verdad ", "el marketing ",
-            "la universidad ", "la escritura ", "el artículo ", "el departamento "
+    String nnoblesM[] = {"the studio ", "the topic ", "the ad ", "the college ",
+            "the alcohol ", "the contract ", "the elevator ",
+            "the bread ", "the steak ", "the seat ",
+            "the classroom ", "the virus ",
+    };
+    String nnoblesespM[] = {"el estudio ", "el tema ", "el anuncio ", "el colegio ",
+            "el alcohol ", "el contrato ", "a el ascensor ",
+            "a el pan ", "el filete ", "a el asiento ",
+            "a el aula ", "a el virus ",
     };
 
-    String nnoblesM[]={
-            "the method ","the art ", "the money ",
-            "the map ", "the system ",
-            "the data ","the problem ", "the software ",
-            "the power ", "the love ","the internet ",
-            "the product ",  "the area ","the oven ",  "the language ",
-            "the video ",  "the country ", "the equipment ",
-            "the army ","the marketing ",
-            "the article ", "the department "
+    String nnoblesF[]={"the agency ", "the collection ", "the highway ", "the construction ",
+            "the region ", "the union "
     };
-    String nnoblesF[]={
-            "the history ","the computer ","the music ","the literature ",
-            "the food ","the science ","the idea ","the society ",
-            "the industry ","the thing ","the community ","the variety ",
-            "the movie ","the organization ","the security ",
-            "the technology ","the camera ","the truth ",
-            "the university ", "the writing ","the meat ","the food ",
-            "the television ",
-    };
-
-    String nnoblesespM[]={
-            "un método ","el arte ", "el dinero ",
-            "el mapa ", "el sistema ",
-            "el método ",  "los datos ", "el problema ", "el software ",
-            "el poder ", "el amor ", "el internet ",
-            "la televisión ",  "el producto ", "el área ",
-            "el horno ",  "el idioma ",
-            "el video ", "el país ",
-            "el equipo ",
-            "el ejército ",   "el marketing ",
-            "el artículo ", "el departamento "
-    };
-    String nnoblesespF[]={
-            "la historia ","la computadora ","la música ","la literatura ",
-            "la comida ","la ciencia ","la idea ","la sociedad ",
-            "la industria ","la cosa ","la comunidad ",
-            "la variedad ","la pelicula ","la organización ","la seguridad ",
-            "la tecnología ","la cámara ","la verdad ",
-            "la universidad ", "la escritura ","la carne ","la comida ",
-            "la television"
+    String nnoblesespF[]={"la agencia ", "la colección ", "la carretera ", "a la construcción ",
+            "a la región ", "la unión "
     };
 
 
