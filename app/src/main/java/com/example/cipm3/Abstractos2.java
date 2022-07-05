@@ -383,7 +383,7 @@ public class Abstractos2 {
             case 0:
                 if (sr == 0) {
                     ps1 = "yo " + "no " + ps1pre[v] + nnoblesesp[n];
-                    ps1eng = "I " + "didn't" + vnb[v] + nnobles[n];
+                    ps1eng = "I " + "didn't " + vnb[v] + nnobles[n];
 
                     ps2 = "tú " + "no " + ps2pre[v] + nnoblesesp[n];
                     ps2eng = "you " + "didn't " + vnb[v] + nnobles[n];
@@ -754,7 +754,7 @@ public class Abstractos2 {
                 ps4 = "ellos habrán estado " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "will have been " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros habrémos estado" + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros habrémos estado " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "will have been " + vnbc[v] + nnobles[n];
                 break;
             case 1:
@@ -776,7 +776,7 @@ public class Abstractos2 {
                 ps4 = "ellos no habrán estado " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "will not have been " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros no habrémos estado" + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros no habrémos estado " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "will not have been " + vnbc[v] + nnobles[n];
                 break;
         }
@@ -954,7 +954,7 @@ public class Abstractos2 {
                 ps4 = "ellos hubieran estado " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "would have been " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros hubieramos estado" + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros hubieramos estado " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "would have been " + vnbc[v] + nnobles[n];
                 break;
             case 1:
@@ -976,7 +976,7 @@ public class Abstractos2 {
                 ps4 = "ellos no hubieran estado " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "would not have been " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros no hubieramos estado" + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros no hubieramos estado " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "would not have been " + vnbc[v] + nnobles[n];
                 break;
         }
@@ -993,7 +993,7 @@ public class Abstractos2 {
                 ps2 = "tú " + "podrías " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "you " + "could " + vnb[v] + nnobles[n];
 
-                ps3 = "él " + "podría" + vnbs[v] + nnoblesesp[n];
+                ps3 = "él " + "podría " + vnbs[v] + nnoblesesp[n];
                 ps3eng = "he " + "could " + vnb[v] + nnobles[n];
 
                 ps3ella = "ella " + "podría " + vnbs[v] + nnoblesesp[n];
@@ -1015,7 +1015,7 @@ public class Abstractos2 {
                 ps2 = "tú no " + "podrías " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "you " + "could not " + vnb[v] + nnobles[n];
 
-                ps3 = "él no " + "podría" + vnbs[v] + nnoblesesp[n];
+                ps3 = "él no " + "podría " + vnbs[v] + nnoblesesp[n];
                 ps3eng = "he " + "could not " + vnb[v] + nnobles[n];
 
                 ps3ella = "ella no " + "podría " + vnbs[v] + nnoblesesp[n];
@@ -1156,7 +1156,7 @@ public class Abstractos2 {
                 ps4 = "ellos pudieron haber estado " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "could have been " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros " + "pudimos haber estado" + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros " + "pudimos haber estado " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "could have been " + vnbc[v] + nnobles[n];
                 break;
             case 1:
@@ -1178,7 +1178,7 @@ public class Abstractos2 {
                 ps4 = "ellos no pudieron haber estado " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "could not have been " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros no " + "pudimos haber estado" + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros no " + "pudimos haber estado " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "could not have been " + vnbc[v] + nnobles[n];
                 break;
         }
@@ -1196,7 +1196,7 @@ public class Abstractos2 {
                 ps2 = "tú " + "deberías " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "you " + "should " + vnb[v] + nnobles[n];
 
-                ps3 = "él " + "debería" + vnbs[v] + nnoblesesp[n];
+                ps3 = "él " + "debería " + vnbs[v] + nnoblesesp[n];
                 ps3eng = "he " + "should " + vnb[v] + nnobles[n];
 
                 ps3ella = "ella " + "debería " + vnbs[v] + nnoblesesp[n];
@@ -1218,7 +1218,7 @@ public class Abstractos2 {
                 ps2 = "tú no " + "deberías " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "you " + "should not " + vnb[v] + nnobles[n];
 
-                ps3 = "él no " + "debería" + vnbs[v] + nnoblesesp[n];
+                ps3 = "él no " + "debería " + vnbs[v] + nnoblesesp[n];
                 ps3eng = "he " + "should not " + vnb[v] + nnobles[n];
 
                 ps3ella = "ella no " + "debería " + vnbs[v] + nnoblesesp[n];
@@ -1357,7 +1357,7 @@ public class Abstractos2 {
                 ps4 = "ellos debieron haber estado " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "should have been " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros " + "debimos haber estado" + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros " + "debimos haber estado " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "should have been " + vnbc[v] + nnobles[n];
                 break;
             case 1:
@@ -1379,7 +1379,7 @@ public class Abstractos2 {
                 ps4 = "ellos no debieron haber estado " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "should not have been " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros no " + "debimos haber estado" + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros no " + "debimos haber estado " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "should not have been " + vnbc[v] + nnobles[n];
                 break;
         }
@@ -1560,7 +1560,7 @@ public class Abstractos2 {
                 ps4 = "ellos quizá hayan estado " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "might have been " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros " + "quizá hayamos estado" + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros " + "quizá hayamos estado " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "might have been " + vnbc[v] + nnobles[n];
                 break;
             case 1:
@@ -1582,7 +1582,7 @@ public class Abstractos2 {
                 ps4 = "ellos quizá no hayan estado " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "might not have been " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros " + "quizá no hayamos estado" + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros " + "quizá no hayamos estado " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "might not have been " + vnbc[v] + nnobles[n];
                 break;
         }
@@ -1600,7 +1600,7 @@ public class Abstractos2 {
                 ps2 = "tú " + "puedes " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "you " + "can " + vnb[v] + nnobles[n];
 
-                ps3 = "él " + "puede" + vnbs[v] + nnoblesesp[n];
+                ps3 = "él " + "puede " + vnbs[v] + nnoblesesp[n];
                 ps3eng = "he " + "can " + vnb[v] + nnobles[n];
 
                 ps3ella = "ella " + "puede " + vnbs[v] + nnoblesesp[n];
@@ -1622,7 +1622,7 @@ public class Abstractos2 {
                 ps2 = "tú no " + "puedes " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "you " + "can't " + vnb[v] + nnobles[n];
 
-                ps3 = "él no " + "puede" + vnbs[v] + nnoblesesp[n];
+                ps3 = "él no " + "puede " + vnbs[v] + nnoblesesp[n];
                 ps3eng = "he " + "can't " + vnb[v] + nnobles[n];
 
                 ps3ella = "ella no " + "puede " + vnbs[v] + nnoblesesp[n];
@@ -1703,7 +1703,7 @@ public class Abstractos2 {
                 ps2 = "tú " + "debes " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "you " + "must " + vnb[v] + nnobles[n];
 
-                ps3 = "él " + "debe" + vnbs[v] + nnoblesesp[n];
+                ps3 = "él " + "debe " + vnbs[v] + nnoblesesp[n];
                 ps3eng = "he " + "must " + vnb[v] + nnobles[n];
 
                 ps3ella = "ella " + "debe " + vnbs[v] + nnoblesesp[n];
@@ -1725,7 +1725,7 @@ public class Abstractos2 {
                 ps2 = "tú no " + "debes " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "you " + "must not " + vnb[v] + nnobles[n];
 
-                ps3 = "él no " + "debe" + vnbs[v] + nnoblesesp[n];
+                ps3 = "él no " + "debe " + vnbs[v] + nnoblesesp[n];
                 ps3eng = "he " + "must not " + vnb[v] + nnobles[n];
 
                 ps3ella = "ella no " + "debe " + vnbs[v] + nnoblesesp[n];
@@ -2172,7 +2172,7 @@ public class Abstractos2 {
             case 0:
                 if (sr == 0) {
                     ps1 = "yo " + "no "  + ps1pre[v] + nnoblesesp[n] + advfrequ[r];
-                    ps1eng = "I " + "didn't"  + vnb[v] + nnobles[n] + frequadv[r];
+                    ps1eng = "I " + "didn't "  + vnb[v] + nnobles[n] + frequadv[r];
 
                     ps2 = "tú " + "no "  + ps2pre[v] + nnoblesesp[n] + advfrequ[r];
                     ps2eng = "you " + "didn't "  + vnb[v] + nnobles[n] + frequadv[r];
@@ -3082,7 +3082,7 @@ public class Abstractos2 {
                 ps4eng2 = "they could " + vnb[v] + nnobles[n] + frequadv[r];
 
 
-                ps5 = "nosotros podriamos" + vnbs[v] + nnoblesesp[n] + advfrequ[r] ;
+                ps5 = "nosotros podriamos " + vnbs[v] + nnoblesesp[n] + advfrequ[r] ;
                 ps5eng = "we could " + vnb[v] + nnobles[n] + frequadv[r];
                 ps5eng2 = "we could " + vnb[v] + nnobles[n] + frequadv[r];
 
@@ -3387,7 +3387,7 @@ public class Abstractos2 {
                 ps4eng2 = "they should " + vnb[v] + nnobles[n] + frequadv[r];
 
 
-                ps5 = "nosotros deberíamos"  + vnbs[v] + nnoblesesp[n] + advfrequ[r];
+                ps5 = "nosotros deberíamos "  + vnbs[v] + nnoblesesp[n] + advfrequ[r];
                 ps5eng = "we should "  + vnb[v] + nnobles[n] + frequadv[r];
                 ps5eng2 = "we should " + vnb[v] + nnobles[n] + frequadv[r];
                 break;
@@ -3983,7 +3983,7 @@ public class Abstractos2 {
                 ps4eng2 = "they can " + vnb[v] + nnobles[n] + frequadv[r];
 
 
-                ps5 = "nosotros podemos"  + vnbs[v] + nnoblesesp[n] + advfrequ[r];
+                ps5 = "nosotros podemos "  + vnbs[v] + nnoblesesp[n] + advfrequ[r];
                 ps5eng = "we can "  + vnb[v] + nnobles[n] + frequadv[r];
                 ps5eng = "we can " + vnb[v] + nnobles[n] + frequadv[r];
 
@@ -4135,7 +4135,7 @@ public class Abstractos2 {
                 ps4eng2 = "they must " + vnb[v] + nnobles[n] + frequadv[r];
 
 
-                ps5 = "nosotros debemos"  + vnbs[v] + nnoblesesp[n] + advfrequ[r];
+                ps5 = "nosotros debemos "  + vnbs[v] + nnoblesesp[n] + advfrequ[r];
                 ps5eng = "we must "  + vnb[v] + nnobles[n] + frequadv[r];
                 ps5eng2 = "we must " + vnb[v] + nnobles[n] + frequadv[r];
 
@@ -4929,7 +4929,7 @@ public class Abstractos2 {
         switch (vc) {
             case 0:
                 ps1 = "Se supone que " + vn1[v] + nnoblesesp[n];
-                ps1eng = "I'm supposed to" + vnb[v] + nnobles[n];
+                ps1eng = "I'm supposed to " + vnb[v] + nnobles[n];
 
                 ps2 = "Se supone que " + vn2[v] + nnoblesesp[n];
                 ps2eng = "you're supposed to " + vnb[v] + nnobles[n];
@@ -4974,7 +4974,7 @@ public class Abstractos2 {
 
             case 2:
                 ps1 = "se supone que tengo que " + vnbs[v] + nnoblesesp[n];
-                ps1eng = "I'm supposed to" + vnb[v] + nnobles[n];
+                ps1eng = "I'm supposed to " + vnb[v] + nnobles[n];
 
                 ps2 = "se supone que tienes que " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "you're supposed to " + vnb[v] + nnobles[n];
@@ -5072,7 +5072,7 @@ public class Abstractos2 {
         switch (neg) {
             case 0:
                 ps1 = "Se supone que yo " + ps1imp[v] + nnoblesesp[n];
-                ps1eng = "I was supposed to" + vnb[v] + nnobles[n];
+                ps1eng = "I was supposed to " + vnb[v] + nnobles[n];
 
                 ps2 = "Se supone que tú " + ps2imp[v] + nnoblesesp[n];
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n];
@@ -5117,7 +5117,7 @@ public class Abstractos2 {
 
             case 2:
                 ps1 = "Se supone que tenía que " + vnbs[v] + nnoblesesp[n];
-                ps1eng = "I was supposed to" + vnb[v] + nnobles[n];
+                ps1eng = "I was supposed to " + vnb[v] + nnobles[n];
 
                 ps2 = "Se supone que tenías que " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n];
@@ -5139,7 +5139,7 @@ public class Abstractos2 {
                 break;
             case 3:
                 ps1 = "Se supone que no tenía que " + vnbs[v] + nnoblesesp[n];
-                ps1eng = "I wasn't supposed to" + vnb[v] + nnobles[n];
+                ps1eng = "I wasn't supposed to " + vnb[v] + nnobles[n];
 
                 ps2 = "Se supone que no tenías que " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "you weren't supposed to " + vnb[v] + nnobles[n];
@@ -5162,7 +5162,7 @@ public class Abstractos2 {
 
             case 4:
                 ps1 = "Se supone iba a " + vnbs[v] + nnoblesesp[n];
-                ps1eng = "I was supposed to" + vnb[v] + nnobles[n];
+                ps1eng = "I was supposed to " + vnb[v] + nnobles[n];
 
                 ps2 = "Se supone que ibas a " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n];
@@ -5184,7 +5184,7 @@ public class Abstractos2 {
                 break;
             case 5:
                 ps1 = "Se supone que no iba a " + vnbs[v] + nnoblesesp[n];
-                ps1eng = "I wasn't supposed to" + vnb[v] + nnobles[n];
+                ps1eng = "I wasn't supposed to " + vnb[v] + nnobles[n];
 
                 ps2 = "Se supone que no ibas a " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "you weren't supposed to " + vnb[v] + nnobles[n];
@@ -5422,7 +5422,7 @@ public class Abstractos2 {
         switch (neg) {
             case 0:
                 ps1 = "Yo estoy acostumbrado a " + vnbs[v] + nnoblesesp[n];
-                ps1eng = "I'm used to" + vnbc[v] + nnobles[n];
+                ps1eng = "I'm used to " + vnbc[v] + nnobles[n];
 
                 ps2 = "Tu estás acostumbrado a " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "You're used to " + vnbc[v] + nnobles[n];
@@ -5445,7 +5445,7 @@ public class Abstractos2 {
 
             case 1:
                 ps1 = "Yo no estoy acostumbrado a " + vnbs[v] + nnoblesesp[n];
-                ps1eng = "I'm not used to" + vnbc[v] + nnobles[n];
+                ps1eng = "I'm not used to " + vnbc[v] + nnobles[n];
 
                 ps2 = "Tu no estás acostumbrado a " + vnbs[v] + nnoblesesp[n];
                 ps2eng = "You're not used to " + vnbc[v] + nnobles[n];
@@ -6182,94 +6182,94 @@ public class Abstractos2 {
         switch (neg) {
             //Masculino Positivo
             case 0:
-                ps1 = pcsj[0] + pcCesp[0] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps1 = pcsj[0] + pcCesp[0] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps1eng = pcsjeng[0] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps2 = pcsj[1] + pcCesp[1] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps2 = pcsj[1] + pcCesp[1] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps2eng = pcsjeng[1] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps3 = pcsj[2] + pcCesp[2] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps3 = pcsj[2] + pcCesp[2] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps3eng = pcsjeng[2] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps3she = pcsjeng[3] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps3it = pcsjeng[4] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps4 = pcsj[5] + pcCesp[5] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps4 = pcsj[5] + pcCesp[5] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps4eng = pcsjeng[5] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps5 = pcsj[6] + pcCesp[6] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps5 = pcsj[6] + pcCesp[6] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps5eng = pcsjeng[6] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
                 break;
             //Masculino Negativo
             case 1:
-                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por " + nnoblesespM[nesp] + advfrequ[radv];
-                ps1eng = pcsjeng[0] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por " + nnoblesespM[nesp] + advfrequ[radv];
+                ps1eng = pcsjeng[0] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
-                ps2eng = pcsjeng[1] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps2eng = pcsjeng[1] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
-                ps3eng = pcsjeng[2] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps3eng = pcsjeng[2] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
-                ps3she = pcsjeng[3] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps3she = pcsjeng[3] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
-                ps3it = pcsjeng[4] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps3it = pcsjeng[4] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
-                ps4eng = pcsjeng[5] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps4eng = pcsjeng[5] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
-                ps5eng = pcsjeng[6] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps5eng = pcsjeng[6] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
                 break;
             //Femenino Positivo
             case 2:
-                ps1 = pcsj[0] + pcCesp[0] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps1 = pcsj[0] + pcCesp[0] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps1eng = pcsjeng[0] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps2 = pcsj[1] + pcCesp[1] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps2 = pcsj[1] + pcCesp[1] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps2eng = pcsjeng[1] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps3 = pcsj[2] + pcCesp[2] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps3 = pcsj[2] + pcCesp[2] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps3eng = pcsjeng[2] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps3she = pcsjeng[3] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps3it = pcsjeng[4] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps4 = pcsj[5] + pcCesp[5] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps4 = pcsj[5] + pcCesp[5] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps4eng = pcsjeng[5] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps5 = pcsj[6] + pcCesp[6] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps5 = pcsj[6] + pcCesp[6] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps5eng = pcsjeng[6] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
                 break;
             //Femenino Negativo`
             case 3:
-                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps1eng = pcsjeng[0] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps2eng = pcsjeng[1] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps3eng = pcsjeng[2] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps3she = pcsjeng[3] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps3it = pcsjeng[4] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps4eng = pcsjeng[5] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps5eng = pcsjeng[6] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
                 break;
 
@@ -6304,94 +6304,94 @@ public class Abstractos2 {
         switch (neg) {
             //Masculino Positivo
             case 0:
-                ps1 = pcsj[0] + pcCesp[0] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps1 = pcsj[0] + pcCesp[0] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps1eng = pcsjeng[0] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps2 = pcsj[1] + pcCesp[1] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps2 = pcsj[1] + pcCesp[1] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps2eng = pcsjeng[1] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps3 = pcsj[2] + pcCesp[2] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps3 = pcsj[2] + pcCesp[2] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps3eng = pcsjeng[2] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps3she = pcsjeng[3] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps3it = pcsjeng[4] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps4 = pcsj[5] + pcCesp[5] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps4 = pcsj[5] + pcCesp[5] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps4eng = pcsjeng[5] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps5 = pcsj[6] + pcCesp[6] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps5 = pcsj[6] + pcCesp[6] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
                 ps5eng = pcsjeng[6] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
                 break;
             //Masculino Negativo
             case 1:
-                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por " + nnoblesespM[nesp] + advfrequ[radv];
-                ps1eng = pcsjeng[0] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por " + nnoblesespM[nesp] + advfrequ[radv];
+                ps1eng = pcsjeng[0] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
-                ps2eng = pcsjeng[1] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps2eng = pcsjeng[1] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
-                ps3eng = pcsjeng[2] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps3eng = pcsjeng[2] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
-                ps3she = pcsjeng[3] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps3she = pcsjeng[3] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
-                ps3it = pcsjeng[4] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps3it = pcsjeng[4] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
-                ps4eng = pcsjeng[5] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps4eng = pcsjeng[5] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
 
-                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
-                ps5eng = pcsjeng[6] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
+                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + advfrequ[radv];
+                ps5eng = pcsjeng[6] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + frequadv[radv];
                 break;
             //Femenino Positivo
             case 2:
-                ps1 = pcsj[0] + pcCesp[0] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps1 = pcsj[0] + pcCesp[0] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps1eng = pcsjeng[0] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps2 = pcsj[1] + pcCesp[1] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps2 = pcsj[1] + pcCesp[1] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps2eng = pcsjeng[1] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps3 = pcsj[2] + pcCesp[2] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps3 = pcsj[2] + pcCesp[2] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps3eng = pcsjeng[2] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps3she = pcsjeng[3] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps3it = pcsjeng[4] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps4 = pcsj[5] + pcCesp[5] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps4 = pcsj[5] + pcCesp[5] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps4eng = pcsjeng[5] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps5 = pcsj[6] + pcCesp[6] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps5 = pcsj[6] + pcCesp[6] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps5eng = pcsjeng[6] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
                 break;
             //Femenino Negativo`
             case 3:
-                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps1eng = pcsjeng[0] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps2eng = pcsjeng[1] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps3eng = pcsjeng[2] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps3she = pcsjeng[3] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps3it = pcsjeng[4] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps4eng = pcsjeng[5] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
 
-                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
+                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + advfrequ[radv];
                 ps5eng = pcsjeng[6] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + frequadv[radv];
                 break;
 
@@ -6403,7 +6403,7 @@ public class Abstractos2 {
         switch (vc) {
             case 0:
                 ps1 = "Se supone que " + vn1[v] + nnoblesesp[n] + advfrequ[radv];
-                ps1eng = "I'm supposed to" + vnb[v] + nnobles[n] + frequadv[radv];
+                ps1eng = "I'm supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps2 = "Se supone que " + vn2[v] + nnoblesesp[n] + advfrequ[radv];
                 ps2eng = "you're supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
@@ -6448,7 +6448,7 @@ public class Abstractos2 {
 
             case 2:
                 ps1 = "se supone que tengo que " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
-                ps1eng = "I'm supposed to" + vnb[v] + nnobles[n] + frequadv[radv];
+                ps1eng = "I'm supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps2 = "se supone que tienes que " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
                 ps2eng = "you're supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
@@ -6546,7 +6546,7 @@ public class Abstractos2 {
         switch (neg) {
             case 0:
                 ps1 = "Se supone que yo " + ps1imp[v] + nnoblesesp[n] + advfrequ[radv];
-                ps1eng = "I was supposed to" + vnb[v] + nnobles[n] + frequadv[radv];
+                ps1eng = "I was supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps2 = "Se supone que tú " + ps2imp[v] + nnoblesesp[n] + advfrequ[radv];
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
@@ -6591,7 +6591,7 @@ public class Abstractos2 {
 
             case 2:
                 ps1 = "Se supone que tenía que " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
-                ps1eng = "I was supposed to" + vnb[v] + nnobles[n] + frequadv[radv];
+                ps1eng = "I was supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps2 = "Se supone que tenías que " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
@@ -6613,7 +6613,7 @@ public class Abstractos2 {
                 break;
             case 3:
                 ps1 = "Se supone que no tenía que " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
-                ps1eng = "I wasn't supposed to" + vnb[v] + nnobles[n] + frequadv[radv];
+                ps1eng = "I wasn't supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps2 = "Se supone que no tenías que " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
                 ps2eng = "you weren't supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
@@ -6636,7 +6636,7 @@ public class Abstractos2 {
 
             case 4:
                 ps1 = "Se supone iba a " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
-                ps1eng = "I was supposed to" + vnb[v] + nnobles[n] + frequadv[radv];
+                ps1eng = "I was supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps2 = "Se supone que ibas a " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
@@ -6658,7 +6658,7 @@ public class Abstractos2 {
                 break;
             case 5:
                 ps1 = "Se supone que no iba a " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
-                ps1eng = "I wasn't supposed to" + vnb[v] + nnobles[n] + frequadv[radv];
+                ps1eng = "I wasn't supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps2 = "Se supone que no ibas a " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
                 ps2eng = "you weren't supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
@@ -6898,7 +6898,7 @@ public class Abstractos2 {
         switch (neg) {
             case 0:
                 ps1 = "Yo estoy acostumbrado a " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
-                ps1eng = "I'm used to" + vnbc[v] + nnobles[n] + frequadv[radv];
+                ps1eng = "I'm used to " + vnbc[v] + nnobles[n] + frequadv[radv];
 
                 ps2 = "Tu estás acostumbrado a " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
                 ps2eng = "You're used to " + vnbc[v] + nnobles[n] + frequadv[radv];
@@ -6921,7 +6921,7 @@ public class Abstractos2 {
 
             case 1:
                 ps1 = "Yo no estoy acostumbrado a " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
-                ps1eng = "I'm not used to" + vnbc[v] + nnobles[n] + frequadv[radv];
+                ps1eng = "I'm not used to " + vnbc[v] + nnobles[n] + frequadv[radv];
 
                 ps2 = "Tu no estás acostumbrado a " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
                 ps2eng = "You're not used to " + vnbc[v] + nnobles[n] + frequadv[radv];
@@ -7298,7 +7298,7 @@ public class Abstractos2 {
             case 0:
                 if (sr == 0) {
                     ps1 = "yo " + "no " + ps1pre[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[r];
-                    ps1eng = "I " + "didn't" + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[r];
+                    ps1eng = "I " + "didn't " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[r];
 
                     ps2 = "tú " + "no " + ps2pre[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[r];
                     ps2eng = "you " + "didn't " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[r];
@@ -8249,7 +8249,7 @@ public class Abstractos2 {
                 ps4eng2 = "they could " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps5 = "nosotros podriamos" + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps5 = "nosotros podriamos " + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps5eng = "we could " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps5eng2 = "we could " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
@@ -8570,7 +8570,7 @@ public class Abstractos2 {
                 ps4eng2 = "they should " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps5 = "nosotros deberíamos"  + vnbs[v] + nnoblesesp[n]+ prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps5 = "nosotros deberíamos "  + vnbs[v] + nnoblesesp[n]+ prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps5eng = "we should "  + vnb[v] + nnobles[n]+ prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps5eng2 = "we should " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 break;
@@ -9205,7 +9205,7 @@ public class Abstractos2 {
                 ps4eng2 = "they can " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps5 = "nosotros podemos"  + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps5 = "nosotros podemos "  + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps5eng = "we can "  + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps5eng = "we can " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
@@ -9366,7 +9366,7 @@ public class Abstractos2 {
                 ps4eng2 = "they must " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps5 = "nosotros debemos"  + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps5 = "nosotros debemos " + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps5eng = "we must "  + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps5eng2 = "we must " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
@@ -10243,94 +10243,94 @@ public class Abstractos2 {
         switch (neg) {
             //Masculino Positivo
             case 0:
-                ps1 = pcsj[0] + pcCesp[0] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps1 = pcsj[0] + pcCesp[0] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps1eng = pcsjeng[0] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps2 = pcsj[1] + pcCesp[1] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps2 = pcsj[1] + pcCesp[1] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps2eng = pcsjeng[1] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3 = pcsj[2] + pcCesp[2] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps3 = pcsj[2] + pcCesp[2] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps3eng = pcsjeng[2] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps3she = pcsjeng[3] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps3it = pcsjeng[4] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps4 = pcsj[5] + pcCesp[5] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps4 = pcsj[5] + pcCesp[5] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps4eng = pcsjeng[5] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps5 = pcsj[6] + pcCesp[6] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps5 = pcsj[6] + pcCesp[6] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps5eng = pcsjeng[6] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
                 break;
             //Masculino Negativo
             case 1:
-                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por " + nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
-                ps1eng = pcsjeng[0] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por " + nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps1eng = pcsjeng[0] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
-                ps2eng = pcsjeng[1] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps2eng = pcsjeng[1] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
-                ps3eng = pcsjeng[2] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps3eng = pcsjeng[2] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
-                ps3she = pcsjeng[3] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps3she = pcsjeng[3] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
-                ps3it = pcsjeng[4] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps3it = pcsjeng[4] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
-                ps4eng = pcsjeng[5] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps4eng = pcsjeng[5] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
-                ps5eng = pcsjeng[6] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps5eng = pcsjeng[6] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
                 break;
             //Femenino Positivo
             case 2:
-                ps1 = pcsj[0] + pcCesp[0] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps1 = pcsj[0] + pcCesp[0] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps1eng = pcsjeng[0] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps2 = pcsj[1] + pcCesp[1] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps2 = pcsj[1] + pcCesp[1] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps2eng = pcsjeng[1] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3 = pcsj[2] + pcCesp[2] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps3 = pcsj[2] + pcCesp[2] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps3eng = pcsjeng[2] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps3she = pcsjeng[3] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps3it = pcsjeng[4] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps4 = pcsj[5] + pcCesp[5] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps4 = pcsj[5] + pcCesp[5] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps4eng = pcsjeng[5] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps5 = pcsj[6] + pcCesp[6] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps5 = pcsj[6] + pcCesp[6] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps5eng = pcsjeng[6] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
                 break;
             //Femenino Negativo`
             case 3:
-                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps1eng = pcsjeng[0] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps2eng = pcsjeng[1] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps3eng = pcsjeng[2] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps3she = pcsjeng[3] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps3it = pcsjeng[4] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps4eng = pcsjeng[5] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
+                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecialeng[p][p2] + advfrequ[radv];
                 ps5eng = pcsjeng[6] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
                 break;
 
@@ -10367,94 +10367,94 @@ public class Abstractos2 {
         switch (neg) {
             //Masculino Positivo
             case 0:
-                ps1 = pcsj[0] + pcCesp[0] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps1 = pcsj[0] + pcCesp[0] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps1eng = pcsjeng[0] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps2 = pcsj[1] + pcCesp[1] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps2 = pcsj[1] + pcCesp[1] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps2eng = pcsjeng[1] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3 = pcsj[2] + pcCesp[2] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps3 = pcsj[2] + pcCesp[2] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps3eng = pcsjeng[2] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps3she = pcsjeng[3] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps3it = pcsjeng[4] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps4 = pcsj[5] + pcCesp[5] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps4 = pcsj[5] + pcCesp[5] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps4eng = pcsjeng[5] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps5 = pcsj[6] + pcCesp[6] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps5 = pcsj[6] + pcCesp[6] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps5eng = pcsjeng[6] + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
                 break;
             //Masculino Negativo
             case 1:
-                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por " + nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps1eng = pcsjeng[0] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por " + nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps1eng = pcsjeng[0] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps2eng = pcsjeng[1] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps2eng = pcsjeng[1] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps3eng = pcsjeng[2] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps3eng = pcsjeng[2] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps3she = pcsjeng[3] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps3she = pcsjeng[3] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps3it = pcsjeng[4] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps3it = pcsjeng[4] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps4eng = pcsjeng[5] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps4eng = pcsjeng[5] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespM[nesp] + "sea" + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps5eng = pcsjeng[6] + "don't" + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespM[nesp] + "sea " + " " + vpspM[nvpspm] + "por "+ nnoblesespM[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps5eng = pcsjeng[6] + "don't " + " " + pcCeng[cCeng] + nnoblesM[nesp] + vpeng[nvpspm] + "by " + nnoblesM[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
                 break;
             //Femenino Positivo
             case 2:
-                ps1 = pcsj[0] + pcCesp[0] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps1 = pcsj[0] + pcCesp[0] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps1eng = pcsjeng[0] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps2 = pcsj[1] + pcCesp[1] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps2 = pcsj[1] + pcCesp[1] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps2eng = pcsjeng[1] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3 = pcsj[2] + pcCesp[2] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps3 = pcsj[2] + pcCesp[2] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps3eng = pcsjeng[2] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps3ella = pcsj[3] + pcCesp[3] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps3she = pcsjeng[3] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps3eso = pcsj[4] + pcCesp[4] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps3it = pcsjeng[4] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps4 = pcsj[5] + pcCesp[5] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps4 = pcsj[5] + pcCesp[5] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps4eng = pcsjeng[5] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps5 = pcsj[6] + pcCesp[6] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps5 = pcsj[6] + pcCesp[6] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps5eng = pcsjeng[6] + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
                 break;
             //Femenino Negativo`
             case 3:
-                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps1 = pcsj[0] + "no " + pcCesp[0] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps1eng = pcsjeng[0] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps2 = pcsj[1] + "no " + pcCesp[1] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps2eng = pcsjeng[1] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps3 = pcsj[2] + "no " + pcCesp[2] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps3eng = pcsjeng[2] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps3ella = pcsj[3] + "no " + pcCesp[3] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps3she = pcsjeng[3] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps3eso = pcsj[4] + "no " + pcCesp[4] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps3it = pcsjeng[4] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps4 = pcsj[5] + "no " + pcCesp[5] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps4eng = pcsjeng[5] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
 
-                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespF[nesp] + "sea" + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
+                ps5 = pcsj[6] + "no " + pcCesp[6] + nnoblesespF[nesp] + "sea " + " " + vpspF[nvpspf] + "por "+ nnoblesespF[nesp] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps5eng = pcsjeng[6] + "don't " + " " + pcCeng[cCeng] + nnoblesF[nesp] + vpengF[nvpspf] + "by " + nnoblesF[nesp] + prep.absspecialeng[p][p2] + frequadv[radv];
                 break;
 
@@ -10469,7 +10469,7 @@ public class Abstractos2 {
         switch (vc) {
             case 0:
                 ps1 = "Se supone que " + vn1[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps1eng = "I'm supposed to" + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps1eng = "I'm supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
 
                 ps2 = "Se supone que " + vn2[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps2eng = "you're supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
@@ -10514,7 +10514,7 @@ public class Abstractos2 {
 
             case 2:
                 ps1 = "se supone que tengo que " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps1eng = "I'm supposed to" + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps1eng = "I'm supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
 
                 ps2 = "se supone que tienes que " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps2eng = "you're supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
@@ -10615,7 +10615,7 @@ public class Abstractos2 {
         switch (neg) {
             case 0:
                 ps1 = "Se supone que yo " + ps1imp[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps1eng = "I was supposed to" + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps1eng = "I was supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
 
                 ps2 = "Se supone que tú " + ps2imp[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
@@ -10660,7 +10660,7 @@ public class Abstractos2 {
 
             case 2:
                 ps1 = "Se supone que tenía que " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps1eng = "I was supposed to" + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps1eng = "I was supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
 
                 ps2 = "Se supone que tenías que " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
@@ -10682,7 +10682,7 @@ public class Abstractos2 {
                 break;
             case 3:
                 ps1 = "Se supone que no tenía que " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps1eng = "I wasn't supposed to" + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps1eng = "I wasn't supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
 
                 ps2 = "Se supone que no tenías que " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps2eng = "you weren't supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
@@ -10705,7 +10705,7 @@ public class Abstractos2 {
 
             case 4:
                 ps1 = "Se supone iba a " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps1eng = "I was supposed to" + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps1eng = "I was supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
 
                 ps2 = "Se supone que ibas a " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
@@ -10727,7 +10727,7 @@ public class Abstractos2 {
                 break;
             case 5:
                 ps1 = "Se supone que no iba a " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps1eng = "I wasn't supposed to" + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps1eng = "I wasn't supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
 
                 ps2 = "Se supone que no ibas a " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps2eng = "you weren't supposed to " + vnb[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
@@ -10982,7 +10982,7 @@ public class Abstractos2 {
         switch (neg) {
             case 0:
                 ps1 = "Yo estoy acostumbrado a " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps1eng = "I'm used to" + vnbc[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps1eng = "I'm used to " + vnbc[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
 
                 ps2 = "Tu estás acostumbrado a " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps2eng = "You're used to " + vnbc[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
@@ -11005,7 +11005,7 @@ public class Abstractos2 {
 
             case 1:
                 ps1 = "Yo no estoy acostumbrado a " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
-                ps1eng = "I'm not used to" + vnbc[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
+                ps1eng = "I'm not used to " + vnbc[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
 
                 ps2 = "Tu no estás acostumbrado a " + vnbs[v] + nnoblesesp[n] + prep.absspecial[p][p2] + advfrequ[radv];
                 ps2eng = "You're not used to " + vnbc[v] + nnobles[n] + prep.absspecialeng[p][p2] + frequadv[radv];
@@ -11281,7 +11281,7 @@ public class Abstractos2 {
             case 0:
                 if (sr == 0) {
                     ps1 = "yo " + "no " + ps1pre[v];
-                    ps1eng = "I " + "didn't" + vnb[v];
+                    ps1eng = "I " + "didn't " + vnb[v];
 
                     ps2 = "tú " + "no " + ps2pre[v];
                     ps2eng = "you " + "didn't " + vnb[v];
@@ -11639,7 +11639,7 @@ public class Abstractos2 {
                 ps4 = "ellos habrán estado " + vnbcs[v];
                 ps4eng = "they " + "will have been " + vnbc[v];
 
-                ps5 = "nosotros habrémos estado" + vnbcs[v];
+                ps5 = "nosotros habrémos estado " + vnbcs[v];
                 ps5eng = "we " + "will have been " + vnbc[v];
                 break;
             case 1:
@@ -11661,7 +11661,7 @@ public class Abstractos2 {
                 ps4 = "ellos no habrán estado " + vnbcs[v];
                 ps4eng = "they " + "will not have been " + vnbc[v];
 
-                ps5 = "nosotros no habrémos estado" + vnbcs[v];
+                ps5 = "nosotros no habrémos estado " + vnbcs[v];
                 ps5eng = "we " + "will not have been " + vnbc[v];
                 break;
         }
@@ -11833,7 +11833,7 @@ public class Abstractos2 {
                 ps4 = "ellos hubieran estado " + vnbcs[v];
                 ps4eng = "they " + "would have been " + vnbc[v];
 
-                ps5 = "nosotros hubieramos estado" + vnbcs[v];
+                ps5 = "nosotros hubieramos estado " + vnbcs[v];
                 ps5eng = "we " + "would have been " + vnbc[v];
                 break;
             case 1:
@@ -11855,7 +11855,7 @@ public class Abstractos2 {
                 ps4 = "ellos no hubieran estado " + vnbcs[v];
                 ps4eng = "they " + "would not have been " + vnbc[v];
 
-                ps5 = "nosotros no hubieramos estado" + vnbcs[v];
+                ps5 = "nosotros no hubieramos estado " + vnbcs[v];
                 ps5eng = "we " + "would not have been " + vnbc[v];
                 break;
         }
@@ -11871,7 +11871,7 @@ public class Abstractos2 {
                 ps2 = "tú " + "podrías " + vnbs[v];
                 ps2eng = "you " + "could " + vnb[v];
 
-                ps3 = "él " + "podría" + vnbs[v];
+                ps3 = "él " + "podría " + vnbs[v];
                 ps3eng = "he " + "could " + vnb[v];
 
                 ps3ella = "ella " + "podría " + vnbs[v];
@@ -11893,7 +11893,7 @@ public class Abstractos2 {
                 ps2 = "tú no " + "podrías " + vnbs[v];
                 ps2eng = "you " + "could not " + vnb[v];
 
-                ps3 = "él no " + "podría" + vnbs[v];
+                ps3 = "él no " + "podría " + vnbs[v];
                 ps3eng = "he " + "could not " + vnb[v];
 
                 ps3ella = "ella no " + "podría " + vnbs[v];
@@ -12029,7 +12029,7 @@ public class Abstractos2 {
                 ps4 = "ellos pudieron haber estado " + vnbcs[v];
                 ps4eng = "they " + "could have been " + vnbc[v];
 
-                ps5 = "nosotros " + "pudimos haber estado" + vnbcs[v];
+                ps5 = "nosotros " + "pudimos haber estado " + vnbcs[v];
                 ps5eng = "we " + "could have been " + vnbc[v];
                 break;
             case 1:
@@ -12051,7 +12051,7 @@ public class Abstractos2 {
                 ps4 = "ellos no pudieron haber estado " + vnbcs[v];
                 ps4eng = "they " + "could not have been " + vnbc[v];
 
-                ps5 = "nosotros no " + "pudimos haber estado" + vnbcs[v];
+                ps5 = "nosotros no " + "pudimos haber estado " + vnbcs[v];
                 ps5eng = "we " + "could not have been " + vnbc[v];
                 break;
         }
@@ -12067,7 +12067,7 @@ public class Abstractos2 {
                 ps2 = "tú " + "deberías " + vnbs[v];
                 ps2eng = "you " + "should " + vnb[v];
 
-                ps3 = "él " + "debería" + vnbs[v];
+                ps3 = "él " + "debería " + vnbs[v];
                 ps3eng = "he " + "should " + vnb[v];
 
                 ps3ella = "ella " + "debería " + vnbs[v];
@@ -12089,7 +12089,7 @@ public class Abstractos2 {
                 ps2 = "tú no " + "deberías " + vnbs[v];
                 ps2eng = "you " + "should not " + vnb[v];
 
-                ps3 = "él no " + "debería" + vnbs[v];
+                ps3 = "él no " + "debería " + vnbs[v];
                 ps3eng = "he " + "should not " + vnb[v];
 
                 ps3ella = "ella no " + "debería " + vnbs[v];
@@ -12223,7 +12223,7 @@ public class Abstractos2 {
                 ps4 = "ellos debieron haber estado " + vnbcs[v];
                 ps4eng = "they " + "should have been " + vnbc[v];
 
-                ps5 = "nosotros " + "debimos haber estado" + vnbcs[v];
+                ps5 = "nosotros " + "debimos haber estado " + vnbcs[v];
                 ps5eng = "we " + "should have been " + vnbc[v];
                 break;
             case 1:
@@ -12245,7 +12245,7 @@ public class Abstractos2 {
                 ps4 = "ellos no debieron haber estado " + vnbcs[v];
                 ps4eng = "they " + "should not have been " + vnbc[v];
 
-                ps5 = "nosotros no " + "debimos haber estado" + vnbcs[v];
+                ps5 = "nosotros no " + "debimos haber estado " + vnbcs[v];
                 ps5eng = "we " + "should not have been " + vnbc[v];
                 break;
         }
@@ -12455,7 +12455,7 @@ public class Abstractos2 {
                 ps2 = "tú " + "puedes " + vnbs[v];
                 ps2eng = "you " + "can " + vnb[v];
 
-                ps3 = "él " + "puede" + vnbs[v];
+                ps3 = "él " + "puede " + vnbs[v];
                 ps3eng = "he " + "can " + vnb[v];
 
                 ps3ella = "ella " + "puede " + vnbs[v];
@@ -12477,7 +12477,7 @@ public class Abstractos2 {
                 ps2 = "tú no " + "puedes " + vnbs[v];
                 ps2eng = "you " + "can't " + vnb[v];
 
-                ps3 = "él no " + "puede" + vnbs[v];
+                ps3 = "él no " + "puede " + vnbs[v];
                 ps3eng = "he " + "can't " + vnb[v];
 
                 ps3ella = "ella no " + "puede " + vnbs[v];
@@ -12553,7 +12553,7 @@ public class Abstractos2 {
                 ps2 = "tú " + "debes " + vnbs[v];
                 ps2eng = "you " + "must " + vnb[v];
 
-                ps3 = "él " + "debe" + vnbs[v];
+                ps3 = "él " + "debe " + vnbs[v];
                 ps3eng = "he " + "must " + vnb[v];
 
                 ps3ella = "ella " + "debe " + vnbs[v];
@@ -12575,7 +12575,7 @@ public class Abstractos2 {
                 ps2 = "tú no " + "debes " + vnbs[v];
                 ps2eng = "you " + "must not " + vnb[v];
 
-                ps3 = "él no " + "debe" + vnbs[v];
+                ps3 = "él no " + "debe " + vnbs[v];
                 ps3eng = "he " + "must not " + vnb[v];
 
                 ps3ella = "ella no " + "debe " + vnbs[v];
@@ -13301,7 +13301,7 @@ public class Abstractos2 {
         switch (vc) {
             case 0:
                 ps1 = "Se supone que " + vn1[v];
-                ps1eng = "I'm supposed to" + vnb[v];
+                ps1eng = "I'm supposed to " + vnb[v];
 
                 ps2 = "Se supone que " + vn2[v];
                 ps2eng = "you're supposed to " + vnb[v];
@@ -13346,7 +13346,7 @@ public class Abstractos2 {
 
             case 2:
                 ps1 = "se supone que tengo que " + vnbs[v];
-                ps1eng = "I'm supposed to" + vnb[v];
+                ps1eng = "I'm supposed to " + vnb[v];
 
                 ps2 = "se supone que tienes que " + vnbs[v];
                 ps2eng = "you're supposed to " + vnb[v];
@@ -13444,7 +13444,7 @@ public class Abstractos2 {
         switch (neg) {
             case 0:
                 ps1 = "Se supone que yo " + ps1imp[v];
-                ps1eng = "I was supposed to" + vnb[v];
+                ps1eng = "I was supposed to " + vnb[v];
 
                 ps2 = "Se supone que tú " + ps2imp[v];
                 ps2eng = "you were supposed to " + vnb[v];
@@ -13489,7 +13489,7 @@ public class Abstractos2 {
 
             case 2:
                 ps1 = "Se supone que tenía que " + vnbs[v];
-                ps1eng = "I was supposed to" + vnb[v];
+                ps1eng = "I was supposed to " + vnb[v];
 
                 ps2 = "Se supone que tenías que " + vnbs[v];
                 ps2eng = "you were supposed to " + vnb[v];
@@ -13511,7 +13511,7 @@ public class Abstractos2 {
                 break;
             case 3:
                 ps1 = "Se supone que no tenía que " + vnbs[v];
-                ps1eng = "I wasn't supposed to" + vnb[v];
+                ps1eng = "I wasn't supposed to " + vnb[v];
 
                 ps2 = "Se supone que no tenías que " + vnbs[v];
                 ps2eng = "you weren't supposed to " + vnb[v];
@@ -13534,7 +13534,7 @@ public class Abstractos2 {
 
             case 4:
                 ps1 = "Se supone iba a " + vnbs[v];
-                ps1eng = "I was supposed to" + vnb[v];
+                ps1eng = "I was supposed to " + vnb[v];
 
                 ps2 = "Se supone que ibas a " + vnbs[v];
                 ps2eng = "you were supposed to " + vnb[v];
@@ -13556,7 +13556,7 @@ public class Abstractos2 {
                 break;
             case 5:
                 ps1 = "Se supone que no iba a " + vnbs[v];
-                ps1eng = "I wasn't supposed to" + vnb[v];
+                ps1eng = "I wasn't supposed to " + vnb[v];
 
                 ps2 = "Se supone que no ibas a " + vnbs[v];
                 ps2eng = "you weren't supposed to " + vnb[v];
@@ -13793,7 +13793,7 @@ public class Abstractos2 {
         switch (neg) {
             case 0:
                 ps1 = "Yo estoy acostumbrado a " + vnbs[v];
-                ps1eng = "I'm used to" + vnbc[v];
+                ps1eng = "I'm used to " + vnbc[v];
 
                 ps2 = "Tu estás acostumbrado a " + vnbs[v];
                 ps2eng = "You're used to " + vnbc[v];
@@ -13816,7 +13816,7 @@ public class Abstractos2 {
 
             case 1:
                 ps1 = "Yo no estoy acostumbrado a " + vnbs[v];
-                ps1eng = "I'm not used to" + vnbc[v];
+                ps1eng = "I'm not used to " + vnbc[v];
 
                 ps2 = "Tu no estás acostumbrado a " + vnbs[v];
                 ps2eng = "You're not used to " + vnbc[v];
