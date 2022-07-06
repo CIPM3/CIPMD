@@ -427,6 +427,7 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Past Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -506,7 +507,6 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Past Continuous":
                 switch (selection2) {
                     case "0 a 100":
@@ -583,9 +583,7 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
-
             case "Past Perfect":
                 switch (selection2) {
                     case "0 a 100":
@@ -663,7 +661,6 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Past Perfect Continuous":
                 switch (selection2) {
                     case "0 a 100":
@@ -740,7 +737,6 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
 
             case "Future Simple":
@@ -819,9 +815,7 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
-
             case "Future Continuous":
                 switch (selection2) {
                     case "0 a 100":
@@ -898,9 +892,7 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
-
             case "Future Perfect":
                 switch (selection2) {
                     case "0 a 100":
@@ -977,9 +969,7 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
-
             case "Future Perfect Continuous":
                 switch (selection2) {
                     case "0 a 100":
@@ -1056,7 +1046,6 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
 
             case "Would Simple":
@@ -1135,9 +1124,7 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
-
             case "Would Continuous":
                 switch (selection2) {
                     case "0 a 100":
@@ -1217,7 +1204,6 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Would Perfect":
                 switch (selection2) {
                     case "0 a 100":
@@ -1295,7 +1281,6 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Would Perfect Continuous":
                 switch (selection2) {
                     case "0 a 100":
@@ -1372,7 +1357,6 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
 
             case "Could Simple":
@@ -1451,9 +1435,7 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
-
             case "Could Continuous":
                 switch (selection2) {
                     case "0 a 100":
@@ -1530,9 +1512,7 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
-
             case "Could Perfect":
                 switch (selection2) {
                     case "0 a 100":
@@ -1609,7 +1589,6 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
             case "Could Perfect Continuous":
                 switch (selection2) {
@@ -1687,7 +1666,6 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
 
             case "Might Simple":
@@ -1766,9 +1744,7 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
-
             case "Might Continuous":
                 switch (selection2) {
                     case "0 a 100":
@@ -1848,7 +1824,6 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Might Perfect":
                 switch (selection2) {
                     case "0 a 100":
@@ -1925,9 +1900,7 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
-
             case "Might Perfect Continuous":
                 switch (selection2) {
                     case "0 a 100":
@@ -2004,7 +1977,6 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
 
             case "Should Simple":
@@ -2083,9 +2055,7 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
-
             case "Should Continuous":
                 switch (selection2) {
                     case "0 a 100":
@@ -2163,7 +2133,6 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Should Perfect":
                 switch (selection2) {
                     case "0 a 100":
@@ -2243,7 +2212,6 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Should Perfect Continuous":
                 switch (selection2) {
                     case "0 a 100":
@@ -2320,8 +2288,8 @@ public class estructuras extends AppCompatActivity {
                         });
                         break;
                 }
-
                 break;
+
             case "Can Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -2476,6 +2444,7 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Must Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -2788,8 +2757,6 @@ public class estructuras extends AppCompatActivity {
                 }
                 break;
 
-
-
             case "Supposed To Present":
                 switch (selection2) {
                     case "0 a 100":
@@ -2837,7 +2804,6 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Supposed To Past":
                 switch (selection2) {
                     case "0 a 100":
@@ -2933,7 +2899,6 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Wish Past Perfect":
                 switch (selection2) {
                     case "0 a 100":
@@ -2981,7 +2946,6 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Wish Would":
                 switch (selection2) {
                     case "0 a 100":
@@ -3077,7 +3041,6 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Be Used To":
                 switch (selection2) {
                     case "0 a 100":
@@ -3125,7 +3088,6 @@ public class estructuras extends AppCompatActivity {
                         break;
                 }
                 break;
-
 
         }
     }

@@ -9460,6 +9460,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Past Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -9864,7 +9865,8 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-            case "Futureure Simple":
+
+            case "Future Simple":
                 switch (selection2) {
                     case "0 a 100":
                         tt1 = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
@@ -9931,6 +9933,7 @@ public class estructura_nuevo extends AppCompatActivity {
                             }
                         });
                         break;
+
                     case "200 a 300":
                         tt1 = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
                             @Override
@@ -9965,7 +9968,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-            case "Futureure Continuous":
+            case "Future Continuous":
                 switch (selection2) {
                     case "0 a 100":
                         tt1 = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
@@ -10066,7 +10069,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-            case "Futureure Perfect":
+            case "Future Perfect":
                 switch (selection2) {
                     case "0 a 100":
                         tt1 = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
@@ -10167,7 +10170,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-            case "Futureure Perfect Continuous":
+            case "Future Perfect Continuous":
                 switch (selection2) {
                     case "0 a 100":
                         tt1 = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
@@ -10268,6 +10271,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Would Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -10674,6 +10678,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Could Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -11082,6 +11087,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Should Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -11490,6 +11496,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Might Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -11899,6 +11906,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Can Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -12103,6 +12111,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Must Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -12417,7 +12426,6 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "For To":
                 switch (selection2) {
                     case "0 a 100":
@@ -12637,7 +12645,6 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Supposed To Past":
                 switch (selection2) {
                     case "0 a 100":
@@ -12857,7 +12864,6 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Wish Past Perfect":
                 switch (selection2) {
                     case "0 a 100":
@@ -12967,7 +12973,6 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Wish Would":
                 switch (selection2) {
                     case "0 a 100":
@@ -13187,7 +13192,6 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Be Used To":
                 switch (selection2) {
                     case "0 a 100":
@@ -13735,6 +13739,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Past Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -14139,6 +14144,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Future Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -14307,6 +14313,7 @@ public class estructura_nuevo extends AppCompatActivity {
                             }
                         });
                         break;
+
                     case "200 a 300":
                         tt1 = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
                             @Override
@@ -14543,6 +14550,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Would Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -14949,6 +14957,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Could Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -15357,6 +15366,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Should Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -15765,6 +15775,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Might Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -16174,6 +16185,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Can Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -16378,6 +16390,7 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
+
             case "Must Simple":
                 switch (selection2) {
                     case "0 a 100":
@@ -16692,7 +16705,6 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "For To":
                 switch (selection2) {
                     case "0 a 100":
@@ -16803,7 +16815,6 @@ public class estructura_nuevo extends AppCompatActivity {
                 }
                 break;
 
-
             case "Supposed To Present":
                 switch (selection2) {
                     case "0 a 100":
@@ -16913,7 +16924,6 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Supposed To Past":
                 switch (selection2) {
                     case "0 a 100":
@@ -17133,7 +17143,6 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Wish Past Perfect":
                 switch (selection2) {
                     case "0 a 100":
@@ -17243,7 +17252,6 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Wish Would":
                 switch (selection2) {
                     case "0 a 100":
@@ -17463,7 +17471,6 @@ public class estructura_nuevo extends AppCompatActivity {
                         break;
                 }
                 break;
-
             case "Be Used To":
                 switch (selection2) {
                     case "0 a 100":
