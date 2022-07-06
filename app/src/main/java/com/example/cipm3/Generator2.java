@@ -28699,7 +28699,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldPer4();
+                        sp.GetFutPerf4();
                         gens = sp.sp1;
                         gene = sp.eng1;
                         gene2 = "";
@@ -28741,7 +28741,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldPer4();
+                        sp.GetFutPerf4();
                         gens = sp.sp2;
                         gene = sp.eng2;
                         gene2 = "";
@@ -28783,7 +28783,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldPer4();
+                        sp.GetFutPerf4();
                         gens = sp.sp3;
                         gene = sp.eng3;
                         gene2 = "";
@@ -28824,7 +28824,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldPer4();
+                        sp.GetFutPerf4();
                         gens = sp.sp3ella;
                         gene = sp.eng3she;
                         gene2 = "";
@@ -28864,7 +28864,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldPer4();
+                        sp.GetFutPerf4();
                         gens = sp.sp3eso;
                         gene = sp.sp3it;
                         gene2 = "";
@@ -28905,7 +28905,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldPer4();
+                        sp.GetFutPerf4();
                         gens = sp.sp4;
                         gene = sp.eng4;
                         gene2 = "";
@@ -28947,7 +28947,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldPer4();
+                        sp.GetFutPerf4();
                         gens = sp.sp5;
                         gene = sp.eng5;
                         gene2 = "";
