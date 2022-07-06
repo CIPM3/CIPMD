@@ -279,13 +279,13 @@ public class People2 {
                 ps2eng = "you " + vnb[v] + nnobles[n];
 
                 ps3 = "él " + vnb3[v] + nnoblesesp[n];
-                ps3eng = "he " + vn3[v] + nnobles[n];
+                ps3eng = "he " + vnb[v] + nnobles[n];
 
                 ps3ella = "ella " + vnb3[v] + nnoblesesp[n];
-                ps3she = "she " + vn3[v] + nnobles[n];
+                ps3she = "she " + vnb[v] + nnobles[n];
 
                 ps3eso = "eso " + vnb3[v] + nnoblesesp[n];
-                ps3it = "it " + vn3[v] + nnobles[n];
+                ps3it = "it " + vnb[v] + nnobles[n];
 
                 ps4 = "ellos " + vn4[v] + nnoblesesp[n];
                 ps4eng = "they " + vnb[v] + nnobles[n];
@@ -1984,16 +1984,16 @@ public class People2 {
                 ps2eng2 = "you " + vnb[v] + nnobles[n] + frequadv[r];
 
                 ps3 = "él " + vnb3[v] + nnoblesesp[n] + advfrequ[r] ;
-                ps3eng = "he " + vn3[v] + nnobles[n] + frequadv[r];
-                ps3eng2 = "he " + vn3[v] + nnobles[n] + frequadv[r];
+                ps3eng = "he " + vnb[v] + nnobles[n] + frequadv[r];
+                ps3eng2 = "he " + vnb[v] + nnobles[n] + frequadv[r];
 
                 ps3ella = "ella " + vnb3[v] + nnoblesesp[n] + advfrequ[r] ;
-                ps3she = "she " + vn3[v] + nnobles[n] + frequadv[r];
-                ps3she2 = "she " + vn3[v] + nnobles[n] + frequadv[r];
+                ps3she = "she " + vnb[v] + nnobles[n] + frequadv[r];
+                ps3she2 = "she " + vnb[v] + nnobles[n] + frequadv[r];
 
                 ps3eso = "eso " + vnb3[v] + nnoblesesp[n] + advfrequ[r] ;
-                ps3it = "it " + vn3[v] + nnobles[n] + frequadv[r];
-                ps3iteng2 = "it " + vn3[v] + nnobles[n] + frequadv[r];
+                ps3it = "it " + vnb[v] + nnobles[n] + frequadv[r];
+                ps3iteng2 = "it " + vnb[v] + nnobles[n] + frequadv[r];
 
                 ps4 = "ellos " + vn4[v] + nnoblesesp[n] + advfrequ[r] ;
                 ps4eng = "they " + vnb[v] + nnobles[n] + frequadv[r];
@@ -7100,16 +7100,16 @@ public class People2 {
                 ps2eng2 = "you " + vnb[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r]+ frequadv[r] ;
 
                 ps3 = "él " + vn3[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[r];;
-                ps3eng = "he " + vnb3[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
-                ps3eng2 = "he " + vnb3[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r]+ frequadv[r] ;
+                ps3eng = "he " + vnb[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
+                ps3eng2 = "he " + vnb[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r]+ frequadv[r] ;
 
                 ps3ella = "ella " + vn3[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[r];;
-                ps3she = "she " + vnb3[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
-                ps3she2 = "she " + vnb3[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r]+ frequadv[r] ;
+                ps3she = "she " + vnb[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
+                ps3she2 = "she " + vnb[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r]+ frequadv[r] ;
 
                 ps3eso = "eso " + vn3[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[r];;
-                ps3it = "it " + vnb3[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
-                ps3iteng2 = "it " + vnb3[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r]+ frequadv[r] ;
+                ps3it = "it " + vnb[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
+                ps3iteng2 = "it " + vnb[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r]+ frequadv[r] ;
 
                 ps4 = "ellos " + vn4[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[r];;
                 ps4eng = "they " + vnb[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
@@ -11179,13 +11179,13 @@ public class People2 {
                 ps2eng = "you " + vnb[v];
 
                 ps3 = "él " + vnb3[v];
-                ps3eng = "he " + vn3[v];
+                ps3eng = "he " + vnb[v];
 
                 ps3ella = "ella " + vnb3[v];
-                ps3she = "she " + vn3[v];
+                ps3she = "she " + vnb[v];
 
                 ps3eso = "eso " + vnb3[v];
-                ps3it = "it " + vn3[v];
+                ps3it = "it " + vnb[v];
 
                 ps4 = "ellos " + vn4[v];
                 ps4eng = "they " + vnb[v];
