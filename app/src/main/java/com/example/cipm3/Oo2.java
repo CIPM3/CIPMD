@@ -1161,25 +1161,25 @@ public class Oo2 {
                 break;
             case 1:
                 ps1 = "yo no " + "podría " + vnbs[v] + nnoblesesp[n];
-                ps1eng = "I " + "could not " + vnb[v] + nnobles[n];
+                ps1eng = "I " + "couldn't " + vnb[v] + nnobles[n];
 
                 ps2 = "tú no " + "podrías " + vnbs[v] + nnoblesesp[n];
-                ps2eng = "you " + "could not " + vnb[v] + nnobles[n];
+                ps2eng = "you " + "couldn't " + vnb[v] + nnobles[n];
 
                 ps3 = "él no " + "podría " + vnbs[v] + nnoblesesp[n];
-                ps3eng = "he " + "could not " + vnb[v] + nnobles[n];
+                ps3eng = "he " + "couldn't " + vnb[v] + nnobles[n];
 
                 ps3ella = "ella no " + "podría " + vnbs[v] + nnoblesesp[n];
-                ps3she = "she " + "could not " + vnb[v] + nnobles[n];
+                ps3she = "she " + "couldn't " + vnb[v] + nnobles[n];
 
                 ps3eso = "eso no " + "podría " + vnbs[v] + nnoblesesp[n];
-                ps3it = "it " + "could not " + vnb[v] + nnobles[n];
+                ps3it = "it " + "couldn't " + vnb[v] + nnobles[n];
 
                 ps4 = "ellos no " + "podrían " + vnbs[v] + nnoblesesp[n];
-                ps4eng = "they " + "could not " + vnb[v] + nnobles[n];
+                ps4eng = "they " + "couldn't " + vnb[v] + nnobles[n];
 
                 ps5 = "nosotros no " + "podríamos " + vnbs[v] + nnoblesesp[n];
-                ps5eng = "we " + "could not " + vnb[v] + nnobles[n];
+                ps5eng = "we " + "couldn't " + vnb[v] + nnobles[n];
                 break;
         }
     } // neg
@@ -1211,25 +1211,25 @@ public class Oo2 {
                 break;
             case 1:
                 ps1 = "yo no " + "podría estar " + vnbcs[v] + nnoblesesp[n];
-                ps1eng = "I " + "could not " + "be " + vnbc[v] + nnobles[n];
+                ps1eng = "I " + "couldn't " + "be " + vnbc[v] + nnobles[n];
 
                 ps2 = "tú no " + "podrías estar " + vnbcs[v] + nnoblesesp[n];
-                ps2eng = "you " + "could not " + "be " + vnbc[v] + nnobles[n];
+                ps2eng = "you " + "couldn't " + "be " + vnbc[v] + nnobles[n];
 
                 ps3 = "él no " + "podría estar " + vnbcs[v] + nnoblesesp[n];
-                ps3eng = "he " + "could not be " + vnbc[v] + nnobles[n];
+                ps3eng = "he " + "couldn't be " + vnbc[v] + nnobles[n];
 
                 ps3ella = "ella no podría estar " + vnbcs[v] + nnoblesesp[n];
-                ps3she = "she " + "could not be " + vnbc[v] + nnobles[n];
+                ps3she = "she " + "couldn't be " + vnbc[v] + nnobles[n];
 
                 ps3eso = "eso no podría estar " + vnbcs[v] + nnoblesesp[n];
-                ps3it = "it " + "could not be " + vnbc[v] + nnobles[n];
+                ps3it = "it " + "couldn't be " + vnbc[v] + nnobles[n];
 
                 ps4 = "ellos no podrían estar " + vnbcs[v] + nnoblesesp[n];
-                ps4eng = "they " + "could not be " + vnbc[v] + nnobles[n];
+                ps4eng = "they " + "couldn't be " + vnbc[v] + nnobles[n];
 
                 ps5 = "nosotros no podríamos estar " + vnbcs[v] + nnoblesesp[n];
-                ps5eng = "we " + "could not be " + vnbc[v] + nnobles[n];
+                ps5eng = "we " + "couldn't be " + vnbc[v] + nnobles[n];
                 break;
         }
     } // neg
@@ -1261,25 +1261,25 @@ public class Oo2 {
                 break;
             case 1:
                 ps1 = "yo no " + "pude haber " + vpsp[v] + nnoblesesp[n];
-                ps1eng = "I " + "could not have " + vpeng[v] + nnobles[n];
+                ps1eng = "I " + "couldn't have " + vpeng[v] + nnobles[n];
 
                 ps2 = "tú no " + "pudiste haber " + vpsp[v] + nnoblesesp[n];
-                ps2eng = "you " + "could not have " + vpeng[v] + nnobles[n];
+                ps2eng = "you " + "couldn't have " + vpeng[v] + nnobles[n];
 
                 ps3 = "él no " + "pudo haber " + vpsp[v] + nnoblesesp[n];
-                ps3eng = "he " + "could not have " + vpeng[v] + nnobles[n];
+                ps3eng = "he " + "couldn't have " + vpeng[v] + nnobles[n];
 
                 ps3ella = "ella no pudo haber " + vpsp[v] + nnoblesesp[n];
-                ps3she = "she " + "could not have " + vpeng[v] + nnobles[n];
+                ps3she = "she " + "couldn't have " + vpeng[v] + nnobles[n];
 
                 ps3eso = "eso no pudo haber " + vpsp[v] + nnoblesesp[n];
-                ps3it = "it " + "could not have " + vpeng[v] + nnobles[n];
+                ps3it = "it " + "couldn't have " + vpeng[v] + nnobles[n];
 
                 ps4 = "ellos no pudieron haber " + vpsp[v] + nnoblesesp[n];
-                ps4eng = "they " + "could not have " + vpeng[v] + nnobles[n];
+                ps4eng = "they " + "couldn't have " + vpeng[v] + nnobles[n];
 
                 ps5 = "nosotros no pudimos haber " + vpsp[v] + nnoblesesp[n];
-                ps5eng = "we " + "could not have " + vpeng[v] + nnobles[n];
+                ps5eng = "we " + "couldn't have " + vpeng[v] + nnobles[n];
 
                 break;
         }
@@ -1312,25 +1312,25 @@ public class Oo2 {
                 break;
             case 1:
                 ps1 = "yo no " + "pude haber estado " + vnbcs[v] + nnoblesesp[n];
-                ps1eng = "I " + "could not have been " + vnbc[v] + nnobles[n];
+                ps1eng = "I " + "couldn't have been " + vnbc[v] + nnobles[n];
 
                 ps2 = "tú no " + "pudiste haber estado " + vnbcs[v] + nnoblesesp[n];
-                ps2eng = "you " + "could not have been " + vnbc[v] + nnobles[n];
+                ps2eng = "you " + "couldn't have been " + vnbc[v] + nnobles[n];
 
                 ps3 = "él no " + "pudo haber estado " + vnbcs[v] + nnoblesesp[n];
-                ps3eng = "he " + "could not have been " + vnbc[v] + nnobles[n];
+                ps3eng = "he " + "couldn't have been " + vnbc[v] + nnobles[n];
 
                 ps3ella = "ella no pudo haber estado " + vnbcs[v] + nnoblesesp[n];
-                ps3she = "she " + "could not have been " + vnbc[v] + nnobles[n];
+                ps3she = "she " + "couldn't have been " + vnbc[v] + nnobles[n];
 
                 ps3eso = "eso no pudo haber estado " + vnbcs[v] + nnoblesesp[n];
-                ps3it = "it " + "could not have been " + vnbc[v] + nnobles[n];
+                ps3it = "it " + "couldn't have been " + vnbc[v] + nnobles[n];
 
                 ps4 = "ellos no pudieron haber estado " + vnbcs[v] + nnoblesesp[n];
-                ps4eng = "they " + "could not have been " + vnbc[v] + nnobles[n];
+                ps4eng = "they " + "couldn't have been " + vnbc[v] + nnobles[n];
 
                 ps5 = "nosotros no " + "pudimos haber estado " + vnbcs[v] + nnoblesesp[n];
-                ps5eng = "we " + "could not have been " + vnbc[v] + nnobles[n];
+                ps5eng = "we " + "couldn't have been " + vnbc[v] + nnobles[n];
                 break;
         }
 
@@ -12025,25 +12025,25 @@ public class Oo2 {
                 break;
             case 1:
                 ps1 = "yo no " + "podría " + vnbs[v];
-                ps1eng = "I " + "could not " + vnb[v];
+                ps1eng = "I " + "couldn't " + vnb[v];
 
                 ps2 = "tú no " + "podrías " + vnbs[v];
-                ps2eng = "you " + "could not " + vnb[v];
+                ps2eng = "you " + "couldn't " + vnb[v];
 
                 ps3 = "él no " + "podría " + vnbs[v];
-                ps3eng = "he " + "could not " + vnb[v];
+                ps3eng = "he " + "couldn't " + vnb[v];
 
                 ps3ella = "ella no " + "podría " + vnbs[v];
-                ps3she = "she " + "could not " + vnb[v];
+                ps3she = "she " + "couldn't " + vnb[v];
 
                 ps3eso = "eso no " + "podría " + vnbs[v];
-                ps3it = "it " + "could not " + vnb[v];
+                ps3it = "it " + "couldn't " + vnb[v];
 
                 ps4 = "ellos no " + "podrían " + vnbs[v];
-                ps4eng = "they " + "could not " + vnb[v];
+                ps4eng = "they " + "couldn't " + vnb[v];
 
                 ps5 = "nosotros no " + "podríamos " + vnbs[v];
-                ps5eng = "we " + "could not " + vnb[v];
+                ps5eng = "we " + "couldn't " + vnb[v];
                 break;
         }
     }//PD 13/06/2022
@@ -12073,25 +12073,25 @@ public class Oo2 {
                 break;
             case 1:
                 ps1 = "yo no " + "podría estar " + vnbcs[v];
-                ps1eng = "I " + "could not " + "be " + vnbc[v];
+                ps1eng = "I " + "couldn't " + "be " + vnbc[v];
 
                 ps2 = "tú no " + "podrías estar " + vnbcs[v];
-                ps2eng = "you " + "could not " + "be " + vnbc[v];
+                ps2eng = "you " + "couldn't " + "be " + vnbc[v];
 
                 ps3 = "él no " + "podría estar " + vnbcs[v];
-                ps3eng = "he " + "could not be " + vnbc[v];
+                ps3eng = "he " + "couldn't be " + vnbc[v];
 
                 ps3ella = "ella no podría estar " + vnbcs[v];
-                ps3she = "she " + "could not be " + vnbc[v];
+                ps3she = "she " + "couldn't be " + vnbc[v];
 
                 ps3eso = "eso no podría estar " + vnbcs[v];
-                ps3it = "it " + "could not be " + vnbc[v];
+                ps3it = "it " + "couldn't be " + vnbc[v];
 
                 ps4 = "ellos no podrían estar " + vnbcs[v];
-                ps4eng = "they " + "could not be " + vnbc[v];
+                ps4eng = "they " + "couldn't be " + vnbc[v];
 
                 ps5 = "nosotros no podríamos estar " + vnbcs[v];
-                ps5eng = "we " + "could not be " + vnbc[v];
+                ps5eng = "we " + "couldn't be " + vnbc[v];
                 break;
         }
     }//PD 13/06/2022
@@ -12122,25 +12122,25 @@ public class Oo2 {
                 break;
             case 1:
                 ps1 = "yo no " + "pude haber " + vpsp[v];
-                ps1eng = "I " + "could not have " + vpeng[v];
+                ps1eng = "I " + "couldn't have " + vpeng[v];
 
                 ps2 = "tú no " + "pudiste haber " + vpsp[v];
-                ps2eng = "you " + "could not have " + vpeng[v];
+                ps2eng = "you " + "couldn't have " + vpeng[v];
 
                 ps3 = "él no " + "pudo haber " + vpsp[v];
-                ps3eng = "he " + "could not have " + vpeng[v];
+                ps3eng = "he " + "couldn't have " + vpeng[v];
 
                 ps3ella = "ella no pudo haber " + vpsp[v];
-                ps3she = "she " + "could not have " + vpeng[v];
+                ps3she = "she " + "couldn't have " + vpeng[v];
 
                 ps3eso = "eso no pudo haber " + vpsp[v];
-                ps3it = "it " + "could not have " + vpeng[v];
+                ps3it = "it " + "couldn't have " + vpeng[v];
 
                 ps4 = "ellos no pudieron haber " + vpsp[v];
-                ps4eng = "they " + "could not have " + vpeng[v];
+                ps4eng = "they " + "couldn't have " + vpeng[v];
 
                 ps5 = "nosotros no pudimos haber " + vpsp[v];
-                ps5eng = "we " + "could not have " + vpeng[v];
+                ps5eng = "we " + "couldn't have " + vpeng[v];
 
                 break;
         }
@@ -12171,25 +12171,25 @@ public class Oo2 {
                 break;
             case 1:
                 ps1 = "yo no " + "pude haber estado " + vnbcs[v];
-                ps1eng = "I " + "could not have been " + vnbc[v];
+                ps1eng = "I " + "couldn't have been " + vnbc[v];
 
                 ps2 = "tú no " + "pudiste haber estado " + vnbcs[v];
-                ps2eng = "you " + "could not have been " + vnbc[v];
+                ps2eng = "you " + "couldn't have been " + vnbc[v];
 
                 ps3 = "él no " + "pudo haber estado " + vnbcs[v];
-                ps3eng = "he " + "could not have been " + vnbc[v];
+                ps3eng = "he " + "couldn't have been " + vnbc[v];
 
                 ps3ella = "ella no pudo haber estado " + vnbcs[v];
-                ps3she = "she " + "could not have been " + vnbc[v];
+                ps3she = "she " + "couldn't have been " + vnbc[v];
 
                 ps3eso = "eso no pudo haber estado " + vnbcs[v];
-                ps3it = "it " + "could not have been " + vnbc[v];
+                ps3it = "it " + "couldn't have been " + vnbc[v];
 
                 ps4 = "ellos no pudieron haber estado " + vnbcs[v];
-                ps4eng = "they " + "could not have been " + vnbc[v];
+                ps4eng = "they " + "couldn't have been " + vnbc[v];
 
                 ps5 = "nosotros no " + "pudimos haber estado " + vnbcs[v];
-                ps5eng = "we " + "could not have been " + vnbc[v];
+                ps5eng = "we " + "couldn't have been " + vnbc[v];
                 break;
         }
     }//PD 13/06/2022
