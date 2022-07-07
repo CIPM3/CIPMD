@@ -30,24 +30,30 @@ public class Abstractos2 {
     //verbos base en pasado
     String vnbp[] = {"proved ", "reflected ", "implied ", "pursued ", "specified "};
     //pasados (agregado wish SV 060422)
-    String ps1pre[] = {"supe ", "aprendí ", "entendí ", "consideré ", "mantuve ", "expliqué ", "enfaticé "};
-    String ps1imp[] = {"sabía ", "aprendía ", "entendía ", "consideraba ", "mantenía ", "explicaba ", "enfatizaba "};
+    String ps1pre[] = {"supe ", "refleje ", "implique ", "persegui ", "espeficique "};
+    String ps1imp[] = {"sabía ", "reflejaba ", "implicaba ", "perseguia ", "especificaba "};
+
+    String ps2pre[] = {"supiste ", "reflejaste ", "implicaste ", "perseguiste ", "especificaste "};
+    String ps2imp[] = {"sabías ", "aprendías ", "entendías ", "considerabas ", "enfatizabas "};
+
+    String ps3p[] = {"supo ", "reflejo ", "implico ", "persiguio ", "espeficifico "};
+    String ps3imp[] = {"sabía ", "reflejaba ", "implicaba ", "perseguia ", "especificaba "};
+
+    String vn4p[] = {"supieron ", "reflejaron ", "implicaron ", "persiguieron ", "especificaron "};
+    String vn4imp[] = {"sabían ", "reflejaban ", "implicaban ", "perseguian ", "especificaban "};
+
+    String vn5p[] = {"supimos ", "reflejamos ", "implicamos ", "perseguimos ", "especificamos "};
+    String vn5imp[] = {"sabíamos ", "reflejabamos ", "implicabamos ", "perseguiamos ", "especificabamos "};
+
+    //tienen mas verbos que en ingles (los wish)
     String ps1wish[] = {"supiera ", "aprendiera ", "entendiera ", "considerara ", "mantuviera ",
             "explicara ", "enfatizara "};
-    String ps2pre[] = {"supiste ", "aprendiste ", "entendiste ", "consideraste ", "mantuviste ", "explicaste ", "enfatizaste "};
-    String ps2imp[] = {"sabías ", "aprendías ", "entendías ", "considerabas ", "mantenías ", "explicabas ", "enfatizabas "};
     String ps2wish[] = {"supieras ", "aprendieras ", "entendieras ", "consideraras ", "mantuvieras ",
             "explicaras ", "enfatizaras "};
-    String ps3p[] = {"supo ", "aprendió ", "entendio ", "consideró ", "mantuvo ", "explicó ", "enfatizó "};
-    String ps3imp[] = {"sabía ", "aprendía ", "entendía ", "consideraba ", "mantenía ", "explicaba ", "enfatizaba "};
     String ps3wish[] = {"supiera ", "aprendiera ", "entendiera ", "considerara ", "mantuviera ",
             "explicara ", "enfatizara "};
-    String vn4p[] = {"supieron ", "aprendieron ", "entendieron ", "consideraron ", "mantuvieron ", "explicaron ", "enfatizaron "};
-    String vn4imp[] = {"sabían ", "aprendían ", "entendían ", "consideraban ", "mantenían ", "explicaban ", "enfatizaban "};
     String ps4wish[] = {"supieran ", "aprendieran ", "entendieran ", "considerarán ", "mantuvieran ",
             "explicaran ", "enfatizaran "};
-    String vn5p[] = {"supimos ", "aprendimos ", "entendimos ", "consideramos ", "mantuvimos ", "explicamos ", "enfatizamos "};
-    String vn5imp[] = {"sabíamos ", "aprendíamos ", "entendíamos ", "considerábamos ", "manteníamos ", "explicábamos ", "enfatizábamos "};
     String ps5wish[] = {"supiéramos ", "aprendiéramos ", "entendiéramos ", "consideráramos ", "mantuviéramos ",
             "explicáramos ", "enfatizáramos "};
     //futuro

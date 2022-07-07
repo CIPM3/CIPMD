@@ -13,11 +13,11 @@ public class People2 {
     };
 
 
-    String vnb[] = {"encourage ", "recognize ", "introduce ", "assure ", "consult ", "justify ",
+    String vnb[] = {"encourage ", "recognize ", "introduce ", "assure ","justify", "consult ",
             "convince ", "ignore ", "warn ", "accuse ", "admire ", "criticize ", "inform ",
             "persuade ", "remind ", "help "
     };
-    String vn3[] = {"encourages ", "recognizes ", "introduces ", "assures ", "consults ", "justifies ",
+    String vn3[] = {"encourages ", "recognizes ", "introduces ", "assures ","justifies", "consults ",
             "convinces ", "ignores ", "warns ", "accuses ", "admires ", "criticizes ", "informs ",
             "persuades ", "reminds ", "helps "
     };
