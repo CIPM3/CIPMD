@@ -41377,12 +41377,14 @@ public class Generator2 {
                         gens = n.ps1;
                         gene = n.ps1eng;
                         break;
+
                     case 1:
                         Abstractos2 ab = new Abstractos2();
                         ab.GenWouldSimp1();
                         gens = ab.ps1;
                         gene = ab.ps1eng;
                         break;
+
                     case 2:
                         People2 p = new People2();
                         p.GenWouldSimp1();
@@ -41396,12 +41398,14 @@ public class Generator2 {
                         gens = o.ps1;
                         gene = o.ps1eng;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
                         s.GenWouldSimp1();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
+
                     case 5:
                         Intrans2 i = new Intrans2();
                         i.GenWouldSimp1();
