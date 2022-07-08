@@ -1542,47 +1542,47 @@ public class Oo2 {
     public void genmightsimp() {
         switch (neg) {
             case 0:
-                ps1 = "yo " + "quizá " + vn1y3subj[v] + nnoblesesp[n];
+                ps1 = "yo " + "quiza " + vn1y3subj[v] + nnoblesesp[n];
                 ps1eng = "I " + "might " + vnb[v] + nnobles[n];
 
-                ps2 = "tú " + "quizá " + vn2subj[v] + nnoblesesp[n];
+                ps2 = "tú " + "quiza " + vn2subj[v] + nnoblesesp[n];
                 ps2eng = "you " + "might " + vnb[v] + nnobles[n];
 
-                ps3 = "él " + "quizá" + vn1y3subj[v] + nnoblesesp[n];
+                ps3 = "él " + "quiza " + vn1y3subj[v] + nnoblesesp[n];
                 ps3eng = "he " + "might " + vnb[v] + nnobles[n];
 
-                ps3ella = "ella " + "quizá " + vn1y3subj[v] + nnoblesesp[n];
+                ps3ella = "ella " + "quiza " + vn1y3subj[v] + nnoblesesp[n];
                 ps3she = "she " + "might " + vnb[v] + nnobles[n];
 
-                ps3eso = "eso " + "quizá " + vn1y3subj[v] + nnoblesesp[n];
+                ps3eso = "eso " + "quiza " + vn1y3subj[v] + nnoblesesp[n];
                 ps3it = "it " + "might " + vnb[v] + nnobles[n];
 
-                ps4 = "ellos " + "quizá " + vn4subj[v] + nnoblesesp[n];
+                ps4 = "ellos " + "quiza " + vn4subj[v] + nnoblesesp[n];
                 ps4eng = "they " + "might " + vnb[v] + nnobles[n];
 
-                ps5 = "nosotros " + "quizá " + vn5subj[v] + nnoblesesp[n];
+                ps5 = "nosotros " + "quiza " + vn5subj[v] + nnoblesesp[n];
                 ps5eng = "we " + "might " + vnb[v] + nnobles[n];
                 break;
             case 1:
-                ps1 = "yo no " + "quizá " + vn1y3subj[v] + nnoblesesp[n];
+                ps1 = "yo " + "quiza no " + vn1y3subj[v] + nnoblesesp[n];
                 ps1eng = "I " + "might not " + vnb[v] + nnobles[n];
 
-                ps2 = "tú no " + "quizá " + vn2subj[v] + nnoblesesp[n];
+                ps2 = "tú " + "quiza no " + vn2subj[v] + nnoblesesp[n];
                 ps2eng = "you " + "might not " + vnb[v] + nnobles[n];
 
-                ps3 = "él no " + "quizá" + vn1y3subj[v] + nnoblesesp[n];
+                ps3 = "él " + "quiza no " + vn1y3subj[v] + nnoblesesp[n];
                 ps3eng = "he " + "might not " + vnb[v] + nnobles[n];
 
-                ps3ella = "ella no " + "quizá " + vn1y3subj[v] + nnoblesesp[n];
+                ps3ella = "ella " + "quiza no " + vn1y3subj[v] + nnoblesesp[n];
                 ps3she = "she " + "might not " + vnb[v] + nnobles[n];
 
-                ps3eso = "eso no " + "quizá " + vn1y3subj[v] + nnoblesesp[n];
+                ps3eso = "eso " + "quiza no " + vn1y3subj[v] + nnoblesesp[n];
                 ps3it = "it " + "might not " + vnb[v] + nnobles[n];
 
-                ps4 = "ellos no " + "quizá " + vn4subj[v] + nnoblesesp[n];
+                ps4 = "ellos " + "quiza no " + vn4subj[v] + nnoblesesp[n];
                 ps4eng = "they " + "might not " + vnb[v] + nnobles[n];
 
-                ps5 = "nosotros no " + "quizá " + vn5subj[v] + nnoblesesp[n];
+                ps5 = "nosotros " + "quiza no " + vn5subj[v] + nnoblesesp[n];
                 ps5eng = "we " + "might not " + vnb[v] + nnobles[n];
                 break;
         }

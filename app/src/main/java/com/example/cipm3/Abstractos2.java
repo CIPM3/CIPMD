@@ -1420,25 +1420,25 @@ public class Abstractos2 {
                 ps5eng = "we " + "might " + vnb[v] + nnobles[n];
                 break;
             case 1:
-                ps1 = "yo no " + "quizá " + vn1y3subj[v] + nnoblesesp[n];
+                ps1 = "yo " + "quizá no " + vn1y3subj[v] + nnoblesesp[n];
                 ps1eng = "I " + "might not " + vnb[v] + nnobles[n];
 
-                ps2 = "tú no " + "quizá " + vn2subj[v] + nnoblesesp[n];
+                ps2 = "tú " + "quizá no " + vn2subj[v] + nnoblesesp[n];
                 ps2eng = "you " + "might not " + vnb[v] + nnobles[n];
 
-                ps3 = "él no " + "quizá" + vn1y3subj[v] + nnoblesesp[n];
+                ps3 = "él " + "quizá no " + vn1y3subj[v] + nnoblesesp[n];
                 ps3eng = "he " + "might not " + vnb[v] + nnobles[n];
 
-                ps3ella = "ella no " + "quizá " + vn1y3subj[v] + nnoblesesp[n];
+                ps3ella = "ella " + "quizá no " + vn1y3subj[v] + nnoblesesp[n];
                 ps3she = "she " + "might not " + vnb[v] + nnobles[n];
 
-                ps3eso = "eso no " + "quizá " + vn1y3subj[v] + nnoblesesp[n];
+                ps3eso = "eso " + "quizá no " + vn1y3subj[v] + nnoblesesp[n];
                 ps3it = "it " + "might not " + vnb[v] + nnobles[n];
 
-                ps4 = "ellos no " + "quizá " + vn4subj[v] + nnoblesesp[n];
+                ps4 = "ellos " + "quizá no " + vn4subj[v] + nnoblesesp[n];
                 ps4eng = "they " + "might not " + vnb[v] + nnobles[n];
 
-                ps5 = "nosotros no " + "quizá " + vn5subj[v] + nnoblesesp[n];
+                ps5 = "nosotros " + "quizá no " + vn5subj[v] + nnoblesesp[n];
                 ps5eng = "we " + "might not " + vnb[v] + nnobles[n];
                 break;
         }
