@@ -24783,7 +24783,7 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getspecial4();
+                        sp.GetSpeSimp4();
                         gens = sp.sp1;
                         gene = sp.eng1;
                         gene2 = "";
@@ -24825,7 +24825,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getspecial4();
+                        sp.GetSpeSimp4();
                         gens = sp.sp2;
                         gene = sp.eng2;
                         gene2 = "";
@@ -24868,7 +24868,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getspecial4();
+                        sp.GetSpeSimp4();
                         gens = sp.sp3;
                         gene = sp.eng3;
                         gene2 = "";
@@ -24910,7 +24910,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getspecial4();
+                        sp.GetSpeSimp4();
                         gens = sp.sp3ella;
                         gene = sp.eng3she;
                         gene2 = "";
@@ -24950,7 +24950,7 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getspecial4();
+                        sp.GetSpeSimp4();
                         gens = sp.sp3eso;
                         gene = sp.sp3it;
                         gene2 = "";
@@ -24992,7 +24992,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getspecial4();
+                        sp.GetSpeSimp4();
                         gens = sp.sp4;
                         gene = sp.eng4;
                         gene2 = "";
@@ -25034,7 +25034,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getspecial4();
+                        sp.GetSpeSimp4();
                         gens = sp.sp5;
                         gene = sp.eng5;
                         gene2 = "";
@@ -25048,7 +25048,7 @@ public class Generator2 {
 
     public void GenPresCont4() {
         int rand = (int) (Math.random() * pronombres.length);
-        int verb = (int) (Math.random() * 6);
+        int verb = (int) (Math.random() * 5);
         //int verb = 4;
         String temp = pronombres[rand];
         switch (temp) {
@@ -25087,7 +25087,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresCont4();
+                        sp.GetPresCont4();
                         gens = sp.sp1;
                         gene = sp.eng1;
                         gene2 = "";
@@ -25129,7 +25129,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresCont4();
+                        sp.GetPresCont4();
                         gens = sp.sp2;
                         gene = sp.eng2;
                         gene2 = "";
@@ -25172,7 +25172,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresCont4();
+                        sp.GetPresCont4();
                         gens = sp.sp3;
                         gene = sp.eng3;
                         gene2 = "";
@@ -25214,7 +25214,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresCont4();
+                        sp.GetPresCont4();
                         gens = sp.sp3ella;
                         gene = sp.eng3she;
                         gene2 = "";
@@ -25255,7 +25255,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresCont4();
+                        sp.GetPresCont4();
                         gens = sp.sp3eso;
                         gene = sp.sp3it;
                         gene2 = "";
@@ -25297,7 +25297,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresCont4();
+                        sp.GetPresCont4();
                         gens = sp.sp4;
                         gene = sp.eng4;
                         gene2 = "";
@@ -25339,7 +25339,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresCont4();
+                        sp.GetPresCont4();
                         gens = sp.sp5;
                         gene = sp.eng5;
                         gene2 = "";
@@ -25393,7 +25393,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerf4();
+                        sp.GetPresPerf4();
                         gens = sp.sp1;
                         gene = sp.eng1;
                         gene2 = "";
@@ -25435,7 +25435,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerf4();
+                        sp.GetPresPerf4();
                         gens = sp.sp2;
                         gene = sp.eng2;
                         gene2 = "";
@@ -25478,7 +25478,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerf4();
+                        sp.GetPresPerf4();
                         gens = sp.sp3;
                         gene = sp.eng3;
                         gene2 = "";
@@ -25520,7 +25520,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerf4();
+                        sp.GetPresPerf4();
                         gens = sp.sp3ella;
                         gene = sp.eng3she;
                         gene2 = "";
@@ -25561,7 +25561,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerf4();
+                        sp.GetPresPerf4();
                         gens = sp.sp3eso;
                         gene = sp.sp3it;
                         gene2 = "";
@@ -25603,7 +25603,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerf4();
+                        sp.GetPresPerf4();
                         gens = sp.sp4;
                         gene = sp.eng4;
                         gene2 = "";
@@ -25645,7 +25645,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerf4();
+                        sp.GetPresPerf4();
                         gens = sp.sp5;
                         gene = sp.eng5;
                         gene2 = "";
@@ -25698,7 +25698,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerfCont4();
+                        sp.GetPresPerfCont4();
                         gens = sp.sp1;
                         gene = sp.eng1;
                         gene2 = "";
@@ -25740,7 +25740,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerfCont4();
+                        sp.GetPresPerfCont4();
                         gens = sp.sp2;
                         gene = sp.eng2;
                         gene2 = "";
@@ -25783,7 +25783,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerfCont4();
+                        sp.GetPresPerfCont4();
                         gens = sp.sp3;
                         gene = sp.eng3;
                         gene2 = "";
@@ -25825,7 +25825,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerfCont4();
+                        sp.GetPresPerfCont4();
                         gens = sp.sp3ella;
                         gene = sp.eng3she;
                         gene2 = "";
@@ -25866,7 +25866,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerfCont4();
+                        sp.GetPresPerfCont4();
                         gens = sp.sp3eso;
                         gene = sp.sp3it;
                         gene2 = "";
@@ -25908,7 +25908,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerfCont4();
+                        sp.GetPresPerfCont4();
                         gens = sp.sp4;
                         gene = sp.eng4;
                         gene2 = "";
@@ -25950,7 +25950,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.getPresPerfCont4();
+                        sp.GetPresPerfCont4();
                         gens = sp.sp5;
                         gene = sp.eng5;
                         gene2 = "";
@@ -26005,7 +26005,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetPastSimple4();
+                        sp.GetPastSimp4();
                         gens = sp.sp1;
                         gene = sp.eng1;
                         gene2 = "";
@@ -26046,7 +26046,7 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetPastSimple4();
+                        sp.GetPastSimp4();
                         gens = sp.sp2;
                         gene = sp.eng2;
                         gene2 = "";
@@ -26087,7 +26087,7 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetPastSimple4();
+                        sp.GetPastSimp4();
                         gens = sp.sp3;
                         gene = sp.eng3;
                         gene2 = "";
@@ -26127,7 +26127,7 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetPastSimple4();
+                        sp.GetPastSimp4();
                         gens = sp.sp3ella;
                         gene = sp.eng3she;
                         gene2 = "";
@@ -26166,7 +26166,7 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetPastSimple4();
+                        sp.GetPastSimp4();
                         gens = sp.sp3eso;
                         gene = sp.sp3it;
                         gene2 = "";
@@ -26206,7 +26206,7 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetPastSimple4();
+                        sp.GetPastSimp4();
                         gens = sp.sp4;
                         gene = sp.eng4;
                         gene2 = "";
@@ -26247,7 +26247,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetPastSimple4();
+                        sp.GetPastSimp4();
                         gens = sp.sp5;
                         gene = sp.eng5;
                         gene2 = "";
@@ -28403,7 +28403,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldSimple4();
+                        sp.GetWouldSimp4();
                         gens = sp.sp1;
                         gene = sp.eng1;
                         gene2 = "";
@@ -28444,7 +28444,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldSimple4();
+                        sp.GetWouldSimp4();
                         gens = sp.sp2;
                         gene = sp.eng2;
                         gene2 = "";
@@ -28487,7 +28487,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldSimple4();
+                        sp.GetWouldSimp4();
                         gens = sp.sp3;
                         gene = sp.eng3;
                         gene2 = "";
@@ -28528,7 +28528,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldSimple4();
+                        sp.GetWouldSimp4();
                         gens = sp.sp3ella;
                         gene = sp.eng3she;
                         gene2 = "";
@@ -28568,7 +28568,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldSimple4();
+                        sp.GetWouldSimp4();
                         gens = sp.sp3eso;
                         gene = sp.sp3it;
                         gene2 = "";
@@ -28609,7 +28609,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldSimple4();
+                        sp.GetWouldSimp4();
                         gens = sp.sp4;
                         gene = sp.eng4;
                         gene2 = "";
@@ -28650,7 +28650,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 sp = new Special2();
-                        sp.GetWouldSimple4();
+                        sp.GetWouldSimp4();
                         gens = sp.sp5;
                         gene = sp.eng5;
                         gene2 = "";
