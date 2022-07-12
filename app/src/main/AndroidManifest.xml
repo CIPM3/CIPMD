@@ -92,9 +92,6 @@
         <activity
             android:name=".vocabulary"
             android:exported="false" />
-        <activity
-            android:name=".estructuras"
-            android:exported="false" />
     </application>
 
 </manifest>

@@ -57,10 +57,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(Intent.ACTION_VIEW, uri));
     }
 
-    public void structures(View vista) {
-        Intent intento = new Intent(this, estructuras.class);
-        startActivity(intento);
-    }
 
     public void vocabulary(View vista) {
         Intent intento = new Intent(this, vocabulary.class);

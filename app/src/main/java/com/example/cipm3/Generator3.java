@@ -1476,7 +1476,7 @@ public class Generator3 {
                         break;
                     case 1:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenPassSimp1();
                         gens = it.sp1;
                         gene = it.eng1;
                         break;
@@ -1527,7 +1527,7 @@ public class Generator3 {
 
                     case 5:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenPassSimp1();
                         gens = it.sp2;
                         gene = it.eng2;
                         break;
@@ -1561,7 +1561,7 @@ public class Generator3 {
 
                     case 5:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenPassSimp1();
                         gens = it.sp3;
                         gene = it.eng3;
                         break;
@@ -1595,7 +1595,7 @@ public class Generator3 {
 
                     case 5:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenPassSimp1();
                         gens = it.sp4;
                         gene = it.eng4;
                         break;
@@ -1629,7 +1629,7 @@ public class Generator3 {
 
                     case 5:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenPassSimp1();
                         gens = it.sp5;
                         gene = it.eng5;
                         break;
@@ -1662,7 +1662,7 @@ public class Generator3 {
 
                     case 5:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenPassSimp1();
                         gens = it.sp6;
                         gene = it.eng6;
                         break;
@@ -1695,7 +1695,7 @@ public class Generator3 {
 
                     case 5:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenPassSimp1();
                         gens = it.sp7;
                         gene = it.eng7;
                         break;
@@ -11053,7 +11053,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.generateintrans3();
+                        it.GenIntPresSimp3();
                         gens = it.sp1;
                         gene = it.eng1;
                         break;
@@ -11092,7 +11092,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.generateintrans3();
+                        it.GenIntPresSimp3();
                         gens = it.sp2;
                         gene = it.eng2;
                         break;
@@ -11132,7 +11132,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.generateintrans3();
+                        it.GenIntPresSimp3();
                         gens = it.sp3;
                         gene = it.eng3;
                         break;
@@ -11171,7 +11171,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.generateintrans3();
+                        it.GenIntPresSimp3();
                         gens = it.sp4;
                         gene = it.eng4;
                         break;
@@ -11209,7 +11209,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.generateintrans3();
+                        it.GenIntPresSimp3();
                         gens = it.sp5;
                         gene = it.eng5;
                         break;
@@ -11248,7 +11248,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.generateintrans3();
+                        it.GenIntPresSimp3();
                         gens = it.sp6;
                         gene = it.eng6;
                         break;
@@ -11287,7 +11287,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.generateintrans3();
+                        it.GenIntPresSimp3();
                         gens = it.sp7;
                         gene = it.eng7;
                         break;
@@ -11300,7 +11300,7 @@ public class Generator3 {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 5);
 
-        String temp = "yo ";
+        String temp = pronombres[rand];
         switch (temp) {
             case "yo ":
                 switch (verb) {
@@ -11336,7 +11336,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
+                        it.GenIntPresCont3();
                         gens = it.sp1;
                         gene = it.eng1;
                         gene2 = "";
@@ -11377,7 +11377,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
+                        it.GenIntPresCont3();
                         gens = it.sp2;
                         gene = it.eng2;
                         gene2 = "";
@@ -11418,7 +11418,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
+                        it.GenIntPresCont3();
                         gens = it.sp3;
                         gene = it.eng3;
                         gene2 = "";
@@ -11459,7 +11459,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
+                        it.GenIntPresCont3();
                         gens = it.sp4;
                         gene = it.eng4;
                         gene2 = "";
@@ -11500,7 +11500,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
+                        it.GenIntPresCont3();
                         gens = it.sp5;
                         gene = it.eng5;
                         gene2 = "";
@@ -11541,7 +11541,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
+                        it.GenIntPresCont3();
                         gens = it.sp6;
                         gene = it.eng6;
                         gene2 = "";
@@ -11582,7 +11582,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
+                        it.GenIntPresCont3();
                         gens = it.sp7;
                         gene = it.eng7;
                         gene2 = "";
@@ -11633,7 +11633,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
+                        it.GenPresPerf1();
                         gens = it.sp1;
                         gene = it.eng1;
                         gene2 = "";
@@ -11674,7 +11674,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
+                        it.GenPresPerf1();
                         gens = it.sp2;
                         gene = it.eng2;
                         gene2 = "";
@@ -11716,7 +11716,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
+                        it.GenPresPerf1();
                         gens = it.sp3;
                         gene = it.eng3;
                         gene2 = "";
@@ -11757,7 +11757,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
+                        it.GenPresPerf1();
                         gens = it.sp4;
                         gene = it.eng4;
                         gene2 = "";
@@ -11797,7 +11797,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
+                        it.GenPresPerf1();
                         gens = it.sp5;
                         gene = it.eng5;
                         gene2 = "";
@@ -11838,7 +11838,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
+                        it.GenPresPerf1();
                         gens = it.sp6;
                         gene = it.eng6;
                         gene2 = "";
@@ -11879,7 +11879,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
+                        it.GenPresPerf1();
                         gens = it.sp7;
                         gene = it.eng7;
                         gene2 = "";
@@ -11930,7 +11930,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
+                        it.GenPresPerfCont1();
                         gens = it.sp1;
                         gene = it.eng1;
                         gene2 = "";
@@ -11971,7 +11971,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
+                        it.GenPresPerfCont1();
                         gens = it.sp2;
                         gene = it.eng2;
                         gene2 = "";
@@ -12013,7 +12013,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
+                        it.GenPresPerfCont1();
                         gens = it.sp3;
                         gene = it.eng3;
                         gene2 = "";
@@ -12054,7 +12054,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
+                        it.GenPresPerfCont1();
                         gens = it.sp4;
                         gene = it.eng4;
                         gene2 = "";
@@ -12094,7 +12094,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
+                        it.GenPresPerfCont1();
                         gens = it.sp5;
                         gene = it.eng5;
                         gene2 = "";
@@ -12135,7 +12135,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
+                        it.GenPresPerfCont1();
                         gens = it.sp6;
                         gene = it.eng6;
                         gene2 = "";
@@ -12176,7 +12176,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
+                        it.GenPresPerfCont1();
                         gens = it.sp7;
                         gene = it.eng7;
                         gene2 = "";
@@ -12810,7 +12810,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
+                        it.GenIntPastPerf3();
                         gens = it.sp1;
                         gene = it.eng1;
                         gene2 = "";
@@ -12851,7 +12851,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
+                        it.GenIntPastPerf3();
                         gens = it.sp2;
                         gene = it.eng2;
                         gene2 = "";
@@ -12893,7 +12893,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
+                        it.GenIntPastPerf3();
                         gens = it.sp3;
                         gene = it.eng3;
                         gene2 = "";
@@ -12934,7 +12934,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
+                        it.GenIntPastPerf3();
                         gens = it.sp4;
                         gene = it.eng4;
                         gene2 = "";
@@ -12974,7 +12974,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
+                        it.GenIntPastPerf3();
                         gens = it.sp5;
                         gene = it.eng5;
                         gene2 = "";
@@ -13015,7 +13015,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
+                        it.GenIntPastPerf3();
                         gens = it.sp6;
                         gene = it.eng6;
                         gene2 = "";
@@ -13056,7 +13056,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
+                        it.GenIntPastPerf3();
                         gens = it.sp7;
                         gene = it.eng7;
                         gene2 = "";
@@ -13105,7 +13105,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
+                        it.GenIntPastPerfCont3();
                         gens = it.sp1;
                         gene = it.eng1;
                         gene2 = "";
@@ -13146,7 +13146,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
+                        it.GenIntPastPerfCont3();
                         gens = it.sp2;
                         gene = it.eng2;
                         gene2 = "";
@@ -13188,7 +13188,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
+                        it.GenIntPastPerfCont3();
                         gens = it.sp3;
                         gene = it.eng3;
                         gene2 = "";
@@ -13229,7 +13229,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
+                        it.GenIntPastPerfCont3();
                         gens = it.sp4;
                         gene = it.eng4;
                         gene2 = "";
@@ -13269,7 +13269,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
+                        it.GenIntPastPerfCont3();
                         gens = it.sp5;
                         gene = it.eng5;
                         gene2 = "";
@@ -13310,7 +13310,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
+                        it.GenIntPastPerfCont3();
                         gens = it.sp6;
                         gene = it.eng6;
                         gene2 = "";
@@ -13351,7 +13351,7 @@ public class Generator3 {
                         break;
                     case 4:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
+                        it.GenIntPastPerfCont3();
                         gens = it.sp7;
                         gene = it.eng7;
                         gene2 = "";

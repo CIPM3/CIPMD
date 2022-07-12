@@ -422,7 +422,7 @@ public class Generator2 {
 
     // de aqui abajo van dificultad dos
 
-    public void generate2() {
+    public void GenPresSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -438,13 +438,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecial1();
+                        s.GetSpePresSimp2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.generateintrans();
+                        i.GenIntPresSimp2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -482,13 +482,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecial1();
+                        s.GetSpePresSimp2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.generateintrans();
+                        i.GenIntPresSimp2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -526,13 +526,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecial1();
+                        s.GetSpePresSimp2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.generateintrans();
+                        i.GenIntPresSimp2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -569,14 +569,14 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecial1();
+                        s.GetSpePresSimp2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 2:
 
                         Intrans2 i = new Intrans2();
-                        i.generateintrans();
+                        i.GenIntPresSimp2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -613,14 +613,14 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecial1();
+                        s.GetSpePresSimp2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 2:
 
                         Intrans2 i = new Intrans2();
-                        i.generateintrans();
+                        i.GenIntPresSimp2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -657,14 +657,14 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecial1();
+                        s.GetSpePresSimp2();
                         gens = s.sp4;
                         gene = s.eng4;
                         break;
                     case 2:
 
                         Intrans2 i = new Intrans2();
-                        i.generateintrans();
+                        i.GenIntPresSimp2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -701,14 +701,14 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecial1();
+                        s.GetSpePresSimp2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 2:
 
                         Intrans2 i = new Intrans2();
-                        i.generateintrans();
+                        i.GenIntPresSimp2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -738,7 +738,7 @@ public class Generator2 {
         }
     }
 
-    public void generatepresentecontinuo() {
+    public void GenPresCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -755,13 +755,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialprescont();
+                        s.GetSpePresCont2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPresCont();
+                        i.GenIntPresCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -799,13 +799,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialprescont();
+                        s.GetSpePresCont2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPresCont();
+                        i.GenIntPresCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -843,13 +843,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialprescont();
+                        s.GetSpePresCont2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPresCont();
+                        i.GenIntPresCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -886,13 +886,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialprescont();
+                        s.GetSpePresCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPresCont();
+                        i.GenIntPresCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -929,13 +929,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialprescont();
+                        s.GetSpePresCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPresCont();
+                        i.GenIntPresCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -972,13 +972,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialprescont();
+                        s.GetSpePresCont2();
                         gens = s.sp4;
                         gene = s.eng4;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPresCont();
+                        i.GenIntPresCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -1015,13 +1015,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialprescont();
+                        s.GetSpePresCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPresCont();
+                        i.GenIntPresCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -1053,7 +1053,7 @@ public class Generator2 {
         }
     }
 
-    public void GenerarPresentePerfecto() {
+    public void GenPresPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -1070,13 +1070,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialpresperf();
+                        s.GetSpePresPerf2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerf();
+                        i.GenIntPresPerf2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -1114,13 +1114,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialpresperf();
+                        s.GetSpePresPerf2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerf();
+                        i.GenIntPresPerf2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -1158,13 +1158,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialpresperf();
+                        s.GetSpePresPerf2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerf();
+                        i.GenIntPresPerf2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -1201,13 +1201,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialpresperf();
+                        s.GetSpePresPerf2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerf();
+                        i.GenIntPresPerf2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -1244,13 +1244,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialpresperf();
+                        s.GetSpePresPerf2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerf();
+                        i.GenIntPresPerf2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -1287,13 +1287,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialpresperf();
+                        s.GetSpePresPerf2();
                         gens = s.sp4;
                         gene = s.eng4;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerf();
+                        i.GenIntPresPerf2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -1330,13 +1330,13 @@ public class Generator2 {
                         break;
                     case 1:
                         Special2 s = new Special2();
-                        s.getspecialpresperf();
+                        s.GetSpePresPerf2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 2:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerf();
+                        i.GenIntPresPerf2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -1368,7 +1368,7 @@ public class Generator2 {
         }
     }
 
-    public void GenerarPresentePerfectoContinuo() {
+    public void GenPresPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -1406,17 +1406,14 @@ public class Generator2 {
 
                     case 4:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerfCont();
+                        i.GenIntPresPerfCont2();
                         gens = i.sp1;
                         gene = i.eng1;
 
 
                         break;
 
-                    case 5:
-
-
-                        break;
+                    
 
                 }
                 break;
@@ -1449,16 +1446,13 @@ public class Generator2 {
 
                     case 4:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerfCont();
+                        i.GenIntPresPerfCont2();
                         gens = i.sp2;
                         gene = i.eng2;
 
                         break;
 
-                    case 5:
-
-
-                        break;
+                    
 
                 }
                 break;
@@ -1492,15 +1486,12 @@ public class Generator2 {
 
                     case 4:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerfCont();
+                        i.GenIntPresPerfCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
 
-                    case 5:
-
-
-                        break;
+                    
                 }
                 break;
             case "ella ":
@@ -1532,15 +1523,12 @@ public class Generator2 {
 
                     case 4:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerfCont();
+                        i.GenIntPresPerfCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
 
-                    case 5:
-
-
-                        break;
+                    
                 }
                 break;
             case "eso ":
@@ -1573,14 +1561,12 @@ public class Generator2 {
 
                     case 4:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerfCont();
+                        i.GenIntPresPerfCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
 
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "ellos ":
@@ -1613,14 +1599,12 @@ public class Generator2 {
 
                     case 4:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerfCont();
+                        i.GenIntPresPerfCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
 
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "nosotros ":
@@ -1653,14 +1637,12 @@ public class Generator2 {
 
                     case 4:
                         Intrans2 i = new Intrans2();
-                        i.GenIntransPresPerfCont();
+                        i.GenIntPresPerfCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
 
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
 
@@ -1668,7 +1650,7 @@ public class Generator2 {
         }
     }
 
-    public void GenPastSimple() {
+    public void GenPastSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -1705,13 +1687,15 @@ public class Generator2 {
                         break;
 
                     case 4:
-                        gens = "aqui debe ir special ";
-
+                        Special2 sp = new Special2();
+                        sp.GetSpePastSimp2();
+                        gens = sp.sp1;
+                        gene = sp.eng1;
                         break;
 
                     case 5:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenIntPastSimp2();
                         gens = it.sp1;
                         gene = it.eng1;
 
@@ -1754,7 +1738,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenIntPastSimp2();
                         gens = it.sp2;
                         gene = it.eng2;
                         break;
@@ -1795,7 +1779,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenIntPastSimp2();
                         gens = it.sp3;
                         gene = it.eng3;
                         break;
@@ -1837,7 +1821,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenIntPastSimp2();
                         gens = it.sp4;
                         gene = it.eng4;
                         break;
@@ -1878,7 +1862,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenIntPastSimp2();
                         gens = it.sp5;
                         gene = it.eng5;
                         break;
@@ -1918,7 +1902,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenIntPastSimp2();
                         gens = it.sp6;
                         gene = it.eng6;
                         break;
@@ -1958,7 +1942,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 it = new Intrans2();
-                        it.GenIntPassSimp();
+                        it.GenIntPastSimp2();
                         gens = it.sp7;
                         gene = it.eng7;
                         break;
@@ -1967,9 +1951,9 @@ public class Generator2 {
 
 
         }
-    } //falta special,  los mande a hacer apenas
+    }
 
-    public void GenPastContinuo() {
+    public void GenPastCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -2003,14 +1987,14 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();  // el objeto que hace la accion
-                        s.GetSpecialPastCont();  //esta es la accion
+                        s.GetSpePastCont2();  //esta es la accion
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPastCont();
+                        i.GenIntPastCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -2048,7 +2032,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();  // el objeto que hace la accion
-                        s.GetSpecialPastCont();  //esta es la accion
+                        s.GetSpePastCont2();  //esta es la accion
                         gens = s.sp2;
                         gene = s.eng2;
 
@@ -2056,7 +2040,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPastCont();
+                        i.GenIntPastCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -2093,7 +2077,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialPastCont();
+                        s.GetSpePastCont2();
                         gens = s.sp3;
                         gene = s.eng3;
 
@@ -2101,7 +2085,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPastCont();
+                        i.GenIntPastCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -2139,7 +2123,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialPastCont();
+                        s.GetSpePastCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
 
@@ -2147,7 +2131,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPastCont();
+                        i.GenIntPastCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -2184,14 +2168,14 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialPastCont();
+                        s.GetSpePastCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPastCont();
+                        i.GenIntPastCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -2227,14 +2211,14 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialPastCont();
+                        s.GetSpePastCont2();
                         gens = s.sp4;
                         gene = s.eng4;
                         break;
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPastCont();
+                        i.GenIntPastCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -2270,14 +2254,14 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialPastCont();
+                        s.GetSpePastCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPastCont();
+                        i.GenIntPastCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -2288,7 +2272,7 @@ public class Generator2 {
         }
     }
 
-    public void GenPastPerfect() {
+    public void GenPastPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -2322,7 +2306,7 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialPastPerf();
+                        s.GetSpePastPerf2();
                         gens = s.sp1;
                         gene = s.eng1;
 
@@ -2330,7 +2314,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerf();
+                        i.GenIntPastPerf2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -2368,7 +2352,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialPastPerf();
+                        s.GetSpePastPerf2();
                         gens = s.sp2;
                         gene = s.eng2;
 
@@ -2376,7 +2360,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerf();
+                        i.GenIntPastPerf2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -2413,7 +2397,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialPastPerf();
+                        s.GetSpePastPerf2();
                         gens = s.sp3;
                         gene = s.eng3;
 
@@ -2421,7 +2405,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerf();
+                        i.GenIntPastPerf2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -2459,7 +2443,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialPastPerf();
+                        s.GetSpePastPerf2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
 
@@ -2467,7 +2451,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerf();
+                        i.GenIntPastPerf2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -2504,7 +2488,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialPastPerf();
+                        s.GetSpePastPerf2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
 
@@ -2512,7 +2496,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerf();
+                        i.GenIntPastPerf2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -2548,7 +2532,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialPastPerf();
+                        s.GetSpePastPerf2();
                         gens = s.sp4;
                         gene = s.eng4;
 
@@ -2556,7 +2540,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerf();
+                        i.GenIntPastPerf2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -2592,7 +2576,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialPastPerf();
+                        s.GetSpePastPerf2();
                         gens = s.sp5;
                         gene = s.eng5;
 
@@ -2600,7 +2584,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerf();
+                        i.GenIntPastPerf2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -2611,7 +2595,7 @@ public class Generator2 {
         }
     }
 
-    public void GenPastPerfectCont() {
+    public void GenPastPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -2645,7 +2629,7 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialPastPerfCont();
+                        s.GetSpePastPerfCont2();
                         gens = s.sp1;
                         gene = s.eng1;
 
@@ -2653,7 +2637,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerfCont();
+                        i.GenIntPastPerfCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -2691,7 +2675,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialPastPerfCont();
+                        s.GetSpePastPerfCont2();
                         gens = s.sp2;
                         gene = s.eng2;
 
@@ -2700,7 +2684,7 @@ public class Generator2 {
                     case 5:
 
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerfCont();
+                        i.GenIntPastPerfCont2();
                         gens = i.sp2;
                         gene = i.eng2;
 
@@ -2738,7 +2722,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialPastPerfCont();
+                        s.GetSpePastPerfCont2();
                         gens = s.sp3;
                         gene = s.eng3;
 
@@ -2746,7 +2730,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerfCont();
+                        i.GenIntPastPerfCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -2784,7 +2768,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialPastPerfCont();
+                        s.GetSpePastPerfCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
 
@@ -2792,7 +2776,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerfCont();
+                        i.GenIntPastPerfCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -2829,7 +2813,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialPastPerfCont();
+                        s.GetSpePastPerfCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
 
@@ -2837,7 +2821,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerfCont();
+                        i.GenIntPastPerfCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -2873,7 +2857,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialPastPerfCont();
+                        s.GetSpePastPerfCont2();
                         gens = s.sp4;
                         gene = s.eng4;
 
@@ -2881,7 +2865,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerfCont();
+                        i.GenIntPastPerfCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -2917,7 +2901,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialPastPerfCont();
+                        s.GetSpePastPerfCont2();
                         gens = s.sp5;
                         gene = s.eng5;
 
@@ -2925,7 +2909,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntPassPerfCont();
+                        i.GenIntPastPerfCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -2936,7 +2920,7 @@ public class Generator2 {
         }
     }
 
-    public void GenFutureSimple() {
+    public void GenFutSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -2970,7 +2954,7 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutSimp();
+                        s.GetSpeFutSimp2();
                         gens = s.sp1;
                         gene = s.eng1;
 
@@ -2978,7 +2962,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutSimp();
+                        i.GenIntFutSimp2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -3016,14 +3000,14 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutSimp();
+                        s.GetSpeFutSimp2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutSimp();
+                        i.GenIntFutSimp2();
                         gens = i.sp2;
                         gene = i.eng2;
 
@@ -3061,14 +3045,14 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutSimp();
+                        s.GetSpeFutSimp2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutSimp();
+                        i.GenIntFutSimp2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -3106,14 +3090,14 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutSimp();
+                        s.GetSpeFutSimp2();
                         gens = s.sp4;
                         gene = s.eng4;
                         break;
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutSimp();
+                        i.GenIntFutSimp2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -3150,14 +3134,14 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutSimp();
+                        s.GetSpeFutSimp2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutSimp();
+                        i.GenIntFutSimp2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -3193,14 +3177,14 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutSimp();
+                        s.GetSpeFutSimp2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutSimp();
+                        i.GenIntFutSimp2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -3236,14 +3220,14 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutSimp();
+                        s.GetSpeFutSimp2();
                         gens = s.sp7;
                         gene = s.eng7;
                         break;
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutSimp();
+                        i.GenIntFutSimp2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -3254,7 +3238,7 @@ public class Generator2 {
         }
     }
 
-    public void GenFutureCont() {
+    public void GenFutCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -3288,7 +3272,7 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutCont();
+                        s.GetSpeFutCont2();
                         gens = s.sp1;
                         gene = s.eng1;
 
@@ -3296,7 +3280,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenIntFutCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -3334,7 +3318,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutCont();
+                        s.GetSpeFutCont2();
                         gens = s.sp2;
                         gene = s.eng2;
 
@@ -3342,7 +3326,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenIntFutCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -3379,7 +3363,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutCont();
+                        s.GetSpeFutCont2();
                         gens = s.sp3;
                         gene = s.eng3;
 
@@ -3387,7 +3371,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenIntFutCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -3425,7 +3409,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutCont();
+                        s.GetSpeFutCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
 
@@ -3433,7 +3417,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenIntFutCont2();
                         gens = i.sp4;
                         gene = i.eng4;
 
@@ -3471,7 +3455,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutCont();
+                        s.GetSpeFutCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
 
@@ -3479,7 +3463,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenIntFutCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -3515,7 +3499,7 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutCont();
+                        s.GetSpeFutCont2();
                         gens = s.sp4;
                         gene = s.eng4;
 
@@ -3523,7 +3507,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenIntFutCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -3559,14 +3543,14 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetspecialFutCont();
+                        s.GetSpeFutCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenIntFutCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -3577,7 +3561,7 @@ public class Generator2 {
         }
     }
 
-    public void GenFuturePerfect() {
+    public void GenFutPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -3611,13 +3595,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerf();
+                        s.GetSpeFutPerf2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerf();
+                        i.GenIntFutPerf2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -3655,13 +3639,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerf();
+                        s.GetSpeFutPerf2();
                         gens = s.sp2;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerf();
+                        i.GenIntFutPerf2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -3698,13 +3682,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerf();
+                        s.GetSpeFutPerf2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerf();
+                        i.GenIntFutPerf2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -3742,13 +3726,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerf();
+                        s.GetSpeFutPerf2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerf();
+                        i.GenIntFutPerf2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -3785,13 +3769,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerf();
+                        s.GetSpeFutPerf2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerf();
+                        i.GenIntFutPerf2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -3827,13 +3811,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerf();
+                        s.GetSpeFutPerf2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerf();
+                        i.GenIntFutPerf2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -3868,13 +3852,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerf();
+                        s.GetSpeFutPerf2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerf();
+                        i.GenIntFutPerf2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -3885,7 +3869,7 @@ public class Generator2 {
         }
     }
 
-    public void GenFuturePerfectCont() {
+    public void GenFutPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -3919,13 +3903,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerfCont();
+                        s.GetSpeFutPerfCont2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerfCont();
+                        i.GenIntFutPerfCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -3963,13 +3947,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerfCont();
+                        s.GetSpeFutPerfCont2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerfCont();
+                        i.GenIntFutPerfCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -4006,13 +3990,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerfCont();
+                        s.GetSpeFutPerfCont2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerfCont();
+                        i.GenIntFutPerfCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -4050,13 +4034,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerfCont();
+                        s.GetSpeFutPerfCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerfCont();
+                        i.GenIntFutPerfCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -4093,13 +4077,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerfCont();
+                        s.GetSpeFutPerfCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerfCont();
+                        i.GenIntFutPerfCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -4135,13 +4119,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerfCont();
+                        s.GetSpeFutPerfCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerfCont();
+                        i.GenIntFutPerfCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -4177,13 +4161,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialFutPerfCont();
+                        s.GetSpeFutPerfCont2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutPerfCont();
+                        i.GenIntFutPerfCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -4194,7 +4178,7 @@ public class Generator2 {
         }
     }
 
-    public void GenWouldSimple() {
+    public void GenWouldSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -4228,13 +4212,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldSimple();
+                        s.GetSpeWouldSimp2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldSimp();
+                        i.GenIntWouldSimp2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -4272,13 +4256,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldSimple();
+                        s.GetSpeWouldSimp2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldSimp();
+                        i.GenIntWouldSimp2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -4315,13 +4299,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldSimple();
+                        s.GetSpeWouldSimp2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldSimp();
+                        i.GenIntWouldSimp2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -4359,13 +4343,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldSimple();
+                        s.GetSpeWouldSimp2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldSimp();
+                        i.GenIntWouldSimp2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -4401,13 +4385,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldSimple();
+                        s.GetSpeWouldSimp2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldSimp();
+                        i.GenIntWouldSimp2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -4443,13 +4427,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldSimple();
+                        s.GetSpeWouldSimp2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldSimp();
+                        i.GenIntWouldSimp2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -4485,13 +4469,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldSimple();
+                        s.GetSpeWouldSimp2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldSimp();
+                        i.GenIntWouldSimp2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -4502,7 +4486,7 @@ public class Generator2 {
         }
     }
 
-    public void GenWouldCont() {
+    public void GenWouldCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -4536,13 +4520,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldCont();
+                        s.GetSpeWouldCont2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldCont();
+                        i.GenIntWouldCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -4580,13 +4564,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldCont();
+                        s.GetSpeWouldCont2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldCont();
+                        i.GenIntWouldCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -4623,13 +4607,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldCont();
+                        s.GetSpeWouldCont2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldCont();
+                        i.GenIntWouldCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -4667,13 +4651,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldCont();
+                        s.GetSpeWouldCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldCont();
+                        i.GenIntWouldCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -4710,13 +4694,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldCont();
+                        s.GetSpeWouldCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldCont();
+                        i.GenIntWouldCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -4752,13 +4736,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldCont();
+                        s.GetSpeWouldCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldCont();
+                        i.GenIntWouldCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -4794,13 +4778,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldCont();
+                        s.GetSpeWouldCont2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldCont();
+                        i.GenIntWouldCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -4811,7 +4795,7 @@ public class Generator2 {
         }
     }
 
-    public void GenWouldPerfect() {
+    public void GenWouldPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -4845,13 +4829,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerf();
+                        s.GetSpeWouldPerf2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerf();
+                        i.GenIntWouldPerf2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -4889,13 +4873,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerf();
+                        s.GetSpeWouldPerf2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerf();
+                        i.GenIntWouldPerf2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -4932,13 +4916,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerf();
+                        s.GetSpeWouldPerf2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerf();
+                        i.GenIntWouldPerf2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -4976,13 +4960,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerf();
+                        s.GetSpeWouldPerf2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerf();
+                        i.GenIntWouldPerf2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -5019,13 +5003,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerf();
+                        s.GetSpeWouldPerf2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerf();
+                        i.GenIntWouldPerf2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -5061,13 +5045,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerf();
+                        s.GetSpeWouldPerf2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerf();
+                        i.GenIntWouldPerf2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -5103,13 +5087,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerf();
+                        s.GetSpeWouldPerf2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerf();
+                        i.GenIntWouldPerf2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -5120,7 +5104,7 @@ public class Generator2 {
         }
     }
 
-    public void GenWouldPerfectCont() {
+    public void GenWouldPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -5154,13 +5138,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerfCont();
+                        s.GetSpeWouldPerfCont2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerfCont();
+                        i.GenIntWouldPerfCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -5198,13 +5182,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerfCont();
+                        s.GetSpeWouldPerfCont2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerfCont();
+                        i.GenIntWouldPerfCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -5241,13 +5225,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerfCont();
+                        s.GetSpeWouldPerfCont2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerfCont();
+                        i.GenIntWouldPerfCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -5285,13 +5269,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerfCont();
+                        s.GetSpeWouldPerfCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerfCont();
+                        i.GenIntWouldPerfCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -5328,13 +5312,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerfCont();
+                        s.GetSpeWouldPerfCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerfCont();
+                        i.GenIntWouldPerfCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -5370,13 +5354,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerfCont();
+                        s.GetSpeWouldPerfCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerfCont();
+                        i.GenIntWouldPerfCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -5412,13 +5396,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialWouldPerfCont();
+                        s.GetSpeWouldPerfCont2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntWouldPerfCont();
+                        i.GenIntWouldPerfCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -5427,7 +5411,7 @@ public class Generator2 {
         }
     }
 
-    public void GenCouldSimple() {
+    public void GenCouldSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -5461,13 +5445,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldSimp();
+                        s.GetSpeCouldSimp2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldSimp();
+                        i.GenIntCouldSimp2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -5505,13 +5489,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldSimp();
+                        s.GetSpeCouldSimp2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldSimp();
+                        i.GenIntCouldSimp2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -5548,13 +5532,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldSimp();
+                        s.GetSpeCouldSimp2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldSimp();
+                        i.GenIntCouldSimp2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -5592,13 +5576,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldSimp();
+                        s.GetSpeCouldSimp2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldSimp();
+                        i.GenIntCouldSimp2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -5635,13 +5619,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldSimp();
+                        s.GetSpeCouldSimp2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldSimp();
+                        i.GenIntCouldSimp2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -5677,13 +5661,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldSimp();
+                        s.GetSpeCouldSimp2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldSimp();
+                        i.GenIntCouldSimp2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -5719,13 +5703,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldSimp();
+                        s.GetSpeCouldSimp2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldSimp();
+                        i.GenIntCouldSimp2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -5734,7 +5718,7 @@ public class Generator2 {
         }
     }
 
-    public void GenCouldCont() {
+    public void GenCouldCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -5768,13 +5752,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldCont();
+                        s.GetSpeCouldCont2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldCont();
+                        i.GenIntCouldCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -5812,13 +5796,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldCont();
+                        s.GetSpeCouldCont2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldCont();
+                        i.GenIntCouldCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -5855,13 +5839,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldCont();
+                        s.GetSpeCouldCont2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldCont();
+                        i.GenIntCouldCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -5899,13 +5883,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldCont();
+                        s.GetSpeCouldCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldCont();
+                        i.GenIntCouldCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -5942,13 +5926,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldCont();
+                        s.GetSpeCouldCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldCont();
+                        i.GenIntCouldCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -5984,13 +5968,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldCont();
+                        s.GetSpeCouldCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldCont();
+                        i.GenIntCouldCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -6026,13 +6010,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldCont();
+                        s.GetSpeCouldCont2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldCont();
+                        i.GenIntCouldCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -6041,7 +6025,7 @@ public class Generator2 {
         }
     }
 
-    public void GenCouldPerfect() {
+    public void GenCouldPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -6075,13 +6059,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerf();
+                        s.GetSpeCouldPerf2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerf();
+                        i.GenIntCouldPerf2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -6119,13 +6103,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerf();
+                        s.GetSpeCouldPerf2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerf();
+                        i.GenIntCouldPerf2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -6162,13 +6146,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerf();
+                        s.GetSpeCouldPerf2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerf();
+                        i.GenIntCouldPerf2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -6206,13 +6190,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerf();
+                        s.GetSpeCouldPerf2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerf();
+                        i.GenIntCouldPerf2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -6249,13 +6233,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerf();
+                        s.GetSpeCouldPerf2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerf();
+                        i.GenIntCouldPerf2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -6291,13 +6275,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerf();
+                        s.GetSpeCouldPerf2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerf();
+                        i.GenIntCouldPerf2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -6332,13 +6316,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerf();
+                        s.GetSpeCouldPerf2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerf();
+                        i.GenIntCouldPerf2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -6349,7 +6333,7 @@ public class Generator2 {
         }
     }
 
-    public void GenCouldPerfectCont() {
+    public void GenCouldPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -6383,13 +6367,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerfCont();
+                        s.GetSpeCouldPerfCont2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerfCont();
+                        i.GenIntCouldPerfCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -6427,13 +6411,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerfCont();
+                        s.GetSpeCouldPerfCont2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerfCont();
+                        i.GenIntCouldPerfCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -6470,13 +6454,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerfCont();
+                        s.GetSpeCouldPerfCont2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerfCont();
+                        i.GenIntCouldPerfCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -6514,13 +6498,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerfCont();
+                        s.GetSpeCouldPerfCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerfCont();
+                        i.GenIntCouldPerfCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -6557,13 +6541,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerfCont();
+                        s.GetSpeCouldPerfCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerfCont();
+                        i.GenIntCouldPerfCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -6599,13 +6583,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerfCont();
+                        s.GetSpeCouldPerfCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerfCont();
+                        i.GenIntCouldPerfCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -6641,13 +6625,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCouldPerfCont();
+                        s.GetSpeCouldPerfCont2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCouldPerfCont();
+                        i.GenIntCouldPerfCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -6658,7 +6642,7 @@ public class Generator2 {
         }
     }
 
-    public void GenMightSimple() {
+    public void GenMightSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -6692,13 +6676,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightSimp();
+                        s.GetSpeMightSimp2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightSimp();
+                        i.GenIntMightSimp2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -6736,13 +6720,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightSimp();
+                        s.GetSpeMightSimp2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightSimp();
+                        i.GenIntMightSimp2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -6779,13 +6763,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightSimp();
+                        s.GetSpeMightSimp2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightSimp();
+                        i.GenIntMightSimp2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -6823,13 +6807,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightSimp();
+                        s.GetSpeMightSimp2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightSimp();
+                        i.GenIntMightSimp2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -6866,13 +6850,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightSimp();
+                        s.GetSpeMightSimp2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightSimp();
+                        i.GenIntMightSimp2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -6908,13 +6892,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightSimp();
+                        s.GetSpeMightSimp2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightSimp();
+                        i.GenIntMightSimp2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -6950,13 +6934,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightSimp();
+                        s.GetSpeMightSimp2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightSimp();
+                        i.GenIntMightSimp2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -6965,7 +6949,7 @@ public class Generator2 {
         }
     }
 
-    public void GenMightCont() {
+    public void GenMightCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -6999,13 +6983,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightCont();
+                        s.GetSpeMightCont2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightCont();
+                        i.GenIntMightCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -7043,13 +7027,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightCont();
+                        s.GetSpeMightCont2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightCont();
+                        i.GenIntMightCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -7086,13 +7070,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightCont();
+                        s.GetSpeMightCont2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightCont();
+                        i.GenIntMightCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -7130,13 +7114,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightCont();
+                        s.GetSpeMightCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightCont();
+                        i.GenIntMightCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -7173,13 +7157,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightCont();
+                        s.GetSpeMightCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightCont();
+                        i.GenIntMightCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -7215,13 +7199,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightCont();
+                        s.GetSpeMightCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightCont();
+                        i.GenIntMightCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -7257,13 +7241,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightCont();
+                        s.GetSpeMightCont2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightCont();
+                        i.GenIntMightCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -7274,7 +7258,7 @@ public class Generator2 {
         }
     }
 
-    public void GenMightPerfect() {
+    public void GenMightPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -7308,13 +7292,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerf();
+                        s.GetSpeMightPerf2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerf();
+                        i.GenIntMightPerf2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -7352,13 +7336,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerf();
+                        s.GetSpeMightPerf2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerf();
+                        i.GenIntMightPerf2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -7395,13 +7379,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerf();
+                        s.GetSpeMightPerf2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerf();
+                        i.GenIntMightPerf2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -7439,13 +7423,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerf();
+                        s.GetSpeMightPerf2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerf();
+                        i.GenIntMightPerf2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -7482,13 +7466,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerf();
+                        s.GetSpeMightPerf2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerf();
+                        i.GenIntMightPerf2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -7524,13 +7508,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerf();
+                        s.GetSpeMightPerf2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerf();
+                        i.GenIntMightPerf2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -7566,13 +7550,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerf();
+                        s.GetSpeMightPerf2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerf();
+                        i.GenIntMightPerf2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -7583,7 +7567,7 @@ public class Generator2 {
         }
     }
 
-    public void GenMightPerfectCont() {
+    public void GenMightPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -7617,13 +7601,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerfCont();
+                        s.GetSpeMightPerfCont2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerfCont();
+                        i.GenIntMightPerfCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -7661,13 +7645,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerfCont();
+                        s.GetSpeMightPerfCont2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerfCont();
+                        i.GenIntMightPerfCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -7704,13 +7688,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerfCont();
+                        s.GetSpeMightPerfCont2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerfCont();
+                        i.GenIntMightPerfCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -7748,13 +7732,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerfCont();
+                        s.GetSpeMightPerfCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerfCont();
+                        i.GenIntMightPerfCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -7791,13 +7775,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerfCont();
+                        s.GetSpeMightPerfCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerfCont();
+                        i.GenIntMightPerfCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -7833,13 +7817,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerfCont();
+                        s.GetSpeMightPerfCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerfCont();
+                        i.GenIntMightPerfCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -7875,13 +7859,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.getspecialMightPerfCont();
+                        s.GetSpeMightPerfCont2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMightPerfCont();
+                        i.GenIntMightPerfCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -7890,7 +7874,7 @@ public class Generator2 {
         }
     }
 
-    public void GenShouldSimple() {
+    public void GenShouldSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -7924,13 +7908,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldSimp();
+                        s.GetSpeShouldSimp2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldSimp();
+                        i.GenIntShouldSimp2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -7968,13 +7952,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldSimp();
+                        s.GetSpeShouldSimp2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldSimp();
+                        i.GenIntShouldSimp2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -8011,13 +7995,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldSimp();
+                        s.GetSpeShouldSimp2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldSimp();
+                        i.GenIntShouldSimp2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -8055,13 +8039,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldSimp();
+                        s.GetSpeShouldSimp2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldSimp();
+                        i.GenIntShouldSimp2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -8098,13 +8082,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldSimp();
+                        s.GetSpeShouldSimp2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldSimp();
+                        i.GenIntShouldSimp2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -8140,13 +8124,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldSimp();
+                        s.GetSpeShouldSimp2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldSimp();
+                        i.GenIntShouldSimp2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -8182,13 +8166,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldSimp();
+                        s.GetSpeShouldSimp2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldSimp();
+                        i.GenIntShouldSimp2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -8199,7 +8183,7 @@ public class Generator2 {
         }
     }
 
-    public void GenShouldCont() {
+    public void GenShouldCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -8234,13 +8218,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldCont();
+                        s.GetSpeShouldCont2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldCont();
+                        i.GenIntShouldCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -8278,13 +8262,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldCont();
+                        s.GetSpeShouldCont2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldCont();
+                        i.GenIntShouldCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -8321,13 +8305,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldCont();
+                        s.GetSpeShouldCont2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldCont();
+                        i.GenIntShouldCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -8365,13 +8349,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldCont();
+                        s.GetSpeShouldCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldCont();
+                        i.GenIntShouldCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -8408,13 +8392,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldCont();
+                        s.GetSpeShouldCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldCont();
+                        i.GenIntShouldCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -8450,13 +8434,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldCont();
+                        s.GetSpeShouldCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldCont();
+                        i.GenIntShouldCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -8491,13 +8475,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldCont();
+                        s.GetSpeShouldCont2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldCont();
+                        i.GenIntShouldCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -8506,7 +8490,7 @@ public class Generator2 {
         }
     }
 
-    public void GenShouldPerfect() {
+    public void GenShouldPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -8540,13 +8524,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerf();
+                        s.GetSpeShouldPerf2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerf();
+                        i.GenIntShouldPerf2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -8584,13 +8568,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerf();
+                        s.GetSpeShouldPerf2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerf();
+                        i.GenIntShouldPerf2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -8627,13 +8611,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerf();
+                        s.GetSpeShouldPerf2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerf();
+                        i.GenIntShouldPerf2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -8671,13 +8655,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerf();
+                        s.GetSpeShouldPerf2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerf();
+                        i.GenIntShouldPerf2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -8714,13 +8698,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerf();
+                        s.GetSpeShouldPerf2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerf();
+                        i.GenIntShouldPerf2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -8756,13 +8740,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerf();
+                        s.GetSpeShouldPerf2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerf();
+                        i.GenIntShouldPerf2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -8798,13 +8782,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerf();
+                        s.GetSpeShouldPerf2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerf();
+                        i.GenIntShouldPerf2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -8815,7 +8799,7 @@ public class Generator2 {
         }
     }
 
-    public void GenShouldPerfectCont() {
+    public void GenShouldPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -8849,13 +8833,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerfCont();
+                        s.GetSpeShouldPerfCont2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerfCont();
+                        i.GenIntShouldPerfCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -8893,13 +8877,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerfCont();
+                        s.GetSpeShouldPerfCont2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerfCont();
+                        i.GenIntShouldPerfCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -8936,13 +8920,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerfCont();
+                        s.GetSpeShouldPerfCont2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerfCont();
+                        i.GenIntShouldPerfCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -8980,13 +8964,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerfCont();
+                        s.GetSpeShouldPerfCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerfCont();
+                        i.GenIntShouldPerfCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -9023,13 +9007,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerfCont();
+                        s.GetSpeShouldPerfCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerfCont();
+                        i.GenIntShouldPerfCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -9065,13 +9049,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerfCont();
+                        s.GetSpeShouldPerfCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerfCont();
+                        i.GenIntShouldPerfCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -9107,13 +9091,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialShouldPerfCont();
+                        s.GetSpeShouldPerfCont2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntShouldPerfCont();
+                        i.GenIntShouldPerfCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -9124,7 +9108,7 @@ public class Generator2 {
         }
     }
 
-    public void GenCanSimp() {
+    public void GenCanSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -9158,13 +9142,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanSimp();
+                        s.GetSpeCanSimp2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanSimp();
+                        i.GenIntCanSimp2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -9202,13 +9186,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanSimp();
+                        s.GetSpeCanSimp2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanSimp();
+                        i.GenIntCanSimp2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -9245,13 +9229,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanSimp();
+                        s.GetSpeCanSimp2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanSimp();
+                        i.GenIntCanSimp2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -9289,13 +9273,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanSimp();
+                        s.GetSpeCanSimp2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanSimp();
+                        i.GenIntCanSimp2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -9332,13 +9316,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanSimp();
+                        s.GetSpeCanSimp2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanSimp();
+                        i.GenIntCanSimp2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -9374,13 +9358,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanSimp();
+                        s.GetSpeCanSimp2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanSimp();
+                        i.GenIntCanSimp2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -9416,13 +9400,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanSimp();
+                        s.GetSpeCanSimp2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanSimp();
+                        i.GenIntCanSimp2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -9431,7 +9415,7 @@ public class Generator2 {
         }
     }
 
-    public void GenCanCont() {
+    public void GenCanCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -9465,13 +9449,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanCont();
+                        s.GetSpeCanCont2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanCont();
+                        i.GenIntCanCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -9509,13 +9493,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanCont();
+                        s.GetSpeCanCont2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanCont();
+                        i.GenIntCanCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -9552,13 +9536,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanCont();
+                        s.GetSpeCanCont2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanCont();
+                        i.GenIntCanCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -9596,13 +9580,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanCont();
+                        s.GetSpeCanCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanCont();
+                        i.GenIntCanCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -9639,13 +9623,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanCont();
+                        s.GetSpeCanCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanCont();
+                        i.GenIntCanCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -9681,13 +9665,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanCont();
+                        s.GetSpeCanCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanCont();
+                        i.GenIntCanCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -9723,13 +9707,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialCanCont();
+                        s.GetSpeCanCont2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntCanCont();
+                        i.GenIntCanCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -9738,7 +9722,7 @@ public class Generator2 {
         }
     }
 
-    public void GenMustSimp() {
+    public void GenMustSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -9772,13 +9756,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustSimp();
+                        s.GetSpeMustSimp2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustSimp();
+                        i.GenIntMustSimp2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -9816,13 +9800,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustSimp();
+                        s.GetSpeMustSimp2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustSimp();
+                        i.GenIntMustSimp2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -9859,13 +9843,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustSimp();
+                        s.GetSpeMustSimp2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustSimp();
+                        i.GenIntMustSimp2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -9903,13 +9887,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustSimp();
+                        s.GetSpeMustSimp2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustSimp();
+                        i.GenIntMustSimp2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -9946,13 +9930,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustSimp();
+                        s.GetSpeMustSimp2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustSimp();
+                        i.GenIntMustSimp2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -9988,13 +9972,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustSimp();
+                        s.GetSpeMustSimp2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustSimp();
+                        i.GenIntMustSimp2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -10030,13 +10014,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustSimp();
+                        s.GetSpeMustSimp2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustSimp();
+                        i.GenIntMustSimp2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -10045,7 +10029,7 @@ public class Generator2 {
         }
     }
 
-    public void GenMustCont() {
+    public void GenMustCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -10079,13 +10063,13 @@ public class Generator2 {
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustCont();
+                        s.GetSpeMustCont2();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustCont();
+                        i.GenIntMustCont2();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -10123,13 +10107,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustCont();
+                        s.GetSpeMustCont2();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustCont();
+                        i.GenIntMustCont2();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -10166,13 +10150,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustCont();
+                        s.GetSpeMustCont2();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustCont();
+                        i.GenIntMustCont2();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -10210,13 +10194,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustCont();
+                        s.GetSpeMustCont2();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustCont();
+                        i.GenIntMustCont2();
                         gens = i.sp4;
                         gene = i.eng4;
                         break;
@@ -10253,13 +10237,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustCont();
+                        s.GetSpeMustCont2();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustCont();
+                        i.GenIntMustCont2();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -10295,13 +10279,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustCont();
+                        s.GetSpeMustCont2();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustCont();
+                        i.GenIntMustCont2();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -10337,13 +10321,13 @@ public class Generator2 {
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetSpecialMustCont();
+                        s.GetSpeMustCont2();
                         gens = s.sp6;
                         gene = s.eng6;
                         break;
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntMustCont();
+                        i.GenIntMustCont2();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -12599,7 +12583,7 @@ public class Generator2 {
     // esta madre empieza a hacer los metodos de generador 3
     // el primero generate23 hace solo presente simple
 // presentes
-    public void generate23() {
+    public void GenPresSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -12609,2824 +12593,1642 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.generarnoblespresentesimple3();
+                        n.generarnoblespresentesimple();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
-
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.generarnoblespresentesimple3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.generarnoblespresentesimple3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.generarnoblespresentesimple3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getspecial3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.generateintrans3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        break;
-                }
-                break;
-            case "tú ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.generarnoblespresentesimple3();
-                        gens = n.ps2;
-                        gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.generarnoblespresentesimple3();
-                        gens = o.ps2;
-                        gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.generarnoblespresentesimple3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.generarnoblespresentesimple3();
-                        gens = p.ps2;
-                        gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getspecial3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.generateintrans3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        break;
-                }
-                break;
-            case "él ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.generarnoblespresentesimple3();
-                        gens = n.ps3;
-                        gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.generarnoblespresentesimple3();
-                        gens = o.ps3;
-                        gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.generarnoblespresentesimple3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.generarnoblespresentesimple3();
-                        gens = p.ps3;
-                        gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getspecial3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.generateintrans3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        break;
-                }
-                break;
-            case "ella ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.generarnoblespresentesimple3();
-                        gens = n.ps3ella;
-                        gene = n.ps3she;
-                        gene2 = n.ps3she2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.generarnoblespresentesimple3();
-                        gens = o.ps3ella;
-                        gene = o.ps3she;
-                        gene2 = o.ps3she2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.generarnoblespresentesimple3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.generarnoblespresentesimple3();
-                        gens = p.ps3ella;
-                        gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getspecial3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.generateintrans3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        break;
-                }
-                break;
-            case "eso ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.generarnoblespresentesimple3();
-                        gens = n.ps3eso;
-                        gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.generarnoblespresentesimple3();
-                        gens = o.ps3eso;
-                        gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.generarnoblespresentesimple3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.generarnoblespresentesimple3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getspecial3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.generateintrans3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        break;
-                }
-                break;
-            case "ellos ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.generarnoblespresentesimple3();
-                        gens = n.ps4;
-                        gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.generarnoblespresentesimple3();
-                        gens = o.ps4;
-                        gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.generarnoblespresentesimple3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.generarnoblespresentesimple3();
-                        gens = p.ps4;
-                        gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getspecial3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.generateintrans3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        break;
-                }
-                break;
-            case "nosotros ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.generarnoblespresentesimple3();
-                        gens = n.ps5;
-                        gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.generarnoblespresentesimple3();
-                        gens = o.ps5;
-                        gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.generarnoblespresentesimple3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.generarnoblespresentesimple3();
-                        gens = p.ps5;
-                        gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getspecial3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.generateintrans3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        break;
-                }
-                break;
-        }
-    } //hechos Special y Intrans PD
-
-    public void GenPresContDif3() {
-        int rand = (int) (Math.random() * pronombres.length);
-        int verb = (int) (Math.random() * 6);
-
-        String temp = "yo ";
-        switch (temp) {
-            case "yo ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresContDif3();
-                        gens = n.ps1;
-                        gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresCont3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "tú ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresContDif3();
-                        gens = n.ps2;
-                        gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresContDif3();
-                        gens = o.ps2;
-                        gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresContDif3();
-                        gens = p.ps2;
-                        gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresCont3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "él ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresContDif3();
-                        gens = n.ps3;
-                        gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresContDif3();
-                        gens = o.ps3;
-                        gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresContDif3();
-                        gens = p.ps3;
-                        gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresCont3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ella ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresContDif3();
-                        gens = n.ps3ella;
-                        gene = n.ps3she;
-                        gene2 = n.ps3she2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresContDif3();
-                        gens = o.ps3ella;
-                        gene = o.ps3she;
-                        gene2 = o.ps3she2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresContDif3();
-                        gens = p.ps3ella;
-                        gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresCont3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "eso ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresContDif3();
-                        gens = n.ps3eso;
-                        gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresContDif3();
-                        gens = o.ps3eso;
-                        gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresContDif3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresCont3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ellos ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresContDif3();
-                        gens = n.ps4;
-                        gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresContDif3();
-                        gens = o.ps4;
-                        gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresContDif3();
-                        gens = p.ps4;
-                        gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresCont3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "nosotros ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresContDif3();
-                        gens = n.ps5;
-                        gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
-
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresContDif3();
-                        gens = o.ps5;
-                        gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresContDif3();
-                        gens = p.ps5;
-                        gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresCont3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.IntPresCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
-                        break;
-                }
-                break;
-        }
-    } //hechos Special y Intrans PD
-
-    public void GenPresPerfDif3() {
-        int rand = (int) (Math.random() * pronombres.length);
-        int verb = (int) (Math.random() * 6);
-
-        String temp = pronombres[rand];
-        switch (temp) {
-            case "yo ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresPerfDif3();
-                        gens = n.ps1;
-                        gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
-
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresPerfDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresPerfDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresPerfDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerf();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "tú ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresPerfDif3();
-                        gens = n.ps2;
-                        gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresPerfDif3();
-                        gens = o.ps2;
-                        gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresPerfDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresPerfDif3();
-                        gens = p.ps2;
-                        gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerf();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "él ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresPerfDif3();
-                        gens = n.ps3;
-                        gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresPerfDif3();
-                        gens = o.ps3;
-                        gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresPerfDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresPerfDif3();
-                        gens = p.ps3;
-                        gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerf();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ella ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresPerfDif3();
-                        gens = n.ps3ella;
-                        gene = n.ps3she;
-                        gene2 = n.ps3she2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresPerfDif3();
-                        gens = o.ps3ella;
-                        gene = o.ps3she;
-                        gene2 = o.ps3she2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresPerfDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresPerfDif3();
-                        gens = p.ps3ella;
-                        gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerf();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "eso ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresPerfDif3();
-                        gens = n.ps3eso;
-                        gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresPerfDif3();
-                        gens = o.ps3eso;
-                        gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresPerfDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresPerfDif3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerf();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ellos ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresPerfDif3();
-                        gens = n.ps4;
-                        gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresPerfDif3();
-                        gens = o.ps4;
-                        gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresPerfDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresPerfDif3();
-                        gens = p.ps4;
-                        gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerf();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "nosotros ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePresPerfDif3();
-                        gens = n.ps5;
-                        gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePresPerfDif3();
-                        gens = o.ps5;
-                        gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePresPerfDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePresPerfDif3();
-                        gens = p.ps5;
-                        gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerf();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerf();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
-                        break;
-                }
-                break;
-        }
-    } //hechos Special y Intrans PD
-
-    public void GenPresPerfContDif3() {
-        int rand = (int) (Math.random() * pronombres.length);
-        int verb = (int) (Math.random() * 6);
-
-        String temp = pronombres[rand];
-        switch (temp) {
-            case "yo ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPresPerfContDif3();
-                        gens = n.ps1;
-                        gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
-
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPresPerfContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPresPerfContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPresPerfContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerfCont();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "tú ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPresPerfContDif3();
-                        gens = n.ps2;
-                        gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPresPerfContDif3();
-                        gens = o.ps2;
-                        gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPresPerfContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPresPerfContDif3();
-                        gens = p.ps2;
-                        gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerfCont();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "él ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPresPerfContDif3();
-                        gens = n.ps3;
-                        gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPresPerfContDif3();
-                        gens = o.ps3;
-                        gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPresPerfContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPresPerfContDif3();
-                        gens = p.ps3;
-                        gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerfCont();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ella ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPresPerfContDif3();
-                        gens = n.ps3ella;
-                        gene = n.ps3she;
-                        gene2 = n.ps3she2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPresPerfContDif3();
-                        gens = o.ps3ella;
-                        gene = o.ps3she;
-                        gene2 = o.ps3she2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPresPerfContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPresPerfContDif3();
-                        gens = p.ps3ella;
-                        gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerfCont();
-                        gens = sp.sp3eso;
-                        gene = sp.eng3she;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "eso ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPresPerfContDif3();
-                        gens = n.ps3eso;
-                        gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPresPerfContDif3();
-                        gens = o.ps3eso;
-                        gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPresPerfContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPresPerfContDif3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerfCont();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ellos ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPresPerfContDif3();
-                        gens = n.ps4;
-                        gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPresPerfContDif3();
-                        gens = o.ps4;
-                        gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPresPerfContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPresPerfContDif3();
-                        gens = p.ps4;
-                        gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerfCont();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "nosotros ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPresPerfContDif3();
-                        gens = n.ps5;
-                        gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPresPerfContDif3();
-                        gens = o.ps5;
-                        gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPresPerfContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPresPerfContDif3();
-                        gens = p.ps5;
-                        gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.getPresPerfCont();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPresPerfCont();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
-                        break;
-                }
-                break;
-        }
-    } //hechos Special y Intrans PD
-
-    //pasados
-    public void GenPastSimpleDif3() {
-        int rand = (int) (Math.random() * pronombres.length);
-        int verb = (int) (Math.random() * 6);
-        String temp = pronombres[rand];
-        switch (temp) {
-            case "yo ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastSimpleDif3();
-                        gens = n.ps1;
-                        gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastSimpleDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastSimpleDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastSimpleDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        /*sp.GetPastSimple3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;*/
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        /*it.GenIntPastSimple3();
-                        gens = it.sp1;
-                        gene = it.eng1;*/
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "tú ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastSimpleDif3();
-                        gens = n.ps2;
-                        gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastSimpleDif3();
-                        gens = o.ps2;
-                        gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastSimpleDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastSimpleDif3();
-                        gens = p.ps2;
-                        gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                            /*sp.GetPastSimple3();
-                            gens = sp.sp2;
-                            gene = sp.eng2;*/
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        /*it.GenIntPastSimple3();
-                        gens = it.sp2;
-                        gene = it.eng2;*/
-                        break;
-                }
-                break;
-            case "él ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastSimpleDif3();
-                        gens = n.ps3;
-                        gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastSimpleDif3();
-                        gens = o.ps3;
-                        gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastSimpleDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastSimpleDif3();
-                        gens = p.ps3;
-                        gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                            /*sp.GetPastSimple3();
-                            gens = sp.sp3;
-                            gene = sp.eng3;*/
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        /*it.GenIntPastSimple3();
-                        gens = it.sp3;
-                        gene = it.eng3;*/
-                        break;
-                }
-                break;
-            case "ella ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastSimpleDif3();
-                        gens = n.ps3ella;
-                        gene = n.ps3she;
-                        gene2 = n.ps3she2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastSimpleDif3();
-                        gens = o.ps3ella;
-                        gene = o.ps3she;
-                        gene2 = o.ps3she2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastSimpleDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastSimpleDif3();
-                        gens = p.ps3ella;
-                        gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                            /*sp.GetPastSimple3();
-                            gens = sp.sp3ella;
-                            gene = sp.eng3she;*/
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        /*it.GenIntPastSimple3();
-                        gens = it.sp4;
-                        gene = it.eng4;*/
-                        break;
-                }
-                break;
-            case "eso ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastSimpleDif3();
-                        gens = n.ps3eso;
-                        gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastSimpleDif3();
-                        gens = o.ps3eso;
-                        gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastSimpleDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastSimpleDif3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        /*sp.GetPastSimple3();
-                            gens = sp.sp3eso;
-                            gene = sp.sp3it;*/
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        /*it.GenIntPastSimple3();
-                        gens = it.sp5;
-                        gene = it.eng5;*/
-                        break;
-                }
-                break;
-            case "ellos ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastSimpleDif3();
-                        gens = n.ps4;
-                        gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastSimpleDif3();
-                        gens = o.ps4;
-                        gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastSimpleDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastSimpleDif3();
-                        gens = p.ps4;
-                        gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        /*sp.GetPastSimple3();
-                            gens = sp.sp4;
-                            gene = sp.eng4;*/
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        /*it.GenIntPastSimple3();
-                        gens = it.sp6;
-                        gene = it.eng6;*/
-                        break;
-                }
-                break;
-            case "nosotros ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastSimpleDif3();
-                        gens = n.ps5;
-                        gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastSimpleDif3();
-                        gens = o.ps5;
-                        gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastSimpleDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastSimpleDif3();
-                        gens = p.ps5;
-                        gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        /*sp.GetPastSimple3();
-                            gens = sp.sp5;
-                            gene = sp.eng5;*/
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        /*it.GenIntPastSimple3();
-                        gens = it.sp7;
-                        gene = it.eng7;*/
-                        break;
-                }
-                break;
-        }
-    } //hechos Special y Intrans PD
-
-    public void GenPastContDif3() {
-        int rand = (int) (Math.random() * pronombres.length);
-        int verb = (int) (Math.random() * 6);
-        String temp = pronombres[rand];
-        switch (temp) {
-            case "yo ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastContDif3();
-                        gens = n.ps1;
-                        gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastCont3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPastCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "tú ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastContDif3();
-                        gens = n.ps2;
-                        gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastContDif3();
-                        gens = o.ps2;
-                        gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastContDif3();
-                        gens = p.ps2;
-                        gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastCont3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPastCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "él ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastContDif3();
-                        gens = n.ps3;
-                        gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastContDif3();
-                        gens = o.ps3;
-                        gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastContDif3();
-                        gens = p.ps3;
-                        gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastCont3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPastCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ella ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastContDif3();
-                        gens = n.ps3ella;
-                        gene = n.ps3she;
-                        gene2 = n.ps3she2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastContDif3();
-                        gens = o.ps3ella;
-                        gene = o.ps3she;
-                        gene2 = o.ps3she2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastContDif3();
-                        gens = p.ps3ella;
-                        gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastCont3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPastCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "eso ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastContDif3();
-                        gens = n.ps3eso;
-                        gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastContDif3();
-                        gens = o.ps3eso;
-                        gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastContDif3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastCont3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPastCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ellos ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastContDif3();
-                        gens = n.ps4;
-                        gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastContDif3();
-                        gens = o.ps4;
-                        gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastContDif3();
-                        gens = p.ps4;
-                        gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastCont3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPastCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "nosotros ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastContDif3();
-                        gens = n.ps5;
-                        gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastContDif3();
-                        gens = o.ps5;
-                        gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastContDif3();
-                        gens = p.ps5;
-                        gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastCont3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPastCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
-                        break;
-                }
-                break;
-        }
-    } //hechos Special y Intrans PD
-
-    public void GenPastPerfDif3() {
-        int rand = (int) (Math.random() * pronombres.length);
-        int verb = (int) (Math.random() * 6);
-        String temp = pronombres[rand];
-        switch (temp) {
-            case "yo ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastPerfDif3();
-                        gens = n.ps1;
-                        gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastPerfDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastPerfDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastPerfDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerf3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "tú ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastPerfDif3();
-                        gens = n.ps2;
-                        gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastPerfDif3();
-                        gens = o.ps2;
-                        gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastPerfDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastPerfDif3();
-                        gens = p.ps2;
-                        gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerf3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "él ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastPerfDif3();
-                        gens = n.ps3;
-                        gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastPerfDif3();
-                        gens = o.ps3;
-                        gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastPerfDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastPerfDif3();
-                        gens = p.ps3;
-                        gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerf3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ella ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastPerfDif3();
-                        gens = n.ps3ella;
-                        gene = n.ps3she;
-                        gene2 = n.ps3she2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastPerfDif3();
-                        gens = o.ps3ella;
-                        gene = o.ps3she;
-                        gene2 = o.ps3she2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastPerfDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastPerfDif3();
-                        gens = p.ps3ella;
-                        gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerf3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "eso ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastPerfDif3();
-                        gens = n.ps3eso;
-                        gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastPerfDif3();
-                        gens = o.ps3eso;
-                        gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastPerfDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastPerfDif3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerf3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ellos ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastPerfDif3();
-                        gens = n.ps4;
-                        gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastPerfDif3();
-                        gens = o.ps4;
-                        gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastPerfDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastPerfDif3();
-                        gens = p.ps4;
-                        gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerf3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "nosotros ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNoblePastPerfDif3();
-                        gens = n.ps5;
-                        gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNoblePastPerfDif3();
-                        gens = o.ps5;
-                        gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNoblePastPerfDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNoblePastPerfDif3();
-                        gens = p.ps5;
-                        gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerf3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerf3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
-                        break;
-                }
-                break;
-        }
-    } //hechos Special y Intrans PD
-
-    public void GenPastPerfContDif3() {
-        int rand = (int) (Math.random() * pronombres.length);
-        int verb = (int) (Math.random() * 6);
-        String temp = pronombres[rand];
-        switch (temp) {
-            case "yo ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastPerfContDif3();
-                        gens = n.ps1;
-                        gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastPerfContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastPerfContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastPerfContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerfCont3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "tú ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastPerfContDif3();
-                        gens = n.ps2;
-                        gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastPerfContDif3();
-                        gens = o.ps2;
-                        gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastPerfContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastPerfContDif3();
-                        gens = p.ps2;
-                        gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerfCont3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "él ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastPerfContDif3();
-                        gens = n.ps3;
-                        gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastPerfContDif3();
-                        gens = o.ps3;
-                        gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastPerfContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastPerfContDif3();
-                        gens = p.ps3;
-                        gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerfCont3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ella ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastPerfContDif3();
-                        gens = n.ps3ella;
-                        gene = n.ps3she;
-                        gene2 = n.ps3she2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastPerfContDif3();
-                        gens = o.ps3ella;
-                        gene = o.ps3she;
-                        gene2 = o.ps3she2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastPerfContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastPerfContDif3();
-                        gens = p.ps3ella;
-                        gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerfCont3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "eso ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastPerfContDif3();
-                        gens = n.ps3eso;
-                        gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastPerfContDif3();
-                        gens = o.ps3eso;
-                        gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastPerfContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastPerfContDif3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerfCont3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ellos ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastPerfContDif3();
-                        gens = n.ps4;
-                        gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastPerfContDif3();
-                        gens = o.ps4;
-                        gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastPerfContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastPerfContDif3();
-                        gens = p.ps4;
-                        gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerfCont3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "nosotros ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenPastPerfContDif3();
-                        gens = n.ps5;
-                        gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenPastPerfContDif3();
-                        gens = o.ps5;
-                        gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenPastPerfContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenPastPerfContDif3();
-                        gens = p.ps5;
-                        gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetPastPerfCont3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntPassPerfCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
-                        break;
-                }
-                break;
-        }
-    } //hechos Special y Intrans PD
-
-    //futuros
-    public void GenFutureSimpleDif3() {
-        int rand = (int) (Math.random() * pronombres.length);
-        int verb = (int) (Math.random() * 6);
-        String temp = pronombres[rand];
-        switch (temp) {
-            case "yo ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenerarNoblesFuturoSimple3();
-                        gens = n.ps1;
-                        gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenerarNoblesFuturoSimple3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesFuturoSimple3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenerarNoblesFuturoSimple3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
-                        break;
-
-                    case 4:
                         Special2 s = new Special2();
-                        s.GetFutSimp3();
+                        s.GetSpePresSimp3();
+                        gens = s.sp1;
+                        gene = s.eng1;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresSimp3();
+                        gens = i.sp1;
+                        gene = i.eng1;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarnoblespresentesimple();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarnoblespresentesimple();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarnoblespresentesimple();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
+                        break;
+
+                }
+                break;
+            case "tú ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarnoblespresentesimple();
+                        gens = n.ps2;
+                        gene = n.ps2eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresSimp3();
+                        gens = s.sp2;
+                        gene = s.eng2;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresSimp3();
+                        gens = i.sp2;
+                        gene = i.eng2;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarnoblespresentesimple();
+                        gens = p.ps2;
+                        gene = p.ps2eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarnoblespresentesimple();
+                        gens = o.ps2;
+                        gene = o.ps2eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarnoblespresentesimple();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
+                        break;
+
+                }
+                break;
+            case "él ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarnoblespresentesimple();
+                        gens = n.ps3;
+                        gene = n.ps3eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresSimp3();
+                        gens = s.sp3;
+                        gene = s.eng3;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresSimp3();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarnoblespresentesimple();
+                        gens = p.ps3;
+                        gene = p.ps3eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarnoblespresentesimple();
+                        gens = o.ps3;
+                        gene = o.ps3eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarnoblespresentesimple();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
+                        break;
+                }
+                break;
+            case "ella ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarnoblespresentesimple();
+                        gens = n.ps3ella;
+                        gene = n.ps3she;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresSimp3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+                        break;
+                    case 2:
+
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresSimp3();
+                        gens = i.sp4;
+                        gene = i.eng4;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarnoblespresentesimple();
+                        gens = p.ps3ella;
+                        gene = p.ps3she;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarnoblespresentesimple();
+                        gens = o.ps3ella;
+                        gene = o.ps3she;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarnoblespresentesimple();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+                        break;
+                }
+                break;
+            case "eso ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarnoblespresentesimple();
+                        gens = n.ps3eso;
+                        gene = n.ps3it;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresSimp3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+                        break;
+                    case 2:
+
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresSimp3();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarnoblespresentesimple();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarnoblespresentesimple();
+                        gens = o.ps3eso;
+                        gene = o.ps3it;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarnoblespresentesimple();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
+                        break;
+                }
+                break;
+            case "ellos ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarnoblespresentesimple();
+                        gens = n.ps4;
+                        gene = n.ps4eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresSimp3();
+                        gens = s.sp4;
+                        gene = s.eng4;
+                        break;
+                    case 2:
+
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresSimp3();
+                        gens = i.sp6;
+                        gene = i.eng6;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarnoblespresentesimple();
+                        gens = p.ps4;
+                        gene = p.ps4eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarnoblespresentesimple();
+                        gens = o.ps4;
+                        gene = o.ps4eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarnoblespresentesimple();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
+                        break;
+                }
+                break;
+            case "nosotros ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarnoblespresentesimple();
+                        gens = n.ps5;
+                        gene = n.ps5eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresSimp3();
+                        gens = s.sp5;
+                        gene = s.eng5;
+                        break;
+                    case 2:
+
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresSimp3();
+                        gens = i.sp7;
+                        gene = i.eng7;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarnoblespresentesimple();
+                        gens = p.ps5;
+                        gene = p.ps5eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarnoblespresentesimple();
+                        gens = o.ps5;
+                        gene = o.ps5eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarnoblespresentesimple();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
+                        break;
+                }
+                break;
+        }
+    }
+
+    public void GenPresCont3() {
+        int rand = (int) (Math.random() * pronombres.length);
+        int verb = (int) (Math.random() * 6);
+
+        String temp = pronombres[rand];
+        switch (temp) {
+            case "yo ":
+                switch (verb) {
+                    case 0:
+
+                        Nobles2 n = new Nobles2();
+                        n.generarpresentecontinuo();
+                        gens = n.ps1;
+                        gene = n.ps1eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresCont3();
+                        gens = s.sp1;
+                        gene = s.eng1;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresentecontinuo();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresentecontinuo();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresentecontinuo();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
+                        break;
+
+                }
+                break;
+            case "tú ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpresentecontinuo();
+                        gens = n.ps2;
+                        gene = n.ps2eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresCont3();
+                        gens = s.sp2;
+                        gene = s.eng2;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresentecontinuo();
+                        gens = p.ps2;
+                        gene = p.ps2eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresentecontinuo();
+                        gens = o.ps2;
+                        gene = o.ps2eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresentecontinuo();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
+                        break;
+
+                }
+                break;
+            case "él ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpresentecontinuo();
+                        gens = n.ps3;
+                        gene = n.ps3eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresCont3();
+                        gens = s.sp3;
+                        gene = s.eng3;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresentecontinuo();
+                        gens = p.ps3;
+                        gene = p.ps3eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresentecontinuo();
+                        gens = o.ps3;
+                        gene = o.ps3eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresentecontinuo();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
+                        break;
+                }
+                break;
+            case "ella ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpresentecontinuo();
+                        gens = n.ps3ella;
+                        gene = n.ps3she;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresentecontinuo();
+                        gens = p.ps3ella;
+                        gene = p.ps3she;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresentecontinuo();
+                        gens = o.ps3ella;
+                        gene = o.ps3she;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresentecontinuo();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+                        break;
+                }
+                break;
+            case "eso ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpresentecontinuo();
+                        gens = n.ps3eso;
+                        gene = n.ps3it;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresentecontinuo();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresentecontinuo();
+                        gens = o.ps3eso;
+                        gene = o.ps3it;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresentecontinuo();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
+                        break;
+                }
+                break;
+            case "ellos ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpresentecontinuo();
+                        gens = n.ps4;
+                        gene = n.ps4eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresCont3();
+                        gens = s.sp4;
+                        gene = s.eng4;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresentecontinuo();
+                        gens = p.ps4;
+                        gene = p.ps4eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresentecontinuo();
+                        gens = o.ps4;
+                        gene = o.ps4eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresentecontinuo();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
+                        break;
+                }
+                break;
+            case "nosotros ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpresentecontinuo();
+                        gens = n.ps5;
+                        gene = n.ps5eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresentecontinuo();
+                        gens = p.ps5;
+                        gene = p.ps5eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresentecontinuo();
+                        gens = o.ps5;
+                        gene = o.ps5eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresentecontinuo();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
+                        break;
+                }
+                break;
+
+
+        }
+    }
+
+    public void GenPresPerf3() {
+        int rand = (int) (Math.random() * pronombres.length);
+        int verb = (int) (Math.random() * 6);
+
+        String temp = pronombres[rand];
+        switch (temp) {
+            case "yo ":
+                switch (verb) {
+                    case 0:
+
+                        Nobles2 n = new Nobles2();
+                        n.generarpresenteperfecto();
+                        gens = n.ps1;
+                        gene = n.ps1eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresPerf3();
+                        gens = s.sp1;
+                        gene = s.eng1;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerf3();
+                        gens = i.sp1;
+                        gene = i.eng1;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresenteperfecto();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresenteperfecto();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresenteperfecto();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
+                        break;
+
+                }
+                break;
+            case "tú ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpresenteperfecto();
+                        gens = n.ps2;
+                        gene = n.ps2eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresPerf3();
+                        gens = s.sp2;
+                        gene = s.eng2;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerf3();
+                        gens = i.sp2;
+                        gene = i.eng2;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresenteperfecto();
+                        gens = p.ps2;
+                        gene = p.ps2eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresenteperfecto();
+                        gens = o.ps2;
+                        gene = o.ps2eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresenteperfecto();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
+                        break;
+
+                }
+                break;
+            case "él ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpresenteperfecto();
+                        gens = n.ps3;
+                        gene = n.ps3eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresPerf3();
+                        gens = s.sp3;
+                        gene = s.eng3;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerf3();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresenteperfecto();
+                        gens = p.ps3;
+                        gene = p.ps3eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresenteperfecto();
+                        gens = o.ps3;
+                        gene = o.ps3eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresenteperfecto();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
+                        break;
+                }
+                break;
+            case "ella ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpresenteperfecto();
+                        gens = n.ps3ella;
+                        gene = n.ps3she;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresPerf3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerf3();
+                        gens = i.sp4;
+                        gene = i.eng4;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresenteperfecto();
+                        gens = p.ps3ella;
+                        gene = p.ps3she;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresenteperfecto();
+                        gens = o.ps3ella;
+                        gene = o.ps3she;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresenteperfecto();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+                        break;
+                }
+                break;
+            case "eso ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpresenteperfecto();
+                        gens = n.ps3eso;
+                        gene = n.ps3it;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresPerf3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerf3();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresenteperfecto();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresenteperfecto();
+                        gens = o.ps3eso;
+                        gene = o.ps3it;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresenteperfecto();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
+                        break;
+                }
+                break;
+            case "ellos ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpresenteperfecto();
+                        gens = n.ps4;
+                        gene = n.ps4eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresPerf3();
+                        gens = s.sp4;
+                        gene = s.eng4;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerf3();
+                        gens = i.sp6;
+                        gene = i.eng6;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresenteperfecto();
+                        gens = p.ps4;
+                        gene = p.ps4eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresenteperfecto();
+                        gens = o.ps4;
+                        gene = o.ps4eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresenteperfecto();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
+                        break;
+                }
+                break;
+            case "nosotros ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpresenteperfecto();
+                        gens = n.ps5;
+                        gene = n.ps5eng;
+                        break;
+                    case 1:
+                        Special2 s = new Special2();
+                        s.GetSpePresPerf3();
+                        gens = s.sp5;
+                        gene = s.eng5;
+                        break;
+                    case 2:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerf3();
+                        gens = i.sp7;
+                        gene = i.eng7;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpresenteperfecto();
+                        gens = p.ps5;
+                        gene = p.ps5eng;
+                        break;
+
+                    case 4:
+                        Oo2 o = new Oo2();
+                        o.generarpresenteperfecto();
+                        gens = o.ps5;
+                        gene = o.ps5eng;
+                        break;
+
+                    case 5:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpresenteperfecto();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
+                        break;
+                }
+                break;
+
+
+        }
+    }
+
+    public void GenPresPerfCont3() {
+        int rand = (int) (Math.random() * pronombres.length);
+        int verb = (int) (Math.random() * 6);
+
+        String temp = pronombres[rand];
+        switch (temp) {
+            case "yo ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarprsenteperfectocontinuo();
+                        gens = n.ps1;
+                        gene = n.ps1eng;
+                        break;
+                    case 1:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarprsenteperfectocontinuo();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
+                        break;
+                    case 2:
+                        People2 p = new People2();
+                        p.generarprsenteperfectocontinuo();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
+
+                        break;
+
+                    case 3:
+                        Oo2 o = new Oo2();
+                        o.generarprsenteperfectocontinuo();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
+
+                        break;
+
+                    case 4:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerfCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
+
+
+                        break;
+
+
+
+                }
+                break;
+            case "tú ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarprsenteperfectocontinuo();
+                        gens = n.ps2;
+                        gene = n.ps2eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.generarprsenteperfectocontinuo();
+                        gens = o.ps2;
+                        gene = o.ps2eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarprsenteperfectocontinuo();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
+                        break;
+                    case 3:
+                        People2 p = new People2();
+                        p.generarprsenteperfectocontinuo();
+                        gens = p.ps2;
+                        gene = p.ps2eng;
+                        break;
+
+                    case 4:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerfCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
+
+                        break;
+
+
+
+                }
+                break;
+            case "él ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarprsenteperfectocontinuo();
+                        gens = n.ps3;
+                        gene = n.ps3eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.generarprsenteperfectocontinuo();
+                        gens = o.ps3;
+                        gene = o.ps3eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarprsenteperfectocontinuo();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarprsenteperfectocontinuo();
+                        gens = p.ps3;
+                        gene = p.ps3eng;
+                        break;
+
+                    case 4:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerfCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
+
+
+                }
+                break;
+            case "ella ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarprsenteperfectocontinuo();
+                        gens = n.ps3ella;
+                        gene = n.ps3she;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.generarprsenteperfectocontinuo();
+                        gens = o.ps3ella;
+                        gene = o.ps3she;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarprsenteperfectocontinuo();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+                        break;
+                    case 3:
+                        People2 p = new People2();
+                        p.generarprsenteperfectocontinuo();
+                        gens = p.ps3ella;
+                        gene = p.ps3she;
+                        break;
+
+                    case 4:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerfCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
+                        break;
+
+
+                }
+                break;
+            case "eso ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarprsenteperfectocontinuo();
+                        gens = n.ps3eso;
+                        gene = n.ps3it;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.generarprsenteperfectocontinuo();
+                        gens = o.ps3eso;
+                        gene = o.ps3it;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarprsenteperfectocontinuo();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarprsenteperfectocontinuo();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerfCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
+
+
+                }
+                break;
+            case "ellos ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarprsenteperfectocontinuo();
+                        gens = n.ps4;
+                        gene = n.ps4eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.generarprsenteperfectocontinuo();
+                        gens = o.ps4;
+                        gene = o.ps4eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarprsenteperfectocontinuo();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarprsenteperfectocontinuo();
+                        gens = p.ps4;
+                        gene = p.ps4eng;
+                        break;
+
+                    case 4:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerfCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
+                        break;
+
+
+                }
+                break;
+            case "nosotros ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarprsenteperfectocontinuo();
+                        gens = n.ps5;
+                        gene = n.ps5eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.generarprsenteperfectocontinuo();
+                        gens = o.ps5;
+                        gene = o.ps5eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarprsenteperfectocontinuo();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarprsenteperfectocontinuo();
+                        gens = p.ps5;
+                        gene = p.ps5eng;
+                        break;
+
+                    case 4:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPresPerfCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
+                        break;
+
+
+                }
+                break;
+
+
+        }
+    }
+
+    public void GenPastSimp3() {
+        int rand = (int) (Math.random() * pronombres.length);
+        int verb = (int) (Math.random() * 6);
+
+        String temp = pronombres[rand];
+        switch (temp) {
+            case "yo ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpasadosimp();
+                        gens = n.ps1;
+                        gene = n.ps1eng;
+                        break;
+                    case 1:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpasadosimp();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
+                        break;
+                    case 2:
+                        People2 p = new People2();
+                        p.generarpasadosimp();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
+
+                        break;
+
+                    case 3:
+                        Oo2 o = new Oo2();
+                        o.generarpasadosimp();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
+
+                        break;
+
+                    case 4:
+                        Special2 sp = new Special2();
+                        sp.GetSpePastSimp3();
+                        gens = sp.sp1;
+                        gene = sp.eng1;
+                        break;
+
+                }
+                break;
+            case "tú ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpasadosimp();
+                        gens = n.ps2;
+                        gene = n.ps2eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.generarpasadosimp();
+                        gens = o.ps2;
+                        gene = o.ps2eng;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpasadosimp();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpasadosimp();
+                        gens = p.ps2;
+                        gene = p.ps2eng;
+                        break;
+
+                    case 4:
+                        Special2 sp = new Special2();
+                        sp.GetSpePastSimp3();
+                        gens = sp.sp2;
+                        gene = sp.eng2;
+                        break;
+
+                    
+
+                }
+                break;
+            case "él ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpasadosimp();
+                        gens = n.ps3;
+                        gene = n.ps3eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.generarpasadosimp();
+                        gens = o.ps3;
+                        gene = o.ps3eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpasadosimp();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpasadosimp();
+                        gens = p.ps3;
+                        gene = p.ps3eng;
+                        break;
+
+                    case 4:
+                        Special2 sp = new Special2();
+                        sp.GetSpePastSimp3();
+                        gens = sp.sp3;
+                        gene = sp.eng3;
+                        break;
+
+                    
+                }
+                break;
+            case "ella ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpasadosimp();
+                        gens = n.ps3ella;
+                        gene = n.ps3she;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.generarpasadosimp();
+                        gens = o.ps3ella;
+                        gene = o.ps3she;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpasadosimp();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpasadosimp();
+                        gens = p.ps3ella;
+                        gene = p.ps3she;
+                        break;
+
+                    case 4:
+                        Special2 sp = new Special2();
+                        sp.GetSpePastSimp3();
+                        gens = sp.sp4;
+                        gene = sp.eng4;
+                        break;
+
+                    
+                }
+                break;
+            case "eso ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpasadosimp();
+                        gens = n.ps3eso;
+                        gene = n.ps3it;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.generarpasadosimp();
+                        gens = o.ps3eso;
+                        gene = o.ps3it;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpasadosimp();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpasadosimp();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Special2 sp = new Special2();
+                        sp.GetSpePastSimp3();
+                        gens = sp.sp5;
+                        gene = sp.eng5;
+                        break;
+
+                    
+                }
+                break;
+            case "ellos ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpasadosimp();
+                        gens = n.ps4;
+                        gene = n.ps4eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.generarpasadosimp();
+                        gens = o.ps4;
+                        gene = o.ps4eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpasadosimp();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpasadosimp();
+                        gens = p.ps4;
+                        gene = p.ps4eng;
+                        break;
+
+                    case 4:
+                        Special2 sp = new Special2();
+                        sp.GetSpePastSimp3();
+                        gens = sp.sp6;
+                        gene = sp.eng6;
+                        break;
+
+                    
+                }
+                break;
+            case "nosotros ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarpasadosimp();
+                        gens = n.ps5;
+                        gene = n.ps5eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.generarpasadosimp();
+                        gens = o.ps5;
+                        gene = o.ps5eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarpasadosimp();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.generarpasadosimp();
+                        gens = p.ps5;
+                        gene = p.ps5eng;
+                        break;
+
+                    case 4:
+                        Special2 sp = new Special2();
+                        sp.GetSpePastSimp3();
+                        gens = sp.sp7;
+                        gene = sp.eng7;
+                        break;
+
+                    
+                }
+                break;
+
+
+        }
+    }
+
+    public void GenPastCont3() {
+        int rand = (int) (Math.random() * pronombres.length);
+        int verb = (int) (Math.random() * 6);
+        String temp = pronombres[rand];
+        switch (temp) {
+            case "yo ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadocontinuo();
+                        gens = n.ps1;
+                        gene = n.ps1eng;
+                        break;
+                    case 1:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadocontinuo();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
+                        break;
+                    case 2:
+                        People2 p = new People2();
+                        p.pasadocontinuo();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
+                        break;
+
+                    case 3:
+                        Oo2 o = new Oo2();
+                        o.pasadocontinuo();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
+                        break;
+                    case 4:
+                        Special2 s = new Special2();  // el objeto que hace la accion
+                        s.GetSpePastCont3();  //esta es la accion
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
 
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutSimp3();
-                        gens = it.sp1;
-                        gene = it.eng1;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesFuturoSimple3();
+                        n.pasadocontinuo();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesFuturoSimple3();
+                        o.pasadocontinuo();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesFuturoSimple3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadocontinuo();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesFuturoSimple3();
+                        p.pasadocontinuo();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 s = new Special2();
-                        s.GetFutSimp3();
+                        Special2 s = new Special2();  // el objeto que hace la accion
+                        s.GetSpePastCont3();  //esta es la accion
                         gens = s.sp2;
                         gene = s.eng2;
+
                         break;
 
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutSimp3();
-                        gens = it.sp2;
-                        gene = it.eng2;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesFuturoSimple3();
+                        n.pasadocontinuo();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesFuturoSimple3();
+                        o.pasadocontinuo();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesFuturoSimple3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadocontinuo();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesFuturoSimple3();
+                        p.pasadocontinuo();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutSimp3();
+                        s.GetSpePastCont3();
                         gens = s.sp3;
                         gene = s.eng3;
+
                         break;
 
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutSimp3();
-                        gens = it.sp3;
-                        gene = it.eng3;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -15434,46 +14236,45 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesFuturoSimple3();
+                        n.pasadocontinuo();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesFuturoSimple3();
+                        o.pasadocontinuo();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesFuturoSimple3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadocontinuo();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesFuturoSimple3();
+                        p.pasadocontinuo();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
 
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutSimp3();
+                        s.GetSpePastCont3();
                         gens = s.sp3ella;
                         gene = s.eng3she;
+
                         break;
 
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutSimp3();
-                        gens = it.sp4;
-                        gene = it.eng4;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -15481,44 +14282,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesFuturoSimple3();
+                        n.pasadocontinuo();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesFuturoSimple3();
+                        o.pasadocontinuo();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesFuturoSimple3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadocontinuo();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesFuturoSimple3();
+                        p.pasadocontinuo();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutSimp3();
+                        s.GetSpePastCont3();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
 
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutSimp3();
-                        gens = it.sp5;
-                        gene = it.eng5;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -15526,45 +14326,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesFuturoSimple3();
+                        n.pasadocontinuo();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesFuturoSimple3();
+                        o.pasadocontinuo();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesFuturoSimple3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadocontinuo();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesFuturoSimple3();
+                        p.pasadocontinuo();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutSimp3();
+                        s.GetSpePastCont3();
                         gens = s.sp4;
                         gene = s.eng4;
                         break;
 
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutSimp3();
-                        gens = it.sp6;
-                        gene = it.eng6;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -15572,52 +14369,51 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesFuturoSimple3();
+                        n.pasadocontinuo();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesFuturoSimple3();
+                        o.pasadocontinuo();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesFuturoSimple3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadocontinuo();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesFuturoSimple3();
+                        p.pasadocontinuo();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutSimp3();
+                        s.GetSpePastCont3();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
 
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutSimp3();
-                        gens = it.sp7;
-                        gene = it.eng7;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
-        }
-    } //hechos Special y Intrans PD
 
-    public void GenFutureContDif3() {
+
+        }
+    }
+
+    public void GenPastPerf3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -15626,138 +14422,1416 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFutureContDif3();
+                        n.pasadoperfecto();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
+                        break;
+                    case 1:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfecto();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
+                        break;
+                    case 2:
+                        People2 p = new People2();
+                        p.pasadoperfecto();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
+                        break;
+
+                    case 3:
+                        Oo2 o = new Oo2();
+                        o.pasadoperfecto();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
+                        break;
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpePastPerf3();
+                        gens = s.sp1;
+                        gene = s.eng1;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerf3();
+                        gens = i.sp1;
+                        gene = i.eng1;
+                        break;
+
+                }
+                break;
+            case "tú ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadoperfecto();
+                        gens = n.ps2;
+                        gene = n.ps2eng;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleFutureContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        o.pasadoperfecto();
+                        gens = o.ps2;
+                        gene = o.ps2eng;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFutureContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfecto();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleFutureContDif3();
+                        p.pasadoperfecto();
+                        gens = p.ps2;
+                        gene = p.ps2eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpePastPerf3();
+                        gens = s.sp2;
+                        gene = s.eng2;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerf3();
+                        gens = i.sp2;
+                        gene = i.eng2;
+                        break;
+
+                }
+                break;
+            case "él ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadoperfecto();
+                        gens = n.ps3;
+                        gene = n.ps3eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.pasadoperfecto();
+                        gens = o.ps3;
+                        gene = o.ps3eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfecto();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.pasadoperfecto();
+                        gens = p.ps3;
+                        gene = p.ps3eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpePastPerf3();
+                        gens = s.sp3;
+                        gene = s.eng3;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerf3();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
+                }
+                break;
+            case "ella ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadoperfecto();
+                        gens = n.ps3ella;
+                        gene = n.ps3she;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.pasadoperfecto();
+                        gens = o.ps3ella;
+                        gene = o.ps3she;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfecto();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.pasadoperfecto();
+                        gens = p.ps3ella;
+                        gene = p.ps3she;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpePastPerf3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerf3();
+                        gens = i.sp4;
+                        gene = i.eng4;
+                        break;
+                }
+                break;
+            case "eso ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadoperfecto();
+                        gens = n.ps3eso;
+                        gene = n.ps3it;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.pasadoperfecto();
+                        gens = o.ps3eso;
+                        gene = o.ps3it;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfecto();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.pasadoperfecto();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpePastPerf3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerf3();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
+                }
+                break;
+            case "ellos ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadoperfecto();
+                        gens = n.ps4;
+                        gene = n.ps4eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.pasadoperfecto();
+                        gens = o.ps4;
+                        gene = o.ps4eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfecto();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.pasadoperfecto();
+                        gens = p.ps4;
+                        gene = p.ps4eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpePastPerf3();
+                        gens = s.sp4;
+                        gene = s.eng4;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerf3();
+                        gens = i.sp6;
+                        gene = i.eng6;
+                        break;
+                }
+                break;
+            case "nosotros ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadoperfecto();
+                        gens = n.ps5;
+                        gene = n.ps5eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.pasadoperfecto();
+                        gens = o.ps5;
+                        gene = o.ps5eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfecto();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.pasadoperfecto();
+                        gens = p.ps5;
+                        gene = p.ps5eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpePastPerf3();
+                        gens = s.sp5;
+                        gene = s.eng5;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerf3();
+                        gens = i.sp7;
+                        gene = i.eng7;
+                        break;
+                }
+                break;
+
+
+        }
+    }
+
+    public void GenPastPerfCont3() {
+        int rand = (int) (Math.random() * pronombres.length);
+        int verb = (int) (Math.random() * 6);
+        String temp = pronombres[rand];
+        switch (temp) {
+            case "yo ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadoperfectocontinuo();
+                        gens = n.ps1;
+                        gene = n.ps1eng;
+                        break;
+                    case 1:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfectocontinuo();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
+                        break;
+                    case 2:
+                        People2 p = new People2();
+                        p.pasadoperfectocontinuo();
                         gens = p.ps1;
                         gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        break;
+
+                    case 3:
+                        Oo2 o = new Oo2();
+                        o.pasadoperfectocontinuo();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutCont3();
+                        s.GetSpePastPerfCont3();
+                        gens = s.sp1;
+                        gene = s.eng1;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerfCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
+                        break;
+
+                }
+                break;
+            case "tú ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadoperfectocontinuo();
+                        gens = n.ps2;
+                        gene = n.ps2eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.pasadoperfectocontinuo();
+                        gens = o.ps2;
+                        gene = o.ps2eng;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfectocontinuo();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.pasadoperfectocontinuo();
+                        gens = p.ps2;
+                        gene = p.ps2eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpePastPerfCont3();
+                        gens = s.sp2;
+                        gene = s.eng2;
+
+                        break;
+
+                    case 5:
+
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerfCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
+
+                        break;
+
+                }
+                break;
+            case "él ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadoperfectocontinuo();
+                        gens = n.ps3;
+                        gene = n.ps3eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.pasadoperfectocontinuo();
+                        gens = o.ps3;
+                        gene = o.ps3eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfectocontinuo();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.pasadoperfectocontinuo();
+                        gens = p.ps3;
+                        gene = p.ps3eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpePastPerfCont3();
+                        gens = s.sp3;
+                        gene = s.eng3;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerfCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
+                }
+                break;
+            case "ella ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadoperfectocontinuo();
+                        gens = n.ps3ella;
+                        gene = n.ps3she;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.pasadoperfectocontinuo();
+                        gens = o.ps3ella;
+                        gene = o.ps3she;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfectocontinuo();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.pasadoperfectocontinuo();
+                        gens = p.ps3ella;
+                        gene = p.ps3she;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpePastPerfCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerfCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
+                        break;
+                }
+                break;
+            case "eso ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadoperfectocontinuo();
+                        gens = n.ps3eso;
+                        gene = n.ps3it;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.pasadoperfectocontinuo();
+                        gens = o.ps3eso;
+                        gene = o.ps3it;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfectocontinuo();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.pasadoperfectocontinuo();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpePastPerfCont3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerfCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
+                }
+                break;
+            case "ellos ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadoperfectocontinuo();
+                        gens = n.ps4;
+                        gene = n.ps4eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.pasadoperfectocontinuo();
+                        gens = o.ps4;
+                        gene = o.ps4eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfectocontinuo();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.pasadoperfectocontinuo();
+                        gens = p.ps4;
+                        gene = p.ps4eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpePastPerfCont3();
+                        gens = s.sp4;
+                        gene = s.eng4;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerfCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
+                        break;
+                }
+                break;
+            case "nosotros ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.pasadoperfectocontinuo();
+                        gens = n.ps5;
+                        gene = n.ps5eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.pasadoperfectocontinuo();
+                        gens = o.ps5;
+                        gene = o.ps5eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.pasadoperfectocontinuo();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.pasadoperfectocontinuo();
+                        gens = p.ps5;
+                        gene = p.ps5eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpePastPerfCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntPastPerfCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
+                        break;
+                }
+                break;
+
+
+        }
+    }
+
+    public void GenFutSimp3() {
+        int rand = (int) (Math.random() * pronombres.length);
+        int verb = (int) (Math.random() * 6);
+        String temp = pronombres[rand];
+        switch (temp) {
+            case "yo ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurosimple();
+                        gens = n.ps1;
+                        gene = n.ps1eng;
+                        break;
+                    case 1:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurosimple();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
+                        break;
+                    case 2:
+                        People2 p = new People2();
+                        p.futurosimple();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
+                        break;
+
+                    case 3:
+                        Oo2 o = new Oo2();
+                        o.futurosimple();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
+                        break;
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutSimp3();
+                        gens = s.sp1;
+                        gene = s.eng1;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutSimp3();
+                        gens = i.sp1;
+                        gene = i.eng1;
+                        break;
+
+                }
+                break;
+            case "tú ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurosimple();
+                        gens = n.ps2;
+                        gene = n.ps2eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.futurosimple();
+                        gens = o.ps2;
+                        gene = o.ps2eng;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurosimple();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.futurosimple();
+                        gens = p.ps2;
+                        gene = p.ps2eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutSimp3();
+                        gens = s.sp2;
+                        gene = s.eng2;
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutSimp3();
+                        gens = i.sp2;
+                        gene = i.eng2;
+
+                        break;
+
+                }
+                break;
+            case "él ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurosimple();
+                        gens = n.ps3;
+                        gene = n.ps3eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.futurosimple();
+                        gens = o.ps3;
+                        gene = o.ps3eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurosimple();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.futurosimple();
+                        gens = p.ps3;
+                        gene = p.ps3eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutSimp3();
+                        gens = s.sp3;
+                        gene = s.eng3;
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutSimp3();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
+                }
+                break;
+            case "ella ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurosimple();
+                        gens = n.ps3ella;
+                        gene = n.ps3she;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.futurosimple();
+                        gens = o.ps3ella;
+                        gene = o.ps3she;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurosimple();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.futurosimple();
+                        gens = p.ps3ella;
+                        gene = p.ps3she;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutSimp3();
+                        gens = s.sp4;
+                        gene = s.eng4;
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutSimp3();
+                        gens = i.sp4;
+                        gene = i.eng4;
+                        break;
+                }
+                break;
+            case "eso ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurosimple();
+                        gens = n.ps3eso;
+                        gene = n.ps3it;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.futurosimple();
+                        gens = o.ps3eso;
+                        gene = o.ps3it;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurosimple();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.futurosimple();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutSimp3();
+                        gens = s.sp5;
+                        gene = s.eng5;
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutSimp3();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
+                }
+                break;
+            case "ellos ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurosimple();
+                        gens = n.ps4;
+                        gene = n.ps4eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.futurosimple();
+                        gens = o.ps4;
+                        gene = o.ps4eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurosimple();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.futurosimple();
+                        gens = p.ps4;
+                        gene = p.ps4eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutSimp3();
+                        gens = s.sp6;
+                        gene = s.eng6;
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutSimp3();
+                        gens = i.sp6;
+                        gene = i.eng6;
+                        break;
+                }
+                break;
+            case "nosotros ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurosimple();
+                        gens = n.ps5;
+                        gene = n.ps5eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.futurosimple();
+                        gens = o.ps5;
+                        gene = o.ps5eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurosimple();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.futurosimple();
+                        gens = p.ps5;
+                        gene = p.ps5eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutSimp3();
+                        gens = s.sp7;
+                        gene = s.eng7;
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutSimp3();
+                        gens = i.sp7;
+                        gene = i.eng7;
+                        break;
+                }
+                break;
+
+
+        }
+    }
+
+    public void GenFutCont3() {
+        int rand = (int) (Math.random() * pronombres.length);
+        int verb = (int) (Math.random() * 6);
+        String temp = pronombres[rand];
+        switch (temp) {
+            case "yo ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurocont();
+                        gens = n.ps1;
+                        gene = n.ps1eng;
+                        break;
+                    case 1:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurocont();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
+                        break;
+                    case 2:
+                        People2 p = new People2();
+                        p.futurocont();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
+                        break;
+
+                    case 3:
+                        Oo2 o = new Oo2();
+                        o.futurocont();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
+                        break;
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutCont3();
+                        gens = s.sp1;
+                        gene = s.eng1;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
+                        break;
+
+                }
+                break;
+            case "tú ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurocont();
+                        gens = n.ps2;
+                        gene = n.ps2eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.futurocont();
+                        gens = o.ps2;
+                        gene = o.ps2eng;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurocont();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.futurocont();
+                        gens = p.ps2;
+                        gene = p.ps2eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutCont3();
+                        gens = s.sp2;
+                        gene = s.eng2;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
+                        break;
+
+                }
+                break;
+            case "él ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurocont();
+                        gens = n.ps3;
+                        gene = n.ps3eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.futurocont();
+                        gens = o.ps3;
+                        gene = o.ps3eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurocont();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.futurocont();
+                        gens = p.ps3;
+                        gene = p.ps3eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutCont3();
+                        gens = s.sp3;
+                        gene = s.eng3;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
+                }
+                break;
+            case "ella ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurocont();
+                        gens = n.ps3ella;
+                        gene = n.ps3she;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.futurocont();
+                        gens = o.ps3ella;
+                        gene = o.ps3she;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurocont();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.futurocont();
+                        gens = p.ps3ella;
+                        gene = p.ps3she;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
+
+                        break;
+                }
+                break;
+            case "eso ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurocont();
+                        gens = n.ps3eso;
+                        gene = n.ps3it;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.futurocont();
+                        gens = o.ps3eso;
+                        gene = o.ps3it;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurocont();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.futurocont();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutCont3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
+                }
+                break;
+            case "ellos ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurocont();
+                        gens = n.ps4;
+                        gene = n.ps4eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.futurocont();
+                        gens = o.ps4;
+                        gene = o.ps4eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurocont();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.futurocont();
+                        gens = p.ps4;
+                        gene = p.ps4eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutCont3();
+                        gens = s.sp4;
+                        gene = s.eng4;
+
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
+                        break;
+                }
+                break;
+            case "nosotros ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futurocont();
+                        gens = n.ps5;
+                        gene = n.ps5eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.futurocont();
+                        gens = o.ps5;
+                        gene = o.ps5eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futurocont();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.futurocont();
+                        gens = p.ps5;
+                        gene = p.ps5eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
+                        break;
+
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
+                        break;
+                }
+                break;
+
+
+        }
+    }
+
+    public void GenFutPerf3() {
+        int rand = (int) (Math.random() * pronombres.length);
+        int verb = (int) (Math.random() * 6);
+        String temp = pronombres[rand];
+        switch (temp) {
+            case "yo ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.futuroperf();
+                        gens = n.ps1;
+                        gene = n.ps1eng;
+                        break;
+                    case 1:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperf();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
+                        break;
+                    case 2:
+                        People2 p = new People2();
+                        p.futuroperf();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
+                        break;
+
+                    case 3:
+                        Oo2 o = new Oo2();
+                        o.futuroperf();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
+                        break;
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutPerf3();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerf3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFutureContDif3();
+                        n.futuroperf();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleFutureContDif3();
+                        o.futuroperf();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFutureContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperf();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleFutureContDif3();
+                        p.futuroperf();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
-                        break;
-                    case 4:
-                        Special2 s = new Special2();
-                        s.GetFutCont3();
-                        gens = s.sp2;
-                        gene = s.eng2;
                         break;
 
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutPerf3();
+                        gens = s.sp2;
+                        gene = s.eng1;
                         break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerf3();
+                        gens = i.sp2;
+                        gene = i.eng2;
+                        break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFutureContDif3();
+                        n.futuroperf();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleFutureContDif3();
+                        o.futuroperf();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFutureContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperf();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleFutureContDif3();
+                        p.futuroperf();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutCont3();
+                        s.GetSpeFutPerf3();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerf3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -15765,45 +15839,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFutureContDif3();
+                        n.futuroperf();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleFutureContDif3();
+                        o.futuroperf();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFutureContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperf();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleFutureContDif3();
+                        p.futuroperf();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutCont3();
+                        s.GetSpeFutPerf3();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerf3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -15811,44 +15883,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFutureContDif3();
+                        n.futuroperf();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleFutureContDif3();
+                        o.futuroperf();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFutureContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperf();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleFutureContDif3();
+                        p.futuroperf();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutCont3();
+                        s.GetSpeFutPerf3();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerf3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -15856,45 +15926,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFutureContDif3();
+                        n.futuroperf();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleFutureContDif3();
+                        o.futuroperf();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFutureContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperf();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleFutureContDif3();
+                        p.futuroperf();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 s = new Special2();
-                        s.GetFutCont3();
-                        gens = s.sp4;
-                        gene = s.eng4;
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutPerf3();
+                        gens = s.sp5;
+                        gene = s.eng5;
+                        break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerf3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -15902,52 +15968,49 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFutureContDif3();
+                        n.futuroperf();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleFutureContDif3();
+                        o.futuroperf();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFutureContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperf();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleFutureContDif3();
+                        p.futuroperf();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutCont3();
-                        gens = s.sp5;
-                        gene = s.eng5;
+                        s.GetSpeFutPerf3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerf3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
-        }
-    } //hechos Special y Intrans PD
 
-    public void GenFuturePerfDif3() {
+
+        }
+    }
+
+    public void GenFutPerfCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -15956,138 +16019,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFuturePerfDif3();
+                        n.futuroperfcont();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleFuturePerfDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperfcont();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFuturePerfDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.futuroperfcont();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenNobleFuturePerfDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.futuroperfcont();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutPerf3();
+                        s.GetSpeFutPerfCont3();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerf3();
-                        gens = it.sp1;
-                        gene = it.eng1;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerfCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFuturePerfDif3();
+                        n.futuroperfcont();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleFuturePerfDif3();
+                        o.futuroperfcont();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFuturePerfDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperfcont();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleFuturePerfDif3();
+                        p.futuroperfcont();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutPerf3();
+                        s.GetSpeFutPerfCont3();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerf3();
-                        gens = it.sp2;
-                        gene = it.eng2;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerfCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFuturePerfDif3();
+                        n.futuroperfcont();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleFuturePerfDif3();
+                        o.futuroperfcont();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFuturePerfDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperfcont();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleFuturePerfDif3();
+                        p.futuroperfcont();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutPerf3();
+                        s.GetSpeFutPerfCont3();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerf3();
-                        gens = it.sp3;
-                        gene = it.eng3;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerfCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -16095,45 +16147,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFuturePerfDif3();
+                        n.futuroperfcont();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleFuturePerfDif3();
+                        o.futuroperfcont();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFuturePerfDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperfcont();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleFuturePerfDif3();
+                        p.futuroperfcont();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutPerf3();
+                        s.GetSpeFutPerfCont3();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerf3();
-                        gens = it.sp4;
-                        gene = it.eng4;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerfCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -16141,44 +16191,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFuturePerfDif3();
+                        n.futuroperfcont();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleFuturePerfDif3();
+                        o.futuroperfcont();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFuturePerfDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperfcont();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleFuturePerfDif3();
+                        p.futuroperfcont();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutPerf3();
+                        s.GetSpeFutPerfCont3();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerf3();
-                        gens = it.sp5;
-                        gene = it.eng5;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerfCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -16186,45 +16234,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFuturePerfDif3();
+                        n.futuroperfcont();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleFuturePerfDif3();
+                        o.futuroperfcont();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFuturePerfDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperfcont();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleFuturePerfDif3();
+                        p.futuroperfcont();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 s = new Special2();
-                        s.GetFutPerf3();
-                        gens = s.sp4;
-                        gene = s.eng4;
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutPerfCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
+                        break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerf3();
-                        gens = it.sp6;
-                        gene = it.eng6;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerfCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -16232,52 +16276,50 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleFuturePerfDif3();
+                        n.futuroperfcont();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleFuturePerfDif3();
+                        o.futuroperfcont();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleFuturePerfDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.futuroperfcont();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleFuturePerfDif3();
+                        p.futuroperfcont();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
-                        break;
-                    case 4:
-                        Special2 s = new Special2();
-                        s.GetFutPerf3();
-                        gens = s.sp5;
-                        gene = s.eng5;
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeFutPerfCont3();
+                        gens = s.sp6;
+                        gene = s.eng6;
+                        break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerf3();
-                        gens = it.sp7;
-                        gene = it.eng7;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntFutPerfCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
-        }
-    } //hechos Special y Intrans PD
 
-    public void GenFuturePerfContDif3() {
+
+        }
+    }
+
+    public void GenWouldSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -16286,138 +16328,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenFuturePerfContDif3();
+                        n.generarwouldsimple();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenFuturePerfContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldsimple();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenFuturePerfContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.generarwouldsimple();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenFuturePerfContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.generarwouldsimple();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutPerfCont3();
+                        s.GetSpeWouldSimp3();
                         gens = s.sp1;
                         gene = s.eng1;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerfCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldSimp3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenFuturePerfContDif3();
+                        n.generarwouldsimple();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenFuturePerfContDif3();
+                        o.generarwouldsimple();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenFuturePerfContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldsimple();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenFuturePerfContDif3();
+                        p.generarwouldsimple();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutPerfCont3();
+                        s.GetSpeWouldSimp3();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerfCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldSimp3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenFuturePerfContDif3();
+                        n.generarwouldsimple();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenFuturePerfContDif3();
+                        o.generarwouldsimple();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenFuturePerfContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldsimple();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenFuturePerfContDif3();
+                        p.generarwouldsimple();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutPerfCont3();
+                        s.GetSpeWouldSimp3();
                         gens = s.sp3;
                         gene = s.eng3;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerfCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldSimp3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -16425,45 +16456,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenFuturePerfContDif3();
+                        n.generarwouldsimple();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenFuturePerfContDif3();
+                        o.generarwouldsimple();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenFuturePerfContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldsimple();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenFuturePerfContDif3();
+                        p.generarwouldsimple();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutPerfCont3();
+                        s.GetSpeWouldSimp3();
                         gens = s.sp3ella;
                         gene = s.eng3she;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerfCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldSimp3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -16471,44 +16500,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenFuturePerfContDif3();
+                        n.generarwouldsimple();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenFuturePerfContDif3();
+                        o.generarwouldsimple();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenFuturePerfContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldsimple();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenFuturePerfContDif3();
+                        p.generarwouldsimple();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutPerfCont3();
+                        s.GetSpeWouldSimp3();
                         gens = s.sp3eso;
                         gene = s.sp3it;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerfCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldSimp3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -16516,99 +16542,92 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenFuturePerfContDif3();
+                        n.generarwouldsimple();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenFuturePerfContDif3();
+                        o.generarwouldsimple();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenFuturePerfContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldsimple();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenFuturePerfContDif3();
+                        p.generarwouldsimple();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 s = new Special2();
-                        s.GetFutPerfCont3();
-                        gens = s.sp4;
-                        gene = s.eng4;
                         break;
 
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerfCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        break;
-                }
-                break;
-            case "nosotros ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenFuturePerfContDif3();
-                        gens = n.ps5;
-                        gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenFuturePerfContDif3();
-                        gens = o.ps5;
-                        gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenFuturePerfContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenFuturePerfContDif3();
-                        gens = p.ps5;
-                        gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
-                        break;
                     case 4:
                         Special2 s = new Special2();
-                        s.GetFutPerfCont3();
+                        s.GetSpeWouldSimp3();
                         gens = s.sp5;
                         gene = s.eng5;
                         break;
-
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntFutPerfCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldSimp3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
-        }
-    } //hechos Special y Intrans PD
+            case "nosotros ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.generarwouldsimple();
+                        gens = n.ps5;
+                        gene = n.ps5eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.generarwouldsimple();
+                        gens = o.ps5;
+                        gene = o.ps5eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldsimple();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
+                        break;
 
-    //would
-    public void GenWouldSimpDif3() {
+                    case 3:
+                        People2 p = new People2();
+                        p.generarwouldsimple();
+                        gens = p.ps5;
+                        gene = p.ps5eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeWouldSimp3();
+                        gens = s.sp6;
+                        gene = s.eng6;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldSimp3();
+                        gens = i.sp7;
+                        gene = i.eng7;
+                        break;
+                }
+                break;
+
+
+        }
+    }
+
+    public void GenWouldCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -16617,141 +16636,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesWouldSimple3();
+                        n.generarwouldcont();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenerarNoblesWouldSimple3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldcont();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesWouldSimple3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.generarwouldcont();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenerarNoblesWouldSimple3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.generarwouldcont();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldSimple3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldCont3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldSimp3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesWouldSimple3();
+                        n.generarwouldcont();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesWouldSimple3();
+                        o.generarwouldcont();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesWouldSimple3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldcont();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesWouldSimple3();
+                        p.generarwouldcont();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldSimple3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldCont3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldSimp3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesWouldSimple3();
+                        n.generarwouldcont();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesWouldSimple3();
+                        o.generarwouldcont();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesWouldSimple3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldcont();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesWouldSimple3();
+                        p.generarwouldcont();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldSimple3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldCont3();
+                        gens = s.sp3;
+                        gene = s.eng3;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldSimp3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -16759,46 +16764,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesWouldSimple3();
+                        n.generarwouldcont();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesWouldSimple3();
+                        o.generarwouldcont();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesWouldSimple3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldcont();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesWouldSimple3();
+                        p.generarwouldcont();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldSimple3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldSimp3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -16806,45 +16808,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesWouldSimple3();
+                        n.generarwouldcont();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesWouldSimple3();
+                        o.generarwouldcont();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesWouldSimple3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldcont();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesWouldSimple3();
+                        p.generarwouldcont();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldSimple3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldCont3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldSimp3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -16852,46 +16851,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesWouldSimple3();
+                        n.generarwouldcont();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesWouldSimple3();
+                        o.generarwouldcont();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesWouldSimple3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldcont();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesWouldSimple3();
+                        p.generarwouldcont();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldSimple3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldSimp3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -16899,53 +16893,50 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesWouldSimple3();
+                        n.generarwouldcont();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesWouldSimple3();
+                        o.generarwouldcont();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesWouldSimple3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarwouldcont();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesWouldSimple3();
+                        p.generarwouldcont();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldSimple3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldCont3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldSimp3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
-        }
-    } //hechos Special y Intrans PD
 
-    public void GenWouldContDif3() {
+
+        }
+    }
+
+    public void GenWouldPerf3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -16954,141 +16945,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldContDif3();
+                        n.genwouldperf();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleWouldContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.genwouldperf();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenNobleWouldContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.genwouldperf();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldCont3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerf3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerf3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldContDif3();
+                        n.genwouldperf();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldContDif3();
+                        o.genwouldperf();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldContDif3();
+                        p.genwouldperf();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldCont3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerf3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerf3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldContDif3();
+                        n.genwouldperf();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldContDif3();
+                        o.genwouldperf();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldContDif3();
+                        p.genwouldperf();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldCont3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerf3();
+                        gens = s.sp3;
+                        gene = s.eng3;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerf3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -17096,46 +17073,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldContDif3();
+                        n.genwouldperf();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldContDif3();
+                        o.genwouldperf();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldContDif3();
+                        p.genwouldperf();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldCont3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerf3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerf3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -17143,45 +17117,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldContDif3();
+                        n.genwouldperf();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldContDif3();
+                        o.genwouldperf();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldContDif3();
+                        p.genwouldperf();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldCont3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerf3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerf3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -17189,46 +17160,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldContDif3();
+                        n.genwouldperf();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldContDif3();
+                        o.genwouldperf();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldContDif3();
+                        p.genwouldperf();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldCont3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerf3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerf3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -17236,53 +17202,50 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldContDif3();
+                        n.genwouldperf();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldContDif3();
+                        o.genwouldperf();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldContDif3();
+                        p.genwouldperf();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldCont3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerf3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerf3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
-        }
-    } //hechos Special y Intrans PD
 
-    public void GenWouldPerfDif3() {
+
+        }
+    }
+
+    public void GenWouldPerfCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -17291,141 +17254,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfDif3();
+                        n.genwouldperf();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.genwouldperf();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenNobleWouldPerfDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.genwouldperf();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPer3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerfCont3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerf3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerfCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfDif3();
+                        n.genwouldperf();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfDif3();
+                        o.genwouldperf();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldPerfDif3();
+                        p.genwouldperf();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPer3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerfCont3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerf3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerfCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfDif3();
+                        n.genwouldperf();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfDif3();
+                        o.genwouldperf();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldPerfDif3();
+                        p.genwouldperf();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPer3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerfCont3();
+                        gens = s.sp3;
+                        gene = s.eng3;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerf3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerfCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -17433,46 +17382,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfDif3();
+                        n.genwouldperf();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfDif3();
+                        o.genwouldperf();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldPerfDif3();
+                        p.genwouldperf();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPer3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerfCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerf3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerfCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -17480,45 +17426,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfDif3();
+                        n.genwouldperf();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfDif3();
+                        o.genwouldperf();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldPerfDif3();
+                        p.genwouldperf();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPer3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerfCont3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerf3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerfCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -17526,46 +17469,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfDif3();
+                        n.genwouldperf();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfDif3();
+                        o.genwouldperf();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldPerfDif3();
+                        p.genwouldperf();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPer3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerfCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerf3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerfCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -17573,53 +17511,48 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfDif3();
+                        n.genwouldperf();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfDif3();
+                        o.genwouldperf();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genwouldperf();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldPerfDif3();
+                        p.genwouldperf();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPer3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeWouldPerfCont3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerf3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntWouldPerfCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
         }
-    } //hechos Special y Intrans PD
+    }
 
-    public void GenWouldPerfContDif3() {
+    public void GenCouldSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -17628,141 +17561,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfContDif3();
+                        n.gencouldsimp();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldsimp();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.gencouldsimp();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenNobleWouldPerfContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.gencouldsimp();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPerfCon3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldSimp3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerfCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldSimp3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfContDif3();
+                        n.gencouldsimp();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfContDif3();
+                        o.gencouldsimp();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldsimp();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldPerfContDif3();
+                        p.gencouldsimp();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPerfCon3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldSimp3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerfCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldSimp3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfContDif3();
+                        n.gencouldsimp();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfContDif3();
+                        o.gencouldsimp();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldsimp();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldPerfContDif3();
+                        p.gencouldsimp();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPerfCon3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldSimp3();
+                        gens = s.sp3;
+                        gene = s.eng3;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerfCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldSimp3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -17770,46 +17689,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfContDif3();
+                        n.gencouldsimp();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfContDif3();
+                        o.gencouldsimp();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldsimp();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldPerfContDif3();
+                        p.gencouldsimp();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPerfCon3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldSimp3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerfCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldSimp3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -17817,45 +17733,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfContDif3();
+                        n.gencouldsimp();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfContDif3();
+                        o.gencouldsimp();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldsimp();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldPerfContDif3();
+                        p.gencouldsimp();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPerfCon3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldSimp3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerfCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldSimp3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -17863,46 +17776,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfContDif3();
+                        n.gencouldsimp();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfContDif3();
+                        o.gencouldsimp();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldsimp();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldPerfContDif3();
+                        p.gencouldsimp();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPerfCon3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldSimp3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerfCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldSimp3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -17910,54 +17818,48 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleWouldPerfContDif3();
+                        n.gencouldsimp();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleWouldPerfContDif3();
+                        o.gencouldsimp();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleWouldPerfContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldsimp();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleWouldPerfContDif3();
+                        p.gencouldsimp();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetWouldPerfCon3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldSimp3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntWouldPerfCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldSimp3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
         }
-    } //hechos Special y Intrans PD
+    }
 
-    //could
-    public void GenCouldSimpleDif3() {
+    public void GenCouldCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -17966,141 +17868,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCouldSimple3();
+                        n.generarcouldcont();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenerarNoblesCouldSimple3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarcouldcont();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCouldSimple3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.generarcouldcont();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenerarNoblesCouldSimple3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.generarcouldcont();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldSimp3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldCont3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldSimp3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCouldSimple3();
+                        n.generarcouldcont();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesCouldSimple3();
+                        o.generarcouldcont();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCouldSimple3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarcouldcont();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesCouldSimple3();
+                        p.generarcouldcont();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldSimp3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldCont3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldSimp3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCouldSimple3();
+                        n.generarcouldcont();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesCouldSimple3();
+                        o.generarcouldcont();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCouldSimple3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarcouldcont();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesCouldSimple3();
+                        p.generarcouldcont();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldSimp3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldCont3();
+                        gens = s.sp3;
+                        gene = s.eng3;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldSimp3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -18108,46 +17996,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCouldSimple3();
+                        n.generarcouldcont();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesCouldSimple3();
+                        o.generarcouldcont();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCouldSimple3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarcouldcont();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesCouldSimple3();
+                        p.generarcouldcont();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldSimp3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldSimp3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -18155,45 +18040,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCouldSimple3();
+                        n.generarcouldcont();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesCouldSimple3();
+                        o.generarcouldcont();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCouldSimple3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarcouldcont();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesCouldSimple3();
+                        p.generarcouldcont();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldSimp3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldCont3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldSimp3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -18201,46 +18083,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCouldSimple3();
+                        n.generarcouldcont();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesCouldSimple3();
+                        o.generarcouldcont();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCouldSimple3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarcouldcont();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesCouldSimple3();
+                        p.generarcouldcont();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldSimp3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldSimp3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -18248,53 +18125,48 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCouldSimple3();
+                        n.generarcouldcont();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesCouldSimple3();
+                        o.generarcouldcont();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCouldSimple3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.generarcouldcont();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesCouldSimple3();
+                        p.generarcouldcont();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldSimp3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldCont3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldSimp3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
         }
-    } //hechos Special y Intrans PD
+    }
 
-    public void GenCouldContDif3() {
+    public void GenCouldPerf3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -18303,141 +18175,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldContDif3();
+                        n.gencouldperf();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleCouldContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperf();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.gencouldperf();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenNobleCouldContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.gencouldperf();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldCont3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerf3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerf3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldContDif3();
+                        n.gencouldperf();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCouldContDif3();
+                        o.gencouldperf();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperf();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCouldContDif3();
+                        p.gencouldperf();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldCont3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerf3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerf3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldContDif3();
+                        n.gencouldperf();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCouldContDif3();
+                        o.gencouldperf();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperf();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCouldContDif3();
+                        p.gencouldperf();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldCont3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerf3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerf3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
                 }
                 break;
@@ -18445,46 +18303,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldContDif3();
+                        n.gencouldperf();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCouldContDif3();
+                        o.gencouldperf();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperf();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCouldContDif3();
+                        p.gencouldperf();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldCont3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerf3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerf3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -18492,45 +18347,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldContDif3();
+                        n.gencouldperf();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCouldContDif3();
+                        o.gencouldperf();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperf();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCouldContDif3();
+                        p.gencouldperf();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldCont3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerf3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerf3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -18538,46 +18390,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldContDif3();
+                        n.gencouldperf();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCouldContDif3();
+                        o.gencouldperf();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperf();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCouldContDif3();
+                        p.gencouldperf();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldCont3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerf3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerf3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -18585,53 +18432,49 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldContDif3();
+                        n.gencouldperf();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCouldContDif3();
+                        o.gencouldperf();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperf();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCouldContDif3();
+                        p.gencouldperf();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldCont3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerf3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerf3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
-        }
-    } //hechos Special y Intrans PD
 
-    public void GenCouldPerfDif3() {
+
+        }
+    }
+
+    public void GenCouldPerfCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -18640,141 +18483,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldPerfDif3();
+                        n.gencouldperfcont();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleCouldPerfDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperfcont();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldPerfDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.gencouldperfcont();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenNobleCouldPerfDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.gencouldperfcont();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerf3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerfCont3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerf3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerfCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldPerfDif3();
+                        n.gencouldperfcont();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCouldPerfDif3();
+                        o.gencouldperfcont();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldPerfDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperfcont();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCouldPerfDif3();
+                        p.gencouldperfcont();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerf3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerfCont3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerf3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerfCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldPerfDif3();
+                        n.gencouldperfcont();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCouldPerfDif3();
+                        o.gencouldperfcont();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldPerfDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperfcont();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCouldPerfDif3();
+                        p.gencouldperfcont();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerf3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerfCont3();
+                        gens = s.sp3;
+                        gene = s.eng3;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerf3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerfCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -18782,46 +18611,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldPerfDif3();
+                        n.gencouldperfcont();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCouldPerfDif3();
+                        o.gencouldperfcont();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldPerfDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperfcont();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCouldPerfDif3();
+                        p.gencouldperfcont();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerf3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerfCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerf3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerfCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -18829,45 +18655,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldPerfDif3();
+                        n.gencouldperfcont();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCouldPerfDif3();
+                        o.gencouldperfcont();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldPerfDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperfcont();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCouldPerfDif3();
+                        p.gencouldperfcont();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerf3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerfCont3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerf3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerfCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -18875,46 +18698,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldPerfDif3();
+                        n.gencouldperfcont();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCouldPerfDif3();
+                        o.gencouldperfcont();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldPerfDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperfcont();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCouldPerfDif3();
+                        p.gencouldperfcont();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerf3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerfCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerf3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerfCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -18922,53 +18740,50 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCouldPerfDif3();
+                        n.gencouldperfcont();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCouldPerfDif3();
+                        o.gencouldperfcont();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCouldPerfDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencouldperfcont();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCouldPerfDif3();
+                        p.gencouldperfcont();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerf3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCouldPerfCont3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerf3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCouldPerfCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
-        }
-    } //hechos Special y Intrans PD
 
-    public void GenCouldPerfContDif3() {
+
+        }
+    }
+
+    public void GenMightSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -18977,140 +18792,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenCouldPerfContDif3();
+                        n.genmightsimp();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenCouldPerfContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightsimp();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenCouldPerfContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.genmightsimp();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenCouldPerfContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.genmightsimp();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerfCont3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightSimp3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerfCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightSimp3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenCouldPerfContDif3();
+                        n.genmightsimp();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenCouldPerfContDif3();
+                        o.genmightsimp();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenCouldPerfContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightsimp();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenCouldPerfContDif3();
+                        p.genmightsimp();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerfCont3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightSimp3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerfCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightSimp3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenCouldPerfContDif3();
+                        n.genmightsimp();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenCouldPerfContDif3();
+                        o.genmightsimp();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenCouldPerfContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightsimp();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenCouldPerfContDif3();
+                        p.genmightsimp();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerfCont3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightSimp3();
+                        gens = s.sp3;
+                        gene = s.eng3;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerfCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightSimp3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -19118,46 +18920,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenCouldPerfContDif3();
+                        n.genmightsimp();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenCouldPerfContDif3();
+                        o.genmightsimp();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenCouldPerfContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightsimp();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenCouldPerfContDif3();
+                        p.genmightsimp();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerfCont3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightSimp3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerfCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightSimp3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -19165,45 +18964,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenCouldPerfContDif3();
+                        n.genmightsimp();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenCouldPerfContDif3();
+                        o.genmightsimp();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenCouldPerfContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightsimp();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenCouldPerfContDif3();
+                        p.genmightsimp();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerfCont3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightSimp3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerfCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightSimp3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -19211,46 +19007,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenCouldPerfContDif3();
+                        n.genmightsimp();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenCouldPerfContDif3();
+                        o.genmightsimp();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenCouldPerfContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightsimp();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenCouldPerfContDif3();
+                        p.genmightsimp();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerfCont3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightSimp3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerfCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightSimp3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -19258,54 +19049,48 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenCouldPerfContDif3();
+                        n.genmightsimp();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenCouldPerfContDif3();
+                        o.genmightsimp();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenCouldPerfContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightsimp();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenCouldPerfContDif3();
+                        p.genmightsimp();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCouldPerfCont3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightSimp3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCouldPerfCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightSimp3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
         }
-    } //hechos Special y Intrans PD
+    }
 
-    //should
-    public void GenShouldSimpleDif3() {
+    public void GenMightCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -19314,139 +19099,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesShouldSimple3();
+                        n.genmightcont();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenerarNoblesShouldSimple3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightcont();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesShouldSimple3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
-                        break;
-                    case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesShouldSimple3();
+                        p.genmightcont();
                         gens = p.ps1;
                         gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        break;
+
+                    case 3:
+                        Oo2 o = new Oo2();
+                        o.genmightcont();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldSimp3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightCont3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldSimp3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesShouldSimple3();
+                        n.genmightcont();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesShouldSimple3();
+                        o.genmightcont();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesShouldSimple3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightcont();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesShouldSimple3();
+                        p.genmightcont();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldSimp3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightCont3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldSimp3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesShouldSimple3();
+                        n.genmightcont();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesShouldSimple3();
+                        o.genmightcont();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesShouldSimple3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightcont();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesShouldSimple3();
+                        p.genmightcont();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldSimp3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightCont3();
+                        gens = s.sp3;
+                        gene = s.eng3;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldSimp3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -19454,46 +19227,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesShouldSimple3();
+                        n.genmightcont();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesShouldSimple3();
+                        o.genmightcont();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesShouldSimple3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightcont();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesShouldSimple3();
+                        p.genmightcont();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldSimp3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldSimp3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -19501,45 +19271,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesShouldSimple3();
+                        n.genmightcont();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesShouldSimple3();
+                        o.genmightcont();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesShouldSimple3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightcont();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesShouldSimple3();
+                        p.genmightcont();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldSimp3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightCont3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldSimp3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -19547,46 +19314,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesShouldSimple3();
+                        n.genmightcont();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesShouldSimple3();
+                        o.genmightcont();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesShouldSimple3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightcont();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesShouldSimple3();
+                        p.genmightcont();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldSimp3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldSimp3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -19594,53 +19356,50 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesShouldSimple3();
+                        n.genmightcont();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesShouldSimple3();
+                        o.genmightcont();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesShouldSimple3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightcont();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesShouldSimple3();
+                        p.genmightcont();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldSimp3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightCont3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldSimp3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
-        }
-    } //hechos Special y Intrans LR
 
-    public void GenShouldContDif3() {
+
+        }
+    }
+
+    public void GenMightPerf3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -19649,141 +19408,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldContDif3();
+                        n.genmightperf();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleShouldContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperf();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.genmightperf();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenNobleShouldContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.genmightperf();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldCont3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerf3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerf3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldContDif3();
+                        n.genmightperf();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleShouldContDif3();
+                        o.genmightperf();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperf();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleShouldContDif3();
+                        p.genmightperf();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldCont3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerf3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerf3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldContDif3();
+                        n.genmightperf();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleShouldContDif3();
+                        o.genmightperf();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperf();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleShouldContDif3();
+                        p.genmightperf();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldCont3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerf3();
+                        gens = s.sp3;
+                        gene = s.eng3;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerf3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -19791,46 +19536,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldContDif3();
+                        n.genmightperf();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleShouldContDif3();
+                        o.genmightperf();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperf();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleShouldContDif3();
+                        p.genmightperf();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldCont3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerf3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerf3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -19838,45 +19580,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldContDif3();
+                        n.genmightperf();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleShouldContDif3();
+                        o.genmightperf();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperf();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleShouldContDif3();
+                        p.genmightperf();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldCont3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerf3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerf3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -19884,46 +19623,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldContDif3();
+                        n.genmightperf();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleShouldContDif3();
+                        o.genmightperf();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperf();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleShouldContDif3();
+                        p.genmightperf();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldCont3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerf3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerf3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -19931,53 +19665,50 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldContDif3();
+                        n.genmightperf();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleShouldContDif3();
+                        o.genmightperf();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperf();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleShouldContDif3();
+                        p.genmightperf();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldCont3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerf3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerf3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
-        }
-    } //hechos Special y Intrans LR
 
-    public void GenShouldPerfectDif3() {
+
+        }
+    }
+
+    public void GenMightPerfCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -19986,141 +19717,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldPerfDif3();
+                        n.genmightperfcont();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleShouldPerfDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperfcont();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldPerfDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.genmightperfcont();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenNobleShouldPerfDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.genmightperfcont();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerf3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerfCont3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerf3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerfCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldPerfDif3();
+                        n.genmightperfcont();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleShouldPerfDif3();
+                        o.genmightperfcont();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldPerfDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperfcont();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleShouldPerfDif3();
+                        p.genmightperfcont();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerf3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerfCont3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerf3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerfCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldPerfDif3();
+                        n.genmightperfcont();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleShouldPerfDif3();
+                        o.genmightperfcont();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldPerfDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperfcont();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleShouldPerfDif3();
+                        p.genmightperfcont();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerf3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerfCont3();
+                        gens = s.sp3;
+                        gene = s.eng3;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerf3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerfCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -20128,45 +19845,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldPerfDif3();
+                        n.genmightperfcont();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleShouldPerfDif3();
+                        o.genmightperfcont();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldPerfDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperfcont();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleShouldPerfDif3();
+                        p.genmightperfcont();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerf3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerfCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerf3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerfCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -20174,45 +19889,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldPerfDif3();
+                        n.genmightperfcont();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleShouldPerfDif3();
+                        o.genmightperfcont();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldPerfDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperfcont();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleShouldPerfDif3();
+                        p.genmightperfcont();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerf3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerfCont3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerf3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerfCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -20220,101 +19932,90 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldPerfDif3();
+                        n.genmightperfcont();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleShouldPerfDif3();
+                        o.genmightperfcont();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldPerfDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperfcont();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleShouldPerfDif3();
+                        p.genmightperfcont();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerf3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerf3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerfCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerfCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
+                        break;
                 }
                 break;
             case "nosotros ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleShouldPerfDif3();
+                        n.genmightperfcont();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleShouldPerfDif3();
+                        o.genmightperfcont();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleShouldPerfDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmightperfcont();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleShouldPerfDif3();
+                        p.genmightperfcont();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerf3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMightPerfCont3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerf3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMightPerfCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
         }
-    } //hechos Special y Intrans LR
+    }
 
-    public void GenShouldPerfectContDif3() {
+    public void GenShouldSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -20323,141 +20024,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenShouldPerfContDif3();
+                        n.genshoudlsimp();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenShouldPerfContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshoudlsimp();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenShouldPerfContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.genshoudlsimp();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenShouldPerfContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.genshoudlsimp();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerfCont3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldSimp3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerfCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldSimp3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenShouldPerfContDif3();
+                        n.genshoudlsimp();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenShouldPerfContDif3();
+                        o.genshoudlsimp();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenShouldPerfContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshoudlsimp();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenShouldPerfContDif3();
+                        p.genshoudlsimp();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerfCont3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldSimp3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerfCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldSimp3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenShouldPerfContDif3();
+                        n.genshoudlsimp();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenShouldPerfContDif3();
+                        o.genshoudlsimp();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenShouldPerfContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshoudlsimp();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenShouldPerfContDif3();
+                        p.genshoudlsimp();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerfCont3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldSimp3();
+                        gens = s.sp3;
+                        gene = s.eng3;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerfCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldSimp3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -20465,46 +20152,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenShouldPerfContDif3();
+                        n.genshoudlsimp();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenShouldPerfContDif3();
+                        o.genshoudlsimp();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenShouldPerfContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshoudlsimp();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenShouldPerfContDif3();
+                        p.genshoudlsimp();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerfCont3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldSimp3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerfCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldSimp3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -20512,45 +20196,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenShouldPerfContDif3();
+                        n.genshoudlsimp();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenShouldPerfContDif3();
+                        o.genshoudlsimp();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenShouldPerfContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshoudlsimp();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenShouldPerfContDif3();
+                        p.genshoudlsimp();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerfCont3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldSimp3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerfCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldSimp3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -20558,46 +20239,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenShouldPerfContDif3();
+                        n.genshoudlsimp();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenShouldPerfContDif3();
+                        o.genshoudlsimp();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenShouldPerfContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshoudlsimp();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenShouldPerfContDif3();
+                        p.genshoudlsimp();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerfCont3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldSimp3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerfCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldSimp3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -20605,53 +20281,357 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenShouldPerfContDif3();
+                        n.genshoudlsimp();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenShouldPerfContDif3();
+                        o.genshoudlsimp();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenShouldPerfContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshoudlsimp();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenShouldPerfContDif3();
+                        p.genshoudlsimp();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetShouldPerfCont3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldSimp3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntShouldPerfCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldSimp3();
+                        gens = i.sp7;
+                        gene = i.eng7;
+                        break;
+                }
+                break;
+
+
+        }
+    }
+
+    public void GenShouldCont3() {
+        int rand = (int) (Math.random() * pronombres.length);
+        int verb = (int) (Math.random() * 6);
+
+        String temp = pronombres[rand];
+        switch (temp) {
+            case "yo ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.genshouldcont();
+                        gens = n.ps1;
+                        gene = n.ps1eng;
+                        break;
+                    case 1:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldcont();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
+                        break;
+                    case 2:
+                        People2 p = new People2();
+                        p.genshouldcont();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
+                        break;
+
+                    case 3:
+                        Oo2 o = new Oo2();
+                        o.genshouldcont();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
+                        break;
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldCont3();
+                        gens = s.sp1;
+                        gene = s.eng1;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
+                        break;
+
+                }
+                break;
+            case "tú ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.genshouldcont();
+                        gens = n.ps2;
+                        gene = n.ps2eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.genshouldcont();
+                        gens = o.ps2;
+                        gene = o.ps2eng;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldcont();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.genshouldcont();
+                        gens = p.ps2;
+                        gene = p.ps2eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldCont3();
+                        gens = s.sp2;
+                        gene = s.eng2;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
+                        break;
+
+                }
+                break;
+            case "él ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.genshouldcont();
+                        gens = n.ps3;
+                        gene = n.ps3eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.genshouldcont();
+                        gens = o.ps3;
+                        gene = o.ps3eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldcont();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.genshouldcont();
+                        gens = p.ps3;
+                        gene = p.ps3eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldCont3();
+                        gens = s.sp3;
+                        gene = s.eng3;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
+                }
+                break;
+            case "ella ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.genshouldcont();
+                        gens = n.ps3ella;
+                        gene = n.ps3she;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.genshouldcont();
+                        gens = o.ps3ella;
+                        gene = o.ps3she;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldcont();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.genshouldcont();
+                        gens = p.ps3ella;
+                        gene = p.ps3she;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
+                        break;
+                }
+                break;
+            case "eso ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.genshouldcont();
+                        gens = n.ps3eso;
+                        gene = n.ps3it;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.genshouldcont();
+                        gens = o.ps3eso;
+                        gene = o.ps3it;
+
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldcont();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.genshouldcont();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldCont3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
+                }
+                break;
+            case "ellos ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.genshouldcont();
+                        gens = n.ps4;
+                        gene = n.ps4eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.genshouldcont();
+                        gens = o.ps4;
+                        gene = o.ps4eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldcont();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.genshouldcont();
+                        gens = p.ps4;
+                        gene = p.ps4eng;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
+                        break;
+                }
+                break;
+            case "nosotros ":
+                switch (verb) {
+                    case 0:
+                        Nobles2 n = new Nobles2();
+                        n.genshouldcont();
+                        gens = n.ps5;
+                        gene = n.ps5eng;
+                        break;
+                    case 1:
+                        Oo2 o = new Oo2();
+                        o.genshouldcont();
+                        gens = o.ps5;
+                        gene = o.ps5eng;
+                        break;
+                    case 2:
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldcont();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
+                        break;
+
+                    case 3:
+                        People2 p = new People2();
+                        p.genshouldcont();
+                        gens = p.ps5;
+                        gene = p.ps5eng;
+                        break;
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldCont3();
+                        gens = s.sp6;
+                        gene = s.eng6;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
         }
-    } //hechos Special y Intrans LR
+    }
 
-    //might
-    public void GenMightSimpDif3() {
+    public void GenShouldPerf3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -20660,46 +20640,40 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMightSimple3();
+                        n.genshouldper();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenerarNoblesMightSimple3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMightSimple3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.genshouldper();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenerarNoblesMightSimple3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.genshouldper();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightSimp3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerf3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightSimp3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerf3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
 
                 }
@@ -20708,46 +20682,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMightSimple3();
+                        n.genshouldper();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesMightSimple3();
+                        o.genshouldper();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMightSimple3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesMightSimple3();
+                        p.genshouldper();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightSimp3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerf3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightSimp3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerf3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
 
                 }
@@ -20756,246 +20726,221 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMightSimple3();
+                        n.genshouldper();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesMightSimple3();
+                        o.genshouldper();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMightSimple3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesMightSimple3();
+                        p.genshouldper();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightSimp3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightSimp3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerf3();
+                        gens = s.sp3;
+                        gene = s.eng3;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerf3();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
                 }
                 break;
             case "ella ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMightSimple3();
+                        n.genshouldper();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesMightSimple3();
+                        o.genshouldper();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMightSimple3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesMightSimple3();
+                        p.genshouldper();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightSimp3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightSimp3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerf3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerf3();
+                        gens = i.sp4;
+                        gene = i.eng4;
+                        break;
                 }
                 break;
             case "eso ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMightSimple3();
+                        n.genshouldper();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesMightSimple3();
+                        o.genshouldper();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMightSimple3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.GenerarNoblesMightSimple3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightSimp3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightSimp3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
 
+                    case 3:
+                        People2 p = new People2();
+                        p.genshouldper();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerf3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerf3();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
                 }
                 break;
             case "ellos ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMightSimple3();
+                        n.genshouldper();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesMightSimple3();
+                        o.genshouldper();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMightSimple3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesMightSimple3();
+                        p.genshouldper();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightSimp3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightSimp3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerf3();
+                        gens = s.sp5;
+                        gene = s.eng5;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerf3();
+                        gens = i.sp6;
+                        gene = i.eng6;
+                        break;
                 }
                 break;
             case "nosotros ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMightSimple3();
+                        n.genshouldper();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesMightSimple3();
+                        o.genshouldper();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMightSimple3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesMightSimple3();
+                        p.genshouldper();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightSimp3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerf3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightSimp3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerf3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
-
                 }
                 break;
-        }
-    } //hechos Special y Intrans LR
 
-    public void GenMightContDif3() {
+
+        }
+    }
+
+    public void GenShouldPerfCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -21004,46 +20949,40 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightContDif3();
+                        n.genshouldper();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleMightContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.genshouldper();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenNobleMightContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.genshouldper();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightCont3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerfCont3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerfCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
 
                 }
@@ -21052,46 +20991,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightContDif3();
+                        n.genshouldper();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightContDif3();
+                        o.genshouldper();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightContDif3();
+                        p.genshouldper();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightCont3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerfCont3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerfCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
 
                 }
@@ -21100,190 +21035,170 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightContDif3();
+                        n.genshouldper();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightContDif3();
+                        o.genshouldper();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightContDif3();
+                        p.genshouldper();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightCont3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerfCont3();
+                        gens = s.sp3;
+                        gene = s.eng3;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerfCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
                 }
                 break;
             case "ella ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightContDif3();
+                        n.genshouldper();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightContDif3();
+                        o.genshouldper();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightContDif3();
+                        p.genshouldper();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightCont3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerfCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerfCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
+                        break;
                 }
                 break;
             case "eso ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightContDif3();
+                        n.genshouldper();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightContDif3();
+                        o.genshouldper();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNobleMightContDif3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightCont3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
 
+                    case 3:
+                        People2 p = new People2();
+                        p.genshouldper();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerfCont3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerfCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
                 }
                 break;
             case "ellos ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightContDif3();
+                        n.genshouldper();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightContDif3();
+                        o.genshouldper();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightContDif3();
+                        p.genshouldper();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightCont3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerfCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerfCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -21291,54 +21206,50 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightContDif3();
+                        n.genshouldper();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightContDif3();
+                        o.genshouldper();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genshouldper();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightContDif3();
+                        p.genshouldper();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightCont3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeShouldPerfCont3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntShouldPerfCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
-
                 }
                 break;
-        }
-    } //hechos Special y Intrans LR
 
-    public void GenMightPerfDif3() {
+
+        }
+    }
+
+    public void GenCanSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -21347,46 +21258,40 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfDif3();
+                        n.gencansimp();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleMightPerfDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencansimp();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.gencansimp();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenNobleMightPerfDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.gencansimp();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerf3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCanSimp3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerf3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanSimp3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
 
                 }
@@ -21395,46 +21300,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfDif3();
+                        n.gencansimp();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightPerfDif3();
+                        o.gencansimp();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencansimp();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightPerfDif3();
+                        p.gencansimp();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerf3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCanSimp3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerf3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanSimp3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
 
                 }
@@ -21443,190 +21344,170 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfDif3();
+                        n.gencansimp();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightPerfDif3();
+                        o.gencansimp();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencansimp();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightPerfDif3();
+                        p.gencansimp();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerf3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerf3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeCanSimp3();
+                        gens = s.sp3;
+                        gene = s.eng3;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanSimp3();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
                 }
                 break;
             case "ella ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfDif3();
+                        n.gencansimp();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightPerfDif3();
+                        o.gencansimp();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencansimp();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightPerfDif3();
+                        p.gencansimp();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerf3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerf3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeCanSimp3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanSimp3();
+                        gens = i.sp4;
+                        gene = i.eng4;
+                        break;
                 }
                 break;
             case "eso ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfDif3();
+                        n.gencansimp();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightPerfDif3();
+                        o.gencansimp();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNobleMightPerfDif3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerf3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerf3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencansimp();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
 
+                    case 3:
+                        People2 p = new People2();
+                        p.gencansimp();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeCanSimp3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanSimp3();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
                 }
                 break;
             case "ellos ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfDif3();
+                        n.gencansimp();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightPerfDif3();
+                        o.gencansimp();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencansimp();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightPerfDif3();
+                        p.gencansimp();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerf3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCanSimp3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerf3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanSimp3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -21634,53 +21515,48 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfDif3();
+                        n.gencansimp();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightPerfDif3();
+                        o.gencansimp();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencansimp();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightPerfDif3();
+                        p.gencansimp();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerf3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCanSimp3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerf3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanSimp3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
         }
-    } //hechos Special y Intrans LR
+    }
 
-    public void GenMightPerfContDif3() {
+    public void GenCanCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -21689,46 +21565,40 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfContDif3();
+                        n.gencancont();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleMightPerfContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencancont();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.gencancont();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenNobleMightPerfContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.gencancont();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerfCont3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCanCont3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerfCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
 
                 }
@@ -21737,294 +21607,263 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfContDif3();
+                        n.gencancont();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightPerfContDif3();
+                        o.gencancont();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencancont();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightPerfContDif3();
+                        p.gencancont();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerfCont3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeCanCont3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerfCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfContDif3();
+                        n.gencancont();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightPerfContDif3();
+                        o.gencancont();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencancont();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightPerfContDif3();
+                        p.gencancont();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerfCont3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerfCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeCanCont3();
+                        gens = s.sp3;
+                        gene = s.eng3;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
                 }
                 break;
             case "ella ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfContDif3();
+                        n.gencancont();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightPerfContDif3();
+                        o.gencancont();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencancont();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightPerfContDif3();
+                        p.gencancont();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerfCont3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerfCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeCanCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
+                        break;
                 }
                 break;
             case "eso ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfContDif3();
+                        n.gencancont();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightPerfContDif3();
+                        o.gencancont();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNobleMightPerfContDif3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerfCont3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerfCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencancont();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
 
+                    case 3:
+                        People2 p = new People2();
+                        p.gencancont();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeCanCont3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
                 }
                 break;
             case "ellos ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfContDif3();
+                        n.gencancont();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightPerfContDif3();
+                        o.gencancont();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencancont();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightPerfContDif3();
+                        p.gencancont();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerfCont3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerfCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeCanCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
+                        break;
                 }
                 break;
             case "nosotros ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleMightPerfContDif3();
+                        n.gencancont();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleMightPerfContDif3();
+                        o.gencancont();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMightPerfContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.gencancont();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleMightPerfContDif3();
+                        p.gencancont();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMightPerfCont3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMightPerfCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
                         break;
 
+                    case 4:
+                        Special2 s = new Special2();
+                        s.GetSpeCanCont3();
+                        gens = s.sp6;
+                        gene = s.eng6;
+                        break;
+                    case 5:
+                        Intrans2 i = new Intrans2();
+                        i.GenIntCanCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
+                        break;
                 }
                 break;
         }
-    } //hechos Special y Intrans LR
+    }
 
-    // can
-    public void GenCanSimpDif3() {
+    public void GenMustSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -22033,141 +21872,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCanSimple3();
+                        n.genmustsimp();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenerarNoblesCanSimple3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustsimp();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCanSimple3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.genmustsimp();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenerarNoblesCanSimple3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.genmustsimp();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanSimp3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustSimp3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanSimp3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustSimp3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCanSimple3();
+                        n.genmustsimp();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesCanSimple3();
+                        o.genmustsimp();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCanSimple3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustsimp();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesCanSimple3();
+                        p.genmustsimp();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanSimp3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustSimp3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanSimp3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustSimp3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCanSimple3();
+                        n.genmustsimp();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesCanSimple3();
+                        o.genmustsimp();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCanSimple3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustsimp();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesCanSimple3();
+                        p.genmustsimp();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanSimp3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustSimp3();
+                        gens = s.sp3;
+                        gene = s.eng3;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanSimp3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustSimp3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -22175,46 +22000,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCanSimple3();
+                        n.genmustsimp();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesCanSimple3();
+                        o.genmustsimp();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCanSimple3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustsimp();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesCanSimple3();
+                        p.genmustsimp();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanSimp3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustSimp3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanSimp3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustSimp3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -22222,45 +22044,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCanSimple3();
+                        n.genmustsimp();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesCanSimple3();
+                        o.genmustsimp();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCanSimple3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustsimp();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesCanSimple3();
+                        p.genmustsimp();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanSimp3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustSimp3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanSimp3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustSimp3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -22268,46 +22087,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCanSimple3();
+                        n.genmustsimp();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesCanSimple3();
+                        o.genmustsimp();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCanSimple3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustsimp();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesCanSimple3();
+                        p.genmustsimp();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanSimp3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustSimp3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanSimp3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustSimp3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -22315,53 +22129,48 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenerarNoblesCanSimple3();
+                        n.genmustsimp();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenerarNoblesCanSimple3();
+                        o.genmustsimp();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesCanSimple3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustsimp();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenerarNoblesCanSimple3();
+                        p.genmustsimp();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanSimp3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustSimp3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanSimp3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustSimp3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
         }
-    } //hechos Special y Intrans LR
+    }
 
-    public void GenCanContDif3() {
+    public void GenMustCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -22370,141 +22179,127 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCanContDif3();
+                        n.genmustcont();
                         gens = n.ps1;
                         gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
                         break;
                     case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleCanContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustcont();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCanContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
+                        People2 p = new People2();
+                        p.genmustcont();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
                         break;
 
                     case 3:
-                        People2 p = new People2();
-                        p.GenNobleCanContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
+                        Oo2 o = new Oo2();
+                        o.genmustcont();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
                         break;
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanCont3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustCont3();
+                        gens = s.sp1;
+                        gene = s.eng1;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustCont3();
+                        gens = i.sp1;
+                        gene = i.eng1;
                         break;
+
                 }
                 break;
             case "tú ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCanContDif3();
+                        n.genmustcont();
                         gens = n.ps2;
                         gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCanContDif3();
+                        o.genmustcont();
                         gens = o.ps2;
                         gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCanContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustcont();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCanContDif3();
+                        p.genmustcont();
                         gens = p.ps2;
                         gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanCont3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustCont3();
+                        gens = s.sp2;
+                        gene = s.eng2;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustCont3();
+                        gens = i.sp2;
+                        gene = i.eng2;
                         break;
+
                 }
                 break;
             case "él ":
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCanContDif3();
+                        n.genmustcont();
                         gens = n.ps3;
                         gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCanContDif3();
+                        o.genmustcont();
                         gens = o.ps3;
                         gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCanContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustcont();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCanContDif3();
+                        p.genmustcont();
                         gens = p.ps3;
                         gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanCont3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustCont3();
+                        gens = s.sp3;
+                        gene = s.eng3;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustCont3();
+                        gens = i.sp3;
+                        gene = i.eng3;
                         break;
                 }
                 break;
@@ -22512,46 +22307,43 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCanContDif3();
+                        n.genmustcont();
                         gens = n.ps3ella;
                         gene = n.ps3she;
-                        gene2 = n.ps3she2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCanContDif3();
+                        o.genmustcont();
                         gens = o.ps3ella;
                         gene = o.ps3she;
-                        gene2 = o.ps3she2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCanContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustcont();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCanContDif3();
+                        p.genmustcont();
                         gens = p.ps3ella;
                         gene = p.ps3she;
-                        gene2 = p.ps3she2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanCont3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustCont3();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustCont3();
+                        gens = i.sp4;
+                        gene = i.eng4;
                         break;
                 }
                 break;
@@ -22559,45 +22351,42 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCanContDif3();
+                        n.genmustcont();
                         gens = n.ps3eso;
                         gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCanContDif3();
+                        o.genmustcont();
                         gens = o.ps3eso;
                         gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
+
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCanContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustcont();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
                         break;
+
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCanContDif3();
+                        p.genmustcont();
                         gens = p.ps3eso;
                         gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanCont3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustCont3();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustCont3();
+                        gens = i.sp5;
+                        gene = i.eng5;
                         break;
                 }
                 break;
@@ -22605,46 +22394,41 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCanContDif3();
+                        n.genmustcont();
                         gens = n.ps4;
                         gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCanContDif3();
+                        o.genmustcont();
                         gens = o.ps4;
                         gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCanContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustcont();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCanContDif3();
+                        p.genmustcont();
                         gens = p.ps4;
                         gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanCont3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustCont3();
+                        gens = s.sp5;
+                        gene = s.eng5;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustCont3();
+                        gens = i.sp6;
+                        gene = i.eng6;
                         break;
                 }
                 break;
@@ -22652,726 +22436,48 @@ public class Generator2 {
                 switch (verb) {
                     case 0:
                         Nobles2 n = new Nobles2();
-                        n.GenNobleCanContDif3();
+                        n.genmustcont();
                         gens = n.ps5;
                         gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
                         break;
                     case 1:
                         Oo2 o = new Oo2();
-                        o.GenNobleCanContDif3();
+                        o.genmustcont();
                         gens = o.ps5;
                         gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
                         break;
                     case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleCanContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
+                        Abstractos2 ab = new Abstractos2();
+                        ab.genmustcont();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
                         break;
 
                     case 3:
                         People2 p = new People2();
-                        p.GenNobleCanContDif3();
+                        p.genmustcont();
                         gens = p.ps5;
                         gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
                         break;
+
                     case 4:
-                        Special2 sp = new Special2();
-                        sp.GetCanCont3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
+                        Special2 s = new Special2();
+                        s.GetSpeMustCont3();
+                        gens = s.sp6;
+                        gene = s.eng6;
                         break;
                     case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntCanCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
+                        Intrans2 i = new Intrans2();
+                        i.GenIntMustCont3();
+                        gens = i.sp7;
+                        gene = i.eng7;
                         break;
                 }
                 break;
+
+
         }
-    } //hechos Special y Intrans LR
-
-    //must
-    public void GenMustSimpDif3() {
-        int rand = (int) (Math.random() * pronombres.length);
-        int verb = (int) (Math.random() * 6);
-        String temp = pronombres[rand];
-        switch (temp) {
-            case "yo ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMustSimple3();
-                        gens = n.ps1;
-                        gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenerarNoblesMustSimple3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMustSimple3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenerarNoblesMustSimple3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustSimp3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustSimp3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "tú ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMustSimple3();
-                        gens = n.ps2;
-                        gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenerarNoblesMustSimple3();
-                        gens = o.ps2;
-                        gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMustSimple3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenerarNoblesMustSimple3();
-                        gens = p.ps2;
-                        gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustSimp3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustSimp3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "él ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMustSimple3();
-                        gens = n.ps3;
-                        gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenerarNoblesMustSimple3();
-                        gens = o.ps3;
-                        gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMustSimple3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenerarNoblesMustSimple3();
-                        gens = p.ps3;
-                        gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustSimp3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustSimp3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ella ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMustSimple3();
-                        gens = n.ps3ella;
-                        gene = n.ps3she;
-                        gene2 = n.ps3she2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenerarNoblesMustSimple3();
-                        gens = o.ps3ella;
-                        gene = o.ps3she;
-                        gene2 = o.ps3she2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMustSimple3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenerarNoblesMustSimple3();
-                        gens = p.ps3ella;
-                        gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustSimp3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustSimp3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "eso ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMustSimple3();
-                        gens = n.ps3eso;
-                        gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenerarNoblesMustSimple3();
-                        gens = o.ps3eso;
-                        gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMustSimple3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.GenerarNoblesMustSimple3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustSimp3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustSimp3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ellos ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMustSimple3();
-                        gens = n.ps4;
-                        gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenerarNoblesMustSimple3();
-                        gens = o.ps4;
-                        gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMustSimple3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenerarNoblesMustSimple3();
-                        gens = p.ps4;
-                        gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustSimp3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustSimp3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "nosotros ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenerarNoblesMustSimple3();
-                        gens = n.ps5;
-                        gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenerarNoblesMustSimple3();
-                        gens = o.ps5;
-                        gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenerarNoblesMustSimple3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenerarNoblesMustSimple3();
-                        gens = p.ps5;
-                        gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustSimp3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustSimp3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
-                        break;
-                }
-                break;
-        }
-    } //hechos Special y Intrans LR
-
-    public void GenMustContDif3() {
-        int rand = (int) (Math.random() * pronombres.length);
-        int verb = (int) (Math.random() * 6);
-        String temp = pronombres[rand];
-        switch (temp) {
-            case "yo ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNobleMustContDif3();
-                        gens = n.ps1;
-                        gene = n.ps1eng;
-                        gene2 = n.ps1eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleMustContDif3();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        gene2 = o.ps1eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMustContDif3();
-                        gens = a.ps1;
-                        gene = a.ps1eng;
-                        gene2 = a.ps1eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNobleMustContDif3();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        gene2 = p.ps1eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustCont3();
-                        gens = sp.sp1;
-                        gene = sp.eng1;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustCont3();
-                        gens = it.sp1;
-                        gene = it.eng1;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "tú ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNobleMustContDif3();
-                        gens = n.ps2;
-                        gene = n.ps2eng;
-                        gene2 = n.ps2eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleMustContDif3();
-                        gens = o.ps2;
-                        gene = o.ps2eng;
-                        gene2 = o.ps2eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMustContDif3();
-                        gens = a.ps2;
-                        gene = a.ps2eng;
-                        gene2 = a.ps2eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNobleMustContDif3();
-                        gens = p.ps2;
-                        gene = p.ps2eng;
-                        gene2 = p.ps2eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustCont3();
-                        gens = sp.sp2;
-                        gene = sp.eng2;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustCont3();
-                        gens = it.sp2;
-                        gene = it.eng2;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "él ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNobleMustContDif3();
-                        gens = n.ps3;
-                        gene = n.ps3eng;
-                        gene2 = n.ps3eng2;
-
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleMustContDif3();
-                        gens = o.ps3;
-                        gene = o.ps3eng;
-                        gene2 = o.ps3eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMustContDif3();
-                        gens = a.ps3;
-                        gene = a.ps3eng;
-                        gene2 = a.ps3eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNobleMustContDif3();
-                        gens = p.ps3;
-                        gene = p.ps3eng;
-                        gene2 = p.ps3eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustCont3();
-                        gens = sp.sp3;
-                        gene = sp.eng3;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustCont3();
-                        gens = it.sp3;
-                        gene = it.eng3;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ella ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNobleMustContDif3();
-                        gens = n.ps3ella;
-                        gene = n.ps3she;
-                        gene2 = n.ps3she2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleMustContDif3();
-                        gens = o.ps3ella;
-                        gene = o.ps3she;
-                        gene2 = o.ps3she2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMustContDif3();
-                        gens = a.ps3ella;
-                        gene = a.ps3she;
-                        gene2 = a.ps3she2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNobleMustContDif3();
-                        gens = p.ps3ella;
-                        gene = p.ps3she;
-                        gene2 = p.ps3she2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustCont3();
-                        gens = sp.sp3ella;
-                        gene = sp.eng3she;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustCont3();
-                        gens = it.sp4;
-                        gene = it.eng4;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "eso ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNobleMustContDif3();
-                        gens = n.ps3eso;
-                        gene = n.ps3it;
-                        gene2 = n.ps3iteng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleMustContDif3();
-                        gens = o.ps3eso;
-                        gene = o.ps3it;
-                        gene2 = o.ps3iteng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMustContDif3();
-                        gens = a.ps3eso;
-                        gene = a.ps3it;
-                        gene2 = a.ps3iteng2;
-                        break;
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNobleMustContDif3();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        gene2 = p.ps3iteng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustCont3();
-                        gens = sp.sp3eso;
-                        gene = sp.sp3it;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustCont3();
-                        gens = it.sp5;
-                        gene = it.eng5;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "ellos ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNobleMustContDif3();
-                        gens = n.ps4;
-                        gene = n.ps4eng;
-                        gene2 = n.ps4eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleMustContDif3();
-                        gens = o.ps4;
-                        gene = o.ps4eng;
-                        gene2 = o.ps4eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMustContDif3();
-                        gens = a.ps4;
-                        gene = a.ps4eng;
-                        gene2 = a.ps4eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNobleMustContDif3();
-                        gens = p.ps4;
-                        gene = p.ps4eng;
-                        gene2 = p.ps4eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustCont3();
-                        gens = sp.sp4;
-                        gene = sp.eng4;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustCont3();
-                        gens = it.sp6;
-                        gene = it.eng6;
-                        gene2 = "";
-                        break;
-                }
-                break;
-            case "nosotros ":
-                switch (verb) {
-                    case 0:
-                        Nobles2 n = new Nobles2();
-                        n.GenNobleMustContDif3();
-                        gens = n.ps5;
-                        gene = n.ps5eng;
-                        gene2 = n.ps5eng2;
-                        break;
-                    case 1:
-                        Oo2 o = new Oo2();
-                        o.GenNobleMustContDif3();
-                        gens = o.ps5;
-                        gene = o.ps5eng;
-                        gene2 = o.ps5eng2;
-                        break;
-                    case 2:
-                        Abstractos2 a = new Abstractos2();
-                        a.GenNobleMustContDif3();
-                        gens = a.ps5;
-                        gene = a.ps5eng;
-                        gene2 = a.ps5eng2;
-                        break;
-
-                    case 3:
-                        People2 p = new People2();
-                        p.GenNobleMustContDif3();
-                        gens = p.ps5;
-                        gene = p.ps5eng;
-                        gene2 = p.ps5eng2;
-                        break;
-                    case 4:
-                        Special2 sp = new Special2();
-                        sp.GetMustCont3();
-                        gens = sp.sp5;
-                        gene = sp.eng5;
-                        gene2 = "";
-                        break;
-                    case 5:
-                        Intrans2 it = new Intrans2();
-                        it.GenIntMustCont3();
-                        gens = it.sp7;
-                        gene = it.eng7;
-                        gene2 = "";
-                        break;
-                }
-                break;
-        }
-    } //hechos Special y Intrans LR
+    }
 
     //wanTo 3
     public void GenWantYouTo3() {
@@ -34085,9 +33191,7 @@ public class Generator2 {
                         gene = sp.eng1;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "tú ":
@@ -34128,9 +33232,7 @@ public class Generator2 {
                         gene = sp.eng2;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "él ":
@@ -34172,9 +33274,7 @@ public class Generator2 {
                         gene = sp.eng3;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "ella ":
@@ -34215,9 +33315,7 @@ public class Generator2 {
                         gene = sp.eng3she;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "eso ":
@@ -34257,9 +33355,7 @@ public class Generator2 {
                         gene = sp.sp3it;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "ellos ":
@@ -34300,9 +33396,7 @@ public class Generator2 {
                         gene = sp.eng4;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "nosotros ":
@@ -34343,9 +33437,7 @@ public class Generator2 {
                         gene = sp.eng5;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
         }
@@ -34397,9 +33489,7 @@ public class Generator2 {
                         gene = sp.eng1;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "tú ":
@@ -34440,9 +33530,7 @@ public class Generator2 {
                         gene = sp.eng2;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "él ":
@@ -34484,9 +33572,7 @@ public class Generator2 {
                         gene = sp.eng3;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "ella ":
@@ -34527,9 +33613,7 @@ public class Generator2 {
                         gene = sp.eng3she;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "eso ":
@@ -34569,9 +33653,7 @@ public class Generator2 {
                         gene = sp.sp3it;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "ellos ":
@@ -34612,9 +33694,7 @@ public class Generator2 {
                         gene = sp.eng4;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "nosotros ":
@@ -34655,9 +33735,7 @@ public class Generator2 {
                         gene = sp.eng5;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
         }
@@ -34710,9 +33788,7 @@ public class Generator2 {
                         gene = sp.eng1;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "tú ":
@@ -34753,9 +33829,7 @@ public class Generator2 {
                         gene = sp.eng2;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "él ":
@@ -34797,9 +33871,7 @@ public class Generator2 {
                         gene = sp.eng3;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "ella ":
@@ -34840,9 +33912,7 @@ public class Generator2 {
                         gene = sp.eng3she;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "eso ":
@@ -34882,9 +33952,7 @@ public class Generator2 {
                         gene = sp.sp3it;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "ellos ":
@@ -34925,9 +33993,7 @@ public class Generator2 {
                         gene = sp.eng4;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "nosotros ":
@@ -34968,9 +34034,7 @@ public class Generator2 {
                         gene = sp.eng5;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
         }
@@ -35022,9 +34086,7 @@ public class Generator2 {
                         gene = sp.eng1;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "tú ":
@@ -35065,9 +34127,7 @@ public class Generator2 {
                         gene = sp.eng2;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "él ":
@@ -35109,9 +34169,7 @@ public class Generator2 {
                         gene = sp.eng3;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "ella ":
@@ -35152,9 +34210,7 @@ public class Generator2 {
                         gene = sp.eng3she;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "eso ":
@@ -35194,9 +34250,7 @@ public class Generator2 {
                         gene = sp.sp3it;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "ellos ":
@@ -35237,9 +34291,7 @@ public class Generator2 {
                         gene = sp.eng4;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "nosotros ":
@@ -35280,9 +34332,7 @@ public class Generator2 {
                         gene = sp.eng5;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
         }
@@ -35335,9 +34385,7 @@ public class Generator2 {
                         gene = sp.eng1;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "tú ":
@@ -35378,9 +34426,7 @@ public class Generator2 {
                         gene = sp.eng2;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "él ":
@@ -35422,9 +34468,7 @@ public class Generator2 {
                         gene = sp.eng3;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "ella ":
@@ -35465,9 +34509,7 @@ public class Generator2 {
                         gene = sp.eng3she;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "eso ":
@@ -35507,9 +34549,7 @@ public class Generator2 {
                         gene = sp.sp3it;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "ellos ":
@@ -35550,9 +34590,7 @@ public class Generator2 {
                         gene = sp.eng4;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "nosotros ":
@@ -35593,9 +34631,7 @@ public class Generator2 {
                         gene = sp.eng5;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
         }
@@ -35647,9 +34683,7 @@ public class Generator2 {
                         gene = sp.eng1;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "tú ":
@@ -35690,9 +34724,7 @@ public class Generator2 {
                         gene = sp.eng2;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "él ":
@@ -35734,9 +34766,7 @@ public class Generator2 {
                         gene = sp.eng3;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "ella ":
@@ -35777,9 +34807,7 @@ public class Generator2 {
                         gene = sp.eng3she;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "eso ":
@@ -35819,9 +34847,7 @@ public class Generator2 {
                         gene = sp.sp3it;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "ellos ":
@@ -35862,9 +34888,7 @@ public class Generator2 {
                         gene = sp.eng4;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
             case "nosotros ":
@@ -35905,9 +34929,7 @@ public class Generator2 {
                         gene = sp.eng5;
                         gene2 = "";
                         break;
-                    case 5:
-
-                        break;
+                    
                 }
                 break;
         }
@@ -40468,7 +39490,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenFutCont1();
                         gens = i.sp1;
                         gene = i.eng1;
                         break;
@@ -40514,7 +39536,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenFutCont1();
                         gens = i.sp2;
                         gene = i.eng2;
                         break;
@@ -40559,7 +39581,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenFutCont1();
                         gens = i.sp3;
                         gene = i.eng3;
                         break;
@@ -40605,7 +39627,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenFutCont1();
                         gens = i.sp4;
                         gene = i.eng4;
 
@@ -40651,7 +39673,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenFutCont1();
                         gens = i.sp5;
                         gene = i.eng5;
                         break;
@@ -40695,7 +39717,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenFutCont1();
                         gens = i.sp6;
                         gene = i.eng6;
                         break;
@@ -40738,7 +39760,7 @@ public class Generator2 {
 
                     case 5:
                         Intrans2 i = new Intrans2();
-                        i.GenIntFutCont();
+                        i.GenFutCont1();
                         gens = i.sp7;
                         gene = i.eng7;
                         break;
@@ -48144,26 +47166,26 @@ public class Generator2 {
             case "yo ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPres1();
                         gens = n.ps1;
                         gene = n.ps1eng;
                         break;
                     case 1:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPres1();
                         gens = ab.ps1;
                         gene = ab.ps1eng;
                         break;
                     case 2:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPres1();
                         gens = p.ps1;
                         gene = p.ps1eng;
                         break;
 
                     case 3:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPres1();
                         gens = o.ps1;
                         gene = o.ps1eng;
@@ -48176,27 +47198,27 @@ public class Generator2 {
             case "tú ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPres1();
                         gens = n.ps2;
                         gene = n.ps2eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPres1();
                         gens = o.ps2;
                         gene = o.ps2eng;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPres1();
                         gens = ab.ps2;
                         gene = ab.ps2eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPres1();
                         gens = p.ps2;
                         gene = p.ps2eng;
@@ -48208,26 +47230,26 @@ public class Generator2 {
             case "él ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPres1();
                         gens = n.ps3;
                         gene = n.ps3eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPres1();
                         gens = o.ps3;
                         gene = o.ps3eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPres1();
                         gens = ab.ps3;
                         gene = ab.ps3eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPres1();
                         gens = p.ps3;
                         gene = p.ps3eng;
@@ -48239,20 +47261,20 @@ public class Generator2 {
             case "ella ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPres1();
                         gens = n.ps3ella;
                         gene = n.ps3she;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPres1();
                         gens = o.ps3ella;
                         gene = o.ps3she;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPres1();
                         gens = ab.ps3ella;
                         gene = ab.ps3she;
@@ -48260,7 +47282,7 @@ public class Generator2 {
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPres1();
                         gens = p.ps3ella;
                         gene = p.ps3she;
@@ -48272,27 +47294,27 @@ public class Generator2 {
             case "eso ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPres1();
                         gens = n.ps3eso;
                         gene = n.ps3it;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPres1();
                         gens = o.ps3eso;
                         gene = o.ps3it;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPres1();
                         gens = ab.ps3eso;
                         gene = ab.ps3it;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPres1();
                         gens = p.ps3eso;
                         gene = p.ps3it;
@@ -48304,26 +47326,26 @@ public class Generator2 {
             case "ellos ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPres1();
                         gens = n.ps4;
                         gene = n.ps4eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPres1();
                         gens = o.ps4;
                         gene = o.ps4eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPres1();
                         gens = ab.ps4;
                         gene = ab.ps4eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPres1();
                         gens = p.ps4;
                         gene = p.ps4eng;
@@ -48335,26 +47357,26 @@ public class Generator2 {
             case "nosotros ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPres1();
                         gens = n.ps5;
                         gene = n.ps5eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPres1();
                         gens = o.ps5;
                         gene = o.ps5eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPres1();
                         gens = ab.ps5;
                         gene = ab.ps5eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPres1();
                         gens = p.ps5;
                         gene = p.ps5eng;
@@ -48376,26 +47398,26 @@ public class Generator2 {
             case "yo ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPast1();
                         gens = n.ps1;
                         gene = n.ps1eng;
                         break;
                     case 1:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPast1();
                         gens = ab.ps1;
                         gene = ab.ps1eng;
                         break;
                     case 2:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPast1();
                         gens = p.ps1;
                         gene = p.ps1eng;
                         break;
 
                     case 3:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPast1();
                         gens = o.ps1;
                         gene = o.ps1eng;
@@ -48405,27 +47427,27 @@ public class Generator2 {
             case "tú ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPast1();
                         gens = n.ps2;
                         gene = n.ps2eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPast1();
                         gens = o.ps2;
                         gene = o.ps2eng;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPast1();
                         gens = ab.ps2;
                         gene = ab.ps2eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPast1();
                         gens = p.ps2;
                         gene = p.ps2eng;
@@ -48438,26 +47460,26 @@ public class Generator2 {
             case "él ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPast1();
                         gens = n.ps3;
                         gene = n.ps3eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPast1();
                         gens = o.ps3;
                         gene = o.ps3eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPast1();
                         gens = ab.ps3;
                         gene = ab.ps3eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPast1();
                         gens = p.ps3;
                         gene = p.ps3eng;
@@ -48469,20 +47491,20 @@ public class Generator2 {
             case "ella ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPast1();
                         gens = n.ps3ella;
                         gene = n.ps3she;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPast1();
                         gens = o.ps3ella;
                         gene = o.ps3she;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPast1();
                         gens = ab.ps3ella;
                         gene = ab.ps3she;
@@ -48490,7 +47512,7 @@ public class Generator2 {
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPast1();
                         gens = p.ps3ella;
                         gene = p.ps3she;
@@ -48502,27 +47524,27 @@ public class Generator2 {
             case "eso ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPast1();
                         gens = n.ps3eso;
                         gene = n.ps3it;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPast1();
                         gens = o.ps3eso;
                         gene = o.ps3it;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPast1();
                         gens = ab.ps3eso;
                         gene = ab.ps3it;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPast1();
                         gens = p.ps3eso;
                         gene = p.ps3it;
@@ -48534,26 +47556,26 @@ public class Generator2 {
             case "ellos ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPast1();
                         gens = n.ps4;
                         gene = n.ps4eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPast1();
                         gens = o.ps4;
                         gene = o.ps4eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPast1();
                         gens = ab.ps4;
                         gene = ab.ps4eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPast1();
                         gens = p.ps4;
                         gene = p.ps4eng;
@@ -48565,26 +47587,26 @@ public class Generator2 {
             case "nosotros ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.SupposedToPast1();
                         gens = n.ps5;
                         gene = n.ps5eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.SupposedToPast1();
                         gens = o.ps5;
                         gene = o.ps5eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.SupposedToPast1();
                         gens = ab.ps5;
                         gene = ab.ps5eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.SupposedToPast1();
                         gens = p.ps5;
                         gene = p.ps5eng;
@@ -48607,26 +47629,26 @@ public class Generator2 {
             case "yo ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastSimp1();
                         gens = n.ps1;
                         gene = n.ps1eng;
                         break;
                     case 1:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastSimp1();
                         gens = ab.ps1;
                         gene = ab.ps1eng;
                         break;
                     case 2:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastSimp1();
                         gens = p.ps1;
                         gene = p.ps1eng;
                         break;
 
                     case 3:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastSimp1();
                         gens = o.ps1;
                         gene = o.ps1eng;
@@ -48639,27 +47661,27 @@ public class Generator2 {
             case "tú ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastSimp1();
                         gens = n.ps2;
                         gene = n.ps2eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastSimp1();
                         gens = o.ps2;
                         gene = o.ps2eng;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastSimp1();
                         gens = ab.ps2;
                         gene = ab.ps2eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastSimp1();
                         gens = p.ps2;
                         gene = p.ps2eng;
@@ -48672,26 +47694,26 @@ public class Generator2 {
             case "él ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastSimp1();
                         gens = n.ps3;
                         gene = n.ps3eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastSimp1();
                         gens = o.ps3;
                         gene = o.ps3eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastSimp1();
                         gens = ab.ps3;
                         gene = ab.ps3eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastSimp1();
                         gens = p.ps3;
                         gene = p.ps3eng;
@@ -48703,20 +47725,20 @@ public class Generator2 {
             case "ella ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastSimp1();
                         gens = n.ps3ella;
                         gene = n.ps3she;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastSimp1();
                         gens = o.ps3ella;
                         gene = o.ps3she;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastSimp1();
                         gens = ab.ps3ella;
                         gene = ab.ps3she;
@@ -48724,7 +47746,7 @@ public class Generator2 {
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastSimp1();
                         gens = p.ps3ella;
                         gene = p.ps3she;
@@ -48736,27 +47758,27 @@ public class Generator2 {
             case "eso ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastSimp1();
                         gens = n.ps3eso;
                         gene = n.ps3it;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastSimp1();
                         gens = o.ps3eso;
                         gene = o.ps3it;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastSimp1();
                         gens = ab.ps3eso;
                         gene = ab.ps3it;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastSimp1();
                         gens = p.ps3eso;
                         gene = p.ps3it;
@@ -48768,26 +47790,26 @@ public class Generator2 {
             case "ellos ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastSimp1();
                         gens = n.ps4;
                         gene = n.ps4eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastSimp1();
                         gens = o.ps4;
                         gene = o.ps4eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastSimp1();
                         gens = ab.ps4;
                         gene = ab.ps4eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastSimp1();
                         gens = p.ps4;
                         gene = p.ps4eng;
@@ -48799,26 +47821,26 @@ public class Generator2 {
             case "nosotros ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastSimp1();
                         gens = n.ps5;
                         gene = n.ps5eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastSimp1();
                         gens = o.ps5;
                         gene = o.ps5eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastSimp1();
                         gens = ab.ps5;
                         gene = ab.ps5eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastSimp1();
                         gens = p.ps5;
                         gene = p.ps5eng;
@@ -48839,26 +47861,26 @@ public class Generator2 {
             case "yo ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastPerf1();
                         gens = n.ps1;
                         gene = n.ps1eng;
                         break;
                     case 1:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastPerf1();
                         gens = ab.ps1;
                         gene = ab.ps1eng;
                         break;
                     case 2:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastPerf1();
                         gens = p.ps1;
                         gene = p.ps1eng;
                         break;
 
                     case 3:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastPerf1();
                         gens = o.ps1;
                         gene = o.ps1eng;
@@ -48871,27 +47893,27 @@ public class Generator2 {
             case "tú ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastPerf1();
                         gens = n.ps2;
                         gene = n.ps2eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastPerf1();
                         gens = o.ps2;
                         gene = o.ps2eng;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastPerf1();
                         gens = ab.ps2;
                         gene = ab.ps2eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastPerf1();
                         gens = p.ps2;
                         gene = p.ps2eng;
@@ -48904,26 +47926,26 @@ public class Generator2 {
             case "él ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastPerf1();
                         gens = n.ps3;
                         gene = n.ps3eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastPerf1();
                         gens = o.ps3;
                         gene = o.ps3eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastPerf1();
                         gens = ab.ps3;
                         gene = ab.ps3eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastPerf1();
                         gens = p.ps3;
                         gene = p.ps3eng;
@@ -48935,20 +47957,20 @@ public class Generator2 {
             case "ella ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastPerf1();
                         gens = n.ps3ella;
                         gene = n.ps3she;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastPerf1();
                         gens = o.ps3ella;
                         gene = o.ps3she;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastPerf1();
                         gens = ab.ps3ella;
                         gene = ab.ps3she;
@@ -48956,7 +47978,7 @@ public class Generator2 {
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastPerf1();
                         gens = p.ps3ella;
                         gene = p.ps3she;
@@ -48968,27 +47990,27 @@ public class Generator2 {
             case "eso ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastPerf1();
                         gens = n.ps3eso;
                         gene = n.ps3it;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastPerf1();
                         gens = o.ps3eso;
                         gene = o.ps3it;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastPerf1();
                         gens = ab.ps3eso;
                         gene = ab.ps3it;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastPerf1();
                         gens = p.ps3eso;
                         gene = p.ps3it;
@@ -49000,26 +48022,26 @@ public class Generator2 {
             case "ellos ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastPerf1();
                         gens = n.ps4;
                         gene = n.ps4eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastPerf1();
                         gens = o.ps4;
                         gene = o.ps4eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastPerf1();
                         gens = ab.ps4;
                         gene = ab.ps4eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastPerf1();
                         gens = p.ps4;
                         gene = p.ps4eng;
@@ -49031,26 +48053,26 @@ public class Generator2 {
             case "nosotros ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishPastPerf1();
                         gens = n.ps5;
                         gene = n.ps5eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishPastPerf1();
                         gens = o.ps5;
                         gene = o.ps5eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishPastPerf1();
                         gens = ab.ps5;
                         gene = ab.ps5eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishPastPerf1();
                         gens = p.ps5;
                         gene = p.ps5eng;
@@ -49069,26 +48091,26 @@ public class Generator2 {
             case "yo ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishWould1();
                         gens = n.ps1;
                         gene = n.ps1eng;
                         break;
                     case 1:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishWould1();
                         gens = ab.ps1;
                         gene = ab.ps1eng;
                         break;
                     case 2:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishWould1();
                         gens = p.ps1;
                         gene = p.ps1eng;
                         break;
 
                     case 3:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishWould1();
                         gens = o.ps1;
                         gene = o.ps1eng;
@@ -49101,27 +48123,27 @@ public class Generator2 {
             case "tú ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishWould1();
                         gens = n.ps2;
                         gene = n.ps2eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishWould1();
                         gens = o.ps2;
                         gene = o.ps2eng;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishWould1();
                         gens = ab.ps2;
                         gene = ab.ps2eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishWould1();
                         gens = p.ps2;
                         gene = p.ps2eng;
@@ -49134,26 +48156,26 @@ public class Generator2 {
             case "él ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishWould1();
                         gens = n.ps3;
                         gene = n.ps3eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishWould1();
                         gens = o.ps3;
                         gene = o.ps3eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishWould1();
                         gens = ab.ps3;
                         gene = ab.ps3eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishWould1();
                         gens = p.ps3;
                         gene = p.ps3eng;
@@ -49165,20 +48187,20 @@ public class Generator2 {
             case "ella ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishWould1();
                         gens = n.ps3ella;
                         gene = n.ps3she;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishWould1();
                         gens = o.ps3ella;
                         gene = o.ps3she;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishWould1();
                         gens = ab.ps3ella;
                         gene = ab.ps3she;
@@ -49186,7 +48208,7 @@ public class Generator2 {
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishWould1();
                         gens = p.ps3ella;
                         gene = p.ps3she;
@@ -49198,27 +48220,27 @@ public class Generator2 {
             case "eso ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishWould1();
                         gens = n.ps3eso;
                         gene = n.ps3it;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishWould1();
                         gens = o.ps3eso;
                         gene = o.ps3it;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishWould1();
                         gens = ab.ps3eso;
                         gene = ab.ps3it;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishWould1();
                         gens = p.ps3eso;
                         gene = p.ps3it;
@@ -49230,26 +48252,26 @@ public class Generator2 {
             case "ellos ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishWould1();
                         gens = n.ps4;
                         gene = n.ps4eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishWould1();
                         gens = o.ps4;
                         gene = o.ps4eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishWould1();
                         gens = ab.ps4;
                         gene = ab.ps4eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishWould1();
                         gens = p.ps4;
                         gene = p.ps4eng;
@@ -49261,26 +48283,26 @@ public class Generator2 {
             case "nosotros ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.WishWould1();
                         gens = n.ps5;
                         gene = n.ps5eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.WishWould1();
                         gens = o.ps5;
                         gene = o.ps5eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.WishWould1();
                         gens = ab.ps5;
                         gene = ab.ps5eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.WishWould1();
                         gens = p.ps5;
                         gene = p.ps5eng;
@@ -49302,26 +48324,26 @@ public class Generator2 {
             case "yo ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.UsedTo1();
                         gens = n.ps1;
                         gene = n.ps1eng;
                         break;
                     case 1:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.UsedTo1();
                         gens = ab.ps1;
                         gene = ab.ps1eng;
                         break;
                     case 2:
-                        People p = new People();
+                        People2 p = new People2();
                         p.UsedTo1();
                         gens = p.ps1;
                         gene = p.ps1eng;
                         break;
 
                     case 3:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.UsedTo1();
                         gens = o.ps1;
                         gene = o.ps1eng;
@@ -49334,27 +48356,27 @@ public class Generator2 {
             case "tú ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.UsedTo1();
                         gens = n.ps2;
                         gene = n.ps2eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.UsedTo1();
                         gens = o.ps2;
                         gene = o.ps2eng;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.UsedTo1();
                         gens = ab.ps2;
                         gene = ab.ps2eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.UsedTo1();
                         gens = p.ps2;
                         gene = p.ps2eng;
@@ -49367,26 +48389,26 @@ public class Generator2 {
             case "él ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.UsedTo1();
                         gens = n.ps3;
                         gene = n.ps3eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.UsedTo1();
                         gens = o.ps3;
                         gene = o.ps3eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.UsedTo1();
                         gens = ab.ps3;
                         gene = ab.ps3eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.UsedTo1();
                         gens = p.ps3;
                         gene = p.ps3eng;
@@ -49398,20 +48420,20 @@ public class Generator2 {
             case "ella ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.UsedTo1();
                         gens = n.ps3ella;
                         gene = n.ps3she;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.UsedTo1();
                         gens = o.ps3ella;
                         gene = o.ps3she;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.UsedTo1();
                         gens = ab.ps3ella;
                         gene = ab.ps3she;
@@ -49419,7 +48441,7 @@ public class Generator2 {
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.UsedTo1();
                         gens = p.ps3ella;
                         gene = p.ps3she;
@@ -49431,27 +48453,27 @@ public class Generator2 {
             case "eso ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.UsedTo1();
                         gens = n.ps3eso;
                         gene = n.ps3it;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.UsedTo1();
                         gens = o.ps3eso;
                         gene = o.ps3it;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.UsedTo1();
                         gens = ab.ps3eso;
                         gene = ab.ps3it;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.UsedTo1();
                         gens = p.ps3eso;
                         gene = p.ps3it;
@@ -49463,26 +48485,26 @@ public class Generator2 {
             case "ellos ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.UsedTo1();
                         gens = n.ps4;
                         gene = n.ps4eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.UsedTo1();
                         gens = o.ps4;
                         gene = o.ps4eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.UsedTo1();
                         gens = ab.ps4;
                         gene = ab.ps4eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.UsedTo1();
                         gens = p.ps4;
                         gene = p.ps4eng;
@@ -49494,26 +48516,26 @@ public class Generator2 {
             case "nosotros ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.UsedTo1();
                         gens = n.ps5;
                         gene = n.ps5eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.UsedTo1();
                         gens = o.ps5;
                         gene = o.ps5eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.UsedTo1();
                         gens = ab.ps5;
                         gene = ab.ps5eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.UsedTo1();
                         gens = p.ps5;
                         gene = p.ps5eng;
@@ -49534,26 +48556,26 @@ public class Generator2 {
             case "yo ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.BeUsedTo1();
                         gens = n.ps1;
                         gene = n.ps1eng;
                         break;
                     case 1:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.BeUsedTo1();
                         gens = ab.ps1;
                         gene = ab.ps1eng;
                         break;
                     case 2:
-                        People p = new People();
+                        People2 p = new People2();
                         p.BeUsedTo1();
                         gens = p.ps1;
                         gene = p.ps1eng;
                         break;
 
                     case 3:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.BeUsedTo1();
                         gens = o.ps1;
                         gene = o.ps1eng;
@@ -49566,27 +48588,27 @@ public class Generator2 {
             case "tú ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.BeUsedTo1();
                         gens = n.ps2;
                         gene = n.ps2eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.BeUsedTo1();
                         gens = o.ps2;
                         gene = o.ps2eng;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.BeUsedTo1();
                         gens = ab.ps2;
                         gene = ab.ps2eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.BeUsedTo1();
                         gens = p.ps2;
                         gene = p.ps2eng;
@@ -49599,26 +48621,26 @@ public class Generator2 {
             case "él ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.BeUsedTo1();
                         gens = n.ps3;
                         gene = n.ps3eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.BeUsedTo1();
                         gens = o.ps3;
                         gene = o.ps3eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.BeUsedTo1();
                         gens = ab.ps3;
                         gene = ab.ps3eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.BeUsedTo1();
                         gens = p.ps3;
                         gene = p.ps3eng;
@@ -49630,20 +48652,20 @@ public class Generator2 {
             case "ella ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.BeUsedTo1();
                         gens = n.ps3ella;
                         gene = n.ps3she;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.BeUsedTo1();
                         gens = o.ps3ella;
                         gene = o.ps3she;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.BeUsedTo1();
                         gens = ab.ps3ella;
                         gene = ab.ps3she;
@@ -49651,7 +48673,7 @@ public class Generator2 {
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.BeUsedTo1();
                         gens = p.ps3ella;
                         gene = p.ps3she;
@@ -49663,27 +48685,27 @@ public class Generator2 {
             case "eso ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.BeUsedTo1();
                         gens = n.ps3eso;
                         gene = n.ps3it;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.BeUsedTo1();
                         gens = o.ps3eso;
                         gene = o.ps3it;
 
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.BeUsedTo1();
                         gens = ab.ps3eso;
                         gene = ab.ps3it;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.BeUsedTo1();
                         gens = p.ps3eso;
                         gene = p.ps3it;
@@ -49695,26 +48717,26 @@ public class Generator2 {
             case "ellos ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.BeUsedTo1();
                         gens = n.ps4;
                         gene = n.ps4eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.BeUsedTo1();
                         gens = o.ps4;
                         gene = o.ps4eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.BeUsedTo1();
                         gens = ab.ps4;
                         gene = ab.ps4eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.BeUsedTo1();
                         gens = p.ps4;
                         gene = p.ps4eng;
@@ -49726,26 +48748,26 @@ public class Generator2 {
             case "nosotros ":
                 switch (verb) {
                     case 0:
-                        Nobles n = new Nobles();
+                        Nobles2 n = new Nobles2();
                         n.BeUsedTo1();
                         gens = n.ps5;
                         gene = n.ps5eng;
                         break;
                     case 1:
-                        Oo o = new Oo();
+                        Oo2 o = new Oo2();
                         o.BeUsedTo1();
                         gens = o.ps5;
                         gene = o.ps5eng;
                         break;
                     case 2:
-                        Abstractos ab = new Abstractos();
+                        Abstractos2 ab = new Abstractos2();
                         ab.BeUsedTo1();
                         gens = ab.ps5;
                         gene = ab.ps5eng;
                         break;
 
                     case 3:
-                        People p = new People();
+                        People2 p = new People2();
                         p.BeUsedTo1();
                         gens = p.ps5;
                         gene = p.ps5eng;

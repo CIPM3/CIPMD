@@ -14,10 +14,6 @@ public class chose_estruc extends AppCompatActivity {
         setContentView(R.layout.activity_chose_estruc);
     }
 
-    public void est_old(View vista) {
-        Intent intento = new Intent(this, estructuras.class);
-        startActivity(intento);
-    }
 
     public void est_new(View vista) {
         Intent intento = new Intent(this, estructura_nuevo.class);
