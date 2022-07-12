@@ -795,7 +795,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator3 gen1 = new Generator3();
-                                    gen1.GenPresCont1();
+                                    gen1.generatepresentecontinuo();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -5075,7 +5075,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator3 gen1 = new Generator3();
-                                    gen1.GenPresCont1();
+                                    gen1.generatepresentecontinuo();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -5370,7 +5370,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenPastSimp2();
+                                    gen1.GenPassSimp2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -5471,7 +5471,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenPastCont2();
+                                    gen1.GenPassCont2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -5572,7 +5572,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenPastPerf2();
+                                    gen1.GenPassPerf2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -5673,7 +5673,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenPastPerfCont2();
+                                    gen1.GenPassPerfCont2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -8448,7 +8448,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.supposedtopresente2();
+                                    //gen1.supposedtopresente2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -8557,7 +8557,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.supposedtopasado2();
+                                    //gen1.supposedtopasado2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -8667,7 +8667,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenWishPastSimple2();
+                                    //gen1.GenWishPastSimple2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -8776,7 +8776,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenWishPastPerf2();
+                                    //gen1.GenWishPastPerf2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -8885,7 +8885,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenWishWould2();
+                                    //gen1.GenWishWould2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -8995,7 +8995,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenUsedTo2();
+                                    //gen1.GenUsedTo2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -9104,7 +9104,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenBeUsedTo2();
+                                    //gen1.GenBeUsedTo2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -9355,7 +9355,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator3 gen1 = new Generator3();
-                                    gen1.GenPresCont1();
+                                    gen1.generatepresentecontinuo();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -9650,7 +9650,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenPastSimp3();
+                                    gen1.GenPassSimp3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -9751,7 +9751,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenPastCont3();
+                                    gen1.GenPassCont3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -9852,7 +9852,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenPastPerf3();
+                                    gen1.GenPassPerf3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -9953,7 +9953,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenPastPerfCont3();
+                                    gen1.GenPassPerfCont3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -12728,7 +12728,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenSupposedToPresente3();
+                                    //gen1.GenSupposedToPresente3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -12837,7 +12837,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenSupposedTopasado3();
+                                    //gen1.GenSupposedTopasado3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -12947,7 +12947,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenWishPastSimple3();
+                                    //gen1.GenWishPastSimple3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -13056,7 +13056,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenWishPastPerf3();
+                                    //gen1.GenWishPastPerf3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -13165,7 +13165,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenWishWould3();
+                                    //gen1.GenWishWould3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -13275,7 +13275,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenUsedTo3();
+                                    //gen1.GenUsedTo3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -13384,7 +13384,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenBeUsedTo3();
+                                    //gen1.GenBeUsedTo3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -13930,7 +13930,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenPastSimple4();
+                                    gen1.GenPassSimp4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -14031,7 +14031,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenPastCont4();
+                                    gen1.GenPassCont4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -14063,7 +14063,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator3 gen1 = new Generator3();
-                                    gen1.GenPastCont4();
+                                    gen1.GenPassCont4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -14132,7 +14132,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenPastPerf4();
+                                    gen1.GenPassPerf4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -14233,7 +14233,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenPastPerfCont4();
+                                    gen1.GenPassPerfCont4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -14335,7 +14335,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenFuturoSimple4();
+                                    gen1.GenFutSimp4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -14436,7 +14436,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenFutureCont4();
+                                    gen1.GenFutCont4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -14538,7 +14538,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenFuturePerf4();
+                                    gen1.GenFutPerf4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -14639,7 +14639,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenFuturePerfCont4();
+                                    gen1.GenFutPerfCont4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -14741,7 +14741,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenWouldSimple4();
+                                    gen1.GenWouldSimp4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -15148,7 +15148,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenCouldSimple4();
+                                    gen1.GenCouldSimp4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -15557,7 +15557,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenShouldSimple4();
+                                    gen1.GenShouldSimp4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -15966,7 +15966,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenMightSimple4();
+                                    gen1.GenMightSimp4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -16376,7 +16376,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenCanSimpDif4();
+                                    gen1.GenCanSimp4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -16478,7 +16478,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenCanContDif4();
+                                    gen1.GenCanCont4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -16581,7 +16581,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenMustSimpDif4();
+                                    gen1.GenMustSimp4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -16683,7 +16683,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenMustContDif4();
+                                    gen1.GenMustCont4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
@@ -17007,7 +17007,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenSupposedToPresente4();
+                                    //gen1.GenSupposedToPresente4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -17116,7 +17116,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenSupposedTopasado4();
+                                    //gen1.GenSupposedTopasado4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -17226,7 +17226,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenWishPastSimple4();
+                                    //gen1.GenWishPastSimple4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -17335,7 +17335,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenWishPastPerf4();
+                                    //gen1.GenWishPastPerf4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -17444,7 +17444,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenWishWould4();
+                                    //gen1.GenWishWould4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -17554,7 +17554,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenUsedTo4();
+                                    //gen1.GenUsedTo4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 
@@ -17663,7 +17663,7 @@ public class estructura_nuevo extends AppCompatActivity {
                                         }
                                     });
                                     Generator2 gen1 = new Generator2();
-                                    gen1.GenBeUsedTo4();
+                                    //gen1.GenBeUsedTo4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
 

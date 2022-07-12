@@ -268,7 +268,7 @@ public class People2 {
     int neg = (int) (Math.random() * 2);
 
 
-    public void generarnoblespresentesimple() {
+    public void GenPresSimp2() {
 
         switch (neg) {
             case 0:
@@ -319,7 +319,7 @@ public class People2 {
         }
     } //neg
 
-    public void generarpresentecontinuo() {
+    public void GenPresCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "estoy " + vnbcs[v] + nnoblesesp[n];
@@ -369,7 +369,7 @@ public class People2 {
         }
     } // neg
 
-    public void generarpresenteperfecto() {
+    public void GenPresPerf2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "he " + vpsp[v] + nnoblesesp[n];
@@ -421,7 +421,7 @@ public class People2 {
 
     }  // ya en negativo
 
-    public void generarprsenteperfectocontinuo() {
+    public void GenPresPerfCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "he estado " + vnbcs[v] + nnoblesesp[n];
@@ -471,8 +471,7 @@ public class People2 {
         }
     } // ya en negativo
 
-    public void generarpasadosimp() {
-
+    public void GenPastSimp2() {
         int sr = (int) (Math.random() * 2);
         switch (neg) {
             case 1:
@@ -571,7 +570,7 @@ public class People2 {
 
     }
 
-    public void pasadocontinuo() {
+    public void GenPastCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "estaba " + vnbcs[v] + nnoblesesp[n];
@@ -622,7 +621,7 @@ public class People2 {
 
     }
 
-    public void pasadoperfecto() {
+    public void GenPastPerf2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "habia " + vpsp[v] + nnoblesesp[n];
@@ -674,7 +673,7 @@ public class People2 {
 
     }
 
-    public void pasadoperfectocontinuo() {
+    public void GenPastPerfCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "había estado " + vnbcs[v] + nnoblesesp[n];
@@ -724,7 +723,7 @@ public class People2 {
 
     }
 
-    public void futurosimple() {
+    public void GenFutSimp2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + vn1f[v] + nnoblesesp[n];
@@ -773,7 +772,7 @@ public class People2 {
         }
     } // neg
 
-    public void futurocont() {
+    public void GenFutCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "estaré " + vnbcs[v] + nnoblesesp[n];
@@ -823,7 +822,7 @@ public class People2 {
 
     } // neg
 
-    public void futuroperf() {
+    public void GenFutPerf2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "habré " + vpsp[v] + nnoblesesp[n];
@@ -874,7 +873,7 @@ public class People2 {
 
     }  // neg
 
-    public void futuroperfcont() {
+    public void GenFutPerfCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "habré estado " + vnbcs[v] + nnoblesesp[n];
@@ -925,7 +924,7 @@ public class People2 {
 
     } // neg
 
-    public void generarwouldsimple() {
+    public void GenWouldSimp2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + vn1w[v] + nnoblesesp[n];
@@ -974,7 +973,7 @@ public class People2 {
         }
     }  // neg
 
-    public void generarwouldcont() {
+    public void GenWouldCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "estaría " + vnbcs[v] + nnoblesesp[n];
@@ -992,7 +991,7 @@ public class People2 {
                 ps3eso = "eso estaría " + vnbcs[v] + nnoblesesp[n];
                 ps3it = "it " + "would be " + vnbc[v] + nnobles[n];
 
-                ps4 = "ellos estaría " + vnbcs[v] + nnoblesesp[n];
+                ps4 = "ellos estarían " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "would be " + vnbc[v] + nnobles[n];
 
                 ps5 = "nosotros estaríamos " + vnbcs[v] + nnoblesesp[n];
@@ -1023,7 +1022,7 @@ public class People2 {
         }
     }  // neg
 
-    public void genwouldperf() {
+    public void GenWouldPerf2() {
 
         switch (neg) {
             case 0:
@@ -1073,7 +1072,7 @@ public class People2 {
         }
     }  // neg
 
-    public void genwouldperfcon() {
+    public void GenWouldPerfCont2() {
 
         switch (neg) {
             case 0:
@@ -1124,7 +1123,7 @@ public class People2 {
 
     } // neg
 
-    public void gencouldsimp() {
+    public void GenCouldSimp2() {
 
         switch (neg) {
             case 0:
@@ -1174,7 +1173,7 @@ public class People2 {
         }
     } // neg
 
-    public void generarcouldcont() {
+    public void GenCouldCont2() {
 
         switch (neg) {
             case 0:
@@ -1224,7 +1223,7 @@ public class People2 {
         }
     } // neg
 
-    public void gencouldperf() {
+    public void GenCouldPerf2() {
         switch (neg) {
 
             case 0:
@@ -1276,7 +1275,7 @@ public class People2 {
 
     }  // neg
 
-    public void gencouldperfcont() {
+    public void GenCouldPerfCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "pude haber estado " + vnbcs[v] + nnoblesesp[n];
@@ -1327,7 +1326,7 @@ public class People2 {
     }  // neg
 
     // aqui van los del should
-    public void genshoudlsimp() {
+    public void GenShouldSimp2() {
 
         switch (neg) {
             case 0:
@@ -1377,7 +1376,7 @@ public class People2 {
         }
     }  // neg
 
-    public void genshouldcont() {
+    public void GenShouldCont2() {
 
         switch (neg) {
             case 0:
@@ -1427,7 +1426,7 @@ public class People2 {
         }
     } // neg
 
-    public void genshouldper() {
+    public void GenShouldPerf2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "debí haber " + vpsp[v] + nnoblesesp[n];
@@ -1476,7 +1475,7 @@ public class People2 {
         }
     } // neg
 
-    public void genshouldperfcont() {
+    public void GenShouldPerfCont2() {
 
         switch (neg) {
             case 0:
@@ -1530,200 +1529,200 @@ public class People2 {
 
 
     // los del might
-    public void genmightsimp() {
+    public void GenMightSimp2() {
         switch (neg) {
             case 0:
-                ps1 = "yo " + "quiza " + vn1y3subj[v] + nnoblesesp[n];
+                ps1 = "yo " + "quizá " + vn1y3subj[v] + nnoblesesp[n];
                 ps1eng = "I " + "might " + vnb[v] + nnobles[n];
 
-                ps2 = "tú " + "quiza " + vn2subj[v] + nnoblesesp[n];
+                ps2 = "tú " + "quizá " + vn2subj[v] + nnoblesesp[n];
                 ps2eng = "you " + "might " + vnb[v] + nnobles[n];
 
-                ps3 = "él " + "quiza " + vn1y3subj[v] + nnoblesesp[n];
+                ps3 = "él " + "quizá" + vn1y3subj[v] + nnoblesesp[n];
                 ps3eng = "he " + "might " + vnb[v] + nnobles[n];
 
-                ps3ella = "ella " + "quiza " + vn1y3subj[v] + nnoblesesp[n];
+                ps3ella = "ella " + "quizá " + vn1y3subj[v] + nnoblesesp[n];
                 ps3she = "she " + "might " + vnb[v] + nnobles[n];
 
-                ps3eso = "eso " + "quiza " + vn1y3subj[v] + nnoblesesp[n];
+                ps3eso = "eso " + "quizá " + vn1y3subj[v] + nnoblesesp[n];
                 ps3it = "it " + "might " + vnb[v] + nnobles[n];
 
-                ps4 = "ellos " + "quiza " + vn4subj[v] + nnoblesesp[n];
+                ps4 = "ellos " + "quizá " + vn4subj[v] + nnoblesesp[n];
                 ps4eng = "they " + "might " + vnb[v] + nnobles[n];
 
-                ps5 = "nosotros " + "quiza " + vn5subj[v] + nnoblesesp[n];
+                ps5 = "nosotros " + "quizá " + vn5subj[v] + nnoblesesp[n];
                 ps5eng = "we " + "might " + vnb[v] + nnobles[n];
                 break;
             case 1:
-                ps1 = "yo " + "quiza no " + vn1y3subj[v] + nnoblesesp[n];
+                ps1 = "yo " + "quizá no " + vn1y3subj[v] + nnoblesesp[n];
                 ps1eng = "I " + "might not " + vnb[v] + nnobles[n];
 
-                ps2 = "tú " + "quiza no " + vn2subj[v] + nnoblesesp[n];
+                ps2 = "tú " + "quizá no " + vn2subj[v] + nnoblesesp[n];
                 ps2eng = "you " + "might not " + vnb[v] + nnobles[n];
 
-                ps3 = "él " + "quiza no " + vn1y3subj[v] + nnoblesesp[n];
+                ps3 = "él " + "quizá no " + vn1y3subj[v] + nnoblesesp[n];
                 ps3eng = "he " + "might not " + vnb[v] + nnobles[n];
 
-                ps3ella = "ella " + "quiza no " + vn1y3subj[v] + nnoblesesp[n];
+                ps3ella = "ella " + "quizá no " + vn1y3subj[v] + nnoblesesp[n];
                 ps3she = "she " + "might not " + vnb[v] + nnobles[n];
 
-                ps3eso = "eso " + "quiza no " + vn1y3subj[v] + nnoblesesp[n];
+                ps3eso = "eso " + "quizá no " + vn1y3subj[v] + nnoblesesp[n];
                 ps3it = "it " + "might not " + vnb[v] + nnobles[n];
 
-                ps4 = "ellos " + "quiza no " + vn4subj[v] + nnoblesesp[n];
+                ps4 = "ellos " + "quizá no " + vn4subj[v] + nnoblesesp[n];
                 ps4eng = "they " + "might not " + vnb[v] + nnobles[n];
 
-                ps5 = "nosotros " + "quiza no " + vn5subj[v] + nnoblesesp[n];
+                ps5 = "nosotros " + "quizá no " + vn5subj[v] + nnoblesesp[n];
                 ps5eng = "we " + "might not " + vnb[v] + nnobles[n];
                 break;
         }
     }  // neg
 
-    public void genmightcont() {
+    public void GenMightCont2() {
 
         switch (neg) {
             case 0:
-                ps1 = "yo " + "quiza esté " + vnbcs[v] + nnoblesesp[n];
+                ps1 = "yo " + "quizá esté " + vnbcs[v] + nnoblesesp[n];
                 ps1eng = "I " + "might " + "be " + vnbc[v] + nnobles[n];
 
-                ps2 = "tú " + "quiza estés " + vnbcs[v] + nnoblesesp[n];
+                ps2 = "tú " + "quizá estés " + vnbcs[v] + nnoblesesp[n];
                 ps2eng = "you " + "might " + "be " + vnbc[v] + nnobles[n];
 
-                ps3 = "él " + "quiza esté " + vnbcs[v] + nnoblesesp[n];
+                ps3 = "él " + "quizá esté " + vnbcs[v] + nnoblesesp[n];
                 ps3eng = "he " + "might be " + vnbc[v] + nnobles[n];
 
-                ps3ella = "ella quiza esté " + vnbcs[v] + nnoblesesp[n];
+                ps3ella = "ella quizá esté " + vnbcs[v] + nnoblesesp[n];
                 ps3she = "she " + "might be " + vnbc[v] + nnobles[n];
 
-                ps3eso = "eso quiza esté " + vnbcs[v] + nnoblesesp[n];
+                ps3eso = "eso quizá esté " + vnbcs[v] + nnoblesesp[n];
                 ps3it = "it " + "might be " + vnbc[v] + nnobles[n];
 
-                ps4 = "ellos quiza estén " + vnbcs[v] + nnoblesesp[n];
+                ps4 = "ellos quizá estén " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "might be " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros quiza estemos " + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros quizá estemos " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "might be " + vnbc[v] + nnobles[n];
                 break;
             case 1:
-                ps1 = "yo " + "quiza no esté " + vnbcs[v] + nnoblesesp[n];
+                ps1 = "yo " + "quizá no esté " + vnbcs[v] + nnoblesesp[n];
                 ps1eng = "I " + "might not " + "be " + vnbc[v] + nnobles[n];
 
-                ps2 = "tú " + "quiza no estés " + vnbcs[v] + nnoblesesp[n];
+                ps2 = "tú " + "quizá no estés " + vnbcs[v] + nnoblesesp[n];
                 ps2eng = "you " + "might not " + "be " + vnbc[v] + nnobles[n];
 
-                ps3 = "él " + "quiza no esté " + vnbcs[v] + nnoblesesp[n];
+                ps3 = "él " + "quizá no esté " + vnbcs[v] + nnoblesesp[n];
                 ps3eng = "he " + "might not be " + vnbc[v] + nnobles[n];
 
-                ps3ella = "ella quiza no esté " + vnbcs[v] + nnoblesesp[n];
+                ps3ella = "ella quizá no esté " + vnbcs[v] + nnoblesesp[n];
                 ps3she = "she " + "might not be " + vnbc[v] + nnobles[n];
 
-                ps3eso = "eso quiza no esté " + vnbcs[v] + nnoblesesp[n];
+                ps3eso = "eso quizá no esté " + vnbcs[v] + nnoblesesp[n];
                 ps3it = "it " + "might not be " + vnbc[v] + nnobles[n];
 
-                ps4 = "ellos quiza no estén " + vnbcs[v] + nnoblesesp[n];
+                ps4 = "ellos quizá no estén " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "might not be " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros quiza no estemos " + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros quizá no estemos " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "might not be " + vnbc[v] + nnobles[n];
                 break;
         }
     } // neg
 
-    public void genmightperf() {
+    public void GenMightPerf2() {
 
         switch (neg) {
             case 0:
-                ps1 = "yo " + "quiza haya " + vpsp[v] + nnoblesesp[n];
+                ps1 = "yo " + "quizá haya " + vpsp[v] + nnoblesesp[n];
                 ps1eng = "I " + "might have " + vpeng[v] + nnobles[n];
 
-                ps2 = "tú " + "quiza hayas " + vpsp[v] + nnoblesesp[n];
+                ps2 = "tú " + "quizá hayas " + vpsp[v] + nnoblesesp[n];
                 ps2eng = "you " + "might have " + vpeng[v] + nnobles[n];
 
-                ps3 = "él " + "quiza haya " + vpsp[v] + nnoblesesp[n];
+                ps3 = "él " + "quizá haya " + vpsp[v] + nnoblesesp[n];
                 ps3eng = "he " + "might have " + vpeng[v] + nnobles[n];
 
-                ps3ella = "ella quiza haya " + vpsp[v] + nnoblesesp[n];
+                ps3ella = "ella quizá haya " + vpsp[v] + nnoblesesp[n];
                 ps3she = "she " + "might have " + vpeng[v] + nnobles[n];
 
-                ps3eso = "eso " + "quiza haya " + vpsp[v] + nnoblesesp[n];
+                ps3eso = "eso " + "quizá haya " + vpsp[v] + nnoblesesp[n];
                 ps3it = "it " + "might have " + vpeng[v] + nnobles[n];
 
-                ps4 = "ellos quiza hayan " + vpsp[v] + nnoblesesp[n];
+                ps4 = "ellos quizá hayan " + vpsp[v] + nnoblesesp[n];
                 ps4eng = "they " + "might have " + vpeng[v] + nnobles[n];
 
-                ps5 = "nosotros quiza hayamos " + vpsp[v] + nnoblesesp[n];
+                ps5 = "nosotros quizá hayamos " + vpsp[v] + nnoblesesp[n];
                 ps5eng = "we " + "might have " + vpeng[v] + nnobles[n];
                 break;
             case 1:
-                ps1 = "yo " + "quiza no haya " + vpsp[v] + nnoblesesp[n];
+                ps1 = "yo " + "quizá no haya " + vpsp[v] + nnoblesesp[n];
                 ps1eng = "I " + "might not have " + vpeng[v] + nnobles[n];
 
-                ps2 = "tú " + "quiza no hayas " + vpsp[v] + nnoblesesp[n];
+                ps2 = "tú " + "quizá no hayas " + vpsp[v] + nnoblesesp[n];
                 ps2eng = "you " + "might not have " + vpeng[v] + nnobles[n];
 
-                ps3 = "él " + "quiza no haya " + vpsp[v] + nnoblesesp[n];
+                ps3 = "él " + "quizá no haya " + vpsp[v] + nnoblesesp[n];
                 ps3eng = "he " + "might not have " + vpeng[v] + nnobles[n];
 
-                ps3ella = "ella quiza no haya " + vpsp[v] + nnoblesesp[n];
+                ps3ella = "ella quizá no haya " + vpsp[v] + nnoblesesp[n];
                 ps3she = "she " + "might not have " + vpeng[v] + nnobles[n];
 
-                ps3eso = "eso " + "quiza no haya " + vpsp[v] + nnoblesesp[n];
+                ps3eso = "eso " + "quizá no haya " + vpsp[v] + nnoblesesp[n];
                 ps3it = "it " + "might not have " + vpeng[v] + nnobles[n];
 
-                ps4 = "ellos quiza no hayan " + vpsp[v] + nnoblesesp[n];
+                ps4 = "ellos quizá no hayan " + vpsp[v] + nnoblesesp[n];
                 ps4eng = "they " + "might not have " + vpeng[v] + nnobles[n];
 
-                ps5 = "nosotros quiza no hayamos " + vpsp[v] + nnoblesesp[n];
+                ps5 = "nosotros quizá no hayamos " + vpsp[v] + nnoblesesp[n];
                 ps5eng = "we " + "might not have " + vpeng[v] + nnobles[n];
                 break;
         }
     } // neg
 
-    public void genmightperfcont() {
+    public void GenMightPerfCont2() {
 
         switch (neg) {
             case 0:
-                ps1 = "yo " + "quiza haya estado " + vnbcs[v] + nnoblesesp[n];
+                ps1 = "yo " + "quizá haya estado " + vnbcs[v] + nnoblesesp[n];
                 ps1eng = "I " + "might have been " + vnbc[v] + nnobles[n];
 
-                ps2 = "tú " + "quiza hayas estado " + vnbcs[v] + nnoblesesp[n];
+                ps2 = "tú " + "quizá hayas estado " + vnbcs[v] + nnoblesesp[n];
                 ps2eng = "you " + "might have been " + vnbc[v] + nnobles[n];
 
-                ps3 = "él " + "quiza haya estado " + vnbcs[v] + nnoblesesp[n];
+                ps3 = "él " + "quizá haya estado " + vnbcs[v] + nnoblesesp[n];
                 ps3eng = "he " + "might have been " + vnbc[v] + nnobles[n];
 
-                ps3ella = "ella quiza haya estado " + vnbcs[v] + nnoblesesp[n];
+                ps3ella = "ella quizá haya estado " + vnbcs[v] + nnoblesesp[n];
                 ps3she = "she " + "might have been " + vnbc[v] + nnobles[n];
 
-                ps3eso = "eso quiza haya estado " + vnbcs[v] + nnoblesesp[n];
+                ps3eso = "eso quizá haya estado " + vnbcs[v] + nnoblesesp[n];
                 ps3it = "it " + "might have been " + vnbc[v] + nnobles[n];
 
-                ps4 = "ellos quiza hayan estado " + vnbcs[v] + nnoblesesp[n];
+                ps4 = "ellos quizá hayan estado " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "might have been " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros " + "quiza hayamos estado " + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros " + "quizá hayamos estado " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "might have been " + vnbc[v] + nnobles[n];
                 break;
             case 1:
-                ps1 = "yo " + "quiza no haya estado " + vnbcs[v] + nnoblesesp[n];
+                ps1 = "yo " + "quizá no haya estado " + vnbcs[v] + nnoblesesp[n];
                 ps1eng = "I " + "might not have been " + vnbc[v] + nnobles[n];
 
-                ps2 = "tú " + "quiza no hayas estado " + vnbcs[v] + nnoblesesp[n];
+                ps2 = "tú " + "quizá no hayas estado " + vnbcs[v] + nnoblesesp[n];
                 ps2eng = "you " + "might not have been " + vnbc[v] + nnobles[n];
 
-                ps3 = "él " + "quiza no haya estado " + vnbcs[v] + nnoblesesp[n];
+                ps3 = "él " + "quizá no haya estado " + vnbcs[v] + nnoblesesp[n];
                 ps3eng = "he " + "might not have been " + vnbc[v] + nnobles[n];
 
-                ps3ella = "ella quiza no haya estado " + vnbcs[v] + nnoblesesp[n];
+                ps3ella = "ella quizá no haya estado " + vnbcs[v] + nnoblesesp[n];
                 ps3she = "she " + "might not have been " + vnbc[v] + nnobles[n];
 
-                ps3eso = "eso quiza no haya estado " + vnbcs[v] + nnoblesesp[n];
+                ps3eso = "eso quizá no haya estado " + vnbcs[v] + nnoblesesp[n];
                 ps3it = "it " + "might not have been " + vnbc[v] + nnobles[n];
 
-                ps4 = "ellos quiza no hayan estado " + vnbcs[v] + nnoblesesp[n];
+                ps4 = "ellos quizá no hayan estado " + vnbcs[v] + nnoblesesp[n];
                 ps4eng = "they " + "might not have been " + vnbc[v] + nnobles[n];
 
-                ps5 = "nosotros " + "quiza no hayamos estado " + vnbcs[v] + nnoblesesp[n];
+                ps5 = "nosotros " + "quizá no hayamos estado " + vnbcs[v] + nnoblesesp[n];
                 ps5eng = "we " + "might not have been " + vnbc[v] + nnobles[n];
                 break;
         }
@@ -1732,7 +1731,7 @@ public class People2 {
     } // neg
 
     // aqui van los del can
-    public void gencansimp() {
+    public void GenCanSimp2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "puedo " + vnbs[v] + nnoblesesp[n];
@@ -1782,7 +1781,7 @@ public class People2 {
 
     }  //neg
 
-    public void gencancont() {
+    public void GenCanCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "puedo estar " + vnbcs[v] + nnoblesesp[n];
@@ -1834,7 +1833,7 @@ public class People2 {
 
 
     // los del must
-    public void genmustsimp() {
+    public void GenMustSimp2() {
 
         switch (neg) {
             case 0:
@@ -1885,7 +1884,7 @@ public class People2 {
         }
     }  // neg
 
-    public void genmustcont() {
+    public void GenMustCont2() {
 
         switch (neg) {
             case 0:
@@ -1972,7 +1971,7 @@ public class People2 {
     int r = (int) (Math.random() * advfrequ.length);
     int negg = (int) (Math.random() * 2);
 
-    public void generarnoblespresentesimple3() {
+    public void GenPresSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo " + vn1[v] + nnoblesesp[n] + advfrequ[r] ;
@@ -2039,7 +2038,7 @@ public class People2 {
         }
 
     }
-    public void GenNoblePresContDif3() {
+    public void GenPresCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "estoy " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -2105,7 +2104,7 @@ public class People2 {
         }
 
     }
-    public void GenNoblePresPerfDif3() {
+    public void GenPresPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "he " + vpsp[v] + nnoblesesp[n] + advfrequ[r];
@@ -2174,7 +2173,7 @@ public class People2 {
         }
 
     }
-    public void GenPresPerfContDif3() {
+    public void GenPresPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "he estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -2240,7 +2239,7 @@ public class People2 {
     }
 
     //pasados
-    public void GenPastSimpleDif3() {
+    public void GenPastSimp3() {
         int sr = (int) (Math.random() * 2);
         switch (neg) {
             case 1:
@@ -2366,7 +2365,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenNoblePastContDif3() {
+    public void GenPastCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "estaba " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -2441,7 +2440,7 @@ public class People2 {
         }
 
     }
-    public void GenNoblePastPerfDif3() {
+    public void GenPastPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "había " + vpsp[v] + nnoblesesp[n] + advfrequ[r];
@@ -2514,7 +2513,7 @@ public class People2 {
         }
 
     }
-    public void GenPastPerfContDif3() {
+    public void GenPastPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "había estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -2585,7 +2584,7 @@ public class People2 {
     }
 
     //futuros
-    public void GenerarNoblesFuturoSimple3() {
+    public void GenFutSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + vn1f[v] + nnoblesesp[n] + advfrequ[r];
@@ -2662,7 +2661,7 @@ public class People2 {
         }
 
     }
-    public void GenNobleFutureContDif3() {
+    public void GenFutCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "estaré " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -2733,7 +2732,7 @@ public class People2 {
         }
 
     }
-    public void GenNobleFuturePerfDif3() {
+    public void GenFutPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "habré " + vpsp[v] + nnoblesesp[n] + advfrequ[r];
@@ -2810,7 +2809,7 @@ public class People2 {
         }
 
     }
-    public void GenFuturePerfContDif3() {
+    public void GenFutPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "habré estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -2889,7 +2888,7 @@ public class People2 {
     }
 
     //would
-    public void GenerarNoblesWouldSimple3() {
+    public void GenWouldSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + vn1w[v] + nnoblesesp[n] + advfrequ[r];
@@ -2961,7 +2960,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenNobleWouldContDif3() {
+    public void GenWouldCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "estaría " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3030,7 +3029,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenNobleWouldPerfDif3() {
+    public void GenWouldPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "hubiera " + vpsp[v] + nnoblesesp[n] + advfrequ[r];
@@ -3107,7 +3106,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenNobleWouldPerfContDif3() {
+    public void GenWouldPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "hubiera estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3185,7 +3184,7 @@ public class People2 {
     }
 
     //could
-    public void GenerarNoblesCouldSimple3() {
+    public void GenCouldSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo podria " + vnbs[v] + nnoblesesp[n] + advfrequ[r] ;
@@ -3261,7 +3260,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenNobleCouldContDif3() {
+    public void GenCouldCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo podría "  + "estar " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3337,7 +3336,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenNobleCouldPerfDif3() {
+    public void GenCouldPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo pude " +  "haber " + vpsp[v] + nnoblesesp[n] + advfrequ[r] ;
@@ -3412,7 +3411,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenCouldPerfContDif3() {
+    public void GenCouldPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "pude haber estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3490,7 +3489,7 @@ public class People2 {
     }
 
     //should
-    public void GenerarNoblesShouldSimple3() {
+    public void GenShouldSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo debería "  + vnbs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3558,7 +3557,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenNobleShouldContDif3() {
+    public void GenShouldCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo debería "  + "estar " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3629,7 +3628,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenNobleShouldPerfDif3() {
+    public void GenShouldPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo debí "  + "haber " + vpsp[v] + nnoblesesp[n] + advfrequ[r];
@@ -3705,7 +3704,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenShouldPerfContDif3() {
+    public void GenShouldPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "debí haber estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3783,7 +3782,7 @@ public class People2 {
     }
 
     //might
-    public void GenerarNoblesMightSimple3() {
+    public void GenMightSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo quizá " + vn1y3subj[v] + nnoblesesp[n] + advfrequ[r] ;
@@ -3859,7 +3858,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenNobleMightContDif3() {
+    public void GenMightCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo quizá "  + "esté " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3933,7 +3932,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenNobleMightPerfDif3() {
+    public void GenMightPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo quizá "  + "haya " + vpsp[v] + nnoblesesp[n] + advfrequ[r];
@@ -4007,7 +4006,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenNobleMightPerfContDif3() {
+    public void GenMightPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo quizá "  + "haya estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -4086,7 +4085,7 @@ public class People2 {
     }
 
     // can y must simp y cont
-    public void GenerarNoblesCanSimple3() {
+    public void GenCanSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo puedo "  + vnbs[v] + nnoblesesp[n] + advfrequ[r];
@@ -4162,7 +4161,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenNobleCanContDif3() {
+    public void GenCanCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo puedo "  + "estar " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -4238,7 +4237,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenerarNoblesMustSimple3() {
+    public void GenMustSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo debo "  + vnbs[v] + nnoblesesp[n] + advfrequ[r];
@@ -4313,7 +4312,7 @@ public class People2 {
                 break;
         }
     }
-    public void GenNobleMustContDif3() {
+    public void GenMustCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo debo "  + "estar " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -7085,7 +7084,7 @@ public class People2 {
 
     //DIF 4 Sergio
     // Presentes
-    public void generarnoblespresentesimple4() {
+    public void GenPresSimp4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7155,7 +7154,7 @@ public class People2 {
         }
 
     } //SV 230422
-    public void GenNoblePresContDif4() {
+    public void GenPresCont4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7224,7 +7223,7 @@ public class People2 {
         }
 
     } //SV 230422
-    public void GenNoblePresPerfDif4() {
+    public void GenPresPerf4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7296,7 +7295,7 @@ public class People2 {
         }
 
     } //SV 230422
-    public void GenPresPerfContDif4() {
+    public void GenPresPerfCont4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7364,8 +7363,8 @@ public class People2 {
 
     } //SV 230422
 
-    //Pasados Dif 4
-    public void GenPastSimpleDif4() {
+    //Pasados  4
+    public void GenPastSimp4() {
         int sr = (int) (Math.random() * 2);
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -7494,7 +7493,7 @@ public class People2 {
                 break;
         }
     } //SV 260422
-    public void GenNoblePastContDif4() {
+    public void GenPastCont4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7572,7 +7571,7 @@ public class People2 {
         }
 
     } //SV 260422
-    public void GenNoblePastPerfDif4() {
+    public void GenPastPerf4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7648,7 +7647,7 @@ public class People2 {
         }
 
     } //SV 260422
-    public void GenPastPerfContDif4() {
+    public void GenPastPerfCont4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7721,8 +7720,8 @@ public class People2 {
         }
     } //SV 260422
 
-    //Futuros Dif 4
-    public void GenerarNoblesFuturoSimple4() {
+    //Futuros  4
+    public void GenFutSimp4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7802,7 +7801,7 @@ public class People2 {
         }
 
     } //SV 260422
-    public void GenNobleFutureContDif4() {
+    public void GenFutCont4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7876,7 +7875,7 @@ public class People2 {
         }
 
     } //SV 260422
-    public void GenNobleFuturePerfDif4() {
+    public void GenFutPerf4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7956,7 +7955,7 @@ public class People2 {
         }
 
     } //SV 260422
-    public void GenFuturePerfContDif4() {
+    public void GenFutPerfCont4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -8037,8 +8036,8 @@ public class People2 {
         }
     } //SV 260422
 
-    //Would Dif 4
-    public void GenerarNoblesWouldSimple4() {
+    //Would  4
+    public void GenWouldSimp4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8114,7 +8113,7 @@ public class People2 {
                 break;
         }
     } //SV 270422
-    public void GenNobleWouldContDif4() {
+    public void GenWouldCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8187,7 +8186,7 @@ public class People2 {
                 break;
         }
     } //SV 270422
-    public void GenNobleWouldPerfDif4() {
+    public void GenWouldPerf4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8268,7 +8267,7 @@ public class People2 {
                 break;
         }
     } //SV 270422
-    public void GenNobleWouldPerfContDif4() {
+    public void GenWouldPerfCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8349,8 +8348,8 @@ public class People2 {
         }
     } //SV 270422
 
-    //could Dif 4
-    public void GenerarNoblesCouldSimple4() {
+    //could  4
+    public void GenCouldSimp4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8430,7 +8429,7 @@ public class People2 {
                 break;
         }
     } //SV 280422
-    public void GenNobleCouldContDif4() {
+    public void GenCouldCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8510,7 +8509,7 @@ public class People2 {
                 break;
         }
     } //SV 280422
-    public void GenNobleCouldPerfDif4() {
+    public void GenCouldPerf4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8589,7 +8588,7 @@ public class People2 {
                 break;
         }
     } //SV 280422
-    public void GenCouldPerfContDif4() {
+    public void GenCouldPerfCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8670,8 +8669,8 @@ public class People2 {
         }
     } //SV 280422
 
-    //should Dif 4
-    public void GenerarNoblesShouldSimple4() {
+    //should  4
+    public void GenShouldSimp4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8743,7 +8742,7 @@ public class People2 {
                 break;
         }
     } //SV 280422
-    public void GenNobleShouldContDif4() {
+    public void GenShouldCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8818,7 +8817,7 @@ public class People2 {
                 break;
         }
     } //SV 280422
-    public void GenNobleShouldPerfDif4() {
+    public void GenShouldPerf4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8898,7 +8897,7 @@ public class People2 {
                 break;
         }
     } //SV 280422
-    public void GenShouldPerfContDif4() {
+    public void GenShouldPerfCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8979,88 +8978,88 @@ public class People2 {
         }
     } //SV 280422
 
-    //might Dif 4
-    public void GenerarNoblesMightSimple4() {
+    //might  4
+    public void GenMightSimp4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
         switch (negg) {
             case 0:
-                ps1 = "yo quiza " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps1 = "yo quizá " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps1eng = "I might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps1eng2 = "I might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps2 = "tú quiza " + vn2subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps2 = "tú quizá " + vn2subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps2eng = "you might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps2eng2 = "you might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps3 = "él quiza " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps3 = "él quizá " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3eng = "he might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps3eng2 = "he might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps3ella = "ella quiza " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps3ella = "ella quizá " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3she = "she might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps3she2 = "she might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps3eso = "eso quiza " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps3eso = "eso quizá " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3it = "it might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps3iteng2 = "it might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps4 = "ellos quiza " + vn4subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps4 = "ellos quizá " + vn4subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps4eng = "they might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps4eng2 = "they might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps5 = "nosotros quiza " + vn5subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps5 = "nosotros quizá" + vn5subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps5eng = "we might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps5eng2 = "we might " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 break;
             case 1:
-                ps1 = "yo " + "quiza no " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps1 = "yo " + "quizá no " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps1eng = "I " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps1eng2 = "I " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps2 = "tú " + "quiza no " + vn2subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps2 = "tú " + "quizá no " + vn2subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps2eng = "you " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps2eng2 = "you " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps3 = "él " + "quiza no " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps3 = "él " + "quizá no " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3eng = "he " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps3eng2 = "he " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps3ella = "ella " + "quiza no " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps3ella = "ella " + "quizá no " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3she = "she " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps3she2 = "she " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps3eso = "eso " + "quiza no " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps3eso = "eso " + "quizá no " + vn1y3subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3it = "it " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps3iteng2 = "it " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps4 = "ellos " + "quiza no " + vn4subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps4 = "ellos " + "quizá no " + vn4subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps4eng = "they " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps4eng2 = "they " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps5 = "nosotros " + "quiza no " + vn5subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps5 = "nosotros " + "quizá no " + vn5subj[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps5eng = "we " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps5eng2 = "we " + "might not " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 break;
         }
     } //SV 280422
-    public void GenNobleMightContDif4() {
+    public void GenMightCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9138,7 +9137,7 @@ public class People2 {
                 break;
         }
     } //SV 280422
-    public void GenNobleMightPerfDif4() {
+    public void GenMightPerf4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9216,7 +9215,7 @@ public class People2 {
                 break;
         }
     } //SV 280422
-    public void GenNobleMightPerfContDif4() {
+    public void GenMightPerfCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9299,10 +9298,10 @@ public class People2 {
     } //SV 280422
 
 
-    //DIF 4 PD
+    // 4 PD
 
     // can y must simp y cont
-    public void GenerarNoblesCanSimple4() {
+    public void GenCanSimp4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9386,7 +9385,7 @@ public class People2 {
                 break;
         }
     }//PD 27/04/2022
-    public void GenNobleCanContDif4(){
+    public void GenCanCont4(){
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9467,7 +9466,7 @@ public class People2 {
         }
     }//PD 27/04/2022
 
-    public void GenerarNoblesMustSimple4(){
+    public void GenMustSimp4(){
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -9504,7 +9503,7 @@ public class People2 {
                 ps4eng2 = "they must " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
 
-                ps5 = "nosotros debemos "  + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps5 = "nosotros debemos " + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps5eng = "we must "  + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
                 ps5eng2 = "we must " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
@@ -9546,7 +9545,7 @@ public class People2 {
                 break;
         }
     }//PD 27/04/2022
-    public void GenNobleMustContDif4(){
+    public void GenMustCont4(){
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
