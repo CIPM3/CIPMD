@@ -39140,7 +39140,7 @@ public class Generator {
     } // SV 040522 PD Special //SV 110522 DBG Nobles, Oo, Abs, People
 
     // PASADOS
-    public void GenPastSimple4() {
+    public void GenPastSimp4() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 4);
         //int verb = 3;
@@ -40334,7 +40334,7 @@ public class Generator {
     } //PD Special 060622 //SV 120522 DBG Nobles, Oo, Abs, People
 
     // FUTUROS
-    public void GenFuturoSimple4() {
+    public void GenFutSimp4() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 5);
         //int verb = 3;
@@ -40640,7 +40640,7 @@ public class Generator {
 
     } //PD Special 060622 //SV 120522 DBG Nobles, Oo, Abs, People
 
-    public void GenFutureCont4() {
+    public void GenFutCont4() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 5);
         //int verb = 3;
@@ -40941,7 +40941,7 @@ public class Generator {
 
     } //PD Special 060622 //SV 120522 DBG Nobles, Oo, Abs, People
 
-    public void GenFuturePerf4() {
+    public void GenFutPerf4() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 5);
         //int verb = 3;
@@ -41242,7 +41242,7 @@ public class Generator {
 
     } //PD Special 060622 //SV 120522 DBG Nobles, Oo, Abs, People
 
-    public void GenFuturePerfCont4() {
+    public void GenFutPerfCont4() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 5);
         //int verb = 3;
@@ -41539,7 +41539,7 @@ public class Generator {
     } //PD Special 060622 //SV 120522 DBG Nobles, Oo, Abs, People
 
     // WOULD
-    public void GenWouldSimple4() {
+    public void GenWouldSimp4() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 5);
         //int verb = 3;
@@ -42736,7 +42736,7 @@ public class Generator {
     } //PD Special 060622 //SV 180522 DBG Nobles, Oo, Abs, People
 
     // COULD
-    public void GenCouldSimple4() {
+    public void GenCouldSimp4() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 5);
         //int verb = 3;
@@ -43933,7 +43933,7 @@ public class Generator {
     } //PD Special 060622 //SV 180522 DBG Nobles, Oo, Abs, People
 
     //  SHOULD
-    public void GenShouldSimple4() {
+    public void GenShouldSimp4() {
         int rand = (int) (Math.random() * pronombres.length);
         //int verb = (int) (Math.random() * 5);
         int verb = 4;
@@ -45130,7 +45130,7 @@ public class Generator {
     } //PD Special 060622 //SV 180522 DBG Nobles, Oo, Abs, People
 
     // MIGHT
-    public void GenMightSimple4() {
+    public void GenMightSimp4() {
         int rand = (int) (Math.random() * pronombres.length);
         //int verb = (int) (Math.random() * 5);
         int verb = 4;
@@ -46323,7 +46323,7 @@ public class Generator {
     //Dificultad 4 PD
 
     // can
-    public void GenCanSimpDif4() {
+    public void GenCanSimp4() {
         int rand = (int) (Math.random() * pronombres.length);
         //int verb = (int) (Math.random() * 6);
         int verb = (int) (Math.random() * 4);
@@ -46634,7 +46634,7 @@ public class Generator {
         }
     } //hechos PD (falta intrans) //SV 190522 DBG Nobles, Oo, Abs, People
 
-    public void GenCanContDif4() {
+    public void GenCanCont4() {
         int rand = (int) (Math.random() * pronombres.length);
         //int verb = (int) (Math.random() * 6);
         int verb = (int) (Math.random() * 4);
@@ -46946,7 +46946,7 @@ public class Generator {
     } //hechos PD (falta intrans) //SV 190522 DBG Nobles, Oo, Abs, People
 
     //must
-    public void GenMustSimpDif4() {
+    public void GenMustSimp4() {
         int rand = (int) (Math.random() * pronombres.length);
         //int verb = (int) (Math.random() * 6);
         int verb = (int) (Math.random() * 4);
@@ -47258,7 +47258,7 @@ public class Generator {
         }
     } //hechos PD (falta intrans)//SV 190522 DBG Nobles, Oo, Abs, People
 
-    public void GenMustContDif4() {
+    public void GenMustCont4() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         //int verb = (int) (Math.random() * 4);

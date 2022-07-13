@@ -302,7 +302,7 @@ public class People3 {
     int neg = (int) (Math.random() * 2);
 
 
-    public void generarnoblespresentesimple() {
+    public void GenPresSimp2() {
 
         switch (neg) {
             case 0:
@@ -351,9 +351,8 @@ public class People3 {
                 break;
 
         }
-    } //neg
-
-    public void generarpresentecontinuo() {
+    }
+    public void GenPresCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "estoy " + vnbcs[v] + nnoblesesp[n];
@@ -401,9 +400,8 @@ public class People3 {
                 ps5eng = "we " + "are not " + vnbc[v] + nnobles[n];
                 break;
         }
-    } // neg
-
-    public void generarpresenteperfecto() {
+    }
+    public void GenPresPerf2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "he " + vpsp[v] + nnoblesesp[n];
@@ -453,9 +451,8 @@ public class People3 {
         }
 
 
-    }  // ya en negativo
-
-    public void generarprsenteperfectocontinuo() {
+    }
+    public void GenPresPerfCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "he estado " + vnbcs[v] + nnoblesesp[n];
@@ -503,9 +500,9 @@ public class People3 {
 
                 break;
         }
-    } // ya en negativo º
+    }
 
-    public void generarpasadosimp() {
+    public void GenPastSimp2() {
 
         int sr = (int) (Math.random() * 2);
         switch (neg) {
@@ -604,8 +601,7 @@ public class People3 {
         }
 
     }
-
-    public void pasadocontinuo() {
+    public void GenPastCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "estaba " + vnbcs[v] + nnoblesesp[n];
@@ -655,8 +651,7 @@ public class People3 {
 
 
     }
-
-    public void pasadoperfecto() {
+    public void GenPastPerf2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "había " + vpsp[v] + nnoblesesp[n];
@@ -707,8 +702,7 @@ public class People3 {
 
 
     }
-
-    public void pasadoperfectocontinuo() {
+    public void GenPastPerfCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "había estado " + vnbcs[v] + nnoblesesp[n];
@@ -758,7 +752,7 @@ public class People3 {
 
     }
 
-    public void futurosimple() {
+    public void GenFutSimp2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + vn1f[v] + nnoblesesp[n];
@@ -805,9 +799,8 @@ public class People3 {
                 ps5eng = "we " + "won´t " + vnb[v] + nnobles[n];
                 break;
         }
-    } // neg
-
-    public void futurocont() {
+    }
+    public void GenFutCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "estaré " + vnbcs[v] + nnoblesesp[n];
@@ -855,9 +848,8 @@ public class People3 {
                 break;
         }
 
-    } // neg
-
-    public void futuroperf() {
+    }
+    public void GenFutPerf2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "habré " + vpsp[v] + nnoblesesp[n];
@@ -906,9 +898,8 @@ public class People3 {
                 break;
         }
 
-    }  // neg
-
-    public void futuroperfcont() {
+    }
+    public void GenFutPerfCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "habré estado " + vnbcs[v] + nnoblesesp[n];
@@ -957,9 +948,9 @@ public class People3 {
         }
 
 
-    } // neg
+    }
 
-    public void generarwouldsimple() {
+    public void GenWouldSimp2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + vn1w[v] + nnoblesesp[n];
@@ -1006,9 +997,8 @@ public class People3 {
                 ps5eng = "we " + "wouldn´t " + vnb[v] + nnobles[n];
                 break;
         }
-    }  // neg
-
-    public void generarwouldcont() {
+    }
+    public void GenWouldCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "estaría " + vnbcs[v] + nnoblesesp[n];
@@ -1055,9 +1045,8 @@ public class People3 {
                 ps5eng = "we " + "wouldn´t be " + vnbc[v] + nnobles[n];
                 break;
         }
-    }  // neg
-
-    public void genwouldperf() {
+    }
+    public void GenWouldPerf2() {
 
         switch (neg) {
             case 0:
@@ -1105,9 +1094,8 @@ public class People3 {
                 ps5eng = "we " + "wouldn´t have " + vpeng[v] + nnobles[n];
                 break;
         }
-    }  // neg
-
-    public void genwouldperfcon() {
+    }
+    public void GenWouldPerfCont2() {
 
         switch (neg) {
             case 0:
@@ -1156,9 +1144,9 @@ public class People3 {
                 break;
         }
 
-    } // neg
+    }
 
-    public void gencouldsimp() {
+    public void GenCouldSimp2() {
 
         switch (neg) {
             case 0:
@@ -1206,9 +1194,8 @@ public class People3 {
                 ps5eng = "we " + "couldn´t " + vnb[v] + nnobles[n];
                 break;
         }
-    } // neg
-
-    public void generarcouldcont() {
+    }
+    public void GenCouldCont2() {
 
         switch (neg) {
             case 0:
@@ -1256,9 +1243,8 @@ public class People3 {
                 ps5eng = "we " + "couldn´t be " + vnbc[v] + nnobles[n];
                 break;
         }
-    } // neg
-
-    public void gencouldperf() {
+    }
+    public void GenCouldPerf2() {
         switch (neg) {
 
             case 0:
@@ -1308,9 +1294,8 @@ public class People3 {
                 break;
         }
 
-    }  // neg
-
-    public void gencouldperfcont() {
+    }
+    public void GenCouldPerfCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "pude haber estado " + vnbcs[v] + nnoblesesp[n];
@@ -1358,10 +1343,10 @@ public class People3 {
                 break;
         }
 
-    }  // neg
+    }
 
     // aqui van los del should
-    public void genshoudlsimp() {
+    public void GenShouldSimp2() {
 
         switch (neg) {
             case 0:
@@ -1409,9 +1394,8 @@ public class People3 {
                 ps5eng = "we " + "should not " + vnb[v] + nnobles[n];
                 break;
         }
-    }  // neg
-
-    public void genshouldcont() {
+    }
+    public void GenShouldCont2() {
 
         switch (neg) {
             case 0:
@@ -1459,9 +1443,8 @@ public class People3 {
                 ps5eng = "we " + "should not be " + vnbc[v] + nnobles[n];
                 break;
         }
-    } // neg
-
-    public void genshouldper() {
+    }
+    public void GenShouldPerf2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "debí haber " + vpsp[v] + nnoblesesp[n];
@@ -1508,9 +1491,8 @@ public class People3 {
                 ps5eng = "we " + "should not have " + vpeng[v] + nnobles[n];
                 break;
         }
-    } // neg
-
-    public void genshouldperfcont() {
+    }
+    public void GenShouldPerfCont2() {
 
         switch (neg) {
             case 0:
@@ -1560,11 +1542,10 @@ public class People3 {
         }
 
 
-    } // neg
-
+    }
 
     // los del might
-    public void genmightsimp() {
+    public void GenMightSimp2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "quiza " + vn1y3subj[v] + nnoblesesp[n];
@@ -1611,9 +1592,8 @@ public class People3 {
                 ps5eng = "we " + "might not " + vnb[v] + nnobles[n];
                 break;
         }
-    }  // neg
-
-    public void genmightcont() {
+    }
+    public void GenMightCont2() {
 
         switch (neg) {
             case 0:
@@ -1661,9 +1641,8 @@ public class People3 {
                 ps5eng = "we " + "might not be " + vnbc[v] + nnobles[n];
                 break;
         }
-    } // neg
-
-    public void genmightperf() {
+    }
+    public void GenMightPerf2() {
 
         switch (neg) {
             case 0:
@@ -1711,9 +1690,8 @@ public class People3 {
                 ps5eng = "we " + "might not have " + vpeng[v] + nnobles[n];
                 break;
         }
-    } // neg
-
-    public void genmightperfcont() {
+    }
+    public void GenMightPerfCont2() {
 
         switch (neg) {
             case 0:
@@ -1763,10 +1741,10 @@ public class People3 {
         }
 
 
-    } // neg
+    }
 
     // aqui van los del can
-    public void gencansimp() {
+    public void GenCanSimp2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "puedo " + vnbs[v] + nnoblesesp[n];
@@ -1814,9 +1792,8 @@ public class People3 {
                 break;
         }
 
-    }  //neg
-
-    public void gencancont() {
+    }
+    public void GenCanCont2() {
         switch (neg) {
             case 0:
                 ps1 = "yo " + "puedo estar " + vnbcs[v] + nnoblesesp[n];
@@ -1864,11 +1841,10 @@ public class People3 {
                 break;
         }
 
-    }       // neg
-
+    }
 
     // los del must
-    public void genmustsimp() {
+    public void GenMustSimp2() {
 
         switch (neg) {
             case 0:
@@ -1918,8 +1894,7 @@ public class People3 {
                 break;
         }
     }  // nuev
-
-    public void genmustcont() {
+    public void GenMustCont2() {
 
         switch (neg) {
             case 0:
@@ -2004,7 +1979,7 @@ public class People3 {
     int r = (int) (Math.random() * advfrequ.length);
     int negg = (int) (Math.random() * 2);
 
-    public void generarnoblespresentesimple3() {
+    public void GenPresSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo " + vn1[v] + nnoblesesp[n] + advfrequ[r] ;
@@ -2071,7 +2046,7 @@ public class People3 {
         }
 
     }
-    public void GenNoblePresContDif3() {
+    public void GenPresCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "estoy " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -2137,7 +2112,7 @@ public class People3 {
         }
 
     }
-    public void GenNoblePresPerfDif3() {
+    public void GenPresPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "he " + vpsp[v] + nnoblesesp[n] + advfrequ[r];
@@ -2206,7 +2181,7 @@ public class People3 {
         }
 
     }
-    public void GenPresPerfContDif3() {
+    public void GenPresPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "he estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -2272,7 +2247,7 @@ public class People3 {
     }
 
     //pasados
-    public void GenPastSimpleDif3() {
+    public void GenPastSimp3() {
         int sr = (int) (Math.random() * 2);
         switch (neg) {
             case 1:
@@ -2398,7 +2373,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenNoblePastContDif3() {
+    public void GenPastCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "estaba " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -2473,7 +2448,7 @@ public class People3 {
         }
 
     }
-    public void GenNoblePastPerfDif3() {
+    public void GenPastPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "había " + vpsp[v] + nnoblesesp[n] + advfrequ[r];
@@ -2546,7 +2521,7 @@ public class People3 {
         }
 
     }
-    public void GenPastPerfContDif3() {
+    public void GenPastPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "había estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -2616,8 +2591,8 @@ public class People3 {
         }
     }
 
-    //futuros
-    public void GenerarNoblesFuturoSimple3() {
+    //Futs
+    public void GenFutSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + vn1f[v] + nnoblesesp[n] + advfrequ[r];
@@ -2694,7 +2669,7 @@ public class People3 {
         }
 
     }
-    public void GenNobleFutureContDif3() {
+    public void GenFutCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "estaré " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -2765,7 +2740,7 @@ public class People3 {
         }
 
     }
-    public void GenNobleFuturePerfDif3() {
+    public void GenFutPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "habré " + vpsp[v] + nnoblesesp[n] + advfrequ[r];
@@ -2842,7 +2817,7 @@ public class People3 {
         }
 
     }
-    public void GenFuturePerfContDif3() {
+    public void GenFutPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "habré estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -2921,7 +2896,7 @@ public class People3 {
     }
 
     //would
-    public void GenerarNoblesWouldSimple3() {
+    public void GenWouldSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + vn1w[v] + nnoblesesp[n] + advfrequ[r];
@@ -2993,7 +2968,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenNobleWouldContDif3() {
+    public void GenWouldCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "estaría " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3062,7 +3037,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenNobleWouldPerfDif3() {
+    public void GenWouldPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "hubiera " + vpsp[v] + nnoblesesp[n] + advfrequ[r];
@@ -3139,7 +3114,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenNobleWouldPerfContDif3() {
+    public void GenWouldPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "hubiera estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3217,7 +3192,7 @@ public class People3 {
     }
 
     //could
-    public void GenerarNoblesCouldSimple3() {
+    public void GenCouldSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo podría " + vnbs[v] + nnoblesesp[n] + advfrequ[r] ;
@@ -3293,7 +3268,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenNobleCouldContDif3() {
+    public void GenCouldCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo podría "  + "estar " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3369,7 +3344,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenNobleCouldPerfDif3() {
+    public void GenCouldPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo pude " +  "haber " + vpsp[v] + nnoblesesp[n] + advfrequ[r] ;
@@ -3444,7 +3419,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenCouldPerfContDif3() {
+    public void GenCouldPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "pude haber estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3522,7 +3497,7 @@ public class People3 {
     }
 
     //should
-    public void GenerarNoblesShouldSimple3() {
+    public void GenShouldSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo debería "  + vnbs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3590,7 +3565,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenNobleShouldContDif3() {
+    public void GenShouldCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo debería "  + "estar " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3661,7 +3636,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenNobleShouldPerfDif3() {
+    public void GenShouldPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo debí "  + "haber " + vpsp[v] + nnoblesesp[n] + advfrequ[r];
@@ -3737,7 +3712,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenShouldPerfContDif3() {
+    public void GenShouldPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo "  + "debí haber estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3815,7 +3790,7 @@ public class People3 {
     }
 
     //might
-    public void GenerarNoblesMightSimple3() {
+    public void GenMightSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo quizá " + vn1y3subj[v] + nnoblesesp[n] + advfrequ[r] ;
@@ -3891,7 +3866,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenNobleMightContDif3() {
+    public void GenMightCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo quizá "  + "esté " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -3965,7 +3940,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenNobleMightPerfDif3() {
+    public void GenMightPerf3() {
         switch (negg) {
             case 0:
                 ps1 = "yo quizá "  + "haya " + vpsp[v] + nnoblesesp[n] + advfrequ[r];
@@ -4039,7 +4014,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenNobleMightPerfContDif3() {
+    public void GenMightPerfCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo quizá "  + "haya estado " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -4118,7 +4093,7 @@ public class People3 {
     }
 
     // can y must simp y cont
-    public void GenerarNoblesCanSimple3() {
+    public void GenCanSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo puedo "  + vnbs[v] + nnoblesesp[n] + advfrequ[r];
@@ -4194,7 +4169,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenNobleCanContDif3() {
+    public void GenCanCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo puedo "  + "estar " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -4270,7 +4245,7 @@ public class People3 {
                 break;
         }
     }
-    public void GenerarNoblesMustSimple3() {
+    public void GenMustSimp3() {
         switch (negg) {
             case 0:
                 ps1 = "yo debo "  + vnbs[v] + nnoblesesp[n] + advfrequ[r];
@@ -4345,7 +4320,7 @@ public class People3 {
                 break;
         }
     }// nuevo
-    public void GenNobleMustContDif3() {
+    public void GenMustCont3() {
         switch (negg) {
             case 0:
                 ps1 = "yo debo "  + "estar " + vnbcs[v] + nnoblesesp[n] + advfrequ[r];
@@ -7354,7 +7329,7 @@ public class People3 {
 
     //DIF 4 Sergio
     // Presentes
-    public void generarnoblespresentesimple4() {
+    public void GenPresSimp4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7424,7 +7399,7 @@ public class People3 {
         }
 
     } //SV 230422
-    public void GenNoblePresContDif4() {
+    public void GenPresCont4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7493,7 +7468,7 @@ public class People3 {
         }
 
     } //SV 230422
-    public void GenNoblePresPerfDif4() {
+    public void GenPresPerf4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7565,7 +7540,7 @@ public class People3 {
         }
 
     } //SV 230422
-    public void GenPresPerfContDif4() {
+    public void GenPresPerfCont4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7633,8 +7608,8 @@ public class People3 {
 
     } //SV 230422
 
-    //Pasados Dif 4
-    public void GenPastSimpleDif4() {
+    //Pasados  4
+    public void GenPastSimp4() {
         int sr = (int) (Math.random() * 2);
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -7763,7 +7738,7 @@ public class People3 {
                 break;
         }
     } //SV 260422
-    public void GenNoblePastContDif4() {
+    public void GenPastCont4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7841,7 +7816,7 @@ public class People3 {
         }
 
     } //SV 260422
-    public void GenNoblePastPerfDif4() {
+    public void GenPastPerf4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7917,7 +7892,7 @@ public class People3 {
         }
 
     } //SV 260422
-    public void GenPastPerfContDif4() {
+    public void GenPastPerfCont4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -7990,8 +7965,8 @@ public class People3 {
         }
     } //SV 260422
 
-    //Futuros Dif 4
-    public void GenerarNoblesFuturoSimple4() {
+    //Futuros  4
+    public void GenFutSimp4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -8071,7 +8046,7 @@ public class People3 {
         }
 
     } //SV 260422
-    public void GenNobleFutureContDif4() {
+    public void GenFutCont4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -8145,7 +8120,7 @@ public class People3 {
         }
 
     } //SV 260422
-    public void GenNobleFuturePerfDif4() {
+    public void GenFutPerf4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -8225,7 +8200,7 @@ public class People3 {
         }
 
     } //SV 260422
-    public void GenFuturePerfContDif4() {
+    public void GenFutPerfCont4() {
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -8306,8 +8281,8 @@ public class People3 {
         }
     } //SV 260422
 
-    //Would Dif 4
-    public void GenerarNoblesWouldSimple4() {
+    //Would  4
+    public void GenWouldSimp4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8383,7 +8358,7 @@ public class People3 {
                 break;
         }
     } //SV 270422
-    public void GenNobleWouldContDif4() {
+    public void GenWouldCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8456,7 +8431,7 @@ public class People3 {
                 break;
         }
     } //SV 270422
-    public void GenNobleWouldPerfDif4() {
+    public void GenWouldPerf4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8537,7 +8512,7 @@ public class People3 {
                 break;
         }
     } //SV 270422
-    public void GenNobleWouldPerfContDif4() {
+    public void GenWouldPerfCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8618,8 +8593,8 @@ public class People3 {
         }
     } //SV 270422
 
-    //could Dif 4
-    public void GenerarNoblesCouldSimple4() {
+    //could  4
+    public void GenCouldSimp4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8699,7 +8674,7 @@ public class People3 {
                 break;
         }
     } //SV 280422
-    public void GenNobleCouldContDif4() {
+    public void GenCouldCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8779,7 +8754,7 @@ public class People3 {
                 break;
         }
     } //SV 280422
-    public void GenNobleCouldPerfDif4() {
+    public void GenCouldPerf4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8858,7 +8833,7 @@ public class People3 {
                 break;
         }
     } //SV 280422
-    public void GenCouldPerfContDif4() {
+    public void GenCouldPerfCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -8939,8 +8914,8 @@ public class People3 {
         }
     } //SV 280422
 
-    //should Dif 4
-    public void GenerarNoblesShouldSimple4() {
+    //should  4
+    public void GenShouldSimp4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9012,7 +8987,7 @@ public class People3 {
                 break;
         }
     } //SV 280422
-    public void GenNobleShouldContDif4() {
+    public void GenShouldCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9087,7 +9062,7 @@ public class People3 {
                 break;
         }
     } //SV 280422
-    public void GenNobleShouldPerfDif4() {
+    public void GenShouldPerf4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9167,7 +9142,7 @@ public class People3 {
                 break;
         }
     } //SV 280422
-    public void GenShouldPerfContDif4() {
+    public void GenShouldPerfCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9248,8 +9223,8 @@ public class People3 {
         }
     } //SV 280422
 
-    //might Dif 4
-    public void GenerarNoblesMightSimple4() {
+    //might  4
+    public void GenMightSimp4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9329,7 +9304,7 @@ public class People3 {
                 break;
         }
     } //SV 280422
-    public void GenNobleMightContDif4() {
+    public void GenMightCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9407,7 +9382,7 @@ public class People3 {
                 break;
         }
     } //SV 280422
-    public void GenNobleMightPerfDif4() {
+    public void GenMightPerf4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9485,7 +9460,7 @@ public class People3 {
                 break;
         }
     } //SV 280422
-    public void GenNobleMightPerfContDif4() {
+    public void GenMightPerfCont4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9567,11 +9542,9 @@ public class People3 {
         }
     } //SV 280422
 
-
-    //DIF 4 PD
-
+    // 4 PD
     // can y must simp y cont
-    public void GenerarNoblesCanSimple4() {
+    public void GenCanSimp4() {
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9655,7 +9628,7 @@ public class People3 {
                 break;
         }
     }//PD 27/04/2022
-    public void GenNobleCanContDif4(){
+    public void GenCanCont4(){
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
@@ -9736,7 +9709,7 @@ public class People3 {
         }
     }//PD 27/04/2022
 
-    public void GenerarNoblesMustSimple4(){
+    public void GenMustSimp4(){
         Intrans prep = new Intrans();
         int p= (int)(Math.random()*prep.noblesspecial.length );
         int p2=(int)(Math.random()*prep.noblesspecial[p].length);
@@ -9815,7 +9788,7 @@ public class People3 {
                 break;
         }
     }// nuevo
-    public void GenNobleMustContDif4(){
+    public void GenMustCont4(){
         Intrans prep = new Intrans();
         int radv = (int) (Math.random() * frequadv.length);
         int p= (int)(Math.random()*prep.noblesspecial.length );
