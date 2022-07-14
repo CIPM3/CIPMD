@@ -12583,7 +12583,7 @@ public class Generator {
 
     //------------------------------------------------------------------------------------------
     // de aqui abajo van dificultad dos
-    public void generate2() {
+    public void GenPresSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -12898,7 +12898,7 @@ public class Generator {
         }
     }                              // done,debugged
 
-    public void generatepresentecontinuo() {
+    public void GenPresCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -13212,7 +13212,7 @@ public class Generator {
         }
     }              // done,debugged
 
-    public void GenerarPresentePerfecto() {
+    public void GenPresPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -13524,9 +13524,9 @@ public class Generator {
 
 
         }
-    }              
+    }
 
-    public void GenerarPresentePerfectoContinuo() {
+    public void GenPresPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -13847,10 +13847,10 @@ public class Generator {
 
 
         }
-    }    
+    }
 
 
-    public void GenPastSimple() {
+    public void GenPastSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = 5;
         String temp = pronombres[rand];
@@ -14169,9 +14169,9 @@ public class Generator {
 
 
         }
-    }                   
+    }
 
-    public void GenPastContinuo() {
+    public void GenPastCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -14488,9 +14488,9 @@ public class Generator {
 
 
         }
-    }                
+    }
 
-    public void GenPastPerfect() {
+    public void GenPastPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -14811,9 +14811,9 @@ public class Generator {
 
 
         }
-    }                
+    }
 
-    public void GenPastPerfectCont() {
+    public void GenPastPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -15136,9 +15136,9 @@ public class Generator {
 
 
         }
-    }           
+    }
 
-    public void GenFutureSimple() {
+    public void GenFutSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -15454,9 +15454,9 @@ public class Generator {
 
 
         }
-    }        
+    }
 
-    public void GenFutureCont() {
+    public void GenFutCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -15777,9 +15777,9 @@ public class Generator {
 
 
         }
-    }       
+    }
 
-    public void GenFuturePerfect() {
+    public void GenFutPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -16085,9 +16085,9 @@ public class Generator {
 
 
         }
-    }      
+    }
 
-    public void GenFuturePerfectCont() {
+    public void GenFutPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -16166,320 +16166,320 @@ public class Generator {
                     case 4:
                         Special s = new Special();
                         s.getspecialFutPerfCont();
-                        gens = s.sp2;
-                        gene = s.eng2;
-                        break;
-                    case 5:
-                        Intrans i = new Intrans();
-                        i.GenIntFutPerfCont();
-                        gens = i.sp2;
-                        gene = i.eng2;
-                        break;
-
-                }
-                break;
-            case "él ":
-                switch (verb) {
-                    case 0:
-                        Nobles n = new Nobles();
-                        n.futuroperfcont();
-                        gens = n.ps3;
-                        gene = n.ps3eng;
-                        break;
-                    case 1:
-                        Oo o = new Oo();
-                        o.futuroperfcont();
-                        gens = o.ps3;
-                        gene = o.ps3eng;
-                        break;
-                    case 2:
-                        Abstractos ab = new Abstractos();
-                        ab.futuroperfcont();
-                        gens = ab.ps3;
-                        gene = ab.ps3eng;
-                        break;
-
-                    case 3:
-                        People p = new People();
-                        p.futuroperfcont();
-                        gens = p.ps3;
-                        gene = p.ps3eng;
-                        break;
-
-                    case 4:
-                        Special s = new Special();
-                        s.getspecialFutPerfCont();
-                        gens = s.sp3;
-                        gene = s.eng3;
-                        break;
-                    case 5:
-                        Intrans i = new Intrans();
-                        i.GenIntFutPerfCont();
-                        gens = i.sp3;
-                        gene = i.eng3;
-                        break;
-                }
-                break;
-            case "ella ":
-                switch (verb) {
-                    case 0:
-                        Nobles n = new Nobles();
-                        n.futuroperfcont();
-                        gens = n.ps3ella;
-                        gene = n.ps3she;
-                        break;
-                    case 1:
-                        Oo o = new Oo();
-                        o.futuroperfcont();
-                        gens = o.ps3ella;
-                        gene = o.ps3she;
-
-                        break;
-                    case 2:
-                        Abstractos ab = new Abstractos();
-                        ab.futuroperfcont();
-                        gens = ab.ps3ella;
-                        gene = ab.ps3she;
-
-                        break;
-
-                    case 3:
-                        People p = new People();
-                        p.futuroperfcont();
-                        gens = p.ps3ella;
-                        gene = p.ps3she;
-                        break;
-
-                    case 4:
-                        Special s = new Special();
-                        s.getspecialFutPerfCont();
-                        gens = s.sp3ella;
-                        gene = s.eng3she;
-                        break;
-                    case 5:
-                        Intrans i = new Intrans();
-                        i.GenIntFutPerfCont();
-                        gens = i.sp4;
-                        gene = i.eng4;
-                        break;
-                }
-                break;
-            case "eso ":
-                switch (verb) {
-                    case 0:
-                        Nobles n = new Nobles();
-                        n.futuroperfcont();
-                        gens = n.ps3eso;
-                        gene = n.ps3it;
-                        break;
-                    case 1:
-                        Oo o = new Oo();
-                        o.futuroperfcont();
-                        gens = o.ps3eso;
-                        gene = o.ps3it;
-
-                        break;
-                    case 2:
-                        Abstractos ab = new Abstractos();
-                        ab.futuroperfcont();
-                        gens = ab.ps3eso;
-                        gene = ab.ps3it;
-                        break;
-
-                    case 3:
-                        People p = new People();
-                        p.futuroperfcont();
-                        gens = p.ps3eso;
-                        gene = p.ps3it;
-                        break;
-
-                    case 4:
-                        Special s = new Special();
-                        s.getspecialFutPerfCont();
-                        gens = s.sp3eso;
-                        gene = s.sp3it;
-                        break;
-                    case 5:
-                        Intrans i = new Intrans();
-                        i.GenIntFutPerfCont();
-                        gens = i.sp5;
-                        gene = i.eng5;
-                        break;
-                }
-                break;
-            case "ellos ":
-                switch (verb) {
-                    case 0:
-                        Nobles n = new Nobles();
-                        n.futuroperfcont();
-                        gens = n.ps4;
-                        gene = n.ps4eng;
-                        break;
-                    case 1:
-                        Oo o = new Oo();
-                        o.futuroperfcont();
-                        gens = o.ps4;
-                        gene = o.ps4eng;
-                        break;
-                    case 2:
-                        Abstractos ab = new Abstractos();
-                        ab.futuroperfcont();
-                        gens = ab.ps4;
-                        gene = ab.ps4eng;
-                        break;
-
-                    case 3:
-                        People p = new People();
-                        p.futuroperfcont();
-                        gens = p.ps4;
-                        gene = p.ps4eng;
-                        break;
-
-                    case 4:
-                        Special s = new Special();
-                        s.getspecialFutPerfCont();
-                        gens = s.sp4;
-                        gene = s.eng4;
-                        break;
-                    case 5:
-                        Intrans i = new Intrans();
-                        i.GenIntFutPerfCont();
-                        gens = i.sp6;
-                        gene = i.eng6;
-                        break;
-                }
-                break;
-            case "nosotros ":
-                switch (verb) {
-                    case 0:
-                        Nobles n = new Nobles();
-                        n.futuroperfcont();
-                        gens = n.ps5;
-                        gene = n.ps5eng;
-                        break;
-                    case 1:
-                        Oo o = new Oo();
-                        o.futuroperfcont();
-                        gens = o.ps5;
-                        gene = o.ps5eng;
-                        break;
-                    case 2:
-                        Abstractos ab = new Abstractos();
-                        ab.futuroperfcont();
-                        gens = ab.ps5;
-                        gene = ab.ps5eng;
-                        break;
-
-                    case 3:
-                        People p = new People();
-                        p.futuroperfcont();
-                        gens = p.ps5;
-                        gene = p.ps5eng;
-                        break;
-
-                    case 4:
-                        Special s = new Special();
-                        s.getspecialFutPerfCont();
-                        gens = s.sp5;
-                        gene = s.eng5;
-                        break;
-                    case 5:
-                        Intrans i = new Intrans();
-                        i.GenIntFutPerfCont();
-                        gens = i.sp7;
-                        gene = i.eng7;
-                        break;
-                }
-                break;
-
-
-        }
-    }     
-
-    public void GenWouldSimple() {
-        int rand = (int) (Math.random() * pronombres.length);
-        int verb = (int) (Math.random() * 6);
-        String temp = pronombres[rand];
-        switch (temp) {
-            case "yo ":
-                switch (verb) {
-                    case 0:
-                        Nobles n = new Nobles();
-                        n.generarwouldsimple();
-                        gens = n.ps1;
-                        gene = n.ps1eng;
-                        break;
-                    case 1:
-                        Abstractos ab = new Abstractos();
-                        ab.generarwouldsimple();
-                        gens = ab.ps1;
-                        gene = ab.ps1eng;
-                        break;
-                    case 2:
-                        People p = new People();
-                        p.generarwouldsimple();
-                        gens = p.ps1;
-                        gene = p.ps1eng;
-                        break;
-
-                    case 3:
-                        Oo o = new Oo();
-                        o.generarwouldsimple();
-                        gens = o.ps1;
-                        gene = o.ps1eng;
-                        break;
-                    case 4:
-                        Special s = new Special();
-                        s.getspecialWouldSimple();
-                        gens = s.sp1;
-                        gene = s.eng1;
-                        break;
-                    case 5:
-                        Intrans i = new Intrans();
-                        i.GenIntWouldSimp();
-                        gens = i.sp1;
-                        gene = i.eng1;
-                        break;
-
-                }
-                break;
-            case "tú ":
-                switch (verb) {
-                    case 0:
-                        Nobles n = new Nobles();
-                        n.generarwouldsimple();
-                        gens = n.ps2;
-                        gene = n.ps2eng;
-                        break;
-                    case 1:
-                        Oo o = new Oo();
-                        o.generarwouldsimple();
-                        gens = o.ps2;
-                        gene = o.ps2eng;
-
-                        break;
-                    case 2:
-                        Abstractos ab = new Abstractos();
-                        ab.generarwouldsimple();
-                        gens = ab.ps2;
-                        gene = ab.ps2eng;
-                        break;
-
-                    case 3:
-                        People p = new People();
-                        p.generarwouldsimple();
-                        gens = p.ps2;
-                        gene = p.ps2eng;
-                        break;
-
-                    case 4:
-                        Special s = new Special();
-                        s.getspecialWouldSimple();
                         gens = s.sp2;
                         gene = s.eng2;
                         break;
                     case 5:
                         Intrans i = new Intrans();
+                        i.GenIntFutPerfCont();
+                        gens = i.sp2;
+                        gene = i.eng2;
+                        break;
+
+                }
+                break;
+            case "él ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.futuroperfcont();
+                        gens = n.ps3;
+                        gene = n.ps3eng;
+                        break;
+                    case 1:
+                        Oo o = new Oo();
+                        o.futuroperfcont();
+                        gens = o.ps3;
+                        gene = o.ps3eng;
+                        break;
+                    case 2:
+                        Abstractos ab = new Abstractos();
+                        ab.futuroperfcont();
+                        gens = ab.ps3;
+                        gene = ab.ps3eng;
+                        break;
+
+                    case 3:
+                        People p = new People();
+                        p.futuroperfcont();
+                        gens = p.ps3;
+                        gene = p.ps3eng;
+                        break;
+
+                    case 4:
+                        Special s = new Special();
+                        s.getspecialFutPerfCont();
+                        gens = s.sp3;
+                        gene = s.eng3;
+                        break;
+                    case 5:
+                        Intrans i = new Intrans();
+                        i.GenIntFutPerfCont();
+                        gens = i.sp3;
+                        gene = i.eng3;
+                        break;
+                }
+                break;
+            case "ella ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.futuroperfcont();
+                        gens = n.ps3ella;
+                        gene = n.ps3she;
+                        break;
+                    case 1:
+                        Oo o = new Oo();
+                        o.futuroperfcont();
+                        gens = o.ps3ella;
+                        gene = o.ps3she;
+
+                        break;
+                    case 2:
+                        Abstractos ab = new Abstractos();
+                        ab.futuroperfcont();
+                        gens = ab.ps3ella;
+                        gene = ab.ps3she;
+
+                        break;
+
+                    case 3:
+                        People p = new People();
+                        p.futuroperfcont();
+                        gens = p.ps3ella;
+                        gene = p.ps3she;
+                        break;
+
+                    case 4:
+                        Special s = new Special();
+                        s.getspecialFutPerfCont();
+                        gens = s.sp3ella;
+                        gene = s.eng3she;
+                        break;
+                    case 5:
+                        Intrans i = new Intrans();
+                        i.GenIntFutPerfCont();
+                        gens = i.sp4;
+                        gene = i.eng4;
+                        break;
+                }
+                break;
+            case "eso ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.futuroperfcont();
+                        gens = n.ps3eso;
+                        gene = n.ps3it;
+                        break;
+                    case 1:
+                        Oo o = new Oo();
+                        o.futuroperfcont();
+                        gens = o.ps3eso;
+                        gene = o.ps3it;
+
+                        break;
+                    case 2:
+                        Abstractos ab = new Abstractos();
+                        ab.futuroperfcont();
+                        gens = ab.ps3eso;
+                        gene = ab.ps3it;
+                        break;
+
+                    case 3:
+                        People p = new People();
+                        p.futuroperfcont();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        break;
+
+                    case 4:
+                        Special s = new Special();
+                        s.getspecialFutPerfCont();
+                        gens = s.sp3eso;
+                        gene = s.sp3it;
+                        break;
+                    case 5:
+                        Intrans i = new Intrans();
+                        i.GenIntFutPerfCont();
+                        gens = i.sp5;
+                        gene = i.eng5;
+                        break;
+                }
+                break;
+            case "ellos ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.futuroperfcont();
+                        gens = n.ps4;
+                        gene = n.ps4eng;
+                        break;
+                    case 1:
+                        Oo o = new Oo();
+                        o.futuroperfcont();
+                        gens = o.ps4;
+                        gene = o.ps4eng;
+                        break;
+                    case 2:
+                        Abstractos ab = new Abstractos();
+                        ab.futuroperfcont();
+                        gens = ab.ps4;
+                        gene = ab.ps4eng;
+                        break;
+
+                    case 3:
+                        People p = new People();
+                        p.futuroperfcont();
+                        gens = p.ps4;
+                        gene = p.ps4eng;
+                        break;
+
+                    case 4:
+                        Special s = new Special();
+                        s.getspecialFutPerfCont();
+                        gens = s.sp4;
+                        gene = s.eng4;
+                        break;
+                    case 5:
+                        Intrans i = new Intrans();
+                        i.GenIntFutPerfCont();
+                        gens = i.sp6;
+                        gene = i.eng6;
+                        break;
+                }
+                break;
+            case "nosotros ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.futuroperfcont();
+                        gens = n.ps5;
+                        gene = n.ps5eng;
+                        break;
+                    case 1:
+                        Oo o = new Oo();
+                        o.futuroperfcont();
+                        gens = o.ps5;
+                        gene = o.ps5eng;
+                        break;
+                    case 2:
+                        Abstractos ab = new Abstractos();
+                        ab.futuroperfcont();
+                        gens = ab.ps5;
+                        gene = ab.ps5eng;
+                        break;
+
+                    case 3:
+                        People p = new People();
+                        p.futuroperfcont();
+                        gens = p.ps5;
+                        gene = p.ps5eng;
+                        break;
+
+                    case 4:
+                        Special s = new Special();
+                        s.getspecialFutPerfCont();
+                        gens = s.sp5;
+                        gene = s.eng5;
+                        break;
+                    case 5:
+                        Intrans i = new Intrans();
+                        i.GenIntFutPerfCont();
+                        gens = i.sp7;
+                        gene = i.eng7;
+                        break;
+                }
+                break;
+
+
+        }
+    }
+
+    public void GenWouldSimp2() {
+        int rand = (int) (Math.random() * pronombres.length);
+        int verb = (int) (Math.random() * 6);
+        String temp = pronombres[rand];
+        switch (temp) {
+            case "yo ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.generarwouldsimple();
+                        gens = n.ps1;
+                        gene = n.ps1eng;
+                        break;
+                    case 1:
+                        Abstractos ab = new Abstractos();
+                        ab.generarwouldsimple();
+                        gens = ab.ps1;
+                        gene = ab.ps1eng;
+                        break;
+                    case 2:
+                        People p = new People();
+                        p.generarwouldsimple();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
+                        break;
+
+                    case 3:
+                        Oo o = new Oo();
+                        o.generarwouldsimple();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
+                        break;
+                    case 4:
+                        Special s = new Special();
+                        s.getspecialWouldSimple();
+                        gens = s.sp1;
+                        gene = s.eng1;
+                        break;
+                    case 5:
+                        Intrans i = new Intrans();
+                        i.GenIntWouldSimp();
+                        gens = i.sp1;
+                        gene = i.eng1;
+                        break;
+
+                }
+                break;
+            case "tú ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.generarwouldsimple();
+                        gens = n.ps2;
+                        gene = n.ps2eng;
+                        break;
+                    case 1:
+                        Oo o = new Oo();
+                        o.generarwouldsimple();
+                        gens = o.ps2;
+                        gene = o.ps2eng;
+
+                        break;
+                    case 2:
+                        Abstractos ab = new Abstractos();
+                        ab.generarwouldsimple();
+                        gens = ab.ps2;
+                        gene = ab.ps2eng;
+                        break;
+
+                    case 3:
+                        People p = new People();
+                        p.generarwouldsimple();
+                        gens = p.ps2;
+                        gene = p.ps2eng;
+                        break;
+
+                    case 4:
+                        Special s = new Special();
+                        s.getspecialWouldSimple();
+                        gens = s.sp2;
+                        gene = s.eng2;
+                        break;
+                    case 5:
+                        Intrans i = new Intrans();
                         i.GenIntWouldSimp();
                         gens = i.sp2;
                         gene = i.eng2;
@@ -16702,9 +16702,9 @@ public class Generator {
 
 
         }
-    }           
+    }
 
-    public void GenWouldCont() {
+    public void GenWouldCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         ;
@@ -17012,9 +17012,9 @@ public class Generator {
 
 
         }
-    }            
+    }
 
-    public void GenWouldPerfect() {
+    public void GenWouldPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -17321,9 +17321,9 @@ public class Generator {
 
 
         }
-    }        
+    }
 
-    public void GenWouldPerfectCont() {
+    public void GenWouldPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -17628,9 +17628,9 @@ public class Generator {
                 }
                 break;
         }
-    }   
+    }
 
-    public void GenCouldSimple() {
+    public void GenCouldSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -17935,9 +17935,9 @@ public class Generator {
                 }
                 break;
         }
-    }            
+    }
 
-    public void GenCouldCont() {
+    public void GenCouldCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -18242,9 +18242,9 @@ public class Generator {
                 }
                 break;
         }
-    }            
+    }
 
-    public void GenCouldPerfect() {
+    public void GenCouldPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -18550,9 +18550,9 @@ public class Generator {
 
 
         }
-    }        
+    }
 
-    public void GenCouldPerfectCont() {
+    public void GenCouldPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -18859,9 +18859,9 @@ public class Generator {
 
 
         }
-    }   
+    }
 
-    public void GenMightSimple() {
+    public void GenMightSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = 5;
         String temp = pronombres[rand];
@@ -19166,9 +19166,9 @@ public class Generator {
                 }
                 break;
         }
-    }            
+    }
 
-    public void GenMightCont() {
+    public void GenMightCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = 5;
         String temp = pronombres[rand];
@@ -19475,9 +19475,9 @@ public class Generator {
 
 
         }
-    }              
+    }
 
-    public void GenMightPerfect() {
+    public void GenMightPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -19784,9 +19784,9 @@ public class Generator {
 
 
         }
-    }          
+    }
 
-    public void GenMightPerfectCont() {
+    public void GenMightPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -20093,9 +20093,9 @@ public class Generator {
                 }
                 break;
         }
-    }     
+    }
 
-    public void GenShouldSimple() {
+    public void GenShouldSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -20402,9 +20402,9 @@ public class Generator {
 
 
         }
-    }               
+    }
 
-    public void GenShouldCont() {
+    public void GenShouldCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -20708,9 +20708,9 @@ public class Generator {
                 }
                 break;
         }
-    }                //done,  debugged
+    }
 
-    public void GenShouldPerfect() {
+    public void GenShouldPerf2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -21017,9 +21017,9 @@ public class Generator {
 
 
         }
-    }            //done, debbuged
+    }
 
-    public void GenShouldPerfectCont() {
+    public void GenShouldPerfCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -21326,9 +21326,9 @@ public class Generator {
 
 
         }
-    }       //done,debbuged
+    }
 
-    public void GenCanSimp() {
+    public void GenCanSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -21633,9 +21633,9 @@ public class Generator {
                 }
                 break;
         }
-    }                  
+    }
 
-    public void GenCanCont() {
+    public void GenCanCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -21940,9 +21940,9 @@ public class Generator {
                 }
                 break;
         }
-    }                 
+    }
 
-    public void GenMustSimp() {
+    public void GenMustSimp2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -22247,9 +22247,9 @@ public class Generator {
                 }
                 break;
         }
-    }               
+    }
 
-    public void GenMustCont() {
+    public void GenMustCont2() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -22556,7 +22556,7 @@ public class Generator {
 
 
         }
-    }              //done,debuged
+    }
 
     //wanTo 2
     public void GenWantYouTo2() {
@@ -24822,7 +24822,7 @@ public class Generator {
     // esta madre empieza a hacer los metodos de generador 3
     // el primero generate23 hace solo presente simple
 // presentes
-    public void generate23() {
+    public void GenPresSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -25147,7 +25147,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenPresContDif3() {
+    public void GenPresCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -25486,7 +25486,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenPresPerfDif3() {
+    public void GenPresPerf3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -25825,7 +25825,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenPresPerfContDif3() {
+    public void GenPresPerfCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -26165,7 +26165,7 @@ public class Generator {
     } //hechos Special y Intrans PD
 
     //pasados
-    public void GenPastSimpleDif3() {
+    public void GenPastSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 5);
 
@@ -26460,7 +26460,7 @@ public class Generator {
         }
     } //hechos   Intrans PD- le quite special
 
-    public void GenPastContDif3() {
+    public void GenPastCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -26797,7 +26797,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenPastPerfDif3() {
+    public void GenPastPerf3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -27135,7 +27135,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenPastPerfContDif3() {
+    public void GenPastPerfCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -27475,7 +27475,7 @@ public class Generator {
     } //hechos Special y Intrans PD
 
     //futuros
-    public void GenFutureSimpleDif3() {
+    public void GenFutSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -27823,7 +27823,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenFutureContDif3() {
+    public void GenFutCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -28168,7 +28168,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenFuturePerfDif3() {
+    public void GenFutPerf3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -28513,7 +28513,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenFuturePerfContDif3() {
+    public void GenFutPerfCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -28865,7 +28865,7 @@ public class Generator {
     } //hechos Special y Intrans PD
 
     //would
-    public void GenWouldSimpDif3() {
+    public void GenWouldSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -29203,7 +29203,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenWouldContDif3() {
+    public void GenWouldCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -29540,7 +29540,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenWouldPerfDif3() {
+    public void GenWouldPerf3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -29877,7 +29877,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenWouldPerfContDif3() {
+    public void GenWouldPerfCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -30215,7 +30215,7 @@ public class Generator {
     } //hechos Special y Intrans PD
 
     //could
-    public void GenCouldSimpleDif3() {
+    public void GenCouldSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -30556,7 +30556,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenCouldContDif3() {
+    public void GenCouldCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -30901,7 +30901,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenCouldPerfDif3() {
+    public void GenCouldPerf3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -31244,7 +31244,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenCouldPerfContDif3() {
+    public void GenCouldPerfCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -31589,7 +31589,7 @@ public class Generator {
     } //hechos Special y Intrans PD
 
     //should
-    public void GenShouldSimpleDif3() {
+    public void GenShouldSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -31927,7 +31927,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenShouldContDif3() {
+    public void GenShouldCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -32265,7 +32265,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenShouldPerfectDif3() {
+    public void GenShouldPerf3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -32603,7 +32603,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenShouldPerfectContDif3() {
+    public void GenShouldPerfCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -32942,7 +32942,7 @@ public class Generator {
     } //hechos Special y Intrans PD
 
     //might
-    public void GenMightSimpDif3() {
+    public void GenMightSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -33282,7 +33282,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenMightContDif3() {
+    public void GenMightCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -33620,7 +33620,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenMightPerfDif3() {
+    public void GenMightPerf3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -33957,7 +33957,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenMightPerfContDif3() {
+    public void GenMightPerfCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
         String temp = pronombres[rand];
@@ -34295,7 +34295,7 @@ public class Generator {
     } //hechos Special y Intrans PD
 
     // can
-    public void GenCanSimpDif3() {
+    public void GenCanSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -34633,7 +34633,7 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenCanContDif3() {
+    public void GenCanCont3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -34972,7 +34972,7 @@ public class Generator {
     } //hechos Special y Intrans PD
 
     //must
-    public void GenMustSimpDif3() {
+    public void GenMustSimp3() {
         int rand = (int) (Math.random() * pronombres.length);
         int verb = (int) (Math.random() * 6);
 
@@ -35310,343 +35310,343 @@ public class Generator {
         }
     } //hechos Special y Intrans PD
 
-    public void GenMustContDif3() {
-            int rand = (int) (Math.random() * pronombres.length);
-            int verb = (int) (Math.random() * 6);
+    public void GenMustCont3() {
+        int rand = (int) (Math.random() * pronombres.length);
+        int verb = (int) (Math.random() * 6);
 
-            String temp = pronombres[rand];
-            switch (temp) {
-                case "yo ":
-                    switch (verb) {
-                        case 0:
-                            Nobles n = new Nobles();
-                            n.GenNobleMustContDif3();
-                            gens = n.ps1;
-                            gene = n.ps1eng;
-                            gene2 = n.ps1eng2;
-                            break;
-                        case 1:
-                            Oo o = new Oo();
-                            o.GenNobleMustContDif3();
-                            gens = o.ps1;
-                            gene = o.ps1eng;
-                            gene2 = o.ps1eng2;
-                            break;
-                        case 2:
-                            Abstractos a = new Abstractos();
-                            a.GenNobleMustContDif3();
-                            gens = a.ps1;
-                            gene = a.ps1eng;
-                            gene2 = a.ps1eng2;
-                            break;
+        String temp = pronombres[rand];
+        switch (temp) {
+            case "yo ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.GenNobleMustContDif3();
+                        gens = n.ps1;
+                        gene = n.ps1eng;
+                        gene2 = n.ps1eng2;
+                        break;
+                    case 1:
+                        Oo o = new Oo();
+                        o.GenNobleMustContDif3();
+                        gens = o.ps1;
+                        gene = o.ps1eng;
+                        gene2 = o.ps1eng2;
+                        break;
+                    case 2:
+                        Abstractos a = new Abstractos();
+                        a.GenNobleMustContDif3();
+                        gens = a.ps1;
+                        gene = a.ps1eng;
+                        gene2 = a.ps1eng2;
+                        break;
 
-                        case 3:
-                            People p = new People();
-                            p.GenNobleMustContDif3();
-                            gens = p.ps1;
-                            gene = p.ps1eng;
-                            gene2 = p.ps1eng2;
-                            break;
-                        case 4:
-                            Special sp = new Special();
-                            sp.GetMustCont3();
-                            gens = sp.sp1;
-                            gene = sp.eng1;
-                            gene2 = "";
-                            break;
-                        case 5:
-                            Intrans it = new Intrans();
-                            it.GenIntMustCont3();
-                            gens = it.sp1;
-                            gene = it.eng1;
-                            gene2 = "";
-                            break;
-                    }
-                    break;
-                case "tú ":
-                    switch (verb) {
-                        case 0:
-                            Nobles n = new Nobles();
-                            n.GenNobleMustContDif3();
-                            gens = n.ps2;
-                            gene = n.ps2eng;
-                            gene2 = n.ps2eng2;
-                            break;
-                        case 1:
-                            Oo o = new Oo();
-                            o.GenNobleMustContDif3();
-                            gens = o.ps2;
-                            gene = o.ps2eng;
-                            gene2 = o.ps2eng2;
-                            break;
-                        case 2:
-                            Abstractos a = new Abstractos();
-                            a.GenNobleMustContDif3();
-                            gens = a.ps2;
-                            gene = a.ps2eng;
-                            gene2 = a.ps2eng2;
-                            break;
+                    case 3:
+                        People p = new People();
+                        p.GenNobleMustContDif3();
+                        gens = p.ps1;
+                        gene = p.ps1eng;
+                        gene2 = p.ps1eng2;
+                        break;
+                    case 4:
+                        Special sp = new Special();
+                        sp.GetMustCont3();
+                        gens = sp.sp1;
+                        gene = sp.eng1;
+                        gene2 = "";
+                        break;
+                    case 5:
+                        Intrans it = new Intrans();
+                        it.GenIntMustCont3();
+                        gens = it.sp1;
+                        gene = it.eng1;
+                        gene2 = "";
+                        break;
+                }
+                break;
+            case "tú ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.GenNobleMustContDif3();
+                        gens = n.ps2;
+                        gene = n.ps2eng;
+                        gene2 = n.ps2eng2;
+                        break;
+                    case 1:
+                        Oo o = new Oo();
+                        o.GenNobleMustContDif3();
+                        gens = o.ps2;
+                        gene = o.ps2eng;
+                        gene2 = o.ps2eng2;
+                        break;
+                    case 2:
+                        Abstractos a = new Abstractos();
+                        a.GenNobleMustContDif3();
+                        gens = a.ps2;
+                        gene = a.ps2eng;
+                        gene2 = a.ps2eng2;
+                        break;
 
-                        case 3:
-                            People p = new People();
-                            p.GenNobleMustContDif3();
-                            gens = p.ps2;
-                            gene = p.ps2eng;
-                            gene2 = p.ps2eng2;
-                            break;
-                        case 4:
-                            Special sp = new Special();
-                            sp.GetMustCont3();
-                            gens = sp.sp2;
-                            gene = sp.eng2;
-                            gene2 = "";
-                            break;
-                        case 5:
-                            Intrans it = new Intrans();
-                            it.GenIntMustCont3();
-                            gens = it.sp2;
-                            gene = it.eng2;
-                            gene2 = "";
-                            break;
-                    }
-                    break;
-                case "él ":
-                    switch (verb) {
-                        case 0:
-                            Nobles n = new Nobles();
-                            n.GenNobleMustContDif3();
-                            gens = n.ps3;
-                            gene = n.ps3eng;
-                            gene2 = n.ps3eng2;
+                    case 3:
+                        People p = new People();
+                        p.GenNobleMustContDif3();
+                        gens = p.ps2;
+                        gene = p.ps2eng;
+                        gene2 = p.ps2eng2;
+                        break;
+                    case 4:
+                        Special sp = new Special();
+                        sp.GetMustCont3();
+                        gens = sp.sp2;
+                        gene = sp.eng2;
+                        gene2 = "";
+                        break;
+                    case 5:
+                        Intrans it = new Intrans();
+                        it.GenIntMustCont3();
+                        gens = it.sp2;
+                        gene = it.eng2;
+                        gene2 = "";
+                        break;
+                }
+                break;
+            case "él ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.GenNobleMustContDif3();
+                        gens = n.ps3;
+                        gene = n.ps3eng;
+                        gene2 = n.ps3eng2;
 
-                            break;
-                        case 1:
-                            Oo o = new Oo();
-                            o.GenNobleMustContDif3();
-                            gens = o.ps3;
-                            gene = o.ps3eng;
-                            gene2 = o.ps3eng2;
-                            break;
-                        case 2:
-                            Abstractos a = new Abstractos();
-                            a.GenNobleMustContDif3();
-                            gens = a.ps3;
-                            gene = a.ps3eng;
-                            gene2 = a.ps3eng2;
-                            break;
+                        break;
+                    case 1:
+                        Oo o = new Oo();
+                        o.GenNobleMustContDif3();
+                        gens = o.ps3;
+                        gene = o.ps3eng;
+                        gene2 = o.ps3eng2;
+                        break;
+                    case 2:
+                        Abstractos a = new Abstractos();
+                        a.GenNobleMustContDif3();
+                        gens = a.ps3;
+                        gene = a.ps3eng;
+                        gene2 = a.ps3eng2;
+                        break;
 
-                        case 3:
-                            People p = new People();
-                            p.GenNobleMustContDif3();
-                            gens = p.ps3;
-                            gene = p.ps3eng;
-                            gene2 = p.ps3eng2;
-                            break;
-                        case 4:
-                            Special sp = new Special();
-                            sp.GetMustCont3();
-                            gens = sp.sp3;
-                            gene = sp.eng3;
-                            gene2 = "";
-                            break;
-                        case 5:
-                            Intrans it = new Intrans();
-                            it.GenIntMustCont3();
-                            gens = it.sp3;
-                            gene = it.eng3;
-                            gene2 = "";
-                            break;
-                    }
-                    break;
-                case "ella ":
-                    switch (verb) {
-                        case 0:
-                            Nobles n = new Nobles();
-                            n.GenNobleMustContDif3();
-                            gens = n.ps3ella;
-                            gene = n.ps3she;
-                            gene2 = n.ps3she2;
-                            break;
-                        case 1:
-                            Oo o = new Oo();
-                            o.GenNobleMustContDif3();
-                            gens = o.ps3ella;
-                            gene = o.ps3she;
-                            gene2 = o.ps3she2;
-                            break;
-                        case 2:
-                            Abstractos a = new Abstractos();
-                            a.GenNobleMustContDif3();
-                            gens = a.ps3ella;
-                            gene = a.ps3she;
-                            gene2 = a.ps3she2;
-                            break;
+                    case 3:
+                        People p = new People();
+                        p.GenNobleMustContDif3();
+                        gens = p.ps3;
+                        gene = p.ps3eng;
+                        gene2 = p.ps3eng2;
+                        break;
+                    case 4:
+                        Special sp = new Special();
+                        sp.GetMustCont3();
+                        gens = sp.sp3;
+                        gene = sp.eng3;
+                        gene2 = "";
+                        break;
+                    case 5:
+                        Intrans it = new Intrans();
+                        it.GenIntMustCont3();
+                        gens = it.sp3;
+                        gene = it.eng3;
+                        gene2 = "";
+                        break;
+                }
+                break;
+            case "ella ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.GenNobleMustContDif3();
+                        gens = n.ps3ella;
+                        gene = n.ps3she;
+                        gene2 = n.ps3she2;
+                        break;
+                    case 1:
+                        Oo o = new Oo();
+                        o.GenNobleMustContDif3();
+                        gens = o.ps3ella;
+                        gene = o.ps3she;
+                        gene2 = o.ps3she2;
+                        break;
+                    case 2:
+                        Abstractos a = new Abstractos();
+                        a.GenNobleMustContDif3();
+                        gens = a.ps3ella;
+                        gene = a.ps3she;
+                        gene2 = a.ps3she2;
+                        break;
 
-                        case 3:
-                            People p = new People();
-                            p.GenNobleMustContDif3();
-                            gens = p.ps3ella;
-                            gene = p.ps3she;
-                            gene2 = p.ps3she2;
-                            break;
-                        case 4:
-                            Special sp = new Special();
-                            sp.GetMustCont3();
-                            gens = sp.sp3ella;
-                            gene = sp.eng3she;
-                            gene2 = "";
-                            break;
-                        case 5:
-                            Intrans it = new Intrans();
-                            it.GenIntMustCont3();
-                            gens = it.sp4;
-                            gene = it.eng4;
-                            gene2 = "";
-                            break;
-                    }
-                    break;
-                case "eso ":
-                    switch (verb) {
-                        case 0:
-                            Nobles n = new Nobles();
-                            n.GenNobleMustContDif3();
-                            gens = n.ps3eso;
-                            gene = n.ps3it;
-                            gene2 = n.ps3iteng2;
-                            break;
-                        case 1:
-                            Oo o = new Oo();
-                            o.GenNobleMustContDif3();
-                            gens = o.ps3eso;
-                            gene = o.ps3it;
-                            gene2 = o.ps3iteng2;
-                            break;
-                        case 2:
-                            Abstractos a = new Abstractos();
-                            a.GenNobleMustContDif3();
-                            gens = a.ps3eso;
-                            gene = a.ps3it;
-                            gene2 = a.ps3iteng2;
-                            break;
-                        case 3:
-                            People p = new People();
-                            p.GenNobleMustContDif3();
-                            gens = p.ps3eso;
-                            gene = p.ps3it;
-                            gene2 = p.ps3iteng2;
-                            break;
-                        case 4:
-                            Special sp = new Special();
-                            sp.GetMustCont3();
-                            gens = sp.sp3eso;
-                            gene = sp.sp3it;
-                            gene2 = "";
-                            break;
-                        case 5:
-                            Intrans it = new Intrans();
-                            it.GenIntMustCont3();
-                            gens = it.sp5;
-                            gene = it.eng5;
-                            gene2 = "";
-                            break;
-                    }
-                    break;
-                case "ellos ":
-                    switch (verb) {
-                        case 0:
-                            Nobles n = new Nobles();
-                            n.GenNobleMustContDif3();
-                            gens = n.ps4;
-                            gene = n.ps4eng;
-                            gene2 = n.ps4eng2;
-                            break;
-                        case 1:
-                            Oo o = new Oo();
-                            o.GenNobleMustContDif3();
-                            gens = o.ps4;
-                            gene = o.ps4eng;
-                            gene2 = o.ps4eng2;
-                            break;
-                        case 2:
-                            Abstractos a = new Abstractos();
-                            a.GenNobleMustContDif3();
-                            gens = a.ps4;
-                            gene = a.ps4eng;
-                            gene2 = a.ps4eng2;
-                            break;
+                    case 3:
+                        People p = new People();
+                        p.GenNobleMustContDif3();
+                        gens = p.ps3ella;
+                        gene = p.ps3she;
+                        gene2 = p.ps3she2;
+                        break;
+                    case 4:
+                        Special sp = new Special();
+                        sp.GetMustCont3();
+                        gens = sp.sp3ella;
+                        gene = sp.eng3she;
+                        gene2 = "";
+                        break;
+                    case 5:
+                        Intrans it = new Intrans();
+                        it.GenIntMustCont3();
+                        gens = it.sp4;
+                        gene = it.eng4;
+                        gene2 = "";
+                        break;
+                }
+                break;
+            case "eso ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.GenNobleMustContDif3();
+                        gens = n.ps3eso;
+                        gene = n.ps3it;
+                        gene2 = n.ps3iteng2;
+                        break;
+                    case 1:
+                        Oo o = new Oo();
+                        o.GenNobleMustContDif3();
+                        gens = o.ps3eso;
+                        gene = o.ps3it;
+                        gene2 = o.ps3iteng2;
+                        break;
+                    case 2:
+                        Abstractos a = new Abstractos();
+                        a.GenNobleMustContDif3();
+                        gens = a.ps3eso;
+                        gene = a.ps3it;
+                        gene2 = a.ps3iteng2;
+                        break;
+                    case 3:
+                        People p = new People();
+                        p.GenNobleMustContDif3();
+                        gens = p.ps3eso;
+                        gene = p.ps3it;
+                        gene2 = p.ps3iteng2;
+                        break;
+                    case 4:
+                        Special sp = new Special();
+                        sp.GetMustCont3();
+                        gens = sp.sp3eso;
+                        gene = sp.sp3it;
+                        gene2 = "";
+                        break;
+                    case 5:
+                        Intrans it = new Intrans();
+                        it.GenIntMustCont3();
+                        gens = it.sp5;
+                        gene = it.eng5;
+                        gene2 = "";
+                        break;
+                }
+                break;
+            case "ellos ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.GenNobleMustContDif3();
+                        gens = n.ps4;
+                        gene = n.ps4eng;
+                        gene2 = n.ps4eng2;
+                        break;
+                    case 1:
+                        Oo o = new Oo();
+                        o.GenNobleMustContDif3();
+                        gens = o.ps4;
+                        gene = o.ps4eng;
+                        gene2 = o.ps4eng2;
+                        break;
+                    case 2:
+                        Abstractos a = new Abstractos();
+                        a.GenNobleMustContDif3();
+                        gens = a.ps4;
+                        gene = a.ps4eng;
+                        gene2 = a.ps4eng2;
+                        break;
 
-                        case 3:
-                            People p = new People();
-                            p.GenNobleMustContDif3();
-                            gens = p.ps4;
-                            gene = p.ps4eng;
-                            gene2 = p.ps4eng2;
-                            break;
-                        case 4:
-                            Special sp = new Special();
-                            sp.GetMustCont3();
-                            gens = sp.sp4;
-                            gene = sp.eng4;
-                            gene2 = "";
-                            break;
-                        case 5:
-                            Intrans it = new Intrans();
-                            it.GenIntMustCont3();
-                            gens = it.sp6;
-                            gene = it.eng6;
-                            gene2 = "";
-                            break;
-                    }
-                    break;
-                case "nosotros ":
-                    switch (verb) {
-                        case 0:
-                            Nobles n = new Nobles();
-                            n.GenNobleMustContDif3();
-                            gens = n.ps5;
-                            gene = n.ps5eng;
-                            gene2 = n.ps5eng2;
-                            break;
-                        case 1:
-                            Oo o = new Oo();
-                            o.GenNobleMustContDif3();
-                            gens = o.ps5;
-                            gene = o.ps5eng;
-                            gene2 = o.ps5eng2;
-                            break;
-                        case 2:
-                            Abstractos a = new Abstractos();
-                            a.GenNobleMustContDif3();
-                            gens = a.ps5;
-                            gene = a.ps5eng;
-                            gene2 = a.ps5eng2;
-                            break;
+                    case 3:
+                        People p = new People();
+                        p.GenNobleMustContDif3();
+                        gens = p.ps4;
+                        gene = p.ps4eng;
+                        gene2 = p.ps4eng2;
+                        break;
+                    case 4:
+                        Special sp = new Special();
+                        sp.GetMustCont3();
+                        gens = sp.sp4;
+                        gene = sp.eng4;
+                        gene2 = "";
+                        break;
+                    case 5:
+                        Intrans it = new Intrans();
+                        it.GenIntMustCont3();
+                        gens = it.sp6;
+                        gene = it.eng6;
+                        gene2 = "";
+                        break;
+                }
+                break;
+            case "nosotros ":
+                switch (verb) {
+                    case 0:
+                        Nobles n = new Nobles();
+                        n.GenNobleMustContDif3();
+                        gens = n.ps5;
+                        gene = n.ps5eng;
+                        gene2 = n.ps5eng2;
+                        break;
+                    case 1:
+                        Oo o = new Oo();
+                        o.GenNobleMustContDif3();
+                        gens = o.ps5;
+                        gene = o.ps5eng;
+                        gene2 = o.ps5eng2;
+                        break;
+                    case 2:
+                        Abstractos a = new Abstractos();
+                        a.GenNobleMustContDif3();
+                        gens = a.ps5;
+                        gene = a.ps5eng;
+                        gene2 = a.ps5eng2;
+                        break;
 
-                        case 3:
-                            People p = new People();
-                            p.GenNobleMustContDif3();
-                            gens = p.ps5;
-                            gene = p.ps5eng;
-                            gene2 = p.ps5eng2;
-                            break;
-                        case 4:
-                            Special sp = new Special();
-                            sp.GetMustCont3();
-                            gens = sp.sp5;
-                            gene = sp.eng5;
-                            gene2 = "";
-                            break;
-                        case 5:
-                            Intrans it = new Intrans();
-                            it.GenIntMustCont3();
-                            gens = it.sp7;
-                            gene = it.eng7;
-                            gene2 = "";
-                            break;
-                    }
-                    break;
-            }
-        } //hechos Special y Intrans PD
+                    case 3:
+                        People p = new People();
+                        p.GenNobleMustContDif3();
+                        gens = p.ps5;
+                        gene = p.ps5eng;
+                        gene2 = p.ps5eng2;
+                        break;
+                    case 4:
+                        Special sp = new Special();
+                        sp.GetMustCont3();
+                        gens = sp.sp5;
+                        gene = sp.eng5;
+                        gene2 = "";
+                        break;
+                    case 5:
+                        Intrans it = new Intrans();
+                        it.GenIntMustCont3();
+                        gens = it.sp7;
+                        gene = it.eng7;
+                        gene2 = "";
+                        break;
+                }
+                break;
+        }
+    } //hechos Special y Intrans PD
 
     //wanTo 3
     public void GenWantYouTo3() {

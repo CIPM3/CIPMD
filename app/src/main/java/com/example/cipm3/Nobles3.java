@@ -76,50 +76,60 @@ public class Nobles3 {
 
     // nouns nobles top 100
     String nnobles[] = {
-            "studio ","topic ","collection ","imagination ","passion ",
-            "percentage ","resource ","setting ","ad ","agency ",
-            "college ","connection ","criticism ","debt ","description ",
-            "memory ","patience ","secretary ","solution ",
-            "administration ","aspect ","attitude ","director ",
-            "personality ","psychology ","recommendation ","response ",
-            "selection ","storage ","version ","alcohol ","argument ",
-            "complaint ","contract ","highway ","loss ","membership ",
-            "possession ","preparation ","steak ","union ","agreement ",
-            "currency ","employment ","engineer ","interaction ","limit ",
-            "mixture ","preference ","region ","republic ","seat ",
-            "tradition ","virus ","actor ","classroom ","delivery ",
-            "device ","difficulty ","drama ","election ","engine ",
-            "guidande ","hotel ","owner ","priority ","suggestion ",
-            "tension ","variation ","anxiety ","atmosphere ","awareness ",
-            "bread ","climate ","comparison ","confusion ",
-            "construction ","elevator ","emotion ","employee ","employer ",
-            "guest ","height ","leadership ","mall ","manager ",
-            "operation ","recording ","respect ","sample ","transportation ",
-            "charity ","cousin "
+            "the studio ","the topic ","the collection ","the imagination ",
+            "the passion ",
+            "the percentage ","the resource ","the setting ","the ad ",
+            "the agency ",
+            "the college ","the connection ","the criticism ",
+            "the debt ","the description ",
+            "the memory ","the patience ","the secretary ","the solution ",
+            "the administration ","the aspect ","the attitude ","the director ",
+            "the personality ","the psychology ","the recommendation ","the response ",
+            "the selection ","the storage ","the version ","the alcohol ",
+            "the argument ",
+            "the complaint ","the contract ","the highway ","the loss ",
+            "the membership ",
+            "the possession ","the preparation ","the steak ","the union ",
+            "the agreement ",
+            "the currency ","the employment ","the engineer ",
+            "the interaction ","the limit ",
+            "the mixture ","the preference ","the region ","the republic ",
+            "the seat ",
+            "the tradition ","the virus ","the actor ","the classroom ","the delivery ",
+            "the device ","the difficulty ","the drama ","the election ","the engine ",
+            "the guidance ","the hotel ","the owner ","the priority ","the suggestion ",
+            "the tension ","the variation ","the anxiety ","the atmosphere ","the awareness ",
+            "the bread ","the climate ","the comparison ","the confusion ",
+            "the construction ","the elevator ","the emotion ","the employee ","the employer ",
+            "the guest ","the height ","the leadership ","the mall ","the manager ",
+            "the operation ","the recording ","the respect ","the sample ","the transportation ",
+            "the charity ","the cousin "
     };
 
     // nouns nobles espa;ol top 100
     String nnoblesesp[] = {
-            "estudio ", "tema ", "colección ", "imaginación ", "pasión ",
-            "porcentaje ", "recurso ", "configuración ", "anuncio ", "agencia ",
-            "universidad ", "conexión ", "crítica ", "deuda ", "descripción ",
-            "memoria ", "paciencia ", "secretaria ", "solución ",
-            "administración ", "aspecto ", "actitud ", "director ",
-            "personalidad ", "psicología ", "recomendación ", "respuesta ",
-            "selección ", "almacenamiento ", "versión ", "alcohol ", "argumento ",
-            "queja ", "contrato ", "carretera ", "pérdida ", "afiliación ",
-            "posesión ", "preparación ", "bistec ", "unión ", "acuerdo ",
-            "moneda ", "empleo ", "ingeniero ", "interacción ", "límite ",
-            "mezcla ", "preferencia ", "región ", "república ", "asiento ",
-            "tradición ", "virus ", "actor ", "aula ", "entrega ",
-            "dispositivo ", "dificultad ", "drama ", "elección ", "motor ",
-            "guía ", "hotel ", "propietario ", "prioridad ", "sugerencia ",
-            "tensión ", "variación ", "ansiedad ", "atmósfera ", "conciencia ",
-            "pan ", "clima ", "comparación ", "confusión ",
-            "construcción ", "ascensor ", "emoción ", "empleado ", "empleador ",
-            "invitado ", "altura ", "liderazgo ", "centro comercial ", "gerente ",
-            "operación ", "grabación ", "respeto ", "muestra ", "transporte ",
-            "caridad ", "primo "
+            "el estudio ", "el tema ", "la colección ", "la imaginación ", "la pasión ",
+            "el porcentaje ", "el recurso ", "la configuración ", "el anuncio ", "la agencia ",
+            "la universidad ", "la conexión ", "la crítica ", "la deuda ", "la descripción ",
+            "la memoria ", "la paciencia ", "la secretaria ", "la solución ",
+            "la administración ", "el aspecto ", "la actitud ", "el director ",
+            "la personalidad ", "la psicología ", "la recomendación ", "la respuesta ",
+            "la selección ", "el almacenamiento ", "la versión ", "el alcohol ",
+            "el argumento ",
+            "la queja ", "el contrato ", "la carretera ", "la pérdida ",
+            "la afiliación ",
+            "la posesión ", "la preparación ", "el bistec ", "la unión ", "el acuerdo ",
+            "la moneda ", "el empleo ", "el ingeniero ", "la interacción ", "el límite ",
+            "la mezcla ", "la preferencia ", "la región ", "la república ", "el asiento ",
+            "la tradición ", "el virus ", "el actor ", "el aula ", "la entrega ",
+            "el dispositivo ", "la dificultad ", "el drama ", "la elección ", "el motor ",
+            "la guía ", "el hotel ", "el propietario ", "la prioridad ", "la sugerencia ",
+            "la tensión ", "la variación ", "la ansiedad ", "la atmósfera ", "la conciencia ",
+            "el pan ", "el clima ", "la comparación ", "la confusión ",
+            "la construcción ", "el ascensor ", "la emoción ", "el empleado ", "el empleador ",
+            "el invitado ", "la altura ", "el liderazgo ", "el centro comercial ", "el gerente ",
+            "la operación ", "la grabación ", "el respeto ", "la muestra ", "el transporte ",
+            "la caridad ", "el primo "
     };
 
     String nnoblesespM[]={
@@ -416,13 +426,13 @@ public class Nobles3 {
                 ps2eng = "you " + vnb[v] + nnobles[n];
 
                 ps3 = "él " + vn3[v] + nnoblesesp[n];
-                ps3eng = "he " + vnb3[v] + nnobles[n];
+                ps3eng = "he " + vnb[v] + nnobles[n];
 
                 ps3ella = "ella " + vn3[v] + nnoblesesp[n];
-                ps3she = "she " + vnb3[v] + nnobles[n];
+                ps3she = "she " + vnb[v] + nnobles[n];
 
                 ps3eso = "eso " + vn3[v] + nnoblesesp[n];
-                ps3it = "it " + vnb3[v] + nnobles[n];
+                ps3it = "it " + vnb[v] + nnobles[n];
 
                 ps4 = "ellos " + vn4[v] + nnoblesesp[n];
                 ps4eng = "they " + vnb[v] + nnobles[n];
@@ -2073,16 +2083,16 @@ public class Nobles3 {
                 ps2eng2 = "you " + vnb[v] + nnobles[n] + frequadv[r];
 
                 ps3 = "él " + vn3[v] + nnoblesesp[n] + advfrequ[r] ;
-                ps3eng = "he " + vnb3[v] + nnobles[n] + frequadv[r];
-                ps3eng2 = "he " + vnb3[v] + nnobles[n] + frequadv[r];
+                ps3eng = "he " + vnb[v] + nnobles[n] + frequadv[r];
+                ps3eng2 = "he " + vnb[v] + nnobles[n] + frequadv[r];
 
                 ps3ella = "ella " + vn3[v] + nnoblesesp[n] + advfrequ[r] ;
-                ps3she = "she " + vnb3[v] + nnobles[n] + frequadv[r];
-                ps3she2 = "she " + vnb3[v] + nnobles[n] + frequadv[r];
+                ps3she = "she " + vnb[v] + nnobles[n] + frequadv[r];
+                ps3she2 = "she " + vnb[v] + nnobles[n] + frequadv[r];
 
                 ps3eso = "eso " + vn3[v] + nnoblesesp[n] + advfrequ[r] ;
-                ps3it = "it " + vnb3[v] + nnobles[n] + frequadv[r];
-                ps3iteng2 = "it " + vnb3[v] + nnobles[n] + frequadv[r];
+                ps3it = "it " + vnb[v] + nnobles[n] + frequadv[r];
+                ps3iteng2 = "it " + vnb[v] + nnobles[n] + frequadv[r];
 
                 ps4 = "ellos " + vn4[v] + nnoblesesp[n] + advfrequ[r] ;
                 ps4eng = "they " + vnb[v] + nnobles[n] + frequadv[r];
@@ -5396,13 +5406,13 @@ public class Nobles3 {
                 ps2 = "Se supone que " + vn2[v] + nnoblesesp[n];
                 ps2eng = "you're supposed to " + vnb[v] + nnobles[n];
 
-                ps3 = "Se supone que él " + vnb3[v] + nnoblesesp[n];
+                ps3 = "Se supone que él " + vnb[v] + nnoblesesp[n];
                 ps3eng = "he's supposed to " + vnb[v] + nnobles[n];
 
-                ps3ella = "Se supone que ella " + vnb3[v] + nnoblesesp[n];
+                ps3ella = "Se supone que ella " + vnb[v] + nnoblesesp[n];
                 ps3she = "she's supposed to " + vnb[v] + nnobles[n];
 
-                ps3eso = "Se supone que eso " + vnb3[v] + nnoblesesp[n];
+                ps3eso = "Se supone que eso " + vnb[v] + nnoblesesp[n];
                 ps3it = "it's supposed to " + vnb[v] + nnobles[n];
 
                 ps4 = "se supone que " + vn4[v] + nnoblesesp[n];
@@ -5418,13 +5428,13 @@ public class Nobles3 {
                 ps2 = "se supone que no " + vn2[v] + nnoblesesp[n];
                 ps2eng = "you're not supposed to " + vnb[v] + nnobles[n];
 
-                ps3 = "se supone que él no " + vnb3[v] + nnoblesesp[n];
+                ps3 = "se supone que él no " + vnb[v] + nnoblesesp[n];
                 ps3eng = "he's not supposed to " + vnb[v] + nnobles[n];
 
-                ps3ella = "se supone que ella no " + vnb3[v] + nnoblesesp[n];
+                ps3ella = "se supone que ella no " + vnb[v] + nnoblesesp[n];
                 ps3she = "she's not supposed to " + vnb[v] + nnobles[n];
 
-                ps3eso = "se supone que eso no " + vnb3[v] + nnoblesesp[n];
+                ps3eso = "se supone que eso no " + vnb[v] + nnoblesesp[n];
                 ps3it = "it's not supposed to  " + vnb[v] + nnobles[n];
 
                 ps4 = "se supone que no " + vn4[v] + nnoblesesp[n];
@@ -5540,7 +5550,7 @@ public class Nobles3 {
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n];
 
                 ps3 = "Se supone que él " + ps3imp[v] + nnoblesesp[n];
-                ps3eng = "he was supposed to " + vnb3[v] + nnobles[n];
+                ps3eng = "he was supposed to " + vnb[v] + nnobles[n];
 
                 ps3ella = "Se supone que ella " + ps3imp[v] + nnoblesesp[n];
                 ps3she = "she was supposed to " + vn3[v] + nnobles[n];
@@ -5585,7 +5595,7 @@ public class Nobles3 {
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n];
 
                 ps3 = "Se supone que él tenía que " + vnbs[v] + nnoblesesp[n];
-                ps3eng = "he was supposed to " + vnb3[v] + nnobles[n];
+                ps3eng = "he was supposed to " + vnb[v] + nnobles[n];
 
                 ps3ella = "Se supone que ella tenía que " + vnbs[v] + nnoblesesp[n];
                 ps3she = "she was supposed to " + vn3[v] + nnobles[n];
@@ -5607,7 +5617,7 @@ public class Nobles3 {
                 ps2eng = "you weren't supposed to " + vnb[v] + nnobles[n];
 
                 ps3 = "Se supone que él no tenía que " + vnbs[v] + nnoblesesp[n];
-                ps3eng = "he wasn't supposed to " + vnb3[v] + nnobles[n];
+                ps3eng = "he wasn't supposed to " + vnb[v] + nnobles[n];
 
                 ps3ella = "Se supone que ella no tenía que " + vnbs[v] + nnoblesesp[n];
                 ps3she = "she wasn't supposed to " + vn3[v] + nnobles[n];
@@ -5630,7 +5640,7 @@ public class Nobles3 {
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n];
 
                 ps3 = "Se supone que él iba a " + vnbs[v] + nnoblesesp[n];
-                ps3eng = "he was supposed to " + vnb3[v] + nnobles[n];
+                ps3eng = "he was supposed to " + vnb[v] + nnobles[n];
 
                 ps3ella = "Se supone que ella iba a " + vnbs[v] + nnoblesesp[n];
                 ps3she = "she was supposed to " + vn3[v] + nnobles[n];
@@ -5652,7 +5662,7 @@ public class Nobles3 {
                 ps2eng = "you weren't supposed to " + vnb[v] + nnobles[n];
 
                 ps3 = "Se supone que él no iba a " + vnbs[v] + nnoblesesp[n];
-                ps3eng = "he wasn't supposed to " + vnb3[v] + nnobles[n];
+                ps3eng = "he wasn't supposed to " + vnb[v] + nnobles[n];
 
                 ps3ella = "Se supone que ella no iba a " + vnbs[v] + nnoblesesp[n];
                 ps3she = "she wasn't supposed to " + vn3[v] + nnobles[n];
@@ -6969,13 +6979,13 @@ public class Nobles3 {
                 ps2 = "Se supone que " + vn2[v] + nnoblesesp[n] + advfrequ[radv];
                 ps2eng = "you're supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
-                ps3 = "Se supone que él " + vnb3[v] + nnoblesesp[n] + advfrequ[radv];
+                ps3 = "Se supone que él " + vnb[v] + nnoblesesp[n] + advfrequ[radv];
                 ps3eng = "he's supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
-                ps3ella = "Se supone que ella " + vnb3[v] + nnoblesesp[n] + advfrequ[radv];
+                ps3ella = "Se supone que ella " + vnb[v] + nnoblesesp[n] + advfrequ[radv];
                 ps3she = "she's supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
-                ps3eso = "Se supone que eso " + vnb3[v] + nnoblesesp[n] + advfrequ[radv];
+                ps3eso = "Se supone que eso " + vnb[v] + nnoblesesp[n] + advfrequ[radv];
                 ps3it = "it's supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps4 = "se supone que " + vn4[v] + nnoblesesp[n] + advfrequ[radv];
@@ -6991,13 +7001,13 @@ public class Nobles3 {
                 ps2 = "se supone que no " + vn2[v] + nnoblesesp[n] + advfrequ[radv];
                 ps2eng = "you're not supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
-                ps3 = "se supone que él no " + vnb3[v] + nnoblesesp[n] + advfrequ[radv];
+                ps3 = "se supone que él no " + vnb[v] + nnoblesesp[n] + advfrequ[radv];
                 ps3eng = "he's not supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
-                ps3ella = "se supone que ella no " + vnb3[v] + nnoblesesp[n] + advfrequ[radv];
+                ps3ella = "se supone que ella no " + vnb[v] + nnoblesesp[n] + advfrequ[radv];
                 ps3she = "she's not supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
-                ps3eso = "se supone que eso no " + vnb3[v] + nnoblesesp[n] + advfrequ[radv];
+                ps3eso = "se supone que eso no " + vnb[v] + nnoblesesp[n] + advfrequ[radv];
                 ps3it = "it's not supposed to  " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps4 = "se supone que no " + vn4[v] + nnoblesesp[n] + advfrequ[radv];
@@ -7113,7 +7123,7 @@ public class Nobles3 {
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps3 = "Se supone que él " + ps3imp[v] + nnoblesesp[n] + advfrequ[radv];
-                ps3eng = "he was supposed to " + vnb3[v] + nnobles[n] + frequadv[radv];
+                ps3eng = "he was supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps3ella = "Se supone que ella " + ps3imp[v] + nnoblesesp[n] + advfrequ[radv];
                 ps3she = "she was supposed to " + vn3[v] + nnobles[n] + frequadv[radv];
@@ -7158,7 +7168,7 @@ public class Nobles3 {
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps3 = "Se supone que él tenía que " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
-                ps3eng = "he was supposed to " + vnb3[v] + nnobles[n] + frequadv[radv];
+                ps3eng = "he was supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps3ella = "Se supone que ella tenía que " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
                 ps3she = "she was supposed to " + vn3[v] + nnobles[n] + frequadv[radv];
@@ -7180,7 +7190,7 @@ public class Nobles3 {
                 ps2eng = "you weren't supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps3 = "Se supone que él no tenía que " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
-                ps3eng = "he wasn't supposed to " + vnb3[v] + nnobles[n] + frequadv[radv];
+                ps3eng = "he wasn't supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps3ella = "Se supone que ella no tenía que " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
                 ps3she = "she wasn't supposed to " + vn3[v] + nnobles[n] + frequadv[radv];
@@ -7203,7 +7213,7 @@ public class Nobles3 {
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps3 = "Se supone que él iba a " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
-                ps3eng = "he was supposed to " + vnb3[v] + nnobles[n] + frequadv[radv];
+                ps3eng = "he was supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps3ella = "Se supone que ella iba a " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
                 ps3she = "she was supposed to " + vn3[v] + nnobles[n] + frequadv[radv];
@@ -7225,7 +7235,7 @@ public class Nobles3 {
                 ps2eng = "you weren't supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps3 = "Se supone que él no iba a " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
-                ps3eng = "he wasn't supposed to " + vnb3[v] + nnobles[n] + frequadv[radv];
+                ps3eng = "he wasn't supposed to " + vnb[v] + nnobles[n] + frequadv[radv];
 
                 ps3ella = "Se supone que ella no iba a " + vnbs[v] + nnoblesesp[n] + advfrequ[radv];
                 ps3she = "she wasn't supposed to " + vn3[v] + nnobles[n] + frequadv[radv];
@@ -7524,16 +7534,16 @@ public class Nobles3 {
                 ps2eng2 = "you " + vnb[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r] ;
 
                 ps3 = "él " + vn3[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[r];;
-                ps3eng = "he " + vnb3[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
-                ps3eng2 = "he " + vnb3[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r] ;
+                ps3eng = "he " + vnb[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
+                ps3eng2 = "he " + vnb[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r] ;
 
                 ps3ella = "ella " + vn3[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[r];;
-                ps3she = "she " + vnb3[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
-                ps3she2 = "she " + vnb3[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r] ;
+                ps3she = "she " + vnb[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
+                ps3she2 = "she " + vnb[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r] ;
 
                 ps3eso = "eso " + vn3[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[r];;
-                ps3it = "it " + vnb3[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
-                ps3iteng2 = "it " + vnb3[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r] ;
+                ps3it = "it " + vnb[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
+                ps3iteng2 = "it " + vnb[v] + nnobles[n] +prep.noblesspecialeng[p][p2] + frequadv[r] ;
 
                 ps4 = "ellos " + vn4[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[r];;
                 ps4eng = "they " + vnb[v] + nnobles[n]+prep.noblesspecialeng[p][p2] + frequadv[r] ;
@@ -11034,13 +11044,13 @@ public class Nobles3 {
                 ps2 = "Se supone que " + vn2[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps2eng = "you're supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
-                ps3 = "Se supone que él " + vnb3[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps3 = "Se supone que él " + vnb[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3eng = "he's supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
-                ps3ella = "Se supone que ella " + vnb3[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps3ella = "Se supone que ella " + vnb[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3she = "she's supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
-                ps3eso = "Se supone que eso " + vnb3[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps3eso = "Se supone que eso " + vnb[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3it = "it's supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 ps4 = "se supone que " + vn4[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
@@ -11056,13 +11066,13 @@ public class Nobles3 {
                 ps2 = "se supone que no " + vn2[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps2eng = "you're not supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
-                ps3 = "se supone que él no " + vnb3[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps3 = "se supone que él no " + vnb[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3eng = "he's not supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
-                ps3ella = "se supone que ella no " + vnb3[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps3ella = "se supone que ella no " + vnb[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3she = "she's not supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
-                ps3eso = "se supone que eso no " + vnb3[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
+                ps3eso = "se supone que eso no " + vnb[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3it = "it's not supposed to  " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 ps4 = "se supone que no " + vn4[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
@@ -11181,7 +11191,7 @@ public class Nobles3 {
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 ps3 = "Se supone que él " + ps3imp[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
-                ps3eng = "he was supposed to " + vnb3[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
+                ps3eng = "he was supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 ps3ella = "Se supone que ella " + ps3imp[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3she = "she was supposed to " + vn3[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
@@ -11226,7 +11236,7 @@ public class Nobles3 {
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 ps3 = "Se supone que él tenía que " + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
-                ps3eng = "he was supposed to " + vnb3[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
+                ps3eng = "he was supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 ps3ella = "Se supone que ella tenía que " + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3she = "she was supposed to " + vn3[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
@@ -11248,7 +11258,7 @@ public class Nobles3 {
                 ps2eng = "you weren't supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 ps3 = "Se supone que él no tenía que " + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
-                ps3eng = "he wasn't supposed to " + vnb3[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
+                ps3eng = "he wasn't supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 ps3ella = "Se supone que ella no tenía que " + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3she = "she wasn't supposed to " + vn3[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
@@ -11271,7 +11281,7 @@ public class Nobles3 {
                 ps2eng = "you were supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 ps3 = "Se supone que él iba a " + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
-                ps3eng = "he was supposed to " + vnb3[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
+                ps3eng = "he was supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 ps3ella = "Se supone que ella iba a " + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3she = "she was supposed to " + vn3[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
@@ -11293,7 +11303,7 @@ public class Nobles3 {
                 ps2eng = "you weren't supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 ps3 = "Se supone que él no iba a " + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
-                ps3eng = "he wasn't supposed to " + vnb3[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
+                ps3eng = "he wasn't supposed to " + vnb[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
 
                 ps3ella = "Se supone que ella no iba a " + vnbs[v] + nnoblesesp[n] + prep.noblesspecial[p][p2] + advfrequ[radv];
                 ps3she = "she wasn't supposed to " + vn3[v] + nnobles[n] + prep.noblesspecialeng[p][p2] + frequadv[radv];
@@ -11601,13 +11611,13 @@ public class Nobles3 {
                 ps2eng = "you " + vnb[v] + nnobles[n];
 
                 ps3 = vn3[v] + nnoblesesp[n];
-                ps3eng = "he " + vnb3[v] + nnobles[n];
+                ps3eng = "he " + vnb[v] + nnobles[n];
 
                 ps3ella = vn3[v] + nnoblesesp[n];
-                ps3she = "she " + vnb3[v] + nnobles[n];
+                ps3she = "she " + vnb[v] + nnobles[n];
 
                 ps3eso = vn3[v] + nnoblesesp[n];
-                ps3it = "it " + vnb3[v] + nnobles[n];
+                ps3it = "it " + vnb[v] + nnobles[n];
 
                 ps4 = vn4[v] + nnoblesesp[n];
                 ps4eng = "they " + vnb[v] + nnobles[n];
@@ -11652,13 +11662,13 @@ public class Nobles3 {
                 ps2eng = "you " + vnb[v] + nnobles[n]+prep.noblesspecialeng[p][p2];
 
                 ps3 =prep.noblesspecial[p][p2] + vn3[v] + nnoblesesp[n];
-                ps3eng = "he " + vnb3[v] + nnobles[n]+prep.noblesspecialeng[p][p2];
+                ps3eng = "he " + vnb[v] + nnobles[n]+prep.noblesspecialeng[p][p2];
 
                 ps3ella = prep.noblesspecial[p][p2] + vn3[v] + nnoblesesp[n];
-                ps3she = "she " + vnb3[v] + nnobles[n]+prep.noblesspecialeng[p][p2];
+                ps3she = "she " + vnb[v] + nnobles[n]+prep.noblesspecialeng[p][p2];
 
                 ps3eso = prep.noblesspecial[p][p2] +vn3[v] + nnoblesesp[n];
-                ps3it = "it " + vnb3[v] + nnobles[n]+prep.noblesspecialeng[p][p2];
+                ps3it = "it " + vnb[v] + nnobles[n]+prep.noblesspecialeng[p][p2];
 
                 ps4 = prep.noblesspecial[p][p2] +vn4[v] + nnoblesesp[n];
                 ps4eng = "they " + vnb[v] + nnobles[n]+prep.noblesspecialeng[p][p2];
@@ -11708,13 +11718,13 @@ public class Nobles3 {
                 ps2eng = "you "+ vnb[v] + objyou[y];
 
                 ps3 = "él " + objel[e] + vn3[v] ;
-                ps3eng = "he " + vnb3[v] + objhe[e];
+                ps3eng = "he " + vnb[v] + objhe[e];
 
                 ps3ella = "ella " +objella[ell] + vn3[v];
-                ps3she = "she " + vnb3[v] + objshe[ell];
+                ps3she = "she " + vnb[v] + objshe[ell];
 
                 ps3eso = "eso " + objeso[it] +vn3[v] ;
-                ps3it = "it " + vnb3[v] + objit[it];
+                ps3it = "it " + vnb[v] + objit[it];
 
                 ps4 =objellos[th] + vn4[v] ;
                 ps4eng = "they " + vnb[v] + objthem[th];
@@ -11805,13 +11815,13 @@ public class Nobles3 {
                 ps2eng = "you " + vnb[v] + " yourself" ;
 
                 ps3 = "él se " + vn3[v] + " a si mismo " ;
-                ps3eng = "he " + vnb3[v] + " himself";
+                ps3eng = "he " + vnb[v] + " himself";
 
                 ps3ella = "ella se " + vn3[v]+ " a si misma ";
-                ps3she = "she " + vnb3[v] + " herself";
+                ps3she = "she " + vnb[v] + " herself";
 
                 ps3eso = "eso se " + vn3[v] + " a si mismo ";
-                ps3it = "it " + vnb3[v] + " itself";
+                ps3it = "it " + vnb[v] + " itself";
 
                 ps4 = "ellos se " + vn4[v] + " a si mismos ";
                 ps4eng = "they " + vnb[v] + " themselves ";
@@ -11874,13 +11884,13 @@ public class Nobles3 {
                 ps2eng = "you don´t " + vnb[v] + " yourself" ;
 
                 ps3 = "él no se " + vn3[v] + " a si mismo " ;
-                ps3eng = "he doesn´t " + vnb3[v] + " himself";
+                ps3eng = "he doesn´t " + vnb[v] + " himself";
 
                 ps3ella = "ella no se " + vn3[v]+ " a si misma ";
-                ps3she = "she doesn´t " + vnb3[v] + " herself";
+                ps3she = "she doesn´t " + vnb[v] + " herself";
 
                 ps3eso = "eso no se " + vn3[v] + " a si mismo ";
-                ps3it = "it doesn´t " + vnb3[v] + " itself";
+                ps3it = "it doesn´t " + vnb[v] + " itself";
 
                 ps4 = "ellos no se " + vn4[v] + " a si mismos ";
                 ps4eng = "they don´t " + vnb[v] + " themselves ";
@@ -11900,11 +11910,11 @@ public class Nobles3 {
             case 0:
 
                 ps3 = "se " + vn3[v] + nnoblesesp[n]+ prep.noblesspecial[p][p2];
-                ps3eng = "he " + vnb3[v] + nnobles[n]+ prep.noblesspecialeng[p][p2];
-                ps3she = "she " + vnb3[v] + nnobles[n]+ prep.noblesspecialeng[p][p2];
-                ps3it = "it " + vnb3[v] + nnobles[n]+ prep.noblesspecialeng[p][p2];
+                ps3eng = "he " + vnb[v] + nnobles[n]+ prep.noblesspecialeng[p][p2];
+                ps3she = "she " + vnb[v] + nnobles[n]+ prep.noblesspecialeng[p][p2];
+                ps3it = "it " + vnb[v] + nnobles[n]+ prep.noblesspecialeng[p][p2];
                 ps4eng = "they " + vnb[v] + nnobles[n]+ prep.noblesspecialeng[p][p2];
-                ps1eng= "one " + vnb3[v] + nnobles[n]+ prep.noblesspecialeng[p][p2];
+                ps1eng= "one " + vnb[v] + nnobles[n]+ prep.noblesspecialeng[p][p2];
                 ps5eng="we " + vnb[v] + nnobles[n]+ prep.noblesspecialeng[p][p2];
 
 
@@ -11936,13 +11946,13 @@ public class Nobles3 {
                 ps2eng = "you " + vnb[v];
 
                 ps3 = "él " + vn3[v];
-                ps3eng = "he " + vnb3[v];
+                ps3eng = "he " + vnb[v];
 
                 ps3ella = "ella " + vn3[v];
-                ps3she = "she " + vnb3[v];
+                ps3she = "she " + vnb[v];
 
                 ps3eso = "eso " + vn3[v];
-                ps3it = "it " + vnb3[v];
+                ps3it = "it " + vnb[v];
 
                 ps4 = "ellos " + vn4[v];
                 ps4eng = "they " + vnb[v];
@@ -14347,7 +14357,7 @@ public class Nobles3 {
                 ps2eng = "you were supposed to " + vnb[v];
 
                 ps3 = "Se supone que él " + ps3imp[v];
-                ps3eng = "he was supposed to " + vnb3[v];
+                ps3eng = "he was supposed to " + vnb[v];
 
                 ps3ella = "Se supone que ella " + ps3imp[v];
                 ps3she = "she was supposed to " + vn3[v];
@@ -14392,7 +14402,7 @@ public class Nobles3 {
                 ps2eng = "you were supposed to " + vnb[v];
 
                 ps3 = "Se supone que él tenía que " + vnbs[v];
-                ps3eng = "he was supposed to " + vnb3[v];
+                ps3eng = "he was supposed to " + vnb[v];
 
                 ps3ella = "Se supone que ella tenía que " + vnbs[v];
                 ps3she = "she was supposed to " + vn3[v];
@@ -14414,7 +14424,7 @@ public class Nobles3 {
                 ps2eng = "you weren't supposed to " + vnb[v];
 
                 ps3 = "Se supone que él no tenía que " + vnbs[v];
-                ps3eng = "he wasn't supposed to " + vnb3[v];
+                ps3eng = "he wasn't supposed to " + vnb[v];
 
                 ps3ella = "Se supone que ella no tenía que " + vnbs[v];
                 ps3she = "she wasn't supposed to " + vn3[v];
@@ -14437,7 +14447,7 @@ public class Nobles3 {
                 ps2eng = "you were supposed to " + vnb[v];
 
                 ps3 = "Se supone que él iba a " + vnbs[v];
-                ps3eng = "he was supposed to " + vnb3[v];
+                ps3eng = "he was supposed to " + vnb[v];
 
                 ps3ella = "Se supone que ella iba a " + vnbs[v];
                 ps3she = "she was supposed to " + vn3[v];
@@ -14459,7 +14469,7 @@ public class Nobles3 {
                 ps2eng = "you weren't supposed to " + vnb[v];
 
                 ps3 = "Se supone que él no iba a " + vnbs[v];
-                ps3eng = "he wasn't supposed to " + vnb3[v];
+                ps3eng = "he wasn't supposed to " + vnb[v];
 
                 ps3ella = "Se supone que ella no iba a " + vnbs[v];
                 ps3she = "she wasn't supposed to " + vn3[v];

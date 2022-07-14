@@ -119,7 +119,7 @@ public class MainTesting extends AppCompatActivity {
         switch (number){
             case 0:
                 answerinput.setText("");
-                gen.generate2();
+                gen.GenPresSimp2();
                 text.setText(gen.gens);
                 texteng.setText(gen.gene);
                 tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
@@ -152,7 +152,7 @@ public class MainTesting extends AppCompatActivity {
                 break;
             case 1:
                 answerinput.setText("");
-                gen.generatepresentecontinuo();
+                gen.GenPresCont2();
                 text.setText(gen.gens);
                 texteng.setText(gen.gene);
                 tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
@@ -186,7 +186,7 @@ public class MainTesting extends AppCompatActivity {
 
             case 2:
                 answerinput.setText("");
-                gen.GenerarPresentePerfecto();
+                gen.GenPresPerf2();
                 text.setText(gen.gens);
                 texteng.setText(gen.gene);
                 tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
@@ -226,7 +226,7 @@ public class MainTesting extends AppCompatActivity {
         switch (number){
             case 0:
                 answerinput.setText("");
-                gen.generate2();
+                gen.GenPresSimp2();
                 text.setText(gen.gens);
                 texteng.setText(gen.gene);
                 tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
@@ -260,7 +260,7 @@ public class MainTesting extends AppCompatActivity {
 
             case 1:
                 answerinput.setText("");
-                gen.generatepresentecontinuo();
+                gen.GenPresCont2();
                 text.setText(gen.gens);
                 texteng.setText(gen.gene);
                 tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
@@ -294,7 +294,7 @@ public class MainTesting extends AppCompatActivity {
 
             case 2:
                 answerinput.setText("");
-                gen.GenerarPresentePerfecto();
+                gen.GenPresPerf2();
                 text.setText(gen.gens);
                 texteng.setText(gen.gene);
                 tts = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
