@@ -4946,6 +4946,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPresSimp2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresSimp2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -4978,6 +4995,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPresSimp2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresSimp2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -5047,6 +5081,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPresCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -5079,6 +5130,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPresCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -5150,7 +5218,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     gen1.GenPresPerf2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
-
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPresPerf2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresPerf2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     answerinp.setText("");
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
@@ -5186,7 +5270,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     gen1.GenPresPerf2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
-
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPresPerf2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresPerf2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     answerinp.setText("");
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
@@ -5263,7 +5363,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     gen1.GenPresPerfCont2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
-
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPresPerfCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresPerfCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     answerinp.setText("");
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
@@ -5299,7 +5415,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     gen1.GenPresPerfCont2();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
-
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPresPerfCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresPerfCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     answerinp.setText("");
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
@@ -5374,6 +5506,24 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPassSimp2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassSimp2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
+
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -5406,6 +5556,24 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPassSimp2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassSimp2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -5475,6 +5643,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPassCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -5507,6 +5692,24 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPassCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -5576,6 +5779,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPassPerf2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassPerf2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -5608,6 +5828,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPassPerf2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassPerf2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -5677,6 +5914,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPassPerfCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassPerfCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -5709,6 +5963,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPassPerfCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassPerfCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -7410,6 +7681,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMightSimp2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightSimp2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -7443,6 +7731,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMightSimp2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightSimp2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -7512,6 +7817,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMightCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -7545,6 +7867,24 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMightCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
+
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -7614,6 +7954,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMightPerf2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightPerf2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -7647,6 +8004,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMightPerf2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightPerf2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -7717,6 +8091,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMightPerfCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightPerfCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -7750,6 +8141,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMightPerfCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightPerfCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -7820,6 +8228,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenCanSimp2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenCanSimp2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -7853,6 +8278,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenCanSimp2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenCanSimp2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -7922,6 +8364,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenCanCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenCanCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -7955,6 +8414,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenCanCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenCanCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -8025,6 +8501,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMustSimp2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMustSimp2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -8058,6 +8551,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMustSimp2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMustSimp2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -8127,6 +8637,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMustCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMustCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -8160,6 +8687,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMustCont2();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMustCont2();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -9226,6 +9770,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPresSimp3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresSimp3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -9258,6 +9819,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPresSimp3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresSimp3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -9327,6 +9905,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPresCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -9359,6 +9954,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPresCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -9430,7 +10042,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     gen1.GenPresPerf3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
-
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPresPerf3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresPerf3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     answerinp.setText("");
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
@@ -9466,7 +10094,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     gen1.GenPresPerf3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
-
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPresPerf3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresPerf3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     answerinp.setText("");
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
@@ -9543,7 +10187,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     gen1.GenPresPerfCont3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
-
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPresPerfCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresPerfCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     answerinp.setText("");
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
@@ -9579,7 +10239,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     gen1.GenPresPerfCont3();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
-
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPresPerfCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresPerfCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     answerinp.setText("");
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
@@ -9654,6 +10330,24 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPassSimp3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassSimp3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
+
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -9686,6 +10380,24 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPassSimp3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassSimp3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -9755,6 +10467,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPassCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -9787,6 +10516,24 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPassCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -9856,6 +10603,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPassPerf3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassPerf3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -9888,6 +10652,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPassPerf3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassPerf3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -9957,6 +10738,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPassPerfCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassPerfCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -9989,6 +10787,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPassPerfCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassPerfCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -11690,6 +12505,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMightSimp3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightSimp3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -11723,6 +12555,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMightSimp3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightSimp3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -11792,6 +12641,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMightCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -11825,6 +12691,24 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMightCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
+
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -11894,6 +12778,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMightPerf3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightPerf3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -11927,6 +12828,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMightPerf3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightPerf3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -11997,6 +12915,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMightPerfCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightPerfCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -12030,6 +12965,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMightPerfCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightPerfCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -12100,6 +13052,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenCanSimp3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenCanSimp3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -12133,6 +13102,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenCanSimp3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenCanSimp3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -12202,6 +13188,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenCanCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenCanCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -12235,6 +13238,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenCanCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenCanCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -12305,6 +13325,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMustSimp3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMustSimp3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -12338,6 +13375,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMustSimp3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMustSimp3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -12407,6 +13461,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMustCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMustCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -12440,6 +13511,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMustCont3();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMustCont3();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -13506,6 +14594,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPresSimp4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresSimp4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -13538,6 +14643,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPresSimp4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresSimp4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -13607,6 +14729,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPresCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -13639,6 +14778,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPresCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -13710,7 +14866,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     gen1.GenPresPerf4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
-
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPresPerf4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresPerf4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     answerinp.setText("");
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
@@ -13746,7 +14918,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     gen1.GenPresPerf4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
-
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPresPerf4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresPerf4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     answerinp.setText("");
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
@@ -13823,7 +15011,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     gen1.GenPresPerfCont4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
-
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPresPerfCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresPerfCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     answerinp.setText("");
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
@@ -13859,7 +15063,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     gen1.GenPresPerfCont4();
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
-
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPresPerfCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPresPerfCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     answerinp.setText("");
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
@@ -13934,6 +15154,24 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPassSimp4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassSimp4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
+
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -13966,6 +15204,24 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPassSimp4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassSimp4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -14035,6 +15291,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPassCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -14067,6 +15340,24 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPassCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -14136,6 +15427,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPassPerf4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassPerf4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -14168,6 +15476,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPassPerf4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassPerf4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -14237,6 +15562,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenPassPerfCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassPerfCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -14269,6 +15611,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenPassPerfCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenPassPerfCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -14446,7 +15805,6 @@ public class estructura_nuevo extends AppCompatActivity {
                             }
                         });
                         break;
-
                     case "200 a 300":
                         tt1 = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
                             @Override
@@ -14751,6 +16109,7 @@ public class estructura_nuevo extends AppCompatActivity {
                             }
                         });
                         break;
+
                     case "200 a 300":
                         tt1 = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
                             @Override
@@ -15970,6 +17329,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMightSimp4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightSimp4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16003,6 +17379,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMightSimp4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightSimp4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16072,6 +17465,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMightCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16105,6 +17515,24 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMightCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
+
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16174,6 +17602,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMightPerf4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightPerf4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16207,6 +17652,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMightPerf4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightPerf4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16277,6 +17739,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMightPerfCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightPerfCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16310,6 +17789,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMightPerfCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMightPerfCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16380,6 +17876,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenCanSimp4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenCanSimp4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16413,6 +17926,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenCanSimp4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenCanSimp4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16482,6 +18012,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenCanCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenCanCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16515,6 +18062,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenCanCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenCanCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16585,6 +18149,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMustSimp4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMustSimp4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16618,6 +18199,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMustSimp4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMustSimp4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16687,6 +18285,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator2 gennb = new Generator2();
+                                        gennb.GenMustCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMustCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
@@ -16720,6 +18335,23 @@ public class estructura_nuevo extends AppCompatActivity {
                                     sptx.setText(gen1.gens);
                                     txteng.setText(gen1.gene);
                                     answerinp.setText("");
+                                    if(gen1.gens == null){
+                                        Generator3 gennb = new Generator3();
+                                        gennb.GenMustCont4();
+                                        sptx.setText(gennb.gens);
+                                        txteng.setText(gennb.gene);
+                                        answerinp.setText("");
+                                        if(gennb.gens == null){
+                                            gen1.GenMustCont4();
+                                            sptx.setText(gen1.gens);
+                                            txteng.setText(gen1.gene);
+                                            answerinp.setText("");
+                                        }
+                                    }else{
+                                        sptx.setText(gen1.gens);
+                                        txteng.setText(gen1.gene);
+                                        answerinp.setText("");
+                                    }
                                     tt1.speak("como dirías..." + sptx.getText().toString().trim(), TextToSpeech.QUEUE_ADD, null, "one");
 
                                 }
